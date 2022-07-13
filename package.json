@@ -5,6 +5,10 @@
   "browserslist": [
     "defaults"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StetsonRamey/gpp-main-site"
+  },
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
