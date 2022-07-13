@@ -1,0 +1,276 @@
+---
+import '../styles/global.css';
+import { Icon } from 'astro-icon';
+import Navbar from "../components/Navbar.astro";
+const { title = "Great Plains Painting" } = Astro.props;
+
+const serviceLinks = [
+  {
+    name: "Interior Painting",
+    url: "#"
+  },
+  {
+    name: "Exterior Painting",
+    url: "#"
+  },
+  {
+    name: "Cabinet Painting",
+    url: "#"
+  },
+  {
+    name: "Commercial Painting",
+    url: "#"
+  },
+  {
+    name: "Wood Rot Repair",
+    url: "#"
+  },
+  {
+    name: "James Hardie Siding",
+    url: "#"
+  }
+]
+
+const areaLinks = [
+  {
+    city: "Kansas City",
+    url: "#"
+  },
+  {
+    city: "Overland Park",
+    url: "#"
+  },
+  {
+    city: "Lee's Summit",
+    url: "#"
+  },
+  {
+    city: "Olathe",
+    url: "#"
+  },
+  {
+    city: "Leawood",
+    url: "#"
+  },
+  {
+    city: "Prairie Village",
+    url: "#"
+  },
+  {
+    city: "Roeland Park",
+    url: "#"
+  },
+  {
+    city: "Lenexa",
+    url: "#"
+  },
+  {
+    city: "Shawnee",
+    url: "#"
+  }
+]
+
+---
+
+<html lang="en">
+
+<head>
+  <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+</head>
+
+<body>
+  <div class="wrapper">
+    <Navbar />
+    <main>
+      <slot />
+    </main>
+    <footer class="blur">
+      <!-- <div class="footer-ref"></div> -->
+      <div class="footerNav-wrapper">
+        <nav class="links flow">
+          <section class="company">
+            <Icon name="logoWhiteText" width={120} />
+            <div class="brand-copy">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo cupiditate eius error at! Reiciendis
+              voluptate
+              nisi ut a ipsam voluptates eum ad at provident repellat.
+            </div>
+            <div class="footer-social">
+              <a href="#">
+                <Icon name="ant-design:twitter-circle-filled" width={50} />
+              </a>
+              <a href="#">
+                <Icon name="ic:baseline-facebook" width={50} />
+              </a>
+              <a href="#">
+                <Icon name="entypo-social:linkedin-with-circle" width={50} />
+              </a>
+            </div>
+          </section>
+          <section class="footer-block footer-contact">
+            <h3>Contact Us</h3>
+            <div class="footer-phone">
+              <Icon name="fa-solid:phone-square" width={25} />
+              <a href="tel:+8169459792">(816) 945-9792</a>
+            </div>
+            <div class="footer-block footer-mail">
+              <Icon name="fa-solid:envelope" width={25} />
+              <a href="mailto:hello@gppkc.com">hello@gppkc.com</a>
+            </div>
+            <div class="footer-map">
+              <Icon name="fa-solid:map" width={25} />
+              <a href="#">Kansas City, MO</a>
+            </div>
+          </section>
+          <section class="footer-block footer-services">
+            <h3>Services</h3>
+            <ul class="service-links flow">
+              {serviceLinks.map(service => (
+              <li role="none">
+                <a href={service.url}>{service.name}</a>
+              </li>
+              ))}
+            </ul>
+          </section>
+          <section class="footer-block footer-areas">
+            <h3>Service Areas</h3>
+            <ul class="service-areas flow">
+              {areaLinks.map(area => (
+              <li role="none">
+                <a href={area.url}>{area.city}</a>
+              </li>
+              ))}
+            </ul>
+          </section>
+        </nav>
+      </div>
+      <div class="footer-banner">2022 GPP</div>
+    </footer>
+  </div>
+</body>
+
+</html>
+<style>
+  .footer-ref {
+    position: absolute;
+    z-index: 0;
+    bottom: 0;
+    left: 0;
+    background: no-repeat url("../../public/footer.png");
+    background-size: contain;
+    height: 480px;
+    width: 100vw;
+    opacity: .2;
+  }
+
+
+  /* MEDIA QUERIES */
+  @media (min-width: 1000px) {
+
+    /* FOOTER */
+    footer a {
+      font-weight: var(--font-weight-5);
+    }
+
+    .footer-services a,
+    .footer-areas a {
+      text-transform: capitalize;
+    }
+
+    .footer-services ul,
+    .footer-areas ul {
+      columns: 2;
+      max-width: 17rem;
+    }
+
+    .footer-contact {
+      width: fit-content;
+      margin-inline: auto;
+    }
+
+    .footer-contact a {
+      font-size: 0.75em;
+      padding-right: var(--size-fluid-4);
+    }
+
+    .footerNav-wrapper {
+      padding-inline: var(--size-fluid-6);
+      padding-top: var(--size-fluid-6);
+      padding-bottom: var(--size-fluid-3);
+    }
+
+    .links {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      gap: var(--size-fluid-3);
+    }
+  }
+
+  /* FOOTER */
+  footer {
+    background-color: hsl(var(--footer-accent));
+    color: hsl(var(--white));
+    display: flex;
+    flex-direction: column;
+  }
+
+  footer ul {
+    margin: 0;
+    padding: 0;
+    --flow-space: 0.75em;
+  }
+
+  .footerNav-wrapper {
+    padding-top: var(--size-fluid-5);
+    padding-inline: var(--size-fluid-2);
+    flex-grow: 1;
+    max-width: 1500px;
+    margin: 0 auto;
+  }
+
+  .links {
+    --flow-space: 2em;
+  }
+
+  .nav-links,
+  .nav-wrapper {
+    display: flex;
+    align-items: center;
+  }
+
+  .footer-banner {
+    background-color: hsl(var(--footer-dark));
+  }
+
+  footer a {
+    color: hsl(var(--white));
+    text-decoration: none;
+    font-weight: var(--font-weight-3);
+  }
+
+  footer a:hover {
+    color: hsl(var(--brand-yellow));
+  }
+
+  .brand-copy {
+    max-width: 50ch;
+    padding-top: var(--size-fluid-1);
+    padding-bottom: var(--size-fluid-3);
+  }
+
+  .footer-block h3 {
+    margin-bottom: var(--size-7);
+    font-size: var(--font-size-4);
+    white-space: nowrap;
+  }
+
+  .footer-contact>div {
+    display: flex;
+    align-items: center;
+    padding-bottom: var(--size-3);
+  }
+
+  .footer-contact svg {
+    margin-right: var(--size-3);
+  }
+</style>

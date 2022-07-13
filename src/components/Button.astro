@@ -1,0 +1,30 @@
+---
+const { text, link, style } = Astro.props;
+---
+
+<a href={link} class={`btn btn--${style}`}>{text}</a>
+
+
+<style>
+  .btn {
+    max-width: fit-content;
+    font-size: var(--font-size-0);
+    font-weight: var(--font-weight-5);
+    padding-block: var(--size-3);
+    padding-inline: var(--size-7);
+    border: var(--border-size-2) solid transparent;
+    border-radius: var(--radius-6);
+  }
+
+  .btn--primary {
+    background-color: hsl(var(--brand-green));
+  }
+
+
+  .btn:hover {
+    background-color: rgba(0, 0, 0, 0.92);
+    backdrop-filter: saturate(180%) blur(20px);
+    border: var(--border-size-2) solid hsl(var(--brand-green));
+    color: hsl(var(--brand-green))
+  }
+</style>

@@ -1,0 +1,185 @@
+---
+import { Icon } from 'astro-icon';
+
+const navLinks = [
+  {
+    name: 'Services',
+    url: '#',
+    style: 'transparent',
+  },
+  {
+    name: 'Service Areas',
+    url: '#',
+    style: 'transparent',
+  },
+  {
+    name: 'About',
+    url: '#',
+    style: 'transparent',
+  },
+  {
+    name: 'Contact',
+    url: '#',
+    style: 'transparent',
+  },
+]
+---
+
+<nav>
+  <div class="container nav-container">
+    <Icon name="logoSide" width={275} class="logo" />
+    <div class="nav-wrapper">
+      <button id="menu-btn" class="btn btn--menu" aria-expanded="false" aria-label="Open mobile navigation menu">
+        <span class="burger-menu__bar"></span>
+      </button>
+      <ul class="nav-links" role="navigation">
+        {navLinks.map(link => (
+        <li role="none">
+          <a href={link.url} class="btn nav-link">{link.name}</a>
+        </li>
+        ))}
+      </ul>
+      <div class="phone">
+        <Icon name="feather:phone" width={25} />
+        <a href="tel:+8169459792">+(816) 945-9792</a>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<script>
+  const navBtn = document.querySelector('#menu-btn')
+  navBtn.addEventListener('click', () => {
+    navBtn.setAttribute('aria-expanded', navBtn.getAttribute('aria-expanded') === 'false' ? 'true' : 'false');
+  })
+</script>
+
+<style>
+  nav {
+    position: fixed;
+    min-width: 100%;
+    z-index: 2;
+    background-color: transparent;
+  }
+
+  .nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: var(--size-fluid-2);
+  }
+
+  .nav-links,
+  .nav-wrapper {
+    display: flex;
+    align-items: center;
+    gap: var(--size-3);
+  }
+
+  .phone {
+    display: none;
+    visibility: hidden;
+  }
+
+  .phone a {
+    text-decoration: none;
+    color: hsl(var(--white));
+  }
+
+  .phone svg {
+    color: hsl(var(--white));
+    margin-right: var(--size-1);
+  }
+
+  .nav-links {
+    margin: 0;
+    flex-direction: column;
+    transform: translateY(-200%);
+    position: absolute;
+    top: var(--size-fluid-5);
+    left: 0;
+    right: 0;
+    padding: var(--size-3);
+    text-align: center;
+    background-color: hsl(var(--brand-dark));
+  }
+
+  .nav-link:hover {
+    color: hsl(var(--brand-yellow));
+  }
+
+  .logo {
+    width: calc(var(--size-fluid-8) * 0.7);
+  }
+
+  .btn--menu[aria-expanded="true"]+.nav-links {
+    transform: translateY(0);
+  }
+
+  /* MEDIA QUERIES */
+  @media (min-width: 1000px) {
+
+    /* NAV */
+    .nav-container {
+      padding-inline: var(--size-fluid-6);
+    }
+
+    .nav-wrapper {
+      gap: var(--size-8);
+    }
+
+    .btn--menu {
+      display: none;
+    }
+
+    .nav-links {
+      flex-direction: row;
+      position: static;
+      transform: translateY(0);
+      padding: var(--size-1);
+      gap: var(--size-8);
+      background-color: transparent;
+    }
+
+
+    .phone {
+      display: flex;
+      flex: 1;
+      align-items: center;
+      justify-content: center;
+      visibility: visible;
+    }
+  }
+
+  .burger-menu__bar,
+  .burger-menu__bar::before,
+  .burger-menu__bar::after {
+    display: block;
+    width: 24px;
+    height: 3px;
+    background: hsl(var(--brand-green));
+    border: 1px solid hsl(var(--brand-green));
+    position: absolute;
+    border-radius: 3px;
+    margin-left: -1px;
+    transition: transform 350ms ease-in-out;
+  }
+
+  .burger-menu__bar {
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  .burger-menu__bar::before,
+  .burger-menu__bar::after {
+    content: '';
+  }
+
+  .burger-menu__bar::before {
+    top: -10px;
+  }
+
+  .burger-menu__bar::after {
+    bottom: -10px;
+  }
+</style>

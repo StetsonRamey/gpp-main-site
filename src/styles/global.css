@@ -1,29 +1,45 @@
-* {
-	box-sizing: border-box;
-	margin: 0;
+@import "./reset.css";
+@import "./utilities.css";
+
+/* base layout sytles */
+.wrapper {
+  overflow: hidden;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  min-height: 100vh;
 }
 
-:root {
-	font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif,
-		Apple Color Emoji, Segoe UI Emoji;
-	font-size: 1rem;
-	--user-font-scale: 1rem - 16px;
-	font-size: clamp(0.875rem, 0.4626rem + 1.0309vw + var(--user-font-scale), 1.125rem);
+li[role="none"],
+.nav-link {
+  width: 100%;
+  display: block;
+  font-size: var(--font-size-1);
 }
 
-body {
-	padding: 4rem 2rem;
-	width: 100%;
-	min-height: 100vh;
-	display: grid;
-	justify-content: center;
-	background: #f9fafb;
-	color: #111827;
+@media (min-width: 1000px) {
+  li[role="none"],
+  .nav-link {
+    width: fit-content;
+    margin-inline: none;
+    font-size: var(--font-size-0);
+    text-transform: uppercase;
+    font-weight: bold;
+  }
 }
 
-@media (prefers-color-scheme: dark) {
-	body {
-		background: #111827;
-		color: #fff;
-	}
+/* COMPONENTS */
+.btn {
+  color: hsl(var(--white));
+  text-decoration: none;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.btn--menu {
+  background-color: transparent;
+  border: none;
+  display: grid;
+  place-items: center;
+  height: 2rem;
+  width: 2rem;
 }
