@@ -7,7 +7,7 @@ import meetBrett from '../assets/meetBrett.jpg'
 
 <secton class="mobile-section meet-team">
   <div class="copy flow" style="--flow-space: 1.5rem">
-    <p class="upper semi-bold muted">our experienced team</p>
+    <p class="small upper semi-bold muted">our experienced team</p>
     <h2 class="h2">Meet the Most Trusted Kansas City Painters</h2>
     <p class="sub-h2 black">Award-Winning Interior and Exterior Painting Service Creates Lots of Happy Customers</p>
     <p class="copy muted">
@@ -21,37 +21,33 @@ import meetBrett from '../assets/meetBrett.jpg'
     </div>
   </div>
   <div class="photo-stack">
-    <Image class="img back radius-2 shadow-5" src={meetHouse} width={1200} />
-    <Image class="img front radius-2 shadow-5" src={meetBrett} width={1200} />
+    <div class="img-wrap back">
+      <Image class="img radius-2 shadow-5" src={meetHouse} width={1200} />
+    </div>
+    <div class="img-wrap front">
+      <Image class="img radius-2 shadow-5" src={meetBrett} width={1200} />
+    </div>
   </div>
 </secton>
 
 
 <style lang="scss">
   .button-wrap {
-    margin-block: var(--size-8);
+    margin-block: var(--size-10);
   }
 
   .photo-stack {
     display: grid;
-    overflow: hidden;
-    grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: repeat(5, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
     padding-bottom: var(--size-8)
   }
 
-  .img {
-    object-fit: contain;
-    object-position: top;
-    height: 500px;
-    width: 100%;
+  .img-wrap {
 
     &.back {
-      width: 333px;
-      object-fit: cover;
-      object-position: top right;
-      grid-row: 1 / 5;
-      grid-column: 1 / span 4;
+      grid-row: 1 / span 3;
+      grid-column: 1 / span 3;
     }
 
     &.front {
@@ -60,10 +56,17 @@ import meetBrett from '../assets/meetBrett.jpg'
     }
   }
 
+  .img {
+    object-fit: cover;
+    height: 100%;
+    width: auto;
+
+  }
+
   @media (min-width: 1000px) {
     .meet-team {
       max-width: var(--max-w);
-      padding-inline:var(--size-fluid-3);
+      padding-inline: var(--size-fluid-3);
       grid-template-columns: repeat(auto-fill, minmax(min(600px, 100%), 1fr));
       column-gap: var(--size-3);
     }

@@ -7,11 +7,13 @@ const { text, link, style } = Astro.props;
 
 <style>
   .btn {
+    display: block;
+    white-space: nowrap;
     max-width: fit-content;
-    font-size: var(--font-size-0);
+    font-size: var(--font-size-4);
     font-weight: var(--font-weight-5);
-    padding-block: var(--size-3);
-    padding-inline: var(--size-7);
+    padding-block: var(--size-5);
+    padding-inline: var(--size-9);
     border: var(--border-size-2) solid transparent;
     border-radius: var(--radius-6);
   }
@@ -22,9 +24,8 @@ const { text, link, style } = Astro.props;
 
 
   .btn:hover {
-    background-color: rgba(0, 0, 0, 0.92);
+    background-color: hsl(92.4,40.6%,42.9%);
     backdrop-filter: saturate(180%) blur(20px);
     border: var(--border-size-2) solid hsl(var(--brand-green));
-    color: hsl(var(--brand-green))
   }
 </style>

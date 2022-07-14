@@ -25,7 +25,7 @@
   display: grid;
   place-items: center;
   margin-block: var(--size-10);
-  max-width: 50ch;
+  max-width: 75ch;
   margin-inline: auto;
 }
 
@@ -119,17 +119,33 @@
 }
 
 .h1 {
-  font-size: var(--font-size-7);
+  font-size: var(--size-9);
   letter-spacing: var(--font-letterspacing-2);
 }
 
 .h2 {
-  font-size: var(--font-size-5);
+  font-size: var(--size-8);
   letter-spacing: var(--font-letterspacing-1);
+  line-height: var(--font-lineheight-2);
+  color: var(--gray-9);
+}
+
+.h3 {
+  font-size: var(--size-7);
+  letter-spacing: var(--font-letterspacing-1);
+  line-height: var(--font-lineheight-2);
   color: var(--gray-9);
 }
 
 .sub-h2 {
-  font-size: var(--font-size-2);
+  font-size: var(--font-size-0);
   color: var(--gray-9);
+}
+
+.small {
+  font-size: var(--font-size-0);
+}
+
+.copy {
+  font-size: var(--font-size-1);
 }

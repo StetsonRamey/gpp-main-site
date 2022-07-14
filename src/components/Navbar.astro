@@ -26,8 +26,8 @@ const navLinks = [
 ---
 
 <nav>
-  <div class="container nav-container">
-    <Icon name="logoSide" width={275} class="logo" />
+  <div class="nav-container">
+    <Icon name="logoSide" width={350} class="logo" />
     <div class="nav-wrapper">
       <button id="menu-btn" class="btn btn--menu" aria-expanded="false" aria-label="Open mobile navigation menu">
         <span class="burger-menu__bar"></span>
@@ -66,7 +66,8 @@ const navLinks = [
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: var(--size-fluid-2);
+    padding-block: var(--size-fluid-4);
+    padding-inline: var(--size-fluid-6);
   }
 
   .nav-links,
@@ -109,7 +110,7 @@ const navLinks = [
   }
 
   .logo {
-    width: calc(var(--size-fluid-8) * 0.7);
+    /* width: calc(var(--size-fluid-8) * 0.7); */
   }
 
   .btn--menu[aria-expanded="true"]+.nav-links {
@@ -155,14 +156,15 @@ const navLinks = [
   .burger-menu__bar::before,
   .burger-menu__bar::after {
     display: block;
-    width: 24px;
-    height: 3px;
+    width: 40px;
+    height: 5px;
     background: hsl(var(--brand-green));
     border: 1px solid hsl(var(--brand-green));
     position: absolute;
     border-radius: 3px;
     margin-left: -1px;
     transition: transform 350ms ease-in-out;
+    z-index: var(--layer-important);
   }
 
   .burger-menu__bar {
@@ -176,10 +178,10 @@ const navLinks = [
   }
 
   .burger-menu__bar::before {
-    top: -10px;
+    top: -15px;
   }
 
   .burger-menu__bar::after {
-    bottom: -10px;
+    bottom: -15px;
   }
 </style>

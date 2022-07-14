@@ -6,7 +6,7 @@ import services from '../data/services.json'
 
 <section class="services mobile-section">
   <div class="copy flow center" style="--flow-space: 1.5rem">
-    <p class="upper semi-bold muted">great plains painting</p>
+    <p class="upper small semi-bold muted">great plains painting</p>
     <h3 class="h2">House Painting Kansas City Services & More</h3>
     <p class="sub-h2 black">Great Plains Painting is Your One-Stop Shop</p>
     <div class="service-grid">
@@ -18,10 +18,10 @@ import services from '../data/services.json'
         </div>
         <span class="number round">{i+1}</span>
         <div class="right">
-          <h3 class="service-title left">
+          <h3 class="h3 service-title left">
             {service.service}
           </h3>
-          <p class="service-copy left">
+          <p class="service-copy left" style="--size: 1.75rem">
             {service.copy}
           </p>
         </div>
@@ -38,7 +38,7 @@ import services from '../data/services.json'
 
 <style lang="scss">
   .services {
-    padding-inline: var(--size-8);
+    padding-inline: var(--size-6);
   }
   .service-grid {
     display: grid;
@@ -54,10 +54,9 @@ import services from '../data/services.json'
   }
 
   .img-wrap {
-    width: 150px;
-    height: 150px;
+    height: 200px;
     overflow: hidden;
-    flex: 1 0 150px;
+    flex: 1 0 200px;
   }
 
   .service-img {
@@ -68,11 +67,15 @@ import services from '../data/services.json'
 
   .button-wrap {
     margin-top: var(--size-10);
+    display: grid;
+    place-items: center;
   }
 
   .number {
     position: absolute;
-    width: 25px;
+    padding-top: 1px;
+    width: 50px;
+    font-size: var(--size-6);
     aspect-ratio: 1;
     background-color: hsl(var(--brand-green));
     color: hsl(var(--white));
