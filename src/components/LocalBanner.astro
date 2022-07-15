@@ -1,30 +1,35 @@
 ---
 import { Image } from '@astrojs/image';
 import ryanAndMario from '../assets/ryanAndMario.jpg'
+import Button from '../components/Button.astro';
 ---
 
 <section class="local">
   <div class="content-wrap center flow">
     <p class="upper">About Us</p>
     <h2 class="">100% Local Kansas City Painting Services</h2>
-    <p class="">
+    <p class="" style="--flow-space: 2rem">
       Our team only works on projects in the Kansas city metro area and have been doing so for over a decade. With that
       kind of experience, there’s very few things we can’t handle.  When Great Plains Painting started we decided to
       operate differently.  We believe in easy, clear communication, no surprises pricing, and quality execution of our
       work.
     </p>
+    <div class="btn-wrap" style="--flow-space: 3rem">
+      <Button text="our story" link="#" style="primary" />
+    </div>
   </div>
   <Image src={ryanAndMario} width={900} />
 </section>
 
 
 <style lang="scss">
-  $height: 40vh;
-  $max-height: 1100px;
+  $height: 60vh;
+  $max-height: 800px;
 
   .content-wrap {
     max-width: 70ch;
     padding-inline: var(--size-2);
+    padding-block: var(--size-4);
   }
 
   .local {
@@ -36,7 +41,7 @@ import ryanAndMario from '../assets/ryanAndMario.jpg'
       color: var(--white);
     }
 
-    > * {
+    >* {
       grid-area: hero;
     }
 
@@ -66,6 +71,11 @@ import ryanAndMario from '../assets/ryanAndMario.jpg'
       object-position: top;
       height: min($height, $max-height);
       width: 100%;
+    }
+
+    .btn-wrap  {
+      display: flex;
+      justify-content: center;
     }
   }
 </style>
