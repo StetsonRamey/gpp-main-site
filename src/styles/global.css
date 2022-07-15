@@ -1,6 +1,12 @@
 @import "./reset.css";
 @import "./utilities.css";
 
+html {
+  font-size: var(--font-size-1);
+  font-weight: var(--font-weight-4);
+  line-height: var(--font-lineheight-3);
+}
+
 /* base layout sytles */
 .wrapper {
   overflow: hidden;
@@ -14,6 +20,25 @@ li[role="none"],
   width: 100%;
   display: block;
   font-size: var(--font-size-1);
+}
+
+h1 {
+  font-size: var(--size-6);
+  letter-spacing: var(--font-letterspacing-2);
+}
+
+h2 {
+  font-size: var(--font-size-5);
+  letter-spacing: var(--font-letterspacing-1);
+  line-height: var(--font-lineheight-2);
+  color: var(--gray-9);
+}
+
+h3 {
+  font-size: var(--size-7);
+  letter-spacing: var(--font-letterspacing-1);
+  line-height: var(--font-lineheight-2);
+  color: var(--gray-9);
 }
 
 @media (min-width: 1000px) {
@@ -38,8 +63,4 @@ li[role="none"],
 .btn--menu {
   background-color: transparent;
   border: none;
-  display: grid;
-  place-items: center;
-  height: 2rem;
-  width: 2rem;
 }

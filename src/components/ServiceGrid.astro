@@ -37,9 +37,6 @@ import services from '../data/services.json'
 
 
 <style lang="scss">
-  .services {
-    padding-inline: var(--size-6);
-  }
   .service-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
@@ -49,14 +46,16 @@ import services from '../data/services.json'
 
   .grid-item {
     display: flex;
+    flex-direction: column;
     gap: var(--size-3);
     position: relative;
   }
 
   .img-wrap {
-    height: 200px;
+    max-width: 150px;
+    height: 150px;
     overflow: hidden;
-    flex: 1 0 200px;
+    flex: 1 0 150px;
   }
 
   .service-img {
@@ -73,9 +72,9 @@ import services from '../data/services.json'
 
   .number {
     position: absolute;
-    padding-top: 1px;
-    width: 50px;
-    font-size: var(--size-6);
+    padding-top: 3px;
+    width: 30px;
+    font-size: var(--font-size-2);
     aspect-ratio: 1;
     background-color: hsl(var(--brand-green));
     color: hsl(var(--white));

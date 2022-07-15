@@ -1,0 +1,71 @@
+---
+import { Image } from '@astrojs/image';
+import ryanAndMario from '../assets/ryanAndMario.jpg'
+---
+
+<section class="local">
+  <div class="content-wrap center flow">
+    <p class="upper">About Us</p>
+    <h2 class="">100% Local Kansas City Painting Services</h2>
+    <p class="">
+      Our team only works on projects in the Kansas city metro area and have been doing so for over a decade. With that
+      kind of experience, there’s very few things we can’t handle.  When Great Plains Painting started we decided to
+      operate differently.  We believe in easy, clear communication, no surprises pricing, and quality execution of our
+      work.
+    </p>
+  </div>
+  <Image src={ryanAndMario} width={900} />
+</section>
+
+
+<style lang="scss">
+  $height: 40vh;
+  $max-height: 1100px;
+
+  .content-wrap {
+    max-width: 70ch;
+    padding-inline: var(--size-2);
+  }
+
+  .local {
+    display: grid;
+    grid-template-areas: "hero";
+    color: hsl(var(--white));
+
+    h2 {
+      color: var(--white);
+    }
+
+    > * {
+      grid-area: hero;
+    }
+
+    height: $height;
+    max-height: $max-height;
+    place-items: center;
+    background: linear-gradient(180deg,
+      hsl(0deg 0% 0% / .7) 0%,
+      hsl(0deg 0% 0% / .7) 16%,
+      hsl(0deg 0% 0% / .7) 24%,
+      hsl(0deg 0% 0% / .6) 30%,
+      hsl(0deg 0% 0% / .6) 35%,
+      hsl(0deg 0% 0% / .6) 40%,
+      hsl(0deg 0% 0% / .6) 45%,
+      hsl(0deg 0% 0% / .6) 50%,
+      hsl(0deg 0% 0% / .6) 55%,
+      hsl(0deg 0% 0% / .6) 60%,
+      hsl(0deg 0% 0% / .6) 65%,
+      hsl(0deg 0% 0% / .6) 70%,
+      hsl(0deg 0% 0% / .6) 76%,
+      hsl(0deg 0% 0% / .6) 84%,
+      hsl(0deg 0% 0% / .6) 100%);
+
+    img {
+      z-index: -1;
+      object-fit: cover;
+      object-position: top;
+      height: min($height, $max-height);
+      width: 100%;
+    }
+  }
+</style>

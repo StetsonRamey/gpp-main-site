@@ -27,7 +27,7 @@ const navLinks = [
 
 <nav>
   <div class="nav-container">
-    <Icon name="logoSide" width={350} class="logo" />
+    <Icon name="logoSide" width={150} class="logo" />
     <div class="nav-wrapper">
       <button id="menu-btn" class="btn btn--menu" aria-expanded="false" aria-label="Open mobile navigation menu">
         <span class="burger-menu__bar"></span>
@@ -56,6 +56,8 @@ const navLinks = [
 
 <style>
   nav {
+    --button-size: 40px;
+
     position: fixed;
     min-width: 100%;
     z-index: 2;
@@ -67,7 +69,12 @@ const navLinks = [
     justify-content: space-between;
     align-items: center;
     padding-block: var(--size-fluid-4);
-    padding-inline: var(--size-fluid-6);
+    padding-inline: var(--size-fluid-3);
+  }
+
+  .nav-wrapper {
+    flex: 0 0 calc(var(--button-size) + 20px);
+    aspect-ratio: 1;
   }
 
   .nav-links,
@@ -107,10 +114,6 @@ const navLinks = [
 
   .nav-link:hover {
     color: hsl(var(--brand-yellow));
-  }
-
-  .logo {
-    /* width: calc(var(--size-fluid-8) * 0.7); */
   }
 
   .btn--menu[aria-expanded="true"]+.nav-links {
@@ -156,8 +159,8 @@ const navLinks = [
   .burger-menu__bar::before,
   .burger-menu__bar::after {
     display: block;
-    width: 40px;
-    height: 5px;
+    width: var(--button-size);
+    height: 4px;
     background: hsl(var(--brand-green));
     border: 1px solid hsl(var(--brand-green));
     position: absolute;
