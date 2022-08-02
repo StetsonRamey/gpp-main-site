@@ -8,13 +8,6 @@ html {
 }
 
 /* base layout sytles */
-.wrapper {
-  overflow: hidden;
-  display: grid;
-  grid-template-rows: auto 1fr auto;
-  min-height: 100vh;
-}
-
 li[role="none"],
 .nav-link {
   width: 100%;

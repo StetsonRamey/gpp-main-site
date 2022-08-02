@@ -1,0 +1,55 @@
+---
+import photos from '../data/recents.json';
+import interior from '../assets/recents/interior.jpg';
+import exterior from '../assets/recents/exterior.jpg';
+import scdProbiotics from '../assets/recents/scdProbiotics.jpg';
+import { Image } from '@astrojs/image';
+---
+
+{photos.recentsHome.map(photo => (
+<div class="photoContain">
+  <Image class="photo" src={import(`../assets/recents/${photo.src}.jpg`)} width={700} />
+  <span class="pill">{photo.tag}</span>
+  <h3 class="text-white">{photo.title}</h3>
+</div>
+))}
+
+<style lang="scss">
+  .photoContain {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, 75px);
+    color: hsl(var(--white));
+
+    background: hsl(0deg 0% 0% / .35) 0%;
+
+
+    .photo {
+      z-index: -1;
+      width: 100%;
+      object-fit: cover;
+      height: 450px;
+    }
+
+    span {
+      grid-row: 5 / span 1;
+      align-self: end;
+      margin-left: var(--size-7);
+    }
+
+    .pill {
+      background-color: hsl(var(--footer-accent));
+      width: fit-content;
+      padding-inline: var(--size-4);
+      padding-block: var(--size-0);
+      border-radius: var(--radius-5);
+    }
+
+    h3 {
+      grid-row: 6/ span 1;
+      color: hsl(var(--white));
+      max-width: 17ch;
+      margin-left: var(--size-8);
+    }
+  }
+</style>

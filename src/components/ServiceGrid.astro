@@ -53,7 +53,7 @@ import services from '../data/services.json'
 
   .img-wrap {
     max-width: 150px;
-    height: 150px;
+    max-height: 150px;
     overflow: hidden;
     flex: 1 0 150px;
   }
@@ -72,7 +72,6 @@ import services from '../data/services.json'
 
   .number {
     position: absolute;
-    padding-top: 3px;
     width: 30px;
     font-size: var(--font-size-2);
     aspect-ratio: 1;
@@ -85,6 +84,15 @@ import services from '../data/services.json'
   @media (min-width: 1000px) {
     .services {
       max-width: var(--max-w);
+      padding-inline: var(--size-fluid-3);
+    }
+
+    .grid-item {
+      flex-direction: row;
+    }
+
+    .service-title {
+      font-size: var(--font-size-3);
     }
   }
 </style>

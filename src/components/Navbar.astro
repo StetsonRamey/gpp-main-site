@@ -124,12 +124,18 @@ const navLinks = [
   @media (min-width: 1000px) {
 
     /* NAV */
+    .nav-wrapper {
+      flex: auto;
+      aspect-ratio: 0;
+    }
+
     .nav-container {
       padding-inline: var(--size-fluid-6);
     }
 
     .nav-wrapper {
       gap: var(--size-8);
+      max-width: fit-content;
     }
 
     .btn--menu {

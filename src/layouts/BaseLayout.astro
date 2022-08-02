@@ -82,7 +82,7 @@ const areaLinks = [
 </head>
 
 <body>
-  <div class="wrapper">
+  <div class="">
     <Navbar />
     <main>
       <slot />
@@ -91,7 +91,7 @@ const areaLinks = [
       <!-- <div class="footer-ref"></div> -->
       <div class="footerNav-wrapper">
         <nav class="links flow">
-          <section class="company">
+          <section class="company center">
             <Icon name="logoWhiteText" width={120} />
             <div class="brand-copy">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo cupiditate eius error at! Reiciendis
@@ -112,32 +112,32 @@ const areaLinks = [
           </section>
           <section class="footer-block footer-contact">
             <h3>Contact Us</h3>
-            <div class="footer-phone">
+            <div class="footer-phone justify-center">
               <Icon name="fa-solid:phone-square" width={25} />
               <a href="tel:+8169459792">(816) 945-9792</a>
             </div>
-            <div class="footer-block footer-mail">
+            <div class="footer-block footer-mail justify-center">
               <Icon name="fa-solid:envelope" width={25} />
               <a href="mailto:hello@gppkc.com">hello@gppkc.com</a>
             </div>
-            <div class="footer-map">
+            <div class="footer-map justify-center">
               <Icon name="fa-solid:map" width={25} />
               <a href="#">Kansas City, MO</a>
             </div>
           </section>
           <section class="footer-block footer-services">
             <h3>Services</h3>
-            <ul class="service-links flow">
-              {serviceLinks.map(service => (
-              <li role="none">
-                <a href={service.url}>{service.name}</a>
-              </li>
-              ))}
-            </ul>
+              <ul class="service-links">
+                {serviceLinks.map(service => (
+                <li role="none">
+                  <a href={service.url}>{service.name}</a>
+                </li>
+                ))}
+              </ul>
           </section>
           <section class="footer-block footer-areas">
             <h3>Service Areas</h3>
-            <ul class="service-areas flow">
+            <ul class="service-areas">
               {areaLinks.map(area => (
               <li role="none">
                 <a href={area.url}>{area.city}</a>
@@ -153,7 +153,7 @@ const areaLinks = [
 </body>
 
 </html>
-<style>
+<style lang="scss">
   .footer-ref {
     position: absolute;
     z-index: 0;
@@ -241,6 +241,33 @@ const areaLinks = [
     align-items: center;
   }
 
+  .footer-services, .footer-areas {
+    max-width: fit-content;
+    margin-inline: auto;
+  }
+
+  .service-links {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--size-4);
+    justify-items: start;
+    a {
+      display: block;
+      // text-align: st;
+    }
+  }
+
+  .service-areas {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--size-4);
+    justify-items: start;
+    a {
+      display: block;
+      // text-align: center;
+    }
+  }
+
   .footer-banner {
     background-color: hsl(var(--footer-dark));
   }
@@ -257,11 +284,14 @@ const areaLinks = [
 
   .brand-copy {
     max-width: 50ch;
+    margin-inline: auto;
     padding-top: var(--size-fluid-1);
     padding-bottom: var(--size-fluid-3);
   }
 
   .footer-block h3 {
+    text-align: center;
+    color: hsl(var(--white));
     margin-bottom: var(--size-7);
     font-size: var(--font-size-4);
     white-space: nowrap;

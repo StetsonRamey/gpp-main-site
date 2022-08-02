@@ -1,0 +1,31 @@
+---
+import Recents from './RecentsPhotos.astro';
+---
+
+<section class="recents">
+  <div class="width-sm center container">
+    <p class="upper">seeing is believing</p>
+    <h3 class="title">Recent Kansas City Painting Projects</h3>
+  </div>
+  <div class="photo-grid">
+    <Recents />
+  </div>
+</section>
+
+<style lang="scss">
+
+  .title {
+    margin-bottom: var(--size-8);
+  }
+
+  @media (min-width: 1000px) {
+    .container {
+      max-width: 80ch;
+    }
+
+    .photo-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+</style>

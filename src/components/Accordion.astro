@@ -1,0 +1,96 @@
+---
+import { Icon } from 'astro-icon';
+---
+
+<div class="width-sm flow accordionContain center">
+  <h2>Why Trust Us to Paint Your Home?</h2>
+  <p class="caps">we'll do it right or we'll make it right</p>
+  <div class="accordion flow" id="homeAccordion">
+    <button class="accordion-btn shadow-2 radius-2">
+      <Icon class="btn-icn" name="fe:check-circle" width={40} />
+      <div>1. Detailed, written estimate, bid package, and itemized wood rot</div>
+    </button>
+    <p class="accordion-panel semi-muted radius-2">
+      We don't want to make assumptions and we strive to make what we're pricing and how we're painting your home as
+      clear as possible. Each estimate we produce is custom, because each home and each customer's needs are different.
+      Our wood rot is itemized and photographed so you know exactly what you're getting. Our bid package contains all
+      relevant documents; insurance certificate, warranty certificate, paint and sealant information, and our processes.
+      With us, you know exactly what you're going to get.
+    </p>
+    <button class="accordion-btn shadow-2 radius-2">
+      <Icon class="btn-icn" name="fe:check-circle" width={40} />
+      <div>2. 2-Year, no-hassle warranty</div>
+    </button>
+    <p class="accordion-panel semi-muted radius-2">
+      In our experience, if something we worked on is going to fail, it does so in the first year. Simply call us up and
+      we'll return to your property promptly to address and correct the issue.
+    </p>
+  </div>
+</div>
+
+<script>
+  import createAccordion from './accordion.js';
+
+  createAccordion('#homeAccordion', { firstExpanded: true, onePanelOnly: true });
+</script>
+
+<style>
+  .accordion {
+    margin-top: var(--size-9);
+  }
+
+  .accordionContain {
+    margin: var(--size-8) auto;
+  }
+
+  .accordion-panel {
+    padding: var(--size-6);
+    background-color: var(--gray-0);
+    line-height: var(--font-lineheight-4);
+  }
+
+  .accordion-btn {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    gap: var(--size-3);
+    padding: var(--size-3) var(--size-5);
+    font-size: var(--font-size-2);
+    text-align: left;
+    text-transform: capitalize;
+    border: 1px solid transparent;
+    cursor: pointer;
+  }
+
+  .accordion-btn>div {
+    pointer-events: none;
+  }
+
+  .btn-icn {
+    padding-top: var(--size-1);
+    flex: 0 0 20px;
+  }
+
+  [aria-expanded="false"] .btn-icn {
+    color: hsl(var(--footer-accent));
+  }
+
+  .active {
+    background-color: hsl(var(--footer-accent));
+    color: hsl(var(--white));
+  }
+
+  .accordion-panel {
+    display: none;
+  }
+
+  .accordion-panel:not([hidden="true"]) {
+    display: block;
+  }
+
+  @media (min-width: 1000px) {
+    .accordionContain {
+      max-width: 80ch;
+    }
+  }
+</style>

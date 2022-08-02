@@ -9,6 +9,10 @@
   margin: auto;
 }
 
+.justify-center {
+  justify-content: center;
+}
+
 .container-sm {
   width: 100%;
   max-width: 1200px;
@@ -59,6 +63,10 @@
   border-radius: var(--radius-round);
 }
 
+.shadow-2 {
+  box-shadow: var(--shadow-2);
+}
+
 .shadow-3 {
   box-shadow: var(--shadow-3);
 }
@@ -88,6 +96,10 @@
 .upper {
   text-transform: uppercase;
   letter-spacing: var(--font-letterspacing-2);
+}
+
+.caps {
+  text-transform: capitalize;
 }
 
 .center {
