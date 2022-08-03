@@ -16,7 +16,7 @@ import services from '../data/services.json'
         <div class="img-wrap">
           <Image class="service-img round" src={import(`../assets/services/${service.src}.png`)} width={800} />
         </div>
-        <span class="number round">{i+1}</span>
+        <div class="number round">{i+1}</div>
         <div class="right">
           <h3 class="h3 service-title left">
             {service.service}
@@ -79,7 +79,8 @@ import services from '../data/services.json'
     color: hsl(var(--white));
     top: -5px;
     left: 22px;
-    padding-top: 4px;
+    display: grid;
+    place-items: center;
   }
 
   @media (min-width: 1000px) {
