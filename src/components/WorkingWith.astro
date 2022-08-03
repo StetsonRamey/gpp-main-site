@@ -10,7 +10,7 @@ import theTeam from '../assets/theTeam.jpg';
       <p class="upper tagline">residential and commercial painting</p>
       <h3 class="title">Working With Great Plains Painting is SO Easy!</h3>
       <p>It's so easy to get a quote and schedule our services!</p>
-      <div class="steps-grid" style="--flow-space: 4em">
+      <div class="steps-grid">
         <div class="step">
           <p class="step-pill upper">step 1</p>
           <p class="step-title">Get a Free Estimate Now</p>
@@ -62,7 +62,7 @@ import theTeam from '../assets/theTeam.jpg';
         <Button text="schedule your free estimate" link="#" style="primary" />
       </div>
     </div>
-    <Image class="easyBg" src={theTeam} />
+    <Image class="easyBg" src={theTeam} width={2000} />
   </div>
 </section>
 
@@ -84,7 +84,6 @@ import theTeam from '../assets/theTeam.jpg';
       grid-column: 1 / 3;
       // object-position: 27% 50%;
       height: 100%;
-      width: auto;
       margin-top: 0;
     }
 
@@ -106,6 +105,10 @@ import theTeam from '../assets/theTeam.jpg';
     color: hsl(var(--white));
     max-width: 20ch;
     margin-inline: auto;
+  }
+
+  .step {
+    margin-top: var(--size-9);
   }
 
   .step-pill {
