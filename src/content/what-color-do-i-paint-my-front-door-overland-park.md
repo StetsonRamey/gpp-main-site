@@ -1,0 +1,45 @@
+---
+layout: '../layouts/BlogPost.astro'
+title: "What Color Do I Paint My Front Door - Overland Park"
+date: "2020-08-27"
+categories: 
+  - "house-painting"
+coverImage: "/blog/front-door.jpg"
+---
+
+Usually [exterior painting](https://greatplainspaintingkc.com/home-exterior-need-painted-kansas-city/) projects we complete include an accent color on the front door. Choosing the correct color for your personal aesthetic and that will either nicely contrast, or subtly complement the colors you've chosen for your home is no easy feat. There are a vast number of options. Lets take a look at a few and perhaps provide a framework for how to make a decision about front door color.
+
+## Bold and Bright
+
+Bold and bright is going to highlight the front door, make it stand out. Normally we recommend choosing a contrasting color (called triadic or tetradic in color terms). To give you an idea, have a look at [this](https://www.canva.com/colors/color-wheel/) article which provides the very basics of color theory. A few notable choices of bold and bright front doors are:
+
+- Clary Sage by Sherwin Williams
+- Gris by Sherwin Williams
+- Windy Sky by Benjamin Moore
+- [Rave Red by Sherwin Williams](https://www.sherwin-williams.com/painting-contractors/products/SW6608-rave-red)
+
+## Monochromatic
+
+If you're not looking for eye popping contrast, monochromatic is a great way to go. For this, essentially you take the base color of your house, and choose a lighter or darker hue in the same family. For instance:
+
+- Base color - [Cityscape by Sherwin Williams](https://www.sherwin-williams.com/painting-contractors/color/find-and-explore-colors/paint-colors-by-family/SW7067-cityscape)
+    - Door Darker - [Peppercorn](https://www.sherwin-williams.com/painting-contractors/color/find-and-explore-colors/paint-colors-by-family/SW7674-peppercorn)
+    - Door Lighter - [Gray Matters](https://www.sherwin-williams.com/painting-contractors/color/find-and-explore-colors/paint-colors-by-family/SW7066-graymatters)
+
+Doing this provides a subtle contrast that just catches the eye. People know there's a difference there, but on a cursory glance it's hard to tell what it is.
+
+## Choose the Framework, Then the Color
+
+Once you know if you'd like to go monochrome or bright, then you can start to look at colors. We recommend driving around and having a look at some [exterior paint jobs in Overland Park or Kansas City](https://greatplainspaintingkc.com/exterior-painting-kansas-city/). Take note of what looks attractive to **you**. After all, this is YOUR front door and you'll be looking at it everyday. We like to paint it a color you love.
+
+Try and pin down a specific shade. Is it a yellow door you're after? Perhaps blue? Once you have a shade ask us! We can make some recommendations about colors we've used in the past that would fit the criterion you have determined.
+
+Here are a few more colors we've used over the years that we really like for front doors:
+
+- [Open Seas by Sherwin Williams](https://www.sherwin-williams.com/homeowners/color/find-and-explore-colors/paint-colors-by-family/SW6500-open-seas) - great complement to neutrals or if your home has lots of white trim
+- [Blue Nova by Benjmain Moore](https://www.google.com/search?q=blue+nova+benjamin+moore&oq=blue+nova+ben&aqs=chrome.0.0j69i57j0.2034j0j4&sourceid=chrome&ie=UTF-8) - not a full deep navy, but a very dark blue people will know this is a blue. This color is very chameleon and works great with many exterior color schemes
+- [Aquaverde by Sherwin Williams](https://www.sherwin-williams.com/homeowners/color/find-and-explore-colors/paint-colors-by-family/SW9051-aquaverde) - one of my personal favorites. This color works great with grays and greiges alike.
+- [Sunshine by Benjamin Moore](https://www.benjaminmoore.com/en-us/color-overview/find-your-color/color/2021-30/sunshine?color=2021-30) - we're choosy about our yellows, but this color from Benjamin Moore checks all the boxes. If you're wanting a yellow, we're going to recommend this one for sure.
+- [Tricorn Black by Sherwin Williams](https://www.sherwin-williams.com/homeowners/products/SW6258-tricorn-black) - our favorite black.
+
+Choosing a color for the front door isn't impossible, but isn't trivial either. If you've got questions, [ask anyone on our team](https://greatplainspaintingkc.com/contact/) and we'll do our best to figure it out with you. The good news is that a front door is comparatively small compared to your entire house. So if in a few years you've grown apart from the color you initially selected, a gallon of paint in a new color, a brush, and a mini roller can change the color in about an hour and that's a project that is an easy DIY. So don't be scared, go bold if you want to! Keep it monochrome if you like. Pick a color you'll like seeing as you pull up to your freshly painted home!

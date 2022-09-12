@@ -1,0 +1,63 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import Hero from "../components/Hero.astro";
+import heroImg from "../assets/about/rolling.jpg";
+import Form from "../components/Form.astro";
+import { Image } from '@astrojs/image/components';
+
+// for the hero props
+const crumbList = [
+  {
+    name: "Home",
+    link: "/",
+  },
+  {
+    name: "Contact Us",
+    link: "/contact-us/",
+  },
+];
+const p =
+  "​​Are you searching for an affordable and reliable painting company for all your painting needs? Look no further than Great Plains Painting. We are local, have great customer service, and most of all, you can trust us to get the job right the first time. Call (816) 945-9792 or fill in the form below to get in touch with us.";
+const heroButton = false;
+
+// url for requesting a static map
+const mainMap =
+  "https://maps.googleapis.com/maps/api/staticmap?center=kansas+city,+mo&zoom=12&size=600x600&scale=2&map_id=3dcfc3a6d2fa31c&key=AIzaSyDkKxiVAXt_mBwB_vY7s4bbpLhJmYQjwkw&signature=FSqFRvgzneHjWenUvid-BcUCBmk=";
+---
+
+<BaseLayout>
+  <Hero {heroButton} {crumbList} h1={"Contact Us"} {p} heroUrl={heroImg} />
+  <section class="form-wrap">
+    <Form />
+  </section>
+  <section class="map">
+    <Image src={mainMap} width={1200} aspectRatio={1/1} />
+  </section>
+</BaseLayout>
+
+<style lang="scss">
+  $height: 50vh;
+  $max-height: 700px;
+  .form-wrap {
+    padding: var(--size-9);
+    max-width: 100ch;
+    margin: 0 auto;
+  }
+
+  .map {
+    img {
+      object-fit: cover;
+      width: 100%;
+      height: min($height, $max-height);
+    }
+  }
+</style>
+
+<script is:inline src="/src/scripts/google-autocomplete.js"></script>
+
+<!-- load the google maps autocomplete api -->
+<script
+  is:inline
+  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAW3WVT06abi4oUfCLutoWoPjk-s6PFyak&libraries&callback=initAutocomplete&libraries=places&v=weekly"
+  async="async"
+></script>

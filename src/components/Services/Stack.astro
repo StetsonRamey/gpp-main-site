@@ -1,0 +1,89 @@
+---
+import { Image } from "@astrojs/image/components";
+
+const { superTitle, h2, subTitle, list, under, over } = Astro.props;
+---
+
+<section class="benefits">
+  <div class="copy flow left-stack" style="--flow-space: 1.5rem">
+    {superTitle && <p class="small upper semi-bold muted">{superTitle}</p>}
+    <h2 class="h2">{h2}</h2>
+    {subTitle && <p class="sub-h2 black" set:html={subTitle} />}
+    <ul role="list" class="flow">
+      {list.map((item) => <li>{item}</li>)}
+    </ul>
+  </div>
+  <div class="photo-stack">
+    <div class="img-wrap back">
+      <Image class="img radius-2 shadow-5" src={import(`${under}.jpg`)} width={1200} />
+    </div>
+    <div class="img-wrap front">
+      <Image class="img radius-2 shadow-5" src={import(`${over}.jpg`)} width={1200} />
+    </div>
+  </div>
+</section>
+
+<style lang="scss">
+  .benefits {
+    display: grid;
+    padding-inline: var(--size-6);
+    max-width: 80ch;
+    margin-inline: auto;
+  }
+
+
+  .photo-stack {
+    display: grid;
+    max-height: 40rem;
+    grid-template-columns: repeat(4, minmax(50px, 1fr));
+    grid-template-rows: repeat(4, 150px);
+    margin-bottom: var(--size-12);
+  }
+
+  .img-wrap {
+    &.back {
+      grid-row: 1 / span 3;
+      grid-column: 1 / span 3;
+    }
+
+    &.front {
+      grid-row: 2 / span 4;
+      grid-column: 2 / span 4;
+    }
+  }
+
+  .img {
+    object-fit: cover;
+    height: 450px;
+    max-height: 100%;
+    width: auto;
+  }
+
+  .benefits {
+    ul {
+      margin-bottom: var(--size-10);
+    }
+
+    li::marker {
+      content: url("data:image/svg+xml;utf8,%3Csvg preserveAspectRatio='xMidYMid meet' viewBox='0 0 22 22' width='20' height='20' xmlns='http://www.w3.org/2000/svg' %3E%3Cpath fill='%2389b654' d='m10.6 16.6l7.05-7.05l-1.4-1.4l-5.65 5.65l-2.85-2.85l-1.4 1.4ZM12 22q-2.075 0-3.9-.788q-1.825-.787-3.175-2.137q-1.35-1.35-2.137-3.175Q2 14.075 2 12t.788-3.9q.787-1.825 2.137-3.175q1.35-1.35 3.175-2.138Q9.925 2 12 2t3.9.787q1.825.788 3.175 2.138q1.35 1.35 2.137 3.175Q22 9.925 22 12t-.788 3.9q-.787 1.825-2.137 3.175q-1.35 1.35-3.175 2.137Q14.075 22 12 22Z'/%3E%3C/svg%3E");
+    }
+
+    li {
+      font-size: var(--font-size-2);
+      padding-inline-start: 1ch;
+    }
+  }
+
+  @media (min-width: 1000px) {
+    .benefits {
+      max-width: var(--max-l);
+      padding-inline: var(--size-fluid-3);
+      grid-template-columns: repeat(auto-fill, minmax(min(500px, 100%), 1fr));
+      column-gap: var(--size-3);
+    }
+
+    .left-stack {
+      max-width: 45ch;
+    }
+  }
+</style>

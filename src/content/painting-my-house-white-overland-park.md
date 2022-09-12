@@ -1,0 +1,60 @@
+---
+layout: '../layouts/BlogPost.astro'
+title: "Painting My House White - Overland Park"
+date: "2020-08-14"
+categories: 
+  - "house-painting"
+tags: 
+  - "exterior-painting"
+coverImage: "/blog/house-white-exterior.jpg"
+---
+
+At Great Plains Painting, we've seen white body with black trim become popular over the last 2 or 3 years in Overland Park and Kansas City. And for good reason. The white is a classic, timeless color and black trim sharpens up the look adding a bit of modernity to the aesthetic of a house.
+
+This week we encountered a situation where a customer wished to swap the colors on their Overland Park house from dark browns and greens to white and black. When going white over a dark color, there are a few things to consider. Let's take a look at those so if you're thinking of painting your house white, you'll know what the "gotchas" are.
+
+## Will it Cover
+
+If you've ever worked with exterior paint, you'll know not all whites cover the same. We call it "hide". Some whites will hide the color they're covering in one coat and others the underlying color will keep showing through requiring 2 or even 3 coats to get the underlying color fully hidden. This is the first thing you'll want to consider when choosing a white color.
+
+The way we put our exterior painting estimates together for dark going to white is as follows:
+
+1. If the white you choose has high hide and will cover when we apply the coating at the manufacturers specified mil thickness, everything is normal and we estimate it as any other house
+2. If the white you choose has poor hide, we'll have to apply the coating, allow it to dry overnight and apply an additional layer the next day. This requires additional labor and material and therefore costs more
+
+During the estimate, we ask what whites you're considering. Once we know what white you're looking at for exterior painting, we can offer recommendations. If we've worked with the color you're leaning towards we have first hand experience with how it'll cover. If we haven't worked with that color before we're going to get some more info to help us estimate if it'll cover well or not.
+
+What we loook at is **Light Reflective Value or LRV**. All paint manufacturers list the LRV for their colors. LRV (scale of 0 to 100) is a measure of how much light the color reflects. Dark colors have a low LRV and the extra white base without any tint in it would be close 100, the highest LRV. In our experience, colors with LRVs of around 80-100 don't hide as well and are more likely to require option 2 above and an additional layer of paint to hide the dark color they're covering.
+
+Take a look at the two color chips below:
+
+| ![Moderne White Color](/blog/images/Screen-Shot-2020-08-12-at-7.52.25-AM.png) | ![Pure White Color](/blog/images/Screen-Shot-2020-08-12-at-7.52.47-AM.png) |
+| --- | --- |
+
+Color #1 - Moderne White has an LRV of 74 (bottom right side of chip) while color #2 - Pure White has an LRV or 84. Having painted both of these colors many times we know that Moderne White hides far better than Pure White.
+
+_note: whites are never representative on a computer screen. these colors look completely different in real life_
+
+As you're picking white colors, keep LRV in mind and keep a dialogue open with your house painter. For white colors especially we'll often do several test coatings for customers so that they get the white that they love.
+
+## Will it Look Good
+
+LRV is also going to impact how your home looks. Higher LRV values will result in your home being light reflective and the color will pick up colors around it. In our experience people generally think we've painted two different colors on their home as one area will look different from another area. This isn't the case. What is happening is that different lighting, shadows, and landscaping colors are reflected differently on different parts of the home causing the paint to look different across the siding.
+
+A higher LRV reduces the reflectivity and yields are more uniform and balanced color.
+
+## Will it Last
+
+White performs slightly better against UV rays than say a dark green or dark blue color. So performance against UV is solid in whites.
+
+What we've seen with some whites is that over time they start to look blotchy or washed out. These whites tend to be the ones that are closer to the pure white with a higher LRV. Because these whites have little tint in them to begin with, as they age the don't hold their true color well. A white with a little lower LRV tends to have a deeper depth of color and that will hold better over time.
+
+## How Do I Choose
+
+Whites, more than any other color, require a live sample to judge effectively. We recommend putting test samples on the home and spending a week looking at them in different lights to get an idea of what the color will truly look like.
+
+If the color you really want also happens to be one with a high LRV and you're concerned about having additional cost if we have to build up the paint so that it hides properly, we are also happy to paint a small section of your home as we normally would, allow it to dry overnight and assess the hide the next day. That way we'll know before we start if that white will hide well or not.
+
+Whites are a sharp-looking paint choice for [Overland Park Exterior Painting Projects](https://greatplainspaintingkc.com/exterior-painting-kansas-city/). We recommend putting in a little time upfront so that you make sure you're getting a white color you'll love for years into the future!
+
+Are you ready to have your home's exterior painted? [Contact us](https://greatplainspaintingkc.com/contact/) today for a free estimate!

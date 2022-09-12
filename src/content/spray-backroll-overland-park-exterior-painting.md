@@ -1,0 +1,66 @@
+---
+layout: '../layouts/BlogPost.astro'
+title: "Spray and Backroll - Overland Park Exterior Painting"
+date: "2020-07-03"
+categories: 
+  - "house-painting"
+tags: 
+  - "exterior-painting"
+coverImage: "/blog/6-Aug-06-2019-09_58am-jDMe.jpg"
+---
+
+When we're [estimating homes](https://greatplainspaintingkc.com/good-painting-estimate-kansas-city/) in Overland Park, customers often ask about spraying and backrolling. We find that the general assumption is that everything requires backrolling. We believe this isn't true for all siding types and are writing here to explain why and when we think backrolling is essential.
+
+## What is Backrolling
+
+With those not familiar, backrolling works like this. Two people are applying paint to siding. One person is running the airless spray gun delivering wet paint to the siding. The other person follows directly behind that person with a 9" roller and extension pole and rolls (backrolls) the wet paint they applied. In some situations the spraying and the rolling may be completed by the same person.
+
+## Why Backroll
+
+I've talked with many homeowners about backrolling over the years and it is my opinion that they think backrolling is necessary to achieve a good bond and adequate coverage.
+
+### Bond
+
+Backrolling doesn't necessarily achieve a good bond. Consider a surface that isn't properly prepared before painting. Lets say peeling paint wasn't scraped well. If a painter applies new paint over old peeling paint the old peeling paint continues to fail and takes the new paint with it, regardless of backrolling. If the substrate being painted contains moisture and a painter backrolls a new coat over it, the painted-over moisture will break the bond of the new paint and cause blistering.
+
+A good bond is achieved primarily through proper preparation of the painted surface. Modern coatings contain high text bonding agents and resins and do their job excellently regardless of application method (spraying/brushing/backrolling) if the surface is prepared properly.
+
+### Adequate Coverage
+
+We've discussed coverage at length in our previous article - [1 Coat Versus 2 Coats - Overland Park Painting](https://greatplainspaintingkc.com/1-coat-versus-2-coats-overland-park-exterior-painting/). To summarize that post we can apply paint at a greater mil thickness and more evenly via 1 coat with an airless sprayer than with 1 coat of a roller.
+
+Most people who've done some interior or exterior painting themselves grasp this when I ask them if the old old color they were painting over showed through after the first coat with a roller. Unless they're using one of the top-of-the line paints (Benjamin Moore Aura or Sherwin Williams Emerald) the answer is always yes. Almost always, application via a roller requires 2 coatings to ensure adequate coverage, whereas we can build up greater mil thickness in 1 pass with an airless sprayer.
+
+Backrolling on exterior siding is also tricky and painters can end up taking off paint with the roller. Lets say the height of the siding wall we're painting is 18-20ish feet. The painter spraying applies the material. The painter backrollilng loads up his roller and begins rolling the wall. A 3/4" nap 9" roller only holds enough paint to make one 18-20 foot pass and then its shed all it's material. Once that happens it starts to pick up and hold paint applied via the sprayer effectively removing some of the mil thickness. The backroller continually needs to be wetting the roller to keep applying paint. On large walls this can produce start/stop lines easily.
+
+### So Seriously, Why Backroll?
+
+We like to think of it this way - on exterior surfaces a roller pushes paint down into the siding. When the siding isn't porous, like with modern siding systems like LP Smart Siding (panels, shingles, lap), James Hardie Siding, metal siding, or a previously painted and sealed surface a roller is simply pushing paint around on that surface. On these siding types, trying to use a roller produces a choppy finish, whereas spraying produces a clean, uniform finish.
+
+When there are pores, as there are on real wood, old T1-11 siding or masonry, we want to push paint down into those pores to ensure the surface is sealed up and protected from water penetrating.
+
+If we're dealing with brand new T1-11 siding or some old wood siding where the paint is beginning to fail and the pores are opening up we absolutely recommend spraying and backrolling there. If we've got a scenario where we're dealing with previously painted wood and areas of it we've scraped down to the bare substrate, we spray and backroll the bare areas with a bonding primer to lock them up, and then we spray the whole siding wall evenly.
+
+We love our airless spray equipment and it excels and delivering paint to surfaces in an efficient and uniform manner, but it cannot push paint down into the pores. So anywhere we're dealing with a porous surface, we either need to spot address the areas in our prep work before we spray, or take a more global approach and spray and backroll.
+
+## A Modern Siding Example
+
+It's helpful to look at some pictures I think. What you see below is a house sided with LP Smart Panels. These, or similar products, are common in Overland Park and Kansas City. LP Smart Panels are engineered wood product, come pre-primed new and are non-porous EXCEPT for their grooves. On 8 inch centers there are some milled grooves in the panel and these are porous and an area susceptible to water penetration.
+
+To seal these up before we spray, we offer as an option to prime these grooves via brush to seal them up. We call this "Tiger Striping" due to the look of the house after we do it. This method adds some labor to a project and we offer it as an additional option.
+
+![groove-painting](/blog/images/2-Aug-06-2019-09_58am-wAwR.jpg)
+
+![groove-striping](/blog/images/6-Aug-06-2019-09_58am-jDMe.jpg)
+
+On this home we're painting with Sherwin Williams Emeral which is self-priming. Therefore we use it to brush down all the grooves. If we were using Sherwin Williams SuperPaint (our standard option) we'd brush down the grooves with a bonding primer to seal up their pores. You'll notice that some grooves aren't painted. These are the butt joints between siding panels (every 4 feet) and these grooves we caulk, therefore they do not require striping.
+
+![groove-striping](/blog/images/5-Aug-06-2019-09_58am-JcnE.jpg)
+
+Notice on the front of the home we are dealing with LP Smart Lap and all we've needed to do to prepare it is caulk the nail heads. Once we've address the porous substrate, we are able to apply the topcoat via airless sprayer. The result is an excellent uniform finish.
+
+If we weren't Tiger Striping this home, and the grooves in the LP Smart Panels were porous, we'd need to backroll or backbrush them to ensure proper encapsulation of that substrate.
+
+* * *
+
+Hopefully this gives you an idea of how we think about the spray and backroll method and provides you with useful information as you are evaluating quotes from painters. [Talk to our estimator](https://greatplainspaintingkc.com/contact/) if you think backrolling might be necessary on your project and we'll happily offer our recommendations and customize the bid to get you what you want.

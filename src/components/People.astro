@@ -1,0 +1,73 @@
+---
+import { Image } from "@astrojs/image/components";
+import people from "../data/people.json";
+---
+
+<section class="people">
+  <div class="flex-grid">
+    {people.map((person) => (
+    <div class="card">
+      <Image class="person-photo radius-2 shadow-3" src={import(`../assets/people/${person.src}.jpg`)} width={250} />
+      <div class="wrap center">
+        <p class="name">{person.name}</p>
+        <p class="title muted">{person.role}</p>
+      </div>
+    </div>
+    ))}
+  </div>
+</section>
+
+<style lang="scss">
+  .people {
+
+    margin-block: var(--size-12);
+
+    .flex-grid {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: var(--size-8);
+    }
+
+    .card {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: var(--size-4);
+    }
+
+    .wrap {
+
+      .name {
+        font-size: var(--font-size-4);
+      }
+
+      .title {
+        font-size: var(--font-size-1);
+      }
+
+    }
+
+    .person-photo {
+      overflow: hidden;
+    }
+
+  }
+
+  @media (min-width: 750px) {
+    .people {
+
+      margin-block: 0;
+
+      .flex-grid {
+        flex-direction: row;
+        justify-content: center;
+        margin-top: calc(var(--size-8) * -1);
+        margin-bottom: var(--size-11);
+      }
+
+    }
+
+  }
+</style>

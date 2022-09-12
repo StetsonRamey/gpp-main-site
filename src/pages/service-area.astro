@@ -1,0 +1,55 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import Hero from "../components/Hero.astro";
+import heroImg from "../assets/about/rolling.jpg";
+import { Image } from "@astrojs/image/components";
+import AreaGrid from "../components/AreaGrid.astro";
+
+// for the hero props
+const crumbList = [
+  {
+    name: "Home",
+    link: "/",
+  },
+  {
+    name: "Our Service Areas",
+    link: "/service-area/",
+  },
+];
+const p =
+  "Providing high-quality residential & commercial painting services in Kansas City and surrounding areas.";
+
+// url for requesting a static map
+const mainMap =
+  "https://maps.googleapis.com/maps/api/staticmap?center=kansas+city,+mo&zoom=10&size=600x600&scale=2&map_id=3dcfc3a6d2fa31c&key=AIzaSyDkKxiVAXt_mBwB_vY7s4bbpLhJmYQjwkw&signature=-fan_unWHFJiyEwMGH7_60IuGXA=";
+---
+
+<BaseLayout>
+  <Hero {crumbList} h1={"Our Service Areas"} {p} heroUrl={heroImg} />
+  <section class="map">
+    <Image src={mainMap} width={1200} aspectRatio={1 / 1} />
+  </section>
+  <section class="hoods">
+    <h2 class="h2">Not Sure If We Cover Your Neighborhood?</h2>
+    <p class="sub-h2 black">Here are the city's we work in</p>
+  </section>
+  <AreaGrid />
+</BaseLayout>
+
+<style lang="scss">
+  $height: 45vh;
+  $max-height: 900px;
+
+  .hoods {
+    text-align: center;
+    margin-block: var(--size-8);
+  }
+
+  .map {
+    img {
+      object-fit: cover;
+      width: 100%;
+      height: min($height, $max-height);
+    }
+  }
+</style>

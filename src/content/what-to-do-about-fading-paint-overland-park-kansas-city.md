@@ -1,0 +1,79 @@
+---
+layout: '../layouts/BlogPost.astro'
+title: "What to do About Fading Paint in Overland Park and Kansas City"
+date: "2020-07-10"
+categories: 
+  - "house-painting"
+tags: 
+  - "exterior-painting"
+  - "fading-paint"
+coverImage: "/blog/fading-paint.jpg"
+---
+
+All paint fades. Even the top of the line products from Sherwin Williams, Benjamin Moore, and PPG will all fade after time. In our experience working and seeing lots of home painted with lots of different products it is generally true that higher quality paints resist fading longer. There are a few considerations to make when [painting your Overland Park or Kansas City home](https://greatplainspaintingkc.com/exterior-painting-kansas-city/) that can maximize your paint's life and resist fading the longest. Lets take a look at some of them.
+
+# Causes
+
+1. Your home's exposure to UV rays
+    
+    - Are there well developed trees that provide shade in your neighborhood or does your home receive direct sunlight all day long?
+    - Is the front of your home southernly facing?
+    
+    The amount of UV rays that hit your home and how long, day after day, those rays hit your home will contribute to paint fading.
+    
+2. Color of the paint
+    
+    - All paint starts out as white base. When you tell us what colors you'd like on your home, we tell the paint store and they "tint" the paint by adding the right combination of pigments to the white base and mixing it thoroughly
+        
+    - Darker colors require more pigment. Pigment are merely colored particles. They contain none of the additives like hardeners (resins) and UV resistors. Therefore, the more pigment added, i.e., the darker the color, the less resistant to fading the color is
+        
+        This is all to say darker colors fade faster than lighter ones. How much faster is dependent on many factors including your home's exposure to sunlight and the grade of the paint used. We get it, darker colors are cool so we'll present some strategies to maximize paint life in a darker color.
+        
+3. Film thickness and paint grade
+    
+    - Grade: when I say grade I mean generally that the higher the cost per gallon of paint the better the paint grade. Higher grade paints tend to have additional higher cost additives that enhance their bond and UV resistance. For instance Sherwin Williams Emerald (expensive) will resist fading longer than Sherwin Williams SuperPaint (less expensive) if all other factors are held constant.
+        
+    - Film thickness: generally speaking at what mil thickness the paint is applied. A thinner film buildup is going to fade more quickly than a thicker one.
+        
+        We attempt to balance the grade of paint we recommend with peoples wants and needs. If you want an extremely dark color, we'll recommend a higher grade paint because of the fading issue. We aim to apply all coatings to meet or exceed the manufacturers specified mil thickness (the mil spec) and we've written an article about that [here](https://greatplainspaintingkc.com/1-coat-versus-2-coats-overland-park-exterior-painting/).
+        
+
+Narrowed down to the ultimate contributors, these three are what we see contributing most to paint fading.
+
+# Identification
+
+Identifying fading paint is simple typically. Fading generally happens uniformly at first. I mean that all the paint in a given area fades at the same rate. This is less noticeable. At some point, the sheen and outter skin of the coating break down and then fading occurs differentially. I mean that some areas will fade quicker than others in this case. When the paint reaches this stage, fading is obvious visibly.
+
+Another good tell is to look at the paint on your home in a shady spot. Generally on the northern exposure portion of the house or under the front porch if you have one. Compare this color with a portion of the home that receives sunlight and you'll see how fading is occurring.
+
+Badly faded paint also starts to do what is called "chalking". On a southern facing or high sunlight exposure section of paint, run your hand across the surface of the paint. A chalky residue left on your hand is what is called chalking and shows that the paint itself is beginning to break down.
+
+![chalking-paint](/blog/images/chalking.jpg)
+
+# Solutions
+
+What can we do about fading paint then? Lets look at what we can and can't control.
+
+### Exposure
+
+If your home is located in a high exposure setting, we can't feasibly pick up and move your home. Your home will continue to receive the full abuse of the sun and therefore we have to address that as best we can.
+
+The best strategy is to choose color appropriately and avoid blues, yellow, or reds as these pigments tend to be more susceptible to the UV rays than others. Keep the color in a neutral earth tone that doesn't look as bad as it starts to fade as it inevitably will.
+
+Aside from color, the grade of paint can make a difference as well. A higher grade paint will resist fading longer if your home is heavily exposed to UV. In some cases we also opt to paint the southern exposure side of the home with a higher grade paint. This saves you some money over painting the whole house with a more costly coating, but gives you the benefit of using the product where it is needed most specifically.
+
+### Color
+
+If your home is in a older, well matured neighborhood with large trees and receives signifcant shade a darker color can be just fine. If you live in a new home in a newer development and there are not mature trees and your home receives the full force of the sun, a dark color we advise against.
+
+However, we understand that you like what you like and you want what you want. When we have a customer that wants a dark blue color and they live in high exposure, we do our best to educate them about fading. Once they understand that the color will fade more quickly than a lighter one, no matter what, and still choose the darker color, then we talk about using a higher grade paint. A higher grade paint in a dark blue or dark green will buy you a few extra years but does not solve the problem.
+
+All the major paint manufacturers avoid exterior yellows. Sherwin Williams only mixes 3 or 4 yellows in their exterior bases. Yellow pigment is more susceptible to fading than all other pigments. If you're thinking yellow for you house, it's best to be fully aware that if your home receives a great deal of sun it will fade more quickly.
+
+### Film thickness and grade
+
+Ask questions about application method to the company or person you hire to paint your home. Are they brushing and rolling the house or are they applying the coating with airless spray equipment? The method of application has a direct impact on the film thickness. Refer to our [article](https://greatplainspaintingkc.com/1-coat-versus-2-coats-overland-park-exterior-painting/) for more information on application methods and how they affect film thickness.
+
+We have customers ask us, and it isn't a bad idea to ask a company for a few addresses of homes they've painted within the last 2 or 3 years. You can then drive by and see how the paint is holding up on a couple year old project.
+
+Paint grade is an important factor as well. Is the cost of a higher grade coating worth it for you home based on the factors we've discussed? We find that Sherwin Williams SuperPaint and the crossovers to it in the Benjamin Moore and PPG product lines is suitable for the majority of projects. In most situations, that grade of paint will achieve the required life between painting projects. In special cases of high UV exposure or dark colors, an more expensive grade may be warranted. Discuss your wants and need with our estimator and we'll do our best to help point you in the right direction to maximize your paints time against fading. [Contact us](https://greatplainspaintingkc.com/contact/) today.

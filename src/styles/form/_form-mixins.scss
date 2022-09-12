@@ -1,0 +1,6 @@
+// mixin for focus states of text areas
+@mixin field-focus {
+  border-color: var(--field-focus, hsl(var(--brand-green)));
+  box-shadow: 0 0 0.35em -0.1em hsl(var(--field-focus, var(--brand-green)));
+  outline: 2px solid transparent;
+}

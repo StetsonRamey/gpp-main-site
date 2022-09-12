@@ -1,0 +1,26 @@
+$color: #bada55;
+
+.form-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: hsl(var(--brand-green));
+  color: hsl(var(--white));
+  border-radius: var(--radius-2);
+  padding: var(--size-3) var(--size-8);
+  min-width: 10ch;
+  min-height: 44px;
+  text-align: center;
+  line-height: 1;
+  transition: 180ms all ease-in-out;
+
+  &:hover {
+    background-color: scale-color($color, $lightness: -40%);
+  }
+
+  &:focus {
+    outline: solid;
+    outline-color: transparent;
+    box-shadow: 0 0 0 0.05em currentColor, 0 0 0.15em 0.15em $color;
+  }
+}

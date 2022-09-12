@@ -1,0 +1,14 @@
+---
+const { copy } = Astro.props;
+---
+
+<div class="copy flow" style="--flow-space: 1.5rem">
+  <h2 class="h2">Committed to Getting the Job Done Right</h2>
+  <p class="copy muted flow" set:html={copy}></p>
+</div>
+
+<style lang="scss">
+  h2 {
+    text-align: center;
+  }
+</style>

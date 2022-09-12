@@ -16,19 +16,19 @@ li[role="none"],
 }
 
 h1 {
-  font-size: var(--size-6);
+  font-size: var(--font-size-6);
   letter-spacing: var(--font-letterspacing-2);
 }
 
 h2 {
-  font-size: var(--font-size-5);
+  font-size: var(--font-size-7);
   letter-spacing: var(--font-letterspacing-1);
   line-height: var(--font-lineheight-2);
   color: var(--gray-9);
 }
 
 h3 {
-  font-size: var(--size-7);
+  font-size: var(--font-size-7);
   letter-spacing: var(--font-letterspacing-1);
   line-height: var(--font-lineheight-2);
   color: var(--gray-9);

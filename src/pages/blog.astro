@@ -1,0 +1,66 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { parse, isBefore } from "date-fns";
+import Hero from "../components/Hero.astro";
+import heroImg from "../assets/cedarShake.jpg";
+import PostPreview from "../components/Blog/PostPreview.astro";
+
+const posts = await Astro.glob("../content/*.md").then((posts) =>
+  posts
+    .map(({ frontmatter, file }) => ({
+      title: frontmatter.title,
+      cover: frontmatter.coverImage,
+      publishDate: parse(frontmatter.date, "yyyy-MM-dd", new Date()),
+      href: file.split("/").at(-1).slice(0, -3),
+    }))
+    .sort((a, b) => {
+      if (isBefore(a.publishDate, b.publishDate)) return 1;
+      if (isBefore(b.publishDate, a.publishDate)) return -1;
+      return 0;
+    })
+);
+
+const crumbList = [
+  {
+    name: "Home",
+    link: "/",
+  },
+  {
+    name: "Blog",
+    link: "/blog/",
+  },
+];
+---
+
+<BaseLayout>
+  <Hero crumbList={crumbList} heroUrl={heroImg} h1={"Our Blog"} heroButton={false} />
+  <div class="list-container">
+    {
+      posts.map((post) => {
+        return (
+          <div class="blog-list">
+            <PostPreview post={post} url={post.href} />
+            <hr />
+          </div>
+        );
+      })
+    }
+  </div>
+</BaseLayout>
+
+<style lang="scss">
+  .list-container {
+    padding-block: var(--size-8);
+  }
+  .blog-list {
+    max-width: 80ch;
+    margin-inline: auto;
+    padding-inline: var(--size-3);
+  }
+  hr {
+    --flow-space: 0;
+    height: 2px;
+    background-color: var(--gray-2);
+    border: none;
+  }
+</style>

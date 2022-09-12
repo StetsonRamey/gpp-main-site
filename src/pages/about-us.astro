@@ -1,0 +1,53 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import PhotoStack from "../components/PhotoStack.astro";
+import LocalBanner from "../components/LocalBanner.astro";
+import People from "../components/People.astro";
+import PhotoStackReverse from "../components/PhotoStackReverse.astro";
+import { Image } from '@astrojs/image/components';
+import Hero from "../components/Hero.astro";
+import heroImg from "../assets/recents/exterior.jpg";
+import under from "../assets/about/team.jpg";
+import over from "../assets/about/brushing.jpg";
+import theTeam from "../assets/theTeam.jpg";
+import cut from "../assets/about/cut.jpg";
+import roller from "../assets/about/roller.jpg";
+
+const crumbList = [
+  {
+    name: "Home",
+    link: "/"
+  },
+  {
+    name: "About Great Plains Painting",
+    link: "/about-us/"
+  }
+]
+
+// the PhotoStack Props
+const superTitle = "Great Plains Painting";
+const h2 = "Why Choose Our Painting Services?";
+const subTitle = "";
+const p = `At Great Plains Painting, we have a simple mission: do everything possible to make sure our customers are raving about our services. From the initial conversation to the final brushstroke, we strive to make the process as simple and hassle-free as we can. Based in Kansas City, MO, we offer our interior and exterior painting to homes and businesses in the area. Whether you need residential painting or commercial painting, you’ll find our experienced team to be a pleasure to work with! <p class="muted">Projects large and small receive our detailed attention and dedicated project management and problem-solving abilities. We are here to help you get what you want. Call us, email us, connect on social media, or fill out our online form and let’s get started today!</p>`
+
+// the background banner props
+const localh2 = "Meet the Team";
+const localp = `The people at Great Plains Painting are dedicated to home painting. From our initial phone call, to your meeting with an estimator, to working with our project manager and our painters our aim is to find out what you want and deliver on those needs. Whether you are looking for interior painting, exterior painting, wood rot repair, or Jame Hardie siding we are here with you every step of the way.
+<p>At Great Plains Painting, our professional and seasoned painting team is committed to providing the
+highest level of quality painting at affordable prices. Not only is the our team trained in the latest
+techniques and technologies - but along with the training, we uphold values like honesty, integrity and
+hard work.</p>`
+const button = false;
+
+// the reverse photoStack
+const reverseTitle = "Serving the Kansas City Area and Surrounding Cities"
+const reversep = "<p>We have skills that set us apart from other companies in Kansas City including the experience needed to get the job done and get it done right. We understand how living or working in a space that is being renovated can be frustrating. That is why we complete services in a reasonable amount of time, disrupting your daily life as minimally as possible.</p><p>Our home painting and home siding team is built of the best painters and painting contractors in Kansas City who have mastered the art of creating beautiful spaces. We stay on top of current trends in the industry so we can give you exactly what you are looking for. We use nothing but the best products in the industry, making sure your home painting improvements last for years to come. Call us today to get started on your residential and commercial painting projects.</p>"
+---
+
+<BaseLayout>
+  <Hero crumbList={crumbList} heroUrl={cut} h1={"About Great Plains Painting"} />
+  <PhotoStack {superTitle} {h2} {subTitle} {p} buttonText="schedule youre free estimate" under={under} over={over} />
+  <LocalBanner {button} {localh2} {localp} localBackground={theTeam} />
+  <People />
+  <PhotoStackReverse {reverseTitle} {reversep} reverseUnder={roller} reverseOver={cut} />
+</BaseLayout>

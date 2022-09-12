@@ -16,9 +16,9 @@
   --brand-yellow: 46deg 100% 66%;
   --brand-green: 87deg 40% 52%;
   --brand-dark: 203deg 29% 22%;
-
   /* max width of column */
   --max-w: 140ch;
+  --max-l: 110ch;
 }
 
 /* modern css reset from Andy Bell */

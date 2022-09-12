@@ -1,0 +1,224 @@
+---
+import "../styles/form/form.scss";
+import FormDescription from "./FormDescription.astro";
+---
+
+<!-- script for telephone? -->
+<script is:inline>
+  function formatPhoneNumber(e) {
+    if (!e) return e;
+    const o = e.replace(/[^\d]/g, ""),
+      t = o.length;
+    return t < 4
+      ? o
+      : t < 7
+      ? `(${o.slice(0, 3)}) ${o.slice(3)}`
+      : `(${o.slice(0, 3)}) ${o.slice(3, 6)}-${o.slice(6, 10)}`;
+  }
+  function phoneNumberFormatter() {
+    const e = document.getElementById("phone-number"),
+      o = formatPhoneNumber(e.value);
+    e.value = o;
+  }
+</script>
+
+<form id="address-form" action="" method="get" autocomplete="off">
+  <fieldset>
+    <legend>Your Name</legend>
+    <div class="form-row">
+      <div class="form-group">
+        <label for="first-name">First Name</label>
+        <input
+          class="form-field"
+          type="text"
+          id="first-name"
+          name="first-name"
+          aria-describedby="first-name-example"
+        />
+        <FormDescription id={"first-name-example"} copy={"e.g. -  Paul"} />
+      </div>
+      <div class="form-group">
+        <label for="last-name">Last Name</label>
+        <input
+          class="form-field"
+          type="text"
+          id="last-name"
+          name="last-name"
+          aria-describedby="last-name-example"
+        />
+        <FormDescription id={"last-name-example"} copy={"e.g. - Rudd"} />
+      </div>
+    </div>
+  </fieldset>
+
+  <fieldset>
+    <legend>Contact Information</legend>
+    <div class="form-row">
+      <div class="form-group">
+        <label for="phone-number">Phone Number</label>
+        <input
+          onkeydown="phoneNumberFormatter()"
+          class="form-field"
+          type="tel"
+          id="phone-number"
+          name="phone-number"
+          aria-describedby="phone-number-description"
+        />
+        <FormDescription
+          id={"phone-number-description"}
+          copy={"10 digits - this will format automatically, type numbers only"}
+        />
+      </div>
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input
+          class="form-field"
+          type="email"
+          id="email"
+          name="email"
+          aria-describedby="email-address"
+        />
+        <FormDescription id={"email-address"} copy={"e.g. - prudd@email.com"} />
+      </div>
+    </div>
+  </fieldset>
+
+  <fieldset>
+    <legend>Address</legend>
+    <div class="form-row">
+      <div class="form-group">
+        <label for="address">Street Address</label>
+        <input
+          autocomplete="off"
+          class="form-field"
+          required
+          type="text"
+          id="ship-address"
+          name="address"
+          aria-describedby="address-description"
+        />
+        <FormDescription
+          id={"address-description"}
+          copy={"e.g. - 5000 Ward Parkway.  Google Autocomplete will fill this in, but you can also edit this field if needed."}
+        />
+      </div>
+    </div>
+    <div class="form-row form-row--mixed">
+      <div class="form-group">
+        <label for="city">City</label>
+        <input class="form-field" type="text" id="locality" name="city" />
+      </div>
+      <div
+        class="form-group form-group--width-auto"
+        style="--field-width: 15ch;"
+      >
+        <label for="state">State</label>
+        <div class="form-field select">
+          <select id="state" name="state">
+            <option value=""></option>
+            <option value="MO">MO</option>
+            <option value="KS">KS</option>
+          </select>
+          <span class="focus"></span>
+        </div>
+      </div>
+      <div
+        class="form-group form-group--width-auto"
+        style="--field-width: 20ch;"
+      >
+        <label for="zip">Zip</label>
+        <input
+          class="form-field"
+          id="postcode"
+          name="zip"
+          type="text"
+          aria-describedby="zip-description"
+        />
+        <FormDescription
+          id={"zip-description"}
+          copy={"5 digits - numbers only"}
+        />
+      </div>
+    </div>
+  </fieldset>
+
+  <fieldset>
+    <legend>What's Your Project</legend>
+    <div class="form-group">
+      <label class="form-control radio">
+        <span class="form-control__input radio__input">
+          <input id="exterior-radio" type="radio" name="projectType" />
+          <span class="input__control"></span>
+        </span>
+        Full Exterior
+      </label>
+    </div>
+    <div class="form-group">
+      <label class="form-control radio">
+        <span class="form-control__input radio__input">
+          <input type="radio" name="projectType" />
+          <span class="input__control"></span>
+        </span>
+        Full Interior
+      </label>
+    </div>
+    <div class="form-group">
+      <label class="form-control radio">
+        <span class="form-control__input radio__input">
+          <input type="radio" name="projectType" />
+          <span class="input__control"></span>
+        </span>
+        Small Project - partial interior/exterior, touchups, etc
+      </label>
+    </div>
+    <div class="form-group">
+      <label class="form-control radio">
+        <span class="form-control__input radio__input">
+          <input type="radio" name="projectType" />
+          <span class="input__control"></span>
+        </span>
+        Staining - deck / fence / other
+      </label>
+    </div>
+    <div class="form-group">
+      <label class="form-control radio">
+        <span class="form-control__input radio__input">
+          <input type="radio" name="projectType" />
+          <span class="input__control"></span>
+        </span>
+        James Hardie Siding
+      </label>
+    </div>
+    <div class="form-group">
+      <label class="form-control radio">
+        <span class="form-control__input radio__input">
+          <input type="radio" name="projectType" />
+          <span class="input__control"></span>
+        </span>
+        Commercial
+      </label>
+    </div>
+  </fieldset>
+
+  <fieldset>
+    <legend>Additional Project Details</legend>
+    <div class="form-row">
+      <div class="form-group">
+        <label class="visually-hidden" for="message"
+          >Additional Project Details</label
+        >
+        <textarea class="form-field" name="message" id="message"></textarea>
+      </div>
+    </div>
+  </fieldset>
+
+  <div class="form-group">
+    <button type="submit" class="form-button">Submit</button>
+  </div>
+</form>
+
+<style lang="scss">
+  .form-button {
+    margin-top: var(--size-9);
+  }
+</style>

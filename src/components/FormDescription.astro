@@ -1,0 +1,16 @@
+---
+const { id, copy = "Example: " } = Astro.props;
+---
+
+<span id={id} class="field-description">{copy}</span>
+
+<style lang="scss">
+  .field-description {
+    display: block;
+    margin-top: var(--size-2);
+    margin-left: var(--size-2);
+    opacity: 0.75;
+    letter-spacing: 0.015em;
+    font-size: var(--font-size-0);
+  }
+</style>

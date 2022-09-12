@@ -1,28 +1,33 @@
 ---
 import Button from "./Button.astro";
-import { Image } from '@astrojs/image';
-import cedarShake from '../assets/cedarShake.jpg';
+import BreadCrumb from "./BreadCrumb.astro";
+import { Image } from '@astrojs/image/components';
+
+const { crumbList, heroUrl, bbb, h1 = "#1 Painters Kansas City", p = "Your Professional Painters In Kansas City With The Quality You Deserve At A Price You Can Afford.", heroButton=true } = Astro.props;
 ---
 
 <header class="">
   <div class="content-wrap grid-md">
-    <p class="txt-primary txt-bold">BBB A+ Rated with a 2-year Warranty</p>
-    <h1 class="h1 center leading-2">#1 Painters Kansas City</h1>
-    <p class="width-sm center mb-8">
-      Your Professional Painters In Kansas City With The Quality You Deserve
-      At A Price You Can Afford.
-    </p>
-    <Button text="Request A Free Service Estimate" link="#" style="primary" />
+    {
+    crumbList &&
+    <div class="breadcrumb">
+      <BreadCrumb {crumbList} />
+    </div>
+    }
+    {bbb && <p class="txt-primary txt-bold">BBB A+ Rated with a 2-year Warranty</p> }
+    <h1 class="h1 center leading-2">{h1}</h1>
+    {p && <p class="width-sm center mb-8">{p}</p>}
+    {heroButton &&<Button text="Request A Free Service Estimate" link="#" style="primary" />}
   </div>
   <!-- <img src="/cedar-shake.jpg" alt="" srcset=""> -->
-  <Image src={cedarShake} width={1200} />
+  <Image src={heroUrl} width={1200} />
 
 </header>
 
 
 <style lang="scss">
-  $height: 70vh;
-  $max-height: 1100px;
+  $height: 85vh;
+  $max-height: 800px;
 
   header {
     display: grid;
@@ -61,9 +66,8 @@ import cedarShake from '../assets/cedarShake.jpg';
       width: 100%;
     }
 
-    div > p:nth-child(3) {
+    div>p:nth-child(3) {
       font-weight: var(--font-weight-3);
     }
   }
-
 </style>

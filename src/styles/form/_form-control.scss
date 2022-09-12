@@ -1,0 +1,66 @@
+// style the radios
+.radio-wrap {
+  margin-block: var(--size-9);
+  padding-left: 2em;
+}
+
+.form-group {
+  .form-control {
+    display: inline-grid;
+    grid-template-columns: 1em 1fr;
+    gap: 0.5em;
+
+    input {
+      opacity: 0;
+      width: 1em;
+      height: 1em;
+
+      &:focus + .input__control {
+        box-shadow: 0 0 0 0.05em #fff, 0 0 0.15em 0.15em hsl(var(--brand-green));
+      }
+    }
+
+    &__input {
+      display: grid;
+      grid-template-areas: "input";
+      place-content: center;
+      font-size: 1em;
+
+      > * {
+        grid-area: input;
+      }
+    }
+
+    .input__control {
+      display: grid;
+      place-content: center;
+      width: 1em;
+      height: 1em;
+      border: 0.1em solid var(--gray-4);
+    }
+
+    &:focus-within {
+      color: hsl(var(--brand-green));
+    }
+  }
+}
+
+.radio {
+  .input__control {
+    border-radius: 50%;
+  }
+
+  .input__control::before {
+    content: "";
+    width: 0.5em;
+    height: 0.5em;
+    box-shadow: inset 1em 1em hsl(var(--brand-green));
+    border-radius: 50%;
+    transform: scale(0);
+    transition: 180ms transform ease-in-out;
+  }
+
+  input:checked + .input__control::before {
+    transform: scale(1);
+  }
+}

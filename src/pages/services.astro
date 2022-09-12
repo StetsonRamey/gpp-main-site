@@ -1,0 +1,98 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import Button from "../components/Button.astro";
+import { Image } from '@astrojs/image/components';
+import Hero from "../components/Hero.astro";
+import heroImg from "../assets/recents/exterior.jpg";
+import services from "../data/ServicePage/services.json";
+
+const crumbList = [
+  {
+    name: "Home",
+    link: "/"
+  },
+  {
+    name: "Our Services",
+    link: "/services/"
+  }
+]
+
+const p = "Great Plains Painting offers exceptional painting services in Kansas City and surrounding areas. We take great pride in quality painting services and excellent customer reviews. Click one of the links below to learn more about the painting services we offer."
+---
+
+<BaseLayout>
+  <Hero crumbList={crumbList} heroUrl={heroImg} h1={"Our Services"} p={p} />
+
+  <section class="services center">
+    <div class="service-grid">
+      {
+      services.map((service) => (
+      <div class="grid-item">
+        <div class="img-wrap">
+          <Image class="service-img round" src={import(`../assets/services/${service.src}.png`)} width={800} />
+        </div>
+        <h3 class="h3 service-title">{service.service}</h3>
+        <p class="service-copy">{service.copy}</p>
+        <div class="button-wrap">
+          <Button text={`learn more about ${service.service}`} link={service.link} style="primary" />
+        </div>
+      </div>
+      ))
+      }
+    </div>
+  </section>
+</BaseLayout>
+
+<style lang="scss">
+  .service-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(475px, 1fr));
+    gap: var(--size-fluid-5);
+    margin-block: var(--size-12);
+  }
+
+  .grid-item {
+    display: flex;
+    flex-direction: column;
+    gap: var(--size-3);
+    position: relative;
+  }
+
+  .img-wrap {
+    max-width: 250px;
+    max-height: 250px;
+    overflow: hidden;
+    flex: 0 0 250px;
+    margin-inline: auto;
+  }
+
+  .service-img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+  }
+
+  .service-copy {
+    margin-inline: var(--size-10);
+    padding-block: var(--size-4);
+  }
+
+  .button-wrap {
+    margin-inline: auto;
+  }
+
+  @media (min-width: 1000px) {
+    .services {
+      max-width: var(--max-l);
+      margin-inline: auto;
+    }
+
+    .service-copy {
+      margin-inline: var(--size-6);
+    }
+
+    .service-title {
+      font-size: var(--font-size-3);
+    }
+  }
+</style>

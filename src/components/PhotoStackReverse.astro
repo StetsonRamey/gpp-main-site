@@ -1,0 +1,78 @@
+---
+import Button from "./Button.astro"
+import { Image } from '@astrojs/image/components';
+import meetHouse from '../assets/meetHouse.jpg'
+import meetBrett from '../assets/meetBrett.jpg'
+
+const {
+  reverseTitle = "Our Experienced Team",
+  reversep = "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad voluptates rem suscipit quibusdam nobis assumenda tempora ex et cumque sed impedit illum, velit veniam cum reprehenderit, id officiis tempore eos? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad voluptates rem suscipit quibusdam nobis assumenda tempora ex et cumque sed impedit illum, velit veniam cum reprehenderit, id officiis tempore eos?",
+  reverseUnder = meetHouse,
+  reverseOver = meetBrett
+} = Astro.props;
+---
+
+<section class="mobile-section meet-team">
+  <div class="photo-stack">
+    <div class="img-wrap back">
+      <Image class="img radius-2 shadow-5" src={reverseUnder} width={1200} />
+    </div>
+    <div class="img-wrap front">
+      <Image class="img radius-2 shadow-5" src={reverseOver} width={1200} />
+    </div>
+  </div>
+  <div class="copy flow" style="--flow-space: 1.5rem">
+    <!-- <p class="small upper semi-bold muted">{}</p> -->
+    <h2 class="h2">{reverseTitle}</h2>
+    <!-- <p class="sub-h2 black">{reverseSubTitle}</p> -->
+    <p class="copy muted flow" set:html={reversep} />
+    <!-- <div class="button-wrap">
+      <Button text={buttonText} link="#" style="primary" />
+    </div> -->
+  </div>
+
+</section>
+
+
+<style lang="scss">
+  .button-wrap {
+    margin-block: var(--size-10);
+  }
+
+  .photo-stack {
+    display: grid;
+    max-height: 40rem;
+    grid-template-columns: repeat(4, minmax(50px, 1fr));
+    grid-template-rows: repeat(4, minmax(50px, 1fr));
+    padding-bottom: var(--size-8)
+  }
+
+  .img-wrap {
+
+    &.back {
+      grid-row: 1 / span 3;
+      grid-column: 1 / span 3;
+    }
+
+    &.front {
+      grid-row: 2 / span 4;
+      grid-column: 2 / span 4;
+    }
+  }
+
+  .img {
+    object-fit: cover;
+    max-height: 100%;
+    width: auto;
+
+  }
+
+  @media (min-width: 1000px) {
+    .meet-team {
+      max-width: var(--max-w);
+      padding-inline: var(--size-fluid-3);
+      grid-template-columns: repeat(auto-fill, minmax(min(500px, 100%), 1fr));
+      column-gap: var(--size-3);
+    }
+  }
+</style>

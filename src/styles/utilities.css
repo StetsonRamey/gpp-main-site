@@ -3,10 +3,20 @@
   margin-top: var(--flow-space, 1em);
 }
 
+.visually-hidden {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
 .container {
   width: 100%;
-  max-width: 1500px;
-  margin: auto;
+  max-width: var(--max-l);
+  margin-inline: auto;
 }
 
 .justify-center {

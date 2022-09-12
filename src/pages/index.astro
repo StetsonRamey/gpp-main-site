@@ -7,19 +7,46 @@ import LocalBanner from "../components/LocalBanner.astro";
 import Accordion from "../components/Accordion.astro";
 import Recents from "../components/Recents.astro";
 import WorkingWith from "../components/WorkingWith.astro";
+import { getImage } from "@astrojs/image";
+import heroImg from "../assets/cedarShake.jpg";
+
+const bbb = true;
+
+const accordionContent = [
+  {
+    title: "1. Detailed, written estimate, bid package, and itemized wood rot",
+    expand:
+      "We don't want to make assumptions and we strive to make what we're pricing and how we're painting your home as clear as possible. Each estimate we produce is custom, because each home and each customer's needs are different.  Our wood rot is itemized and photographed so you know exactly what you're getting. Our bid package contains all relevant documents; insurance certificate, warranty certificate, paint and sealant information, and our processes.  With us, you know exactly what you're going to get.",
+  },
+  {
+    title: "2. 2-Year, no-hassle warranty",
+    expand: "In our experience, if something we worked on is going to fail, it does so in the first year. Simply call us up and we'll return to your property promptly to address and correct the issue.",
+  },
+  {
+    title: "3. Fully Insured",
+    expand: "$2 million dollars aggregate general liability and $500,000 workers compensation. As a professional company, we believe protecting against the unforseen. Your property is covered and so are our Kansas City house painters. Our insurance certificate is included in your bid package.",
+  },
+  {
+    title: "4. Top Quality Materials",
+    expand: "We've used almost every brand and type of paint on the market and can offer our recommendations about what to use in what situation. We only use materials we know we can count on to perform and look great.",
+  },
+  {
+    title: "5. A Paint Job We'll Both Be Proud Of",
+    expand: "We want you to be happy with our work, bottom line. We strive to be clear about what we'll do, do what we say, and if we mess up correct the issue immediately.",
+  }
+];
 ---
 
 <BaseLayout title="Test">
   <!-- <div class="reference"></div> -->
-  <Hero />
+  <Hero heroUrl={heroImg} bbb={bbb} />
   <PhotoStack />
   <ServiceGrid />
   <LocalBanner />
-  <Accordion />
+  <Accordion title={"Why Trust Us to Paint Your Home?"} p={"we'll do it right or we'll make it right"} accordionContent={accordionContent} />
   <Recents />
   <WorkingWith />
 </BaseLayout>
-
 
 <style>
   /* this is for the reference image of the design */
@@ -32,6 +59,6 @@ import WorkingWith from "../components/WorkingWith.astro";
     background-size: contain;
     height: 1200px;
     width: 100vw;
-    opacity: .2;
+    opacity: 0.2;
   }
 </style>

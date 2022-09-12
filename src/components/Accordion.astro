@@ -1,37 +1,29 @@
 ---
-import { Icon } from 'astro-icon';
+import { Icon } from "astro-icon";
+
+const { title, p, accordionContent } = Astro.props;
 ---
 
 <div class="width-sm flow accordionContain center">
-  <h2>Why Trust Us to Paint Your Home?</h2>
-  <p class="caps">we'll do it right or we'll make it right</p>
+  <h2>{title}</h2>
+  {p && <p class="caps">{p}</p>}
   <div class="accordion flow" id="homeAccordion">
+    {accordionContent.map((content) => (
     <button class="accordion-btn shadow-2 radius-2">
       <Icon class="btn-icn" name="fe:check-circle" width={40} />
-      <div>1. Detailed, written estimate, bid package, and itemized wood rot</div>
+      <div>{content.title}</div>
     </button>
-    <p class="accordion-panel semi-muted radius-2">
-      We don't want to make assumptions and we strive to make what we're pricing and how we're painting your home as
-      clear as possible. Each estimate we produce is custom, because each home and each customer's needs are different.
-      Our wood rot is itemized and photographed so you know exactly what you're getting. Our bid package contains all
-      relevant documents; insurance certificate, warranty certificate, paint and sealant information, and our processes.
-      With us, you know exactly what you're going to get.
-    </p>
-    <button class="accordion-btn shadow-2 radius-2">
-      <Icon class="btn-icn" name="fe:check-circle" width={40} />
-      <div>2. 2-Year, no-hassle warranty</div>
-    </button>
-    <p class="accordion-panel semi-muted radius-2">
-      In our experience, if something we worked on is going to fail, it does so in the first year. Simply call us up and
-      we'll return to your property promptly to address and correct the issue.
-    </p>
+    <div class="flow accordion-panel semi-muted radius-2">
+      <p class="" set:html={content.expand}></p>
+    </div>
+    ))}
   </div>
 </div>
 
 <script>
-  import createAccordion from './accordion.js';
+  import createAccordion from "./accordion.js";
 
-  createAccordion('#homeAccordion', { firstExpanded: true, onePanelOnly: true });
+  createAccordion("#homeAccordion", { firstExpanded: true, onePanelOnly: true });
 </script>
 
 <style>
@@ -63,7 +55,7 @@ import { Icon } from 'astro-icon';
     color: hsl(var(--brand-dark));
   }
 
-  .accordion-btn>div {
+  .accordion-btn > div {
     pointer-events: none;
   }
 

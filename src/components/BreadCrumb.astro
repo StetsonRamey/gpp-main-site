@@ -1,0 +1,31 @@
+---
+import { Icon } from 'astro-icon';
+
+const { crumbList = [{ name: "Home", link: "/" }] } = Astro.props;
+---
+
+<div class="crumb-wrap">
+  {
+    crumbList.map((crumb, index) => (
+    <>
+    {index ? <Icon name="heroicons-solid:chevron-right" width={20} /> : ''}
+    <a href={crumb.link}>{crumb.name}</a>
+    </>
+    ))
+  }
+</div>
+
+
+<style lang="scss">
+  .crumb-wrap {
+    display: flex;
+    flex-direction: row;
+    gap: var(--size-1);
+
+    a {
+      color: white;
+      text-decoration: none;
+      cursor: pointer;
+    }
+  }
+</style>

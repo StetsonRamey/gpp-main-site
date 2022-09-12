@@ -1,0 +1,66 @@
+---
+layout: '../layouts/BlogPost.astro'
+title: "Exterior Painting Season - When You Can't Paint Outside"
+date: "2019-10-22"
+categories: 
+  - "house-painting"
+tags: 
+  - "exterior-painting"
+coverImage: "/blog/exterior-painting-season.jpg"
+---
+
+## What is exterior painting season in Kansas City?
+
+It's fall in Kansas City, and this time of year customers ask our team frequently if it's ok to paint outside. We've discussed this over the years with our paint reps, and have put together our thoughts on exterior painting season.
+
+## Painting Specs
+
+Let's start with the painting spec sheet for [Sherwin Williams](https://www.sherwin-williams.com/sherwinwilliams) SuperPaint. SuperPaint is the exterior product we use most here in Kansas City. The SuperPaint product data sheet states:
+
+> Do not apply when surface, material, or air temperatures are below 35° F.
+
+The spec doesn't list an upper bound application temperature for SuperPaint.
+
+## Discussions With Our Sherwin Williams Paint Rep
+
+Our paint reps recommendations line up with the spec. Don't apply paint at or below 35° F. He included one added recommendation. Make sure that new paint has 4 hours to cure up before outside temps reach freezing. After about 4 hours of cure time, if temps reach freezing the paint is un-affected.
+
+## Our Experience
+
+We generally don't do any painting below 40° F. Our painters don't enjoy painting around that temp. The equipment we use gets cold and operates different. In the late fall, we'd much rather be [inside painting](https://greatplainspaintingkc.com/interior-painting-kansas-city-mo/) than outside.
+
+[We paint outside](https://greatplainspaintingkc.com/exterior-painting-kansas-city/) all summer long. The heat presents its own challenges, which we'll discuss later, but we've never had an issue with it being too hot to paint.
+
+## What's Going on When It's Too Cold
+
+Paint cures through evaporation. There is water in paint, which helps keep it in liquid form for application. When we apply the paint to a surface, water evaporates and the paint cures. If temps reach freezing before the water has evaporated, the water freezes. This is noticeable immediately if it happens. The new paint cracks and flakes the next day if it freezes during curing.
+
+This is why our rep recommends a 4 hour cure time before temps reach freezing. At 4 hours, enough of the water evaporates so that freezing isn't an issue.
+
+Generally in late fall, temps won't begin to reach freezing until after midnight. We generally stop painting at between 4pm and 5pm in October and November. This allows adequate time for paint to cure.
+
+Keep in mind, we don't want paint we apply to freeze. You the customer will notice immediately and will be calling us to re-paint. So, we watch our temps in the fall.
+
+It depends on the kind of fall we're having, but on average we can paint exteriors until mid November. We start painting exteriors in February or March depending on the temps.
+
+## What's Going on When It's Hot Outside
+
+Painting in mid July presents a different set of challenges. In July, paint applied in the sun dries almost immediately depending on the surface. Homes are wood or wood-like materials, and the surface temps in summer aren't as hot as metal. We like to work with a "wet-edge" while painting. This means we apply more paint while the paint we applied is still wet, until we reach a natural break point.
+
+If the paint dries up and we can't keep the wet-edge, we have issues with flashing. Flashing is uneven appearance in the coatings gloss (sheen).
+
+When temps are hot, the issue is aesthetic and not so much structural. Meaning, when hot its more challenging to get a coating to look great. We don't have an issue with a coating failing if it's too hot.
+
+We mitigate this in a couple of ways. We paint large runs or siding sections in the cooler part of the day. We also chase the shade, to the extent we can, around the house. As the sun moves, we move and work on the shady side of the home.
+
+Modern exterior paints have additives to help application in the summer. So even when we're in a situation where there isn't any shade and temps are hot all day, we can apply a great looking coat.
+
+## To Summarize
+
+Our painting season starts in February or March and we paint outside until mid November. We don't do any painting below a temp of about 40° F. We make sure paint has at least 4 hours to cure before temps hit freezing.
+
+We paint all summer and have never had an issue with temps being too hot. We use a variety of strategies to achieve a great coating in the summer.
+
+We hope you've found this helpful. If you have questions or concerns, ask your estimator!
+
+Looking for an exterior painting professional in Kansas City?  [Contact Great Plains Painting](https://greatplainspaintingkc.com/contact/) now before the exterior painting season is over!

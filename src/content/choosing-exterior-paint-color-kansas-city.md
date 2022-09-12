@@ -1,0 +1,60 @@
+---
+layout: '../layouts/BlogPost.astro'
+title: "What Exterior Paint Color Should I Choose?"
+date: "2020-02-04"
+categories: 
+  - "house-painting"
+tags: 
+  - "exterior-painting"
+coverImage: "/blog/exterior-paint-colors.jpg"
+---
+
+Today, we have many options for exterior colors.  Choosing an exterior paint color can be a daunting task, mainly due to the number of colors available.  Sherwin Williams alone has hundreds of colors.  If you thought there was only one white, you are mistaken!  We try and lend a hand to help people painting make a choice that they will love, after all, you're likely to have that color for at least the next 5 to 10 years.  Here are some aspects of [exterior paint](https://greatplainspaintingkc.com/exterior-painting-kansas-city/) color choices to keep in mind as you decide.
+
+## Start With the Base
+
+We recommend you start with the base color.  Don't think of the trim just yet.  The base color will be the most in terms of raw square footage, so starting there and building off that makes sense.  The first thing to decide is do you want to go light, dark, or in-between?  Once you've thought of that, then think about if you like earth tones or want to make a statement and go for something that will stand out.  Try and get to a palette of 2 or 3 base colors for starters.  Once you have your base colors, then it's time to think trim.
+
+## Contrast
+
+If you've chosen a lighter base color palette, a modern trend is to use a dark color on the trim to add contrast.  Often times this trim color will be a coordinating color.  You can use a color in the same palette as your chosen base color, but 2 or 3 shades darker.  Some popular colors we've used are Sherwin Williams [Black Fox](https://www.sherwin-williams.com/homeowners/color/find-and-explore-colors/paint-colors-by-family/SW7020-black-fox#/7020/?s=coordinatingColors&p=PS0) or [Urbane Bronze](https://www.sherwin-williams.com/homeowners/color/find-and-explore-colors/paint-colors-by-family/SW7048-urbane-bronze#/7048/?s=coordinatingColors&p=PS0) are two we've used frequently.
+
+\[caption id="attachment\_5517" align="aligncenter" width="768"\]![Exterior House Paint Dark Trim](/blog/images/dark-trim.jpg) Paint scheme with light base color and dark trim color\[/caption\]
+
+ 
+
+If you've chosen a darker base color palette or are going for a more classic look, a lighter trim color than your base color is generally where you want to start.  White trim is and has been popular.  We typically recommend people use an off white instead of a stark white.  Colors like Sherwin Williams [Moderne White](https://www.sherwin-williams.com/homeowners/color/find-and-explore-colors/paint-colors-by-family/SW6168-moderne-white#/6168/?s=coordinatingColors&p=PS0) or [Origami White](https://www.sherwin-williams.com/homeowners/color/find-and-explore-colors/paint-colors-by-family/SW7636-origami-white#/7636/?s=coordinatingColors&p=PS0) are two we like.
+
+ 
+
+\[caption id="attachment\_5518" align="aligncenter" width="616"\]![Exterior classic color scheme](/blog/images/gray.jpg) Gray base color white trim color\[/caption\]
+
+ 
+
+A third option if you want to go for a more monochromatic look is to use a trim color in the same palette as your base color but one shade lighter or darker than the selected base color.  This has the effect of adding very subtle contrast, and for some homes that is exactly what makes them look great.
+
+## Accents
+
+Once you've selected a few base colors and have some complementing trim colors, then decide if you'd like to accent your choices.  Shutters, garage doors, and front doors are all able to add a third accent color.  Front doors can seriously go any color you'd like.  We've painted some wild front doors.  Normally, we see the front doors and, if chosen, the garage door goes a darker color.  Dark blues, blacks, or dark brown are popular choices.
+
+We almost always paint shutters black or dark blue, but depending on your color choices you may have other ideas.
+
+Do a little googling to find out what's popular for front door choices or ask our production manager for their opinion.  There's nothing wrong with painting your doors and shutters to match your trim color either, and often this looks nice.  If we're not doing an accent color on them, 90% of the time we paint garage doors to match the base color of the house.  Take note of what other people in your neighborhood are doing and decide if you want to blend in, or stand out.
+
+## Longevity
+
+Lastly, consider longevity.  Dark colors are gaining popularity in the last couple of years, and they do look great.  However, the darker the color the quicker it will fade.  Some of the darkest colors may only show their full color for 5 or 6 years before noticeable fading occurs.
+
+Problem colors are dark blues and dark greens.  The blue or green pigment does not hold up to the UV rays as well as the neutral color tints.  Yellow colors as well are very limited.  Sherwin Williams only makes 3 or 4 yellows for exterior purposes.
+
+Colors that seem to hold up to UV the best are light to medium tans and browns.  Grays, as long as they aren't too dark, is also a great choice and are very popular.
+
+If you have questions or doubts, ask our estimator or production team about your choices and our experience.  We'll be able to give you our advice and answer your questions.
+
+## Colors You'll Love
+
+Remember, there are many options for [exterior paint](https://greatplainspaintingkc.com/home-exterior-need-painted-kansas-city/) colors for your home.  Choosing some may seem daunting, but spend a few hours on the internet looking at what you like, narrow it down to a palette or 4 of 5 base colors and 2 or 3 trim colors and sleep on them for a couple of nights.
+
+We're happy to order up some sample paint and put some of the finalists on the house so you can see them live to better aid in deciding.  Keep an eye out as you drive around Kansas City.  When you see something you like take note of what that house is doing.  Dark trim lighter base?  Classic?  Once you have an idea of what you like the look of, it'll be easier to start picking some colors.
+
+Don't be afraid to get us involved.  We're here to help you find an exterior paint color you'll love. [Contact us](https://greatplainspaintingkc.com/contact/) today!

@@ -1,0 +1,53 @@
+legend {
+  font-weight: var(--font-weight-7);
+  font-size: var(--font-size-4);
+  margin-bottom: var(--size-3);
+}
+
+fieldset + fieldset {
+  margin-top: var(--size-7);
+}
+
+.form-row {
+
+  --field-col-width: 30ch;
+
+  display: grid;
+  gap: var(--size-7);
+  grid-template-columns: repeat(auto-fit, minmax(var(--field-col-width), 1fr));
+
+  .form-group {
+    margin: 0;
+  }
+
+  .form-field {
+    width: 100%;
+  }
+
+  & + .form-row {
+    margin-top: var(--size-7);
+  }
+
+  &--mixed {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+
+    .form-group {
+      flex: 1 1 var(--field-col-width);
+
+      &--width-auto {
+        flex: 0 1 auto;
+
+        .form-field, .form-control {
+          max-width: var(--field-width, 0);
+        }
+
+        & .select {
+          width: var(--field-width);
+        }
+      }
+    }
+  }
+
+}

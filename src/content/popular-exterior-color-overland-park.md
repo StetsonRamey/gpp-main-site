@@ -1,0 +1,118 @@
+---
+layout: '../layouts/BlogPost.astro'
+title: "Popular Exterior Paint Colors in Overland Park"
+date: "2020-06-19"
+categories: 
+  - "house-painting"
+coverImage: "/blog/exterior-paint-color.jpg"
+---
+
+One of the most common questions we receive when a potential customer calls us is
+
+> what colors are popular right now?
+
+This post lays out what we've seen as consistently popular exterior paint colors in Overland Park in the last 3 years of painting houses, and what's heating up this year.
+
+Heat Scale: 🔥 - consistently hot 🔥🔥 - on the rise 🔥🔥🔥 - really popular right now
+
+## Consistently Popular
+
+### The Grays 🔥
+
+Gray homes have been consistently popular over the last 3 years. The gray / white / black accent combo is a classic look for a home. Gray is also a great choice because it's very neutral and therefore goes well with about everything (red brick, different color roof shingles, etc...). If you want to class your house up, but think you might move within 3 to 5 years, you can't go wrong with a neutral gray.
+
+You do need to be careful with a gray. Almost everyone wants to go with a true gray, but many end up skewing blue. Grays skew 2 ways:
+
+1. cool grays - these tend to be blue, and in fact, some don't even look gray, they look blue
+2. warm grays - these tend to skew brown, but can also skew green-ish
+
+There are only a few grays which we classify as a "true" gray color, and these have been our most popular:
+
+[Sherwin Williams - Cityscape](https://www.sherwin-williams.com/homeowners/color/find-and-explore-colors/paint-colors-by-family/SW7067-cityscape)
+
+[Sherwin Williams - Software](https://www.sherwin-williams.com/homeowners/color/find-and-explore-colors/paint-colors-by-family/SW7074-software)
+
+[Sherwin Williams - Tin Lizzie](https://www.sherwin-williams.com/homeowners/color/find-and-explore-colors/paint-colors-by-family/SW9163-tin-lizzie)
+
+_Our advice: have us put a test sample up on your house and observe it at different times of the day. Make sure it doesn't skew cool or warm if that's not what you're after. Everybody has a different eye for color, and it's your home so your eye is the one that is most important_
+
+### The Tans 🔥
+
+I'd say the biggest advantage of earth tones is their longevity. UV rays don't seem to fade the lighter earth tones as quickly as darker blues and greens. If your style is to blend your home into your surrounding landscaping, these are also a great choice.
+
+[Sherwin Williams - Accessible Beige](https://www.sherwin-williams.com/homeowners/color/find-and-explore-colors/paint-colors-by-family/SW7036-accessible-beige)
+
+[Sherwin Williams - Requisite Gray](https://www.sherwin-williams.com/homeowners/color/find-and-explore-colors/paint-colors-by-family/SW7023-requisite-gray)
+
+[Sherwin Williams - Amazing Gray](https://www.sherwin-williams.com/homeowners/color/find-and-explore-colors/paint-colors-by-family/SW7044-amazing-gray)
+
+## On the rise in popularity
+
+### The Greens 🔥🔥 to 🔥🔥🔥
+
+Greens have come on strong in 2019 and are looking to continue this year. They offer a lot of flexibility if you'd like to do something a little more flashy than white for your trim, but also look fantastic with a bright white or off white trim color. They are still fairly neutral, so they go nicely with a wide variety of landscaping materials and roof colors. Some of the more popular the last couple years are:
+
+[Sherwin Williams - Clary Sage](https://www.sherwin-williams.com/homeowners/color/find-and-explore-colors/paint-colors-by-family/SW6178-clary-sage)
+
+[Sherwin Williams - Privilege Green](https://www.sherwin-williams.com/homeowners/color/find-and-explore-colors/paint-colors-by-family/SW6193-privilege-green)
+
+### The Bright Blues 🔥🔥
+
+These are rarer, but if you have the right shape of house they can look really sharp. They will not be for everyone, and we've seen them more prevalently in the western United States where the style of home skews more Spanish Mission.
+
+[Sherwin Williams - Secure Blue](https://www.sherwin-williams.com/homeowners/color/find-and-explore-colors/paint-colors-by-family/SW6530-revel-blue)
+
+[Sherwin Williams - Lakeshore](https://www.sherwin-williams.com/homeowners/color/find-and-explore-colors/paint-colors-by-family/SW6494-lakeshore)
+
+## Hot right now
+
+### The White House w/ Black Trim 🔥🔥🔥
+
+We've got to say, we're **BIG** fans of this look. However, we do offer a word of caution on the whites. Not all whites are created equal. Hide is of great consideration when we're dealing with whites. By hide, we mean the ability of the white to cover the color(s) it's painted over. Some whites flat out do not cover well. If the color to cover is dark, certain whites will require 3 solid coats to cover sufficiently. This adds to material cost, and considerably to labor costs.
+
+In our experience, there are a couple of whites that perform very well and will achieve the look you're going for.
+
+- _modern off-white - we see a lot of the new remodels or new construction in KC going this color or one similar_ [Sherwin Williams - Moderne White](https://www.sherwin-williams.com/homeowners/color/find-and-explore-colors/paint-colors-by-family/SW6168-moderne-white)
+- _bright - pure white_ [Sherwin Williams - Snowbound](https://www.sherwin-williams.com/homeowners/color/find-and-explore-colors/paint-colors-by-family/SW7004-snowbound)
+- _cool, subtle neutral off white_ [Sherwin Williams - Origami White](https://www.sherwin-williams.com/homeowners/color/find-and-explore-colors/paint-colors-by-family/SW7636-origami-white)
+
+For the trim, we're almost always going with [Sherwin Williams - Tricorn Black](https://www.sherwin-williams.com/homeowners/color/find-and-explore-colors/paint-colors-by-family/SW6258-tricorn-black).
+
+### Light Base Color w/ Dark Trim 🔥🔥
+
+This combination has gained popularity over the last 5 or so years and it's a great way to add a modern look to your home. As top rated [painters in Overland Park](https://kansascity.bloggerlocal.com/reviews/overland-park/painters), our recommendation is to start with the trim color and once you have that dialed in, pick a base color that is 1 or 2 shades lighter on the same color strip. These will be coordinating colors, so they'll complement each other. Whether you move up 1 or 2 shades will depend on how much contrast you want. If you're looking for a subtle contrast, moving up 1 shade lighter will achieve that.
+
+My personal favorite combo from the last 5 years has been:
+
+Base Color --> [Sherwin Williams - Mocha](https://www.sherwin-williams.com/homeowners/color/find-and-explore-colors/paint-colors-by-family/SW6067-mocha)
+
+Trim Color --> [Sherwin Williams - French Roast](https://www.sherwin-williams.com/homeowners/color/find-and-explore-colors/paint-colors-by-family/SW6069-french-roast)
+
+## Excellent Accents
+
+Now that we've got some of the popular main colors identified, let's talk about trim and accents.
+
+### Trim
+
+- White --> [Snowbound](https://www.sherwin-williams.com/homeowners/color/find-and-explore-colors/paint-colors-by-family/SW7004-snowbound)
+- Dark --> [Urbane Bronze](https://www.sherwin-williams.com/homeowners/color/find-and-explore-colors/paint-colors-by-family/SW7048-urbane-bronze)
+    - _urbane is a versatile color that surprisingly goes great with many other colors. it's long been one of our favorites_
+
+### Doors / Shutters
+
+- Black -- [Sherwin Williams - Tricorn Black](https://www.sherwin-williams.com/homeowners/color/find-and-explore-colors/paint-colors-by-family/SW6258-tricorn-black)
+- Blue -- [Sherwin Williams - In the Navy](https://www.sherwin-williams.com/homeowners/color/find-and-explore-colors/paint-colors-by-family/SW9178-in-the-navy)
+- Dark Brown -- [Sherwin Williams - Black Fox](https://www.sherwin-williams.com/homeowners/color/find-and-explore-colors/paint-colors-by-family/SW7020-black-fox)
+- Hunter Green -- [Sherwin Williams - Hunt Club](https://www.sherwin-williams.com/homeowners/color/find-and-explore-colors/paint-colors-by-family/SW6468-hunt-club)
+- Red -- [Sherwin Williams - Show Stopper](https://www.sherwin-williams.com/homeowners/color/find-and-explore-colors/paint-colors-by-family/SW7588-show-stopper)
+- Seafoam -- [Sherwin Williams - Breaktime](https://www.sherwin-williams.com/homeowners/color/find-and-explore-colors/paint-colors-by-family/SW6463-breaktime)
+
+* * *
+
+As we use primarily Sherwin Williams paints, we've compiled this list from Sherwin colors. However, all major paint manufacturers have similar exterior paint colors and [we are able to paint your house](https://greatplainspaintingkc.com/exterior-painting-kansas-city/) with whatever product you'd like. All color formulas are shared between the major paint producers (Behr, Sherwin, Benjamin Moore), so if you have a color from Behr but want the paint to be Sherwin, we can do that.
+
+This is by no means an exhaustive list. We intentionally kept it short for simplicity. We do our best to provide you with resources and tools so that you can [get the color you love on your home](https://greatplainspaintingkc.com/choosing-exterior-paint-color-kansas-city/). Talk to your estimator about colors. Get started early and get some test samples on your home so you can look at them for at least a few days or a week. One mistake we see people making is waiting to think about exterior paint colors until the week we paint their house. This rushes you in your decision a bit, and while we generally work things out just fine, we feel better if you've had a little time to settle on a decision.
+
+Good luck! We're excited to see what exterior paint colors you choose.
+
+_Don’t be afraid to get us involved.  We’re here to help you find an exterior paint color you’ll love. [Contact us](https://greatplainspaintingkc.com/contact/) today!_

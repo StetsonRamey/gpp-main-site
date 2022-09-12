@@ -1,7 +1,7 @@
 ---
-import Button from './Button.astro';
-import { Image } from '@astrojs/image';
-import theTeam from '../assets/theTeam.jpg';
+import Button from "./Button.astro";
+import { Image } from "@astrojs/image/components";
+import theTeam from "../assets/theTeam.jpg";
 ---
 
 <section class="easy">
@@ -15,38 +15,32 @@ import theTeam from '../assets/theTeam.jpg';
           <p class="step-pill upper">step 1</p>
           <p class="step-title">Get a Free Estimate Now</p>
           <p class="step-copy">
-            Call now or <a href="#">complete our contact form</a> and we will call you ASAP to learn
-            more about your project and schedule an in person estimate.
+            Call now or <a href="#">complete our contact form</a> and we will call you ASAP to learn more about your project
+            and schedule an in person estimate.
           </p>
         </div>
         <div class="step">
           <p class="step-pill upper">step 2</p>
           <p class="step-title">In-Person Consultation and Written Estimate</p>
           <p class="step-copy">
-            We ask a lot of questions and walk the house with you so that we know exactly how to
-            customize your project for your needs. We write up and deliver you a bid package on the spot. No "we'll
-            email
-            you a bid" from us.
+            We ask a lot of questions and walk the house with you so that we know exactly how to customize your project
+            for your needs. We write up and deliver you a bid package on the spot. No "we'll email you a bid" from us.
           </p>
         </div>
         <div class="step">
           <p class="step-pill upper">step 3</p>
           <p class="step-title">Save Us Time, We'll Save You Money</p>
           <p class="step-copy">
-            We can save you money 2 ways (both are optional): 1. Take our next available schedule spot
-            and save 5% 2. Schedule with your estimator the day we provide you the estimate and save 5%
+            We can save you money 2 ways (both are optional): 1. Take our next available schedule spot and save 5% 2.
+            Schedule with your estimator the day we provide you the estimate and save 5%
           </p>
         </div>
         <div class="step">
           <p class="step-pill upper">step 4</p>
           <p class="step-title">Schedule the Project and Complete the Work</p>
           <p class="step-copy">
-            The week after you schedule, you'll start receiving communication from us with updates on your schedule,
-            getting your final colors, coordinating with other work you're doing, etc... Your Production Manager will
-            call
-            you the day before we start to finalize any last details. If you have any questions or concerns during your
-            project, talk to your foreman, call our office, or call your Production Manager and we'll handle it. Our aim
-            is to keep you in the loop from start to finish, and be easy to reach if you need us.
+            The week after you schedule, you'll start receiving communication from us with updates on your schedule, getting your final colors, coordinating with other work you're doing, etc... Your Production Manager will call you the day before we start to finalize any last details. If you have any questions or concerns during your project, talk to your foreman, call our office, or call your Production Manager and we'll handle it.
+            Our aim is to keep you in the loop from start to finish, and be easy to reach if you need us.
           </p>
         </div>
         <div class="step">
@@ -74,8 +68,7 @@ import theTeam from '../assets/theTeam.jpg';
     // grid-template-areas: "easy";
     color: hsl(var(--white));
     place-items: center;
-    background: hsl(0deg 0% 0% / .55) 0%;
-
+    background: hsl(0deg 0% 0% / 0.55) 0%;
 
     .easyBg {
       z-index: -1;
@@ -148,7 +141,6 @@ import theTeam from '../assets/theTeam.jpg';
   }
 
   @media (min-width: 1000px) {
-
     .title {
       max-width: 80ch;
     }

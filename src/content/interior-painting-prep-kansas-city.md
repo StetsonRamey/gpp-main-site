@@ -1,0 +1,71 @@
+---
+layout: '../layouts/BlogPost.astro'
+title: "Prep for Interior Painting"
+date: "2020-02-27"
+categories: 
+  - "interior-painting"
+tags: 
+  - "interior-painting"
+coverImage: "/blog/interior-project-prep.jpg"
+---
+
+We've been talking a lot lately about interior prep before painting.  We're thinking about what we can do to make the process more efficient and less intrusive to homeowners.
+
+[Interior projects](https://greatplainspaintingkc.com/interior-painting-kansas-city/), depending on what we're painting, are complex in nature.  The actual application of paint to surfaces is only a small piece.  The [preparation to protect a home's belongings](https://greatplainspaintingkc.com/how-to-prepare-before-we-paint-your-house-kansas-city/) make up a great deal of the project.  Let's take a look at what we do to get an interior ready to paint.
+
+## What's Being Painted
+
+The prep required depends on what is being painted.  As a simplification, we can break the required prep into three levels:
+
+### Level 1
+
+Level 1 is easy.  Level 1 prep would be if we are painting the walls only in the house.  It could also be we are painting the walls and brush coating some trim.
+
+Interior painting prep in this level consists of:
+
+- move furniture and items 2 to 4 feet away from walls to allow access for painting
+- mask off all trim.  We use 1.5" blue or green tape on top of the base.  1" tape on door and window casings.  Sometimes we also use 9" paper to cover the base.  Masking protects the trim from drips and the tape yields a sharp cut line.
+- remove switch and outlet covers and tape switches and outlets
+- floor coverage - usually drop cloths, but sometimes red rosin paper
+
+This is all done so that your home is still livable.  The tape and paper are easy to live with for a few days.  The drop cloths come up at the end of each day.  If you need access to a switch, you peel the tape back and you've got it.
+
+### Level 2
+
+Level 2 prep would be if we're painting walls and ceilings.  Painting the ceilings is generally best done via an airless sprayer.  In some cases, where we're only doing one ceiling and it's not tall, we can use a roller.  When we're painting ceilings though we're spraying them.
+
+Prep in the level looks like:
+
+- all prep in level 1
+- group all furniture in one location and cover it with plastic.  We need rooms where we're spraying ceilings to be as empty as possible to allow for movement as we spray.
+- once we spray clear areas and paint settles, move furniture, re-cover, and spray ceiling where furniture was grouped.
+- in kitchens, we cover counters and the sink making the kitchen hard to use.
+- floors are often or at least covered with red rosin paper.
+
+Level 2 prep makes the house less livable.  You'll likely need to prepare to eat a few meals out as your kitchen may not be usable.  We can try and stage painting so that one room is livable, but all other rooms/furniture is covered in plastic for protection and un-usable.
+
+### Level 3
+
+Level 3 is when we are painting everything - walls, ceilings, and trim.  Level 3 prep turns your home into a full blow construction zone.  In level 3, we are using airless spray equipment often.  Everything in the home that we're not painting we must protect.  Countertops, faucets, toilets, furniture, beds, etc...
+
+Prep at this level:
+
+- all prep in level 2
+- all floors covered for protection
+- if painting cabinets, all cabinets are empty and taken apart
+- doors we're painting we remove and staged in the garage
+- we move all furniture to the garage or grouped as best as possible out of the way and covered
+
+We mummify your house and everything in it because we can't risk getting any paint or dust on anything.  Oftentimes customers will stay with family or friends for a few days during this process.  While we're spraying enamel on the trim and the ceilings, fumes can be high.  We wear respirators for protection, so you definitely don't want to be around during this phase.
+
+After we have the ceilings and trim finished, we can make the house more livable and customers can generally return while we paint the walls.
+
+## Project Completion
+
+When we finish we un-mummify your home and help put things back generally where they came from.  We clean up and make our final touchups.
+
+We clean up as best we can with the equipment we have.  However, most people have a professional cleaning company come in for a few hours or half-day a day or two after we're done and get their home well cleaned.  A full-on construction project generates dust, especially if we're doing any drywall or patchwork.  While we're working, the dust tends to stay airborne, and after we leave it settles.
+
+Prep and cleanup are always major portions of the scope of work of interior painting.  Sometimes it seems like we spend more time protecting your home and breaking all the protection down than we do the painting.  But it is necessary and an important part of a good project.  This gives you an idea of what to expect depending on what you want to have painted inside your home, and how to prepare.
+
+If you're ready to start your interior painting project, Great Plains can help! [Contact us today](https://greatplainspaintingkc.com/contact/) for a free estimate.

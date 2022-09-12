@@ -1,0 +1,99 @@
+---
+export function getStaticPaths() {
+  import services from "../data/serviceData/services.json";
+  return services.map((stuff) => {
+    return {
+      params: { service: stuff.slug },
+      props: { stuff },
+    };
+  });
+}
+
+import BaseLayout from "../layouts/BaseLayout.astro";
+import ServiceHero from "../components/Services/ServiceHero.astro";
+import Stack from "../components/Services/Stack.astro";
+import LocalBanner from "../components/LocalBanner.astro";
+import ReverseStack from "../components/Services/ReverseStack.astro";
+import Committed from "../components/Services/Committed.astro";
+import Accordion from "../components/Accordion.astro";
+
+const { service } = Astro.params;
+const { stuff } = Astro.props;
+---
+
+<BaseLayout>
+  <ServiceHero
+    crumbList={stuff.crumbList}
+    heroPosition={stuff.position}
+    heroUrl={stuff.heroUrl}
+    h1={stuff.heroTitle}
+    p={stuff.p}
+  />
+  <section class="heading">
+    <p class="up muted">Great Plains Painting</p>
+    <h2>{stuff.topSectionTitle}</h2>
+    <p>{stuff.topSectionCopy}</p>
+  </section>
+  <section class="benefits">
+    <Stack
+      superTitle={stuff.section2.upperTitle}
+      h2={stuff.section2.title}
+      subTitle={stuff.section2.subTitle}
+      list={stuff.section2.list}
+      under={stuff.section2.underPhoto}
+      over={stuff.section2.topPhoto}
+    />
+  </section>
+  <section class="banner">
+    <LocalBanner
+      localSuper={stuff.aboutBanner.super}
+      localh2={stuff.aboutBanner.title}
+      localp={stuff.aboutBanner.copy}
+      localButton={stuff.aboutBanner.button}
+      buttonLink={stuff.aboutBanner.link}
+    />
+  </section>
+  <ReverseStack
+    superTitle={stuff.section3.upperTitle}
+    h2={stuff.section3.Title}
+    under={stuff.section3.underPhoto}
+    over={stuff.section3.topPhoto}
+    copy={stuff.section3.copy}
+  />
+  <section class="committed">
+    <Committed copy={stuff.committed.copy} />
+  </section>
+  <section class="accordion">
+    <Accordion title={"Frequently Asked Questions"} accordionContent={stuff.accordion} />
+  </section>
+</BaseLayout>
+
+<style lang="scss">
+  .heading {
+    margin-block: var(--size-10);
+    text-align: center;
+    padding-inline: var(--size-6);
+    max-width: var(--max-l);
+    margin-inline: auto;
+    .up {
+      text-transform: uppercase;
+    }
+
+    h2 {
+      margin-bottom: var(--size-7);
+    }
+  }
+
+  .committed {
+    margin-block: var(--size-10);
+    max-width: 80ch;
+    padding-inline: var(--size-6);
+    margin-inline: auto;
+  }
+
+  @media (min-width: 1000px) {
+    .committed {
+      margin-top: 0;
+    }
+  }
+</style>

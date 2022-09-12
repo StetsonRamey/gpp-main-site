@@ -1,0 +1,37 @@
+---
+layout: '../layouts/BlogPost.astro'
+title: "2021 Exterior Paint Color Predictions - Overland Park"
+date: "2021-01-07"
+categories: 
+  - "house-painting"
+  - "paint-colors"
+tags: 
+  - "exterior-painting"
+coverImage: "/blog/paint-color-trends-2021.jpg"
+---
+
+Well, on to a new year. Soon we'll gearing up our exterior painting season and we're excited to see what colors will be popular this year. We [wrote about colors](https://greatplainspaintingkc.com/popular-exterior-color-overland-park/) last year, and if you're interested in the specific colors, check out that post. We have a few bold predictions about what we'll see this year in Overland Park and Kansas City for exterior painting.
+
+## All white or white w/ black trim
+
+This exterior paint combination is exceedingly popular over the last couple years. We painted several houses all white last year, and saw many homes around Overland Park going white as well.
+
+Our prediction is that all white continues to be a popular paint color in 2021. It seems like to us more people are going an all white look (white base with white trim) or a very small amount of black accent (black front door or black shutters only). We see less of all black trim that we did as white first began to become a popular exterior color.
+
+## Subdued Nuetrals
+
+The earth tone grays & tans are a staple and have been for the last 5 or so years. We predict we'll continue to paint many houses gray or greige. What we expect to change a little in '21 is that we won't paint as many houses dark grays. The darker grays, while popular in 2017-2018 seem to be losing popularity as an exterior paint color in Overland Park over the last couple years.
+
+## Dark Blues
+
+Dark blue colors were an exteremly popular choice in 2019, but we didn't paint as many dark blues in 2020. We imaging that this trend will continue in 2021 as more people opt for lighter colors or go white all together.
+
+## Greens
+
+This year we think the greens are going to be ever-more popular as an exterior paint color around Overland Park and Kansas City. [Sherwin Williams Clary Sage](https://www.sherwin-williams.com/homeowners/color/find-and-explore-colors/paint-colors-by-family/SW6178-clary-sage) and [Sherwin Williams Privilege Green](https://www.sherwin-williams.com/homeowners/color/find-and-explore-colors/paint-colors-by-family/SW6193-privilege-green) and similar greens are becoming a hot paint color. We can see why! They look great on many home styles, as long as the tone isn't too dark they hold up well to fading, and they cover well.
+
+* * *
+
+Whatever paint color you choose in 2021, don't be afraid to get us involved and ask our opinions on durability, hide, and popularity. We're happy to help as much as possible to get you a color you'll love.
+
+If you're getting your home painted this year, our estimate process is easy and detailed. [Contact us](https://greatplainspaintingkc.com/contact/) today to schedule an estimate!

@@ -1,0 +1,91 @@
+---
+import { Image } from '@astrojs/image/components';
+import team from '../assets/theTeam.jpg'
+import Button from '../components/Button.astro';
+
+const {
+  localSuper = "About us",
+  h3,
+  copy,
+  localButton = "Schedule Your Free Estimate",
+  bg = team,
+  button = true,
+  buttonLink = "/contact-us/"
+} = Astro.props;
+---
+
+<section class="section-3">
+  <div class="content-wrap center flow">
+    {localSuper && <p class="upper">{localSuper}</p>}
+    <h3 class="">{h3}</h3>
+    <Fragment class="copy" style="--flow-space: 2rem" set:html={copy} />
+    <div class="btn-wrap" style="--flow-space: 3rem">
+      {button && <Button text={localButton} link={buttonLink} style="primary" />}
+    </div>
+  </div>
+  <Image src={bg} width={1800} />
+</section>
+
+
+<style lang="scss">
+  $height: 75vh;
+  $max-height: 1000px;
+
+  .content-wrap {
+    max-width: 70ch;
+    padding-inline: var(--size-2);
+    padding-block: var(--size-10);
+  }
+
+  .section-3 {
+    display: grid;
+    max-height: min-content;
+    position: relative;
+    grid-template-areas: "hero";
+    color: hsl(var(--white));
+
+    h3 {
+      color: var(--white);
+      margin-bottom: var(--size-8);
+    }
+
+    >* {
+      grid-area: hero;
+    }
+
+    // height: $height;
+    // max-height: $max-height;
+    place-items: center;
+    background: linear-gradient(180deg,
+      hsl(0deg 0% 0% / .7) 0%,
+      hsl(0deg 0% 0% / .7) 16%,
+      hsl(0deg 0% 0% / .7) 24%,
+      hsl(0deg 0% 0% / .6) 30%,
+      hsl(0deg 0% 0% / .6) 35%,
+      hsl(0deg 0% 0% / .6) 40%,
+      hsl(0deg 0% 0% / .6) 45%,
+      hsl(0deg 0% 0% / .6) 50%,
+      hsl(0deg 0% 0% / .6) 55%,
+      hsl(0deg 0% 0% / .6) 60%,
+      hsl(0deg 0% 0% / .6) 65%,
+      hsl(0deg 0% 0% / .6) 70%,
+      hsl(0deg 0% 0% / .6) 76%,
+      hsl(0deg 0% 0% / .6) 84%,
+      hsl(0deg 0% 0% / .6) 100%);
+
+    img {
+      position: absolute;
+      z-index: -1;
+      object-fit: cover;
+      object-position: top;
+      overflow: hidden;
+      max-height: 100%;
+      width: 100%;
+    }
+
+    .btn-wrap {
+      display: flex;
+      justify-content: center;
+    }
+  }
+</style>

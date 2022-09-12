@@ -1,0 +1,15 @@
+.form-group {
+  & + .form-group {
+    margin-top: 1.5em;
+  }
+
+  label {
+    display: block;
+    font-weight: var(--font-weight-5);
+    line-height: var(--font-lineheight-0);
+  }
+
+  & .form-field {
+    margin-top: var(--size-2);
+  }
+}

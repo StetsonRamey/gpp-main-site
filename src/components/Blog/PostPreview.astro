@@ -1,0 +1,67 @@
+---
+import { format } from "date-fns";
+
+const { post, url } = Astro.props;
+---
+
+<div class="post-preview radius-2">
+  <a href={`/${url}/`} title={post.title}>
+    <div class="date-wrap">
+      <div class="post-preview__date">
+        <span class="post-preview__day">{format(post.publishDate, "d")}</span>
+        <span class="post-preview__month_n_year">{format(post.publishDate, "MMM yyyy")}</span>
+      </div>
+    </div>
+    <div class="content-wrap">
+      <h4 class="post-title">
+        {post.title}
+      </h4>
+    </div>
+  </a>
+</div>
+
+<style lang="scss">
+  .post-preview {
+    display: flex;
+    padding: var(--size-2);
+  }
+
+  .post-preview:hover {
+    background-color: var(--gray-1);
+    box-shadow: var(--shadow-2);
+  }
+
+  .post-preview__date {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    text-align: center;
+    align-content: flex-start;
+  }
+
+  .post-preview__day {
+    font-size: var(--font-size-fluid-1);
+    font-weight: var(--font-weight-6);
+    color: var(--gray-6);
+  }
+
+  .post-preview__month_n_year {
+    font-size: var(--font-size-1);
+    color: var(--gray-6);
+  }
+
+  a {
+    display: flex;
+    gap: var(--size-8);
+    flex: 1 1 0;
+    text-decoration: none;
+  }
+
+  .content-wrap {
+    h4 {
+      padding-top: var(--size-3);
+      font-size: var(--font-size-1);
+      color: hsl(var(--brand-green));
+    }
+  }
+</style>

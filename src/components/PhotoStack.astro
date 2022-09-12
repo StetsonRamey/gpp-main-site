@@ -1,35 +1,39 @@
 ---
-import Button from "./Button.astro"
-import { Image } from '@astrojs/image';
-import meetHouse from '../assets/meetHouse.jpg'
-import meetBrett from '../assets/meetBrett.jpg'
+import Button from "./Button.astro";
+import { Image } from "@astrojs/image/components";
+import meetHouse from "../assets/meetHouse.jpg";
+import meetBrett from "../assets/meetBrett.jpg";
+
+const {
+  superTitle = "Our Experienced Team",
+  h2 = "Meet the Most Trusted Kansas City Painters",
+  subTitle = "Award-Winning Interior and Exterior Painting Servce Creates Lots of Happy Customers",
+  p = "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad voluptates rem suscipit quibusdam nobis assumenda tempora ex et cumque sed impedit illum, velit veniam cum reprehenderit, id officiis tempore eos? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad voluptates rem suscipit quibusdam nobis assumenda tempora ex et cumque sed impedit illum, velit veniam cum reprehenderit, id officiis tempore eos?",
+  buttonText = "Meet the Team",
+  under = meetHouse,
+  over = meetBrett,
+} = Astro.props;
 ---
 
-<secton class="mobile-section meet-team">
+<section class="mobile-section meet-team">
   <div class="copy flow" style="--flow-space: 1.5rem">
-    <p class="small upper semi-bold muted">our experienced team</p>
-    <h2 class="h2">Meet the Most Trusted Kansas City Painters</h2>
-    <p class="sub-h2 black">Award-Winning Interior and Exterior Painting Service Creates Lots of Happy Customers</p>
-    <p class="copy muted">
-      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad voluptates rem suscipit quibusdam
-      nobis assumenda tempora ex et cumque sed impedit illum, velit veniam cum reprehenderit, id officiis tempore eos?
-      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad voluptates rem suscipit quibusdam
-      nobis assumenda tempora ex et cumque sed impedit illum, velit veniam cum reprehenderit, id officiis tempore eos?
-    </p>
+    <p class="small upper semi-bold muted">{superTitle}</p>
+    <h2 class="h2">{h2}</h2>
+    <p class="sub-h2 black">{subTitle}</p>
+    <p class="copy muted flow" set:html={p}></p>
     <div class="button-wrap">
-      <Button text="Meet the Team" link="#" style="primary" />
+      <Button text={buttonText} link="#" style="primary" />
     </div>
   </div>
   <div class="photo-stack">
     <div class="img-wrap back">
-      <Image class="img radius-2 shadow-5" src={meetHouse} width={1200} />
+      <Image class="img radius-2 shadow-5" src={under} width={1200} />
     </div>
     <div class="img-wrap front">
-      <Image class="img radius-2 shadow-5" src={meetBrett} width={1200} />
+      <Image class="img radius-2 shadow-5" src={over} width={1200} />
     </div>
   </div>
-</secton>
-
+</section>
 
 <style lang="scss">
   .button-wrap {
@@ -41,11 +45,10 @@ import meetBrett from '../assets/meetBrett.jpg'
     max-height: 40rem;
     grid-template-columns: repeat(4, minmax(50px, 1fr));
     grid-template-rows: repeat(4, minmax(50px, 1fr));
-    padding-bottom: var(--size-8)
+    padding-bottom: var(--size-8);
   }
 
   .img-wrap {
-
     &.back {
       grid-row: 1 / span 3;
       grid-column: 1 / span 3;
@@ -61,7 +64,6 @@ import meetBrett from '../assets/meetBrett.jpg'
     object-fit: cover;
     max-height: 100%;
     width: auto;
-
   }
 
   @media (min-width: 1000px) {

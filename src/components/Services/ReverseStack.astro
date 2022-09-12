@@ -1,0 +1,72 @@
+---
+import { Image } from "@astrojs/image/components";
+
+const { superTitle, h2, under, over, copy } = Astro.props;
+---
+
+<section class="benefits">
+  <div class="photo-stack">
+    <div class="img-wrap back">
+      <Image class="img radius-2 shadow-5" src={import(`${under}.jpg`)} width={1200} />
+    </div>
+    <div class="img-wrap front">
+      <Image class="img radius-2 shadow-5" src={import(`${over}.jpg`)} width={1200} />
+    </div>
+  </div>
+  <div class="copy flow right-stack" style="--flow-space: 1.5rem">
+    <p class="small upper semi-bold muted">{superTitle}</p>
+    <h2 class="h2">{h2}</h2>
+    <p class="copy muted flow" set:html={copy}></p>
+  </div>
+</section>
+
+<style lang="scss">
+  .benefits {
+    display: grid;
+    padding-inline: var(--size-6);
+    max-width: 80ch;
+    margin-inline: auto;
+    margin-top: var(--size-10);
+  }
+  .photo-stack {
+    display: grid;
+    max-height: 40rem;
+    grid-template-columns: repeat(4, minmax(50px, 1fr));
+    grid-template-rows: repeat(4, 150px);
+    margin-bottom: var(--size-12);
+  }
+
+  .img-wrap {
+    &.back {
+      grid-row: 1 / span 3;
+      grid-column: 1 / span 3;
+    }
+
+    &.front {
+      grid-row: 2 / span 4;
+      grid-column: 2 / span 4;
+    }
+  }
+
+  .img {
+    object-fit: cover;
+    height: 450px;
+    max-height: 100%;
+    width: auto;
+  }
+
+
+  @media (min-width: 1000px) {
+    .benefits {
+      max-width: var(--max-l);
+      padding-inline: var(--size-fluid-3);
+      grid-template-columns: repeat(auto-fill, minmax(min(500px, 100%), 1fr));
+      column-gap: var(--size-3);
+    }
+
+    .right-stack {
+      max-width: 45ch;
+      margin-left: auto;
+    }
+  }
+</style>

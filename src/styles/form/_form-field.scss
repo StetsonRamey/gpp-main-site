@@ -1,0 +1,55 @@
+// Apply text field specific styles
+.form-field {
+  border-color: var(--gray-4);
+
+  &:focus {
+    @include field-focus;
+  }
+}
+
+// Apply styles to the select fields
+.form-field.select {
+  $white: #fff;
+  display: grid;
+  align-items: center;
+  grid-template-areas: "select";
+  position: relative;
+
+  // background-image: linear-gradient(
+  //   to top,
+  //   scale-color($white, $lightness: -7%),
+  //   $white 23%
+  // );
+
+  select,
+  &::after {
+    grid-area: select;
+  }
+
+  &:not(.select--multiple)::after {
+    content: "";
+    width: 0.8em;
+    height: 0.5em;
+    background-color: var(--gray-5);
+    justify-self: end;
+    clip-path: polygon(100% 0%, 0 0%, 50% 100%);
+  }
+  select {
+    z-index: 1;
+  }
+}
+
+// use absolute position to give the select inputs the correct focus style (we added the span element on the select inputs to do this)
+.focus {
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  right: -2px;
+  bottom: -2px;
+  border-radius: inherit;
+  border: 2px solid transparent;
+}
+
+select:focus + .focus {
+  @include field-focus;
+}

@@ -1,6 +1,6 @@
 ---
 import Button from "./Button.astro"
-import { Image } from '@astrojs/image';
+import { Image } from '@astrojs/image/components';
 import services from '../data/services.json'
 ---
 
@@ -12,20 +12,22 @@ import services from '../data/services.json'
     <div class="service-grid">
       {
       services.map((service, i) => (
-      <div class="grid-item">
-        <div class="img-wrap">
-          <Image class="service-img round" src={import(`../assets/services/${service.src}.png`)} width={800} />
+      <a href={service.link}>
+        <div class="grid-item">
+          <div class="img-wrap">
+            <Image class="service-img round" src={import(`../assets/services/${service.src}.png`)} width={800} />
+          </div>
+          <div class="number round">{i+1}</div>
+          <div class="right">
+            <h3 class="h3 service-title left">
+              {service.service}
+            </h3>
+            <p class="service-copy left" style="--size: 1.75rem">
+              {service.copy}
+            </p>
+          </div>
         </div>
-        <div class="number round">{i+1}</div>
-        <div class="right">
-          <h3 class="h3 service-title left">
-            {service.service}
-          </h3>
-          <p class="service-copy left" style="--size: 1.75rem">
-            {service.copy}
-          </p>
-        </div>
-      </div>
+      </a>
       ))
       }
     </div>
@@ -42,6 +44,10 @@ import services from '../data/services.json'
     grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
     gap: var(--size-fluid-5);
     margin-top: var(--size-10);
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
   }
 
   .grid-item {
@@ -95,6 +101,15 @@ import services from '../data/services.json'
 
     .service-title {
       font-size: var(--font-size-3);
+    }
+  }
+
+  .grid-item:hover {
+    .service-title {
+      color: hsl(var(--brand-green));
+    }
+    .number {
+      color: hsl(var(--footer-accent));
     }
   }
 </style>

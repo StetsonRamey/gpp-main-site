@@ -1,0 +1,140 @@
+@import "./utilities.css";
+
+:root {
+  /* default font stack leftover from astro */
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif, Apple Color Emoji,
+    Segoe UI Emoji;
+  font-size: 1rem;
+  --user-font-scale: 1rem - 16px;
+  font-size: clamp(0.875rem, 0.4626rem + 1.0309vw + var(--user-font-scale), 1.125rem);
+
+  /* our brand colors */
+  --white: 255 100% 100%;
+  --text: 0 0% 32.2%;
+  --header-text: 240 24% 19.6%;
+  --footer-accent: 210.6 45.9% 21.8%;
+  --footer-dark: 215 45% 20%;
+  --btn-accent: 86.9 39.3% 52.2%;
+  --brand-yellow: 46deg 100% 66%;
+  --brand-green: 87deg 40% 52%;
+  --brand-dark: 203deg 29% 22%;
+  /* max width of column */
+  --max-w: 140ch;
+  --max-l: 110ch;
+}
+
+li[role="none"],
+.nav-link {
+  width: 100%;
+  display: block;
+  font-size: var(--font-size-1);
+}
+
+body {
+  margin: 0;
+}
+
+main {
+  font-family: Verdana, sans-serif;
+  margin: auto;
+  padding: 20px;
+  max-width: 70ch;
+  text-align: left;
+  background-color: #fff;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  line-height: 1.5;
+  color: #444;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+strong,
+b {
+  color: #222;
+}
+a {
+  color: #3273dc;
+}
+textarea {
+  width: 100%;
+  font-size: 16px;
+}
+input {
+  font-size: 16px;
+}
+content {
+  line-height: 1.6;
+}
+table {
+  width: 100%;
+}
+
+td:has(> img) {
+  height: 400px;
+  text-align: center;
+  object-fit: contain;
+}
+
+td > img {
+  width: auto;
+  height: 100%;
+}
+
+p:has(> img) {
+  max-height: 400px;
+  object-fit: fill;
+  overflow: hidden;
+}
+
+img {
+  display: block;
+  width: 100%;
+  overflow: hidden;
+  /* height: auto; */
+}
+
+code {
+  padding: 2px 5px;
+  background-color: #f2f2f2;
+}
+pre {
+  padding: 1rem;
+}
+pre > code {
+  all: unset;
+}
+blockquote {
+  border: 1px solid #999;
+  color: #222;
+  padding: 2px 0px 2px 20px;
+  margin: 0px;
+  font-style: italic;
+}
+
+@media (min-width: 1000px) {
+  li[role="none"],
+  .nav-link {
+    width: fit-content;
+    margin-inline: none;
+    font-size: var(--font-size-0);
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+}
+
+/* COMPONENTS */
+.btn {
+  color: hsl(var(--white));
+  text-decoration: none;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.btn--menu {
+  background-color: transparent;
+  border: none;
+}
