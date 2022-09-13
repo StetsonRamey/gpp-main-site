@@ -57,11 +57,11 @@ const desc =
   }
 </style>
 
-<script is:inline src="/src/scripts/google-autocomplete.js"></script>
-
 <!-- load the google maps autocomplete api -->
+<script>
+  import { initAutocomplete } from "../scripts/google-autocomplete.js";
+</script>
 <script
   is:inline
   src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAW3WVT06abi4oUfCLutoWoPjk-s6PFyak&libraries&callback=initAutocomplete&libraries=places&v=weekly"
-  async="async"
 ></script>
