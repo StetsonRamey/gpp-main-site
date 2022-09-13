@@ -17,25 +17,13 @@ const position = heroPosition;
         </div>
       )
     }
-    {
-      bbb && (
-        <p class="txt-primary txt-bold">BBB A+ Rated with a 2-year Warranty</p>
-      )
-    }
+    {bbb && <p class="txt-primary txt-bold">BBB A+ Rated with a 2-year Warranty</p>}
     <h1 class="h1 center leading-2">{h1}</h1>
     <p class="width-sm center mb-8">{p}</p>
-    {
-      heroButton && (
-        <Button
-          text="Request A Free Service Estimate"
-          link="#"
-          style="primary"
-        />
-      )
-    }
+    {heroButton && <Button text="Request A Free Service Estimate" link="/contact-us/" style="primary" />}
   </div>
   <!-- <img src="/cedar-shake.jpg" alt="" srcset=""> -->
-  <Image src={import(`../../assets/services/${heroUrl}.png`)} width={1800} aspectRatio={978/800} />
+  <Image src={import(`../../assets/services/${heroUrl}.png`)} width={1800} aspectRatio={978 / 800} />
 </header>
 
 <style lang="scss" define:vars={{ position }}>

@@ -10,6 +10,7 @@ const {
   subTitle = "Award-Winning Interior and Exterior Painting Servce Creates Lots of Happy Customers",
   p = "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad voluptates rem suscipit quibusdam nobis assumenda tempora ex et cumque sed impedit illum, velit veniam cum reprehenderit, id officiis tempore eos? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad voluptates rem suscipit quibusdam nobis assumenda tempora ex et cumque sed impedit illum, velit veniam cum reprehenderit, id officiis tempore eos?",
   buttonText = "Meet the Team",
+  buttonLink = "/about-us",
   under = meetHouse,
   over = meetBrett,
 } = Astro.props;
@@ -22,7 +23,7 @@ const {
     <p class="sub-h2 black">{subTitle}</p>
     <p class="copy muted flow" set:html={p}></p>
     <div class="button-wrap">
-      <Button text={buttonText} link="#" style="primary" />
+      <Button text={buttonText} link={buttonLink} style="primary" />
     </div>
   </div>
   <div class="photo-stack">
