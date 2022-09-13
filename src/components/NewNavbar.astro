@@ -25,6 +25,53 @@ const navLinks = [
 ];
 ---
 
+<style is:inline>
+  .wrapper {
+    max-width: 65rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+  }
+  .site-head__inner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0 1rem;
+  }
+  .site-head__brand {
+    display: block;
+    width: 3rem;
+  }
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+  .navigation ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.3rem 0.8rem;
+    padding: 0;
+  }
+  .navigation li {
+    margin: 0.1rem;
+  }
+  .navigation a {
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: currentColor;
+  }
+  .navigation a:hover {
+    color: hsl(var(--brand-yellow));
+  }
+  .burger-menu__trigger {
+    display: none;
+  }
+</style>
+
 <div class="wrapper">
   <div class="site-head__inner">
     <a href="/" aria-label="Great Plains Painting Home" class="site-head__brand">
@@ -52,58 +99,6 @@ const navLinks = [
 </div>
 
 <style>
-  .wrapper {
-    max-width: 65rem;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 1.25rem;
-    padding-right: 1.25rem;
-  }
-  .site-head__inner {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    gap: 0 1rem;
-  }
-
-  .site-head__brand {
-    display: block;
-    width: 3rem;
-  }
-
-  a {
-    color: inherit;
-    text-decoration: none;
-  }
-
-  .navigation ul {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    gap: 0.3rem 0.8rem;
-    padding: 0;
-  }
-
-  .navigation li {
-    margin: 0.1rem;
-  }
-
-  .navigation a {
-    font-weight: 600;
-    text-transform: uppercase;
-    text-decoration: none;
-    color: currentColor;
-  }
-
-  .navigation a:hover {
-    color: hsl(var(--brand-yellow));
-  }
-
-  .burger-menu__trigger {
-    display: none;
-  }
-
   .burger-menu__bar,
   .burger-menu__bar::before,
   .burger-menu__bar::after {
