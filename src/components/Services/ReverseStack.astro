@@ -7,10 +7,10 @@ const { superTitle, h2, under, over, copy } = Astro.props;
 <section class="benefits">
   <div class="photo-stack">
     <div class="img-wrap back">
-      <Image class="img radius-2 shadow-5" src={import(`${under}.jpg`)} width={1200} />
+      <Image class="img radius-2 shadow-5" src={import('../../assets/service-pages/hardieMid.jpg')} width={1200} aspectRatio={16 / 9} />
     </div>
     <div class="img-wrap front">
-      <Image class="img radius-2 shadow-5" src={import(`${over}.jpg`)} width={1200} />
+      <Image class="img radius-2 shadow-5" src={import('../../assets/service-pages/scd-commercial.jpg')} width={1200} aspectRatio={16 / 9} />
     </div>
   </div>
   <div class="copy flow right-stack" style="--flow-space: 1.5rem">

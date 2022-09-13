@@ -1,7 +1,7 @@
 [
   {
     "slug": "painters-leawood-ks",
-    "leawood": {
+    "area": {
       "crumbList": [
         {
           "name": "Home",
@@ -16,7 +16,7 @@
           "link": "/service-areas/painters-leawood-ks/"
         }
       ],
-      "title-tag": "#1 Painters Leawood KS | Great Plains Painting",
+      "titleTag": "#1 Painters Leawood KS | Great Plains Painting",
       "meta": "With over 10 years of experience, turn to the local Leawood experts at Great Plains Painting for all of your painting needs.  Schedule a free estiamte today.",
       "hero": {
         "src": "area-hero",
@@ -33,8 +33,8 @@
         "super": "Leawood Painting Experts",
         "h3": "Why Choose Us For Painting Services In Leawood?",
         "copy": "<p>When painting your home, there is no substitute for quality craftsmanship and attention to detail. But with the wide range of house painting services available, how can you be sure you're choosing the right company for the job?</p><p>Perhaps the most important reason to choose Great Plains Painting for all your painting needs is our experience. We have decades of experience and have painted homes of all sizes and styles. We know how to prep a home for painting, how to choose the right paint and primer, and how to apply it for a excellent finish.</p><p>In addition, we're a fully insured company, so you can be confident that your home is in good hands. Here are more reasons to hire us.</p><p>So why wait? Contact us today, and let us show you why we're the best choice for all your painting needs in Leawood.</p>",
-        "underPhoto": "../assets/coolBrush",
-        "topPhoto": "../assets/coolRoll"
+        "underPhoto": "../assets/coolBrush.jpg",
+        "topPhoto": "../assets/coolRoll.jpg"
       },
       "about": {
         "h3": "Interior House Painters in Leawood KS",
@@ -66,7 +66,7 @@
   },
   {
     "slug": "painters-lees-summit-mo",
-    "leawood": {
+    "area": {
       "crumbList": [
         {
           "name": "Home",
@@ -77,12 +77,12 @@
           "link": "/service-area/"
         },
         {
-          "name": ", KS",
+          "name": "Lee's Summit, MO",
           "link": "/service-areas/painters-lees-summit-mo/"
         }
       ],
-      "title-tag": "#1 Painters Lees Summit, MO | Great Plains Painting",
-      "meta": "With over 10 years of experience, turn to the local Leawood experts at Great Plains Painting for all of your painting needs.  Schedule a free estiamte today.",
+      "titleTag": "#1 Painters Lees Summit, MO | Great Plains Painting",
+      "meta": "With over 10 years of experience, turn to the local Lee's Summit experts at Great Plains Painting for all of your painting needs.  Schedule a free estiamte today.",
       "hero": {
         "src": "area-hero",
         "h1": "Painters in Lee's Summit, MO",
@@ -98,8 +98,8 @@
         "super": "Lee's Summit Painting Experts",
         "h3": "Why Choose Us For Painters In Lee's Summit?",
         "copy": "<p>We're the top Painters in Lee’s Summit for a reason! Here are just a few of the reasons our customers keep coming back to us:</p><p class='txt-bold'>We Have the Experience and Expertise to Get the Job Done Right</p><p>With years of experience under our belts, we know how to handle every type of painting project. From small touch-ups to full-scale repaints, our painting contractors have the knowledge and skill set to get the job done quickly and efficiently.</p><p class='txt-bold'>We Use High-Quality Paints and Materials</p><p>When it comes to painting your home, you want to make sure that the paint will last. At Great Plains Painting, we only use the highest quality paints and materials. And when it comes to finishes, we can provide you with various options to choose from, so you can find the perfect one for your home.</p>",
-        "underPhoto": "../assets/coolBrush",
-        "topPhoto": "../assets/coolRoll"
+        "underPhoto": "../assets/coolBrush.jpg",
+        "topPhoto": "../assets/coolRoll.jpg"
       },
       "about": {
         "h3": "Interior House Painting Services in Lee’s Summit",
@@ -127,7 +127,7 @@
   },
   {
     "slug": "painters-lenexa-ks",
-    "leawood": {
+    "area": {
       "crumbList": [
         {
           "name": "Home",
@@ -138,12 +138,12 @@
           "link": "/service-area/"
         },
         {
-          "name": ", KS",
+          "name": "Lenxa, KS",
           "link": "/service-areas/painters-lenexa-ks/"
         }
       ],
-      "title-tag": "#1 Painters Lenexa, KS | Great Plains Painting",
-      "meta": "With over 10 years of experience, turn to the local Leawood experts at Great Plains Painting for all of your painting needs.  Schedule a free estiamte today.",
+      "titleTag": "#1 Painters Lenexa, KS | Great Plains Painting",
+      "meta": "With over 10 years of experience, turn to the local Lenexa experts at Great Plains Painting for all of your painting needs.  Schedule a free estiamte today.",
       "hero": {
         "src": "area-hero",
         "h1": "Painters in Lenexa, KS",
@@ -159,8 +159,8 @@
         "super": "Lenexa Painting Experts",
         "h3": "Why Choose Us For Painting Services In Lenexa, KS?",
         "copy": "<p>When you choose our Lenexa KS painters, you have nothing to lose. Fully insured and backed by a 2-year warranty, if you run into any issues with our repairs or paint job, we’ll come back and fix it for you.</p><p>No matter what your reasons are for painting services – whether you’re opening a business and you’re preparing for the opening, or you want to sell your house, or you’re simply in need of a change, you’ll only get the top-of-the-line paint services from our house painters contractors in Lenexa, KS. </p>",
-        "underPhoto": "../assets/coolBrush",
-        "topPhoto": "../assets/coolRoll"
+        "underPhoto": "../assets/coolBrush.jpg",
+        "topPhoto": "../assets/coolRoll.jpg"
       },
       "about": {
         "h3": "Best House Painters Lenexa, KS",
@@ -192,7 +192,7 @@
   },
   {
     "slug": "painters-olathe-ks",
-    "leawood": {
+    "area": {
       "crumbList": [
         {
           "name": "Home",
@@ -207,8 +207,8 @@
           "link": "/service-areas/painters-olathe-ks/"
         }
       ],
-      "title-tag": "#1 Painters in Olathe, KS | Great Plains Painting",
-      "meta": "With over 10 years of experience, turn to the local Leawood experts at Great Plains Painting for all of your painting needs.  Schedule a free estiamte today.",
+      "titleTag": "#1 Painters in Olathe, KS | Great Plains Painting",
+      "meta": "With over 10 years of experience, turn to the local Olathe experts at Great Plains Painting for all of your painting needs.  Schedule a free estiamte today.",
       "hero": {
         "src": "area-hero",
         "h1": "Painters in Olathe, KS",
@@ -224,8 +224,8 @@
         "super": "Olathe Painting Experts",
         "h3": "Why Choose Us For Painting Services In Olathe, KS?",
         "copy": "<p>When homeowners in Olathe ask why they should choose Great Plains Painting for all their house painting needs, five key reasons always come to mind:</p><p class='txt-bold'>We're Locally Owned and Operated</p><p>That's right Great Plains Painting is a locally owned and operated company, which means that it is not a large corporation. Here's what is locally owned and operated means for our customers:</p><ul style='text-align: left; margin-left: 1rem;'><li>All of our painters have worked with Ryan and I for many years. This allows us to control the quality of our work better and ensures that our teams are always professional and courteous.</li><li>It gives us a personal touch you won't find with other companies. We'll take the time to get to know you and your specific needs so we can provide you with the best possible service.</li><li>We're here to stay. We're not going anywhere anytime soon. We'll be here to stand behind our work, no matter how big or small the project may be.</li></ul><p>At Great Plains Painting, we believe your home should be a reflection of your personal style and are dedicated to helping you achieve that vision.</p>",
-        "underPhoto": "../assets/coolBrush",
-        "topPhoto": "../assets/coolRoll"
+        "underPhoto": "../assets/coolBrush.jpg",
+        "topPhoto": "../assets/coolRoll.jpg"
       },
       "about": {
         "h3": "Best House Painters in Olathe, KS",
@@ -257,7 +257,7 @@
   },
   {
     "slug": "painters-overland-park-ks",
-    "leawood": {
+    "area": {
       "crumbList": [
         {
           "name": "Home",
@@ -272,8 +272,8 @@
           "link": "/service-areas/painters-overland-park-ks/"
         }
       ],
-      "title-tag": "#1 Painters in Overland Park, KS | Great Plains Painting",
-      "meta": "With over 10 years of experience, turn to the local Leawood experts at Great Plains Painting for all of your painting needs.  Schedule a free estiamte today.",
+      "titleTag": "#1 Painters in Overland Park, KS | Great Plains Painting",
+      "meta": "With over 10 years of experience, turn to the local Overland Park experts at Great Plains Painting for all of your painting needs.  Schedule a free estiamte today.",
       "hero": {
         "src": "area-hero",
         "h1": "Painters in Overland Park, KS",
@@ -289,8 +289,8 @@
         "super": "Overland Park, KS Painting Experts",
         "h3": "Why Choose Us For Painting Services In Overland Park?",
         "copy": "<p>We have skills that set us apart from other companies in Kansas City including the experience needed to get the job done and get it done right. We understand how living or working in a space that is being renovated can be frustrating. That is why we complete services in a reasonable amount of time, disrupting your daily life as minimally as possible.</p><p>Our home painting and home siding team is built of the best painters in Kansas City who have mastered the art of creating beautiful spaces. We stay on top of current trends in the industry so we can give you exactly what you are looking for. We use nothing but the best products in the industry, making sure your home painting improvements last for years to come. Call us today to get started on your residential and commercial painting projects.</p>",
-        "underPhoto": "../assets/coolBrush",
-        "topPhoto": "../assets/coolRoll"
+        "underPhoto": "../assets/coolBrush.jpg",
+        "topPhoto": "../assets/coolRoll.jpg"
       },
       "about": {
         "h3": "Best House Painters Overland Park, KS",
@@ -318,7 +318,7 @@
   },
   {
     "slug": "painters-prairie-village-ks",
-    "leawood": {
+    "area": {
       "crumbList": [
         {
           "name": "Home",
@@ -333,8 +333,8 @@
           "link": "/service-areas/painters-prairie-village-ks/"
         }
       ],
-      "title-tag": "#1 Painters in Prairie Village, KS | Great Plains Painting",
-      "meta": "With over 10 years of experience, turn to the local Leawood experts at Great Plains Painting for all of your painting needs.  Schedule a free estiamte today.",
+      "titleTag": "#1 Painters in Prairie Village, KS | Great Plains Painting",
+      "meta": "With over 10 years of experience, turn to the local Prairie Village experts at Great Plains Painting for all of your painting needs.  Schedule a free estiamte today.",
       "hero": {
         "src": "area-hero",
         "h1": "Painters in Prairie Village, KS",
@@ -350,8 +350,8 @@
         "super": "Prairie Village, KS Painting Experts",
         "h3": "Why Choose Us For Painting Services In Prairie Village?",
         "copy": "<p>Color selection is one of the most important choices a homeowner is faced with, we help as much as possible and stay up to date with trends in color and building styles so we can create whatever modern or traditional aesthetic that you're going for.</p><p>While we’re big believers in style and job quality, we don’t compromise on health and safety. That’s why our house painters only use low VOC paints, which reduce exposure to harmful gases while we paint your home or business. </p><p>Transforming your home doesn’t need to mean exposing yourself to harmful air quality or toxic fumes. We're fully insured painters and provide you with detailed, written estimates after we carefully evaluate your home. </p><p>This estimate comes supplemented with photographs that give in-depth explanations of the condition of your home and any wood rot repair(s) that our estimator notes which are also itemzied on the estimate. We can discuss our painting methods, how you can save, and give you an itemized quote so there are no surprises. </p><p>We go above and beyond to help our customers understand how they can get the most bang for their buck while simultaneously increasing the value of their homes.</p>",
-        "underPhoto": "../assets/coolBrush",
-        "topPhoto": "../assets/coolRoll"
+        "underPhoto": "../assets/coolBrush.jpg",
+        "topPhoto": "../assets/coolRoll.jpg"
       },
       "about": {
         "h3": "House Painters in Prairie Village",
@@ -379,7 +379,7 @@
   },
   {
     "slug": "painters-roeland-park-ks",
-    "leawood": {
+    "area": {
       "crumbList": [
         {
           "name": "Home",
@@ -394,8 +394,8 @@
           "link": "/service-areas/painters-roeland-park-ks/"
         }
       ],
-      "title-tag": "#1 Painters in Roeland Park, KS | Great Plains Painting",
-      "meta": "With over 10 years of experience, turn to the local Leawood experts at Great Plains Painting for all of your painting needs.  Schedule a free estiamte today.",
+      "titleTag": "#1 Painters in Roeland Park, KS | Great Plains Painting",
+      "meta": "With over 10 years of experience, turn to the local Roeland Park experts at Great Plains Painting for all of your painting needs.  Schedule a free estiamte today.",
       "hero": {
         "src": "area-hero",
         "h1": "Painters in Roeland Park, KS",
@@ -411,8 +411,8 @@
         "super": "Roeland Park Painting Experts",
         "h3": "Why Choose Us For Painting Services In Roeland Park?",
         "copy": "<p>Our Roeland Park painters not only paint the interior and exterior of homes and businesses of various sizes, but we also perform services like residential cabinet painting. This is just another small change to your home that can make a huge difference in its resale value. </p><p>We can help you modernize your kitchen by switching the finish of your wooden cabinets to something more inviting and fresh or enameling your cabinets. We exclusively use James Hardie siding because of its superior aesthetics and durability compared to all of the other siding products on the market. </p><p>Siding is not a small or cheap project – it’s a huge investment and likewise, it has a huge impact on your property value. We offer James Hardie siding services which carry a 30-year prorated warranty. We'll provide you with a timely, accurate estimate with transparent pricing.</p>",
-        "underPhoto": "../assets/coolBrush",
-        "topPhoto": "../assets/coolRoll"
+        "underPhoto": "../assets/coolBrush.jpg",
+        "topPhoto": "../assets/coolRoll.jpg"
       },
       "about": {
         "h3": "House Painters In Roeland Park KS",
@@ -436,7 +436,7 @@
   },
   {
     "slug": "painters-shawnee-ks",
-    "leawood": {
+    "area": {
       "crumbList": [
         {
           "name": "Home",
@@ -451,8 +451,8 @@
           "link": "/service-areas/painters-shawnee-ks/"
         }
       ],
-      "title-tag": "#1 Painters in Shawnee, KS | Great Plains Painting",
-      "meta": "With over 10 years of experience, turn to the local Leawood experts at Great Plains Painting for all of your painting needs.  Schedule a free estiamte today.",
+      "titleTag": "#1 Painters in Shawnee, KS | Great Plains Painting",
+      "meta": "With over 10 years of experience, turn to the local Shawnee experts at Great Plains Painting for all of your painting needs.  Schedule a free estiamte today.",
       "hero": {
         "src": "area-hero",
         "h1": "Painters in Shawnee, KS",
@@ -468,8 +468,8 @@
         "super": "Shawnee Painting Experts",
         "h3": "Why Choose Us For Painting Services In Shawnee?",
         "copy": "<p>We’re a versatile company that offers a range of services for many different buildings. Our main services are interior painting, cabinet painting, commercial painting and exterior painting like garages, siding, and guest houses. This applies to both residential and commercial homes.</p><p>However, we also install siding, repair wood rot, and fix up damaged drywall. There’s almost nothing we don’t do to help you improve the value of your home. We want to work with you to ensure that no stone is left unturned.</p><p>Wood rot is something that happens far too often when it's something that can be entirely avoided with the proper precautions. If we detect wood rot at your home, we will ensure that we remedy the situation. We've dealt with various types of wood rot in all types of wood, so there’s nothing we can’t handle.</p>",
-        "underPhoto": "../assets/coolBrush",
-        "topPhoto": "../assets/coolRoll"
+        "underPhoto": "../assets/coolBrush.jpg",
+        "topPhoto": "../assets/coolRoll.jpg"
       },
       "about": {
         "h3": "Best House Painters In Shawnee",

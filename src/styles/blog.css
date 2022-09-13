@@ -1,3 +1,4 @@
+@import "./reset.css";
 @import "./utilities.css";
 
 :root {
@@ -23,11 +24,23 @@
   --max-l: 110ch;
 }
 
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
 li[role="none"],
 .nav-link {
   width: 100%;
   display: block;
   font-size: var(--font-size-1);
+}
+
+ul[role="list"],
+ol[role="list"] {
+  list-style: none;
 }
 
 body {

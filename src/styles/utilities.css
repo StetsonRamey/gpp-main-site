@@ -39,7 +39,6 @@
   display: grid;
   place-items: center;
   margin-block: var(--size-10);
-  max-width: 40ch;
   margin-inline: auto;
 }
 
@@ -94,7 +93,7 @@
 }
 
 .width-sm {
-  max-width: 40ch;
+  max-width: 80ch;
 }
 
 /* SPACING */

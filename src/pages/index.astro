@@ -7,7 +7,6 @@ import LocalBanner from "../components/LocalBanner.astro";
 import Accordion from "../components/Accordion.astro";
 import Recents from "../components/Recents.astro";
 import WorkingWith from "../components/WorkingWith.astro";
-import { getImage } from "@astrojs/image";
 import heroImg from "../assets/cedarShake.jpg";
 
 const bbb = true;
@@ -20,30 +19,41 @@ const accordionContent = [
   },
   {
     title: "2. 2-Year, no-hassle warranty",
-    expand: "In our experience, if something we worked on is going to fail, it does so in the first year. Simply call us up and we'll return to your property promptly to address and correct the issue.",
+    expand:
+      "In our experience, if something we worked on is going to fail, it does so in the first year. Simply call us up and we'll return to your property promptly to address and correct the issue.",
   },
   {
     title: "3. Fully Insured",
-    expand: "$2 million dollars aggregate general liability and $500,000 workers compensation. As a professional company, we believe protecting against the unforseen. Your property is covered and so are our Kansas City house painters. Our insurance certificate is included in your bid package.",
+    expand:
+      "$2 million dollars aggregate general liability and $500,000 workers compensation. As a professional company, we believe protecting against the unforseen. Your property is covered and so are our Kansas City house painters. Our insurance certificate is included in your bid package.",
   },
   {
     title: "4. Top Quality Materials",
-    expand: "We've used almost every brand and type of paint on the market and can offer our recommendations about what to use in what situation. We only use materials we know we can count on to perform and look great.",
+    expand:
+      "We've used almost every brand and type of paint on the market and can offer our recommendations about what to use in what situation. We only use materials we know we can count on to perform and look great.",
   },
   {
     title: "5. A Paint Job We'll Both Be Proud Of",
-    expand: "We want you to be happy with our work, bottom line. We strive to be clear about what we'll do, do what we say, and if we mess up correct the issue immediately.",
-  }
+    expand:
+      "We want you to be happy with our work, bottom line. We strive to be clear about what we'll do, do what we say, and if we mess up correct the issue immediately.",
+  },
 ];
+
+const title = "#1 Painters in Kansas City | Great Plains Painting";
+const desc =
+  "Turn to Great Plains Painting for the most profressional & top rated Kansas City painting services. Get a free estimate today!";
 ---
 
-<BaseLayout title="Test">
-  <!-- <div class="reference"></div> -->
+<BaseLayout title={title} desc={desc}>
   <Hero heroUrl={heroImg} bbb={bbb} />
   <PhotoStack />
   <ServiceGrid />
   <LocalBanner />
-  <Accordion title={"Why Trust Us to Paint Your Home?"} p={"we'll do it right or we'll make it right"} accordionContent={accordionContent} />
+  <Accordion
+    title={"Why Trust Us to Paint Your Home?"}
+    p={"we'll do it right or we'll make it right"}
+    accordionContent={accordionContent}
+  />
   <Recents />
   <WorkingWith />
 </BaseLayout>

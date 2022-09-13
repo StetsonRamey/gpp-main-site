@@ -21,7 +21,7 @@ const { service } = Astro.params;
 const { stuff } = Astro.props;
 ---
 
-<BaseLayout>
+<BaseLayout title={stuff.titleTag} desc={stuff.meta}>
   <ServiceHero
     crumbList={stuff.crumbList}
     heroPosition={stuff.position}
@@ -82,6 +82,10 @@ const { stuff } = Astro.props;
     h2 {
       margin-bottom: var(--size-7);
     }
+  }
+
+  .accordion {
+    padding-inline: var(--size-6);
   }
 
   .committed {

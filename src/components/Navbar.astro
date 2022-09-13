@@ -25,26 +25,30 @@ const navLinks = [
 ];
 ---
 
-<nav>
+<nav aria-label="primary">
   <div class="nav-container">
     <a href="/">
-      <Icon name="logoSide" width={150} class="logo" />
+      <Icon name="logoSide" width={150} class="logo" alt="Great Plains Painting Logo" />
     </a>
     <div class="nav-wrapper">
-      <button id="menu-btn" class="btn btn--menu" aria-expanded="false" aria-label="Open mobile navigation menu">
-        <span class="burger-menu__bar"></span>
-      </button>
-      <ul class="nav-links" role="navigation">
-        {
-          navLinks.map((link) => (
-            <li role="none">
-              <a href={link.url} class="btn nav-link">
-                {link.name}
-              </a>
-            </li>
-          ))
-        }
-      </ul>
+      <div class="burger-menu" data-element="burger-root">
+        <button id="menu-btn" class="btn btn--menu" data-element="burger-menu-trigger" type="button" aria-expanded="false" aria-label="Open mobile navigation menu">
+          <span class="burger-menu__bar" aria-hidden="true"></span>
+        </button>
+      <div class="burger-menu__panel" data-element="burger-menu__panel">
+        <ul class="nav-links" role="navigation">
+          {
+            navLinks.map((link) => (
+              <li role="none">
+                <a href={link.url} class="btn nav-link">
+                  {link.name}
+                </a>
+              </li>
+            ))
+          }
+        </ul>
+      </div>
+      </div>
       <div class="phone">
         <Icon name="feather:phone" width={25} />
         <a href="tel:+8169459792">+(816) 945-9792</a>
@@ -53,16 +57,17 @@ const navLinks = [
   </div>
 </nav>
 
-<script>
+<script is:inline>
+  const navTap = document.querySelector('.burger-menu');
   const navBtn = document.querySelector("#menu-btn");
-  navBtn.addEventListener("click", () => {
+  navTap.addEventListener("click", () => {
     navBtn.setAttribute("aria-expanded", navBtn.getAttribute("aria-expanded") === "false" ? "true" : "false");
   });
 </script>
 
 <style>
   nav {
-    --button-size: 40px;
+    --button-size: 30px;
     position: fixed;
     top: 0;
     min-width: 100%;
@@ -72,6 +77,7 @@ const navLinks = [
 
   .nav-container {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     align-items: center;
     padding-block: var(--size-fluid-1);
@@ -86,6 +92,7 @@ const navLinks = [
   .nav-links,
   .nav-wrapper {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     gap: var(--size-3);
   }
@@ -105,7 +112,7 @@ const navLinks = [
     margin-right: var(--size-1);
   }
 
-  .nav-links {
+  /* .nav-links {
     margin: 0;
     flex-direction: column;
     transform: translateY(-200%);
@@ -116,18 +123,18 @@ const navLinks = [
     padding: var(--size-3);
     text-align: center;
     background-color: hsl(var(--brand-dark));
-  }
+  } */
 
   .nav-link:hover {
     color: hsl(var(--brand-yellow));
   }
 
-  .btn--menu[aria-expanded="true"] + .nav-links {
+  /* .btn--menu[aria-expanded="true"] + .nav-links {
     transform: translateY(0);
-  }
+  } */
 
   /* MEDIA QUERIES */
-  @media (min-width: 1000px) {
+  /* @media (min-width: 1000px) { */
     /* NAV */
     .nav-wrapper {
       flex: auto;
@@ -143,29 +150,56 @@ const navLinks = [
       max-width: fit-content;
     }
 
-    .btn--menu {
+    /* .btn--menu {
       display: none;
-    }
+    } */
 
     .nav-links {
       flex-direction: row;
-      position: static;
+      /* position: static; */
       transform: translateY(0);
       padding: var(--size-1);
       gap: var(--size-8);
       background-color: transparent;
     }
 
-    .phone {
+    /* .phone {
       display: flex;
       flex: 1;
       align-items: center;
       justify-content: center;
       visibility: visible;
-    }
-  }
+    } */
+  /* } */
 
-  .burger-menu__bar,
+
+
+  /* .burger-menu .burger-menu__panel {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 5rem 1.5rem 2rem 1.5rem;
+    width: 100%;
+    height: 100%;
+    visibility: hidden;
+    opacity: 0;
+    background: hsl(var(--brand-green));
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+  } */
+
+  /* this will be the open state */
+
+  /* .nav-links {
+    display: block;
+  } */
+
+  /* .burger-menu .burger-menu__panel {
+    visibility: visible;
+    opacity: 1;
+  } */
+
+  /* .burger-menu__bar,
   .burger-menu__bar::before,
   .burger-menu__bar::after {
     display: block;
@@ -191,10 +225,10 @@ const navLinks = [
   }
 
   .burger-menu__bar::before {
-    top: -15px;
+    top: -12px;
   }
 
   .burger-menu__bar::after {
-    bottom: -15px;
-  }
+    bottom: -12px;
+  } */
 </style>

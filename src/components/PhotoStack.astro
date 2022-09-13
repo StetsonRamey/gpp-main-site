@@ -15,7 +15,7 @@ const {
 } = Astro.props;
 ---
 
-<section class="mobile-section meet-team">
+<section class="meet-team">
   <div class="copy flow" style="--flow-space: 1.5rem">
     <p class="small upper semi-bold muted">{superTitle}</p>
     <h2 class="h2">{h2}</h2>
@@ -36,6 +36,14 @@ const {
 </section>
 
 <style lang="scss">
+  .meet-team {
+    display: grid;
+    place-items: center;
+    margin-block: var(--size-10);
+    padding-inline: var(--size-6);
+    margin-inline: auto;
+    max-width: 80ch;
+  }
   .button-wrap {
     margin-block: var(--size-10);
   }

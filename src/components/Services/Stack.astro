@@ -15,10 +15,20 @@ const { superTitle, h2, subTitle, list, under, over } = Astro.props;
   </div>
   <div class="photo-stack">
     <div class="img-wrap back">
-      <Image class="img radius-2 shadow-5" src={import(`${under}.jpg`)} width={1200} />
+      <Image
+        class="img radius-2 shadow-5"
+        src={import("../../assets/service-pages/blue-ext2.jpg")}
+        width={1200}
+        aspectRatio={16 / 9}
+      />
     </div>
     <div class="img-wrap front">
-      <Image class="img radius-2 shadow-5" src={import(`${over}.jpg`)} width={1200} />
+      <Image
+        class="img radius-2 shadow-5"
+        src={import("../../assets/service-pages/intTrim.jpg")}
+        width={1200}
+        aspectRatio={16 / 9}
+      />
     </div>
   </div>
 </section>
@@ -30,7 +40,6 @@ const { superTitle, h2, subTitle, list, under, over } = Astro.props;
     max-width: 80ch;
     margin-inline: auto;
   }
-
 
   .photo-stack {
     display: grid;

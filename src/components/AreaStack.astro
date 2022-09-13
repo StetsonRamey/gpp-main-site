@@ -1,7 +1,9 @@
 ---
 import { Image } from "@astrojs/image/components";
+import coolBrush from "../assets/coolBrush.jpg";
+import coolRoll from "../assets/coolRoll.jpg";
 
-const { superTitle, h3, copy, under, over } = Astro.props;
+const { superTitle, h3, copy, under = coolBrush, over = coolRoll } = Astro.props;
 ---
 
 <section class="why-us">
@@ -12,10 +14,10 @@ const { superTitle, h3, copy, under, over } = Astro.props;
   </div>
   <div class="photo-stack">
     <div class="img-wrap back">
-      <Image class="img radius-2 shadow-5" src={import(`${under}.jpg`)} width={1200} />
+      <Image class="img radius-2 shadow-5" src={coolBrush} width={1200} aspectRatio={16 / 9} />
     </div>
     <div class="img-wrap front">
-      <Image class="img radius-2 shadow-5" src={import(`${over}.jpg`)} width={1200} />
+      <Image class="img radius-2 shadow-5" src={coolRoll} width={1200} aspectRatio={16 / 9} />
     </div>
   </div>
 </section>

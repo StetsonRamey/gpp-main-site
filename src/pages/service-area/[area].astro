@@ -19,52 +19,57 @@ import Button from "../../components/Button.astro";
 const { stuff } = Astro.props;
 ---
 
-<BaseLayout>
+<BaseLayout title={stuff.area.titleTag} desc={stuff.area.meta}>
   <ServiceHero
-    crumbList={stuff.leawood.crumbList}
-    heroUrl={stuff.leawood.hero.src}
-    h1={stuff.leawood.hero.h1}
-    p={stuff.leawood.hero.p}
-    heroPosition={stuff.leawood.hero.position}
+    crumbList={stuff.area.crumbList}
+    heroUrl={stuff.area.hero.src}
+    h1={stuff.area.hero.h1}
+    p={stuff.area.hero.p}
+    heroPosition={stuff.area.hero.position}
   />
   <section class="flow container center top-section">
-    <Fragment set:html={stuff.leawood.firstp} />
+    <Fragment set:html={stuff.area.firstp} />
   </section>
   <section class="section-2 center">
     <p class="small upper semi-bold mute">Great Plains Painting</p>
-    <h2 class="h2">{stuff.leawood.section1.h2}</h2>
+    <h2 class="h2">{stuff.area.section1.h2}</h2>
     <div class="section2-copy container flow">
-      <Fragment set:html={stuff.leawood.section1.copy} />
+      <Fragment set:html={stuff.area.section1.copy} />
     </div>
   </section>
   <AreaStack
-    superTitle={stuff.leawood.section2.super}
-    h3={stuff.leawood.section2.h3}
-    copy={stuff.leawood.section2.copy}
-    under={stuff.leawood.section2.underPhoto}
-    over={stuff.leawood.section2.topPhoto}
+    superTitle={stuff.area.section2.super}
+    h3={stuff.area.section2.h3}
+    copy={stuff.area.section2.copy}
+    under={stuff.area.section2.underPhoto}
+    over={stuff.area.section2.topPhoto}
   />
-  <AreaAbout h3={stuff.leawood.about.h3} copy={stuff.leawood.about.copy}  />
+  <AreaAbout h3={stuff.area.about.h3} copy={stuff.area.about.copy} />
   <section class="center section-4 container">
-    <h3>{stuff.leawood.section4.h3}</h3>
+    <h3>{stuff.area.section4.h3}</h3>
     <div class="section4-copy flow">
-      <Fragment set:html={stuff.leawood.section4.copy} />
+      <Fragment set:html={stuff.area.section4.copy} />
     </div>
   </section>
   <section class="accordion">
-    <Accordion title="Frequently Asked Questions" accordionContent={stuff.leawood.faq} />
+    <Accordion title="Frequently Asked Questions" accordionContent={stuff.area.faq} />
   </section>
   <div class="button"><Button text="Schedule Your Free Estimate" link="/contact-us/" style="primary" /></div>
 </BaseLayout>
 
 <style lang="scss">
-  .top-section, .section-4 {
+  .top-section,
+  .section-4 {
     margin-block: var(--size-10);
     padding-inline: var(--size-fluid-3);
   }
-  .section2-copy, .section4-copy  {
+  .section2-copy,
+  .section4-copy {
     margin-top: var(--size-8);
     padding-inline: var(--size-fluid-3);
+  }
+  .accordion {
+    padding-inline: var(--size-6);
   }
   .button {
     display: grid;

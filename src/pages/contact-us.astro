@@ -3,7 +3,7 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 import Hero from "../components/Hero.astro";
 import heroImg from "../assets/about/rolling.jpg";
 import Form from "../components/Form.astro";
-import { Image } from '@astrojs/image/components';
+import { Image } from "@astrojs/image/components";
 
 // for the hero props
 const crumbList = [
@@ -23,15 +23,19 @@ const heroButton = false;
 // url for requesting a static map
 const mainMap =
   "https://maps.googleapis.com/maps/api/staticmap?center=kansas+city,+mo&zoom=12&size=600x600&scale=2&map_id=3dcfc3a6d2fa31c&key=AIzaSyDkKxiVAXt_mBwB_vY7s4bbpLhJmYQjwkw&signature=FSqFRvgzneHjWenUvid-BcUCBmk=";
+
+const title = "Contact Us | Great Plains Painting";
+const desc =
+  "Contact Great Plains Painting if you need affordable and quality painting services in the Kansas City area.";
 ---
 
-<BaseLayout>
+<BaseLayout title={title} desc={desc}>
   <Hero {heroButton} {crumbList} h1={"Contact Us"} {p} heroUrl={heroImg} />
   <section class="form-wrap">
     <Form />
   </section>
   <section class="map">
-    <Image src={mainMap} width={1200} aspectRatio={1/1} />
+    <Image src={mainMap} width={1200} aspectRatio={1 / 1} />
   </section>
 </BaseLayout>
 

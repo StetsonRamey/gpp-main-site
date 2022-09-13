@@ -1,7 +1,7 @@
 ---
 import "../styles/blog.css";
 import { Icon } from "astro-icon";
-import Navbar from "../components/Navbar.astro";
+import NewNavbar from "../components/NewNavbar.astro";
 const { title = "Great Plains Painting" } = Astro.props;
 
 const serviceLinks = [
@@ -79,8 +79,12 @@ const areaLinks = [
   <link rel="icon" type="image/x-icon" href="/favicon.ico" />
 
   <body>
-    <Navbar />
-    <main>
+    <header class="site-head" role="banner">
+      <a href="#main-content" class="skip-link">Skip to Content</a>
+      <!-- <Navbar /> -->
+      <NewNavbar />
+    </header>
+    <main id="main-content" tabindex="-1">
       <slot />
     </main>
     <footer class="blur">
@@ -144,9 +148,56 @@ const areaLinks = [
           </section>
         </nav>
       </div>
-      <div class="footer-banner">2022 GPP</div>
+      <div class="footer-banner">Made with ♥ | <span class="date"></span> | Great Plains Painting</div>
     </footer>
+    <script is:inline defer>
+      const date = document.querySelector(".date");
+      const currentYear = new Date().getFullYear();
+      date.append(currentYear);
+    </script>
+
     <style lang="scss">
+      .skip-link {
+        z-index: var(--layer-important);
+        display: inline-block;
+        padding: 0.7rem 1rem 0.5rem 1rem;
+        background: hsl(var(--white));
+        color: hsl(var(--footer-accent));
+        text-decoration: none;
+        font-weight: 700;
+        text-transform: uppercase;
+        position: absolute;
+        top: 1rem;
+        left: 1rem;
+      }
+
+      .skip-link:hover {
+        background: hsl(var(--brand-green));
+        color: hsl(var(--brand-dark));
+      }
+
+      .skip-link:not(:focus) {
+        border: 0;
+        clip: rect(0 0 0 0);
+        height: auto;
+        margin: 0;
+        overflow: hidden;
+        padding: 0;
+        position: absolute;
+        width: 1px;
+        white-space: nowrap;
+      }
+
+      .site-head {
+        padding: 0.6rem 0;
+        background: hsl(var(--footer-accent));
+        color: white;
+        line-height: 1.1;
+      }
+
+      .site-head :focus {
+        outline-color: var(--color-light);
+      }
       main {
         max-width: 80ch;
         margin: 0 auto;
@@ -254,6 +305,11 @@ const areaLinks = [
 
       .footer-banner {
         background-color: hsl(var(--footer-dark));
+        height: var(--size-8);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: var(--size-2);
       }
 
       footer a {
