@@ -22,30 +22,18 @@ import FormDescription from "./FormDescription.astro";
   }
 </script>
 
-<form name="contact" id="address-form" action="" method="get" autocomplete="off" netlify>
+<form name="contact" id="address-form" action="" method="get" autocomplete="off" data-netlify="true">
   <fieldset>
     <legend>Your Name</legend>
     <div class="form-row">
       <div class="form-group">
         <label for="first-name">First Name</label>
-        <input
-          class="form-field"
-          type="text"
-          id="first-name"
-          name="first-name"
-          aria-describedby="first-name-example"
-        />
+        <input class="form-field" type="text" id="first-name" name="first-name" aria-describedby="first-name-example" />
         <FormDescription id={"first-name-example"} copy={"e.g. -  Paul"} />
       </div>
       <div class="form-group">
         <label for="last-name">Last Name</label>
-        <input
-          class="form-field"
-          type="text"
-          id="last-name"
-          name="last-name"
-          aria-describedby="last-name-example"
-        />
+        <input class="form-field" type="text" id="last-name" name="last-name" aria-describedby="last-name-example" />
         <FormDescription id={"last-name-example"} copy={"e.g. - Rudd"} />
       </div>
     </div>
@@ -71,13 +59,7 @@ import FormDescription from "./FormDescription.astro";
       </div>
       <div class="form-group">
         <label for="email">Email</label>
-        <input
-          class="form-field"
-          type="email"
-          id="email"
-          name="email"
-          aria-describedby="email-address"
-        />
+        <input class="form-field" type="email" id="email" name="email" aria-describedby="email-address" />
         <FormDescription id={"email-address"} copy={"e.g. - prudd@email.com"} />
       </div>
     </div>
@@ -108,10 +90,7 @@ import FormDescription from "./FormDescription.astro";
         <label for="city">City</label>
         <input class="form-field" type="text" id="locality" name="city" />
       </div>
-      <div
-        class="form-group form-group--width-auto"
-        style="--field-width: 15ch;"
-      >
+      <div class="form-group form-group--width-auto" style="--field-width: 15ch;">
         <label for="state">State</label>
         <div class="form-field select">
           <select id="state" name="state">
@@ -122,22 +101,10 @@ import FormDescription from "./FormDescription.astro";
           <span class="focus"></span>
         </div>
       </div>
-      <div
-        class="form-group form-group--width-auto"
-        style="--field-width: 20ch;"
-      >
+      <div class="form-group form-group--width-auto" style="--field-width: 20ch;">
         <label for="zip">Zip</label>
-        <input
-          class="form-field"
-          id="postcode"
-          name="zip"
-          type="text"
-          aria-describedby="zip-description"
-        />
-        <FormDescription
-          id={"zip-description"}
-          copy={"5 digits - numbers only"}
-        />
+        <input class="form-field" id="postcode" name="zip" type="text" aria-describedby="zip-description" />
+        <FormDescription id={"zip-description"} copy={"5 digits - numbers only"} />
       </div>
     </div>
   </fieldset>
@@ -204,9 +171,7 @@ import FormDescription from "./FormDescription.astro";
     <legend>Additional Project Details</legend>
     <div class="form-row">
       <div class="form-group">
-        <label class="visually-hidden" for="message"
-          >Additional Project Details</label
-        >
+        <label class="visually-hidden" for="message">Additional Project Details</label>
         <textarea class="form-field" name="message" id="message"></textarea>
       </div>
     </div>
