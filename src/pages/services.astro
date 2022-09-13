@@ -34,7 +34,7 @@ const p = "Great Plains Painting offers exceptional painting services in Kansas 
         <h3 class="h3 service-title">{service.service}</h3>
         <p class="service-copy">{service.copy}</p>
         <div class="button-wrap">
-          <Button text={`learn more about ${service.service}`} link={service.link} style="primary" />
+          <Button text="learn more" link={service.link} style="primary" />
         </div>
       </div>
       ))
@@ -44,9 +44,14 @@ const p = "Great Plains Painting offers exceptional painting services in Kansas 
 </BaseLayout>
 
 <style lang="scss">
+  .services {
+    max-width: 40ch;
+    margin-left: auto;
+    margin-right: auto;
+  }
   .service-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(475px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
     gap: var(--size-fluid-5);
     margin-block: var(--size-12);
   }
@@ -66,6 +71,10 @@ const p = "Great Plains Painting offers exceptional painting services in Kansas 
     margin-inline: auto;
   }
 
+  .service-title {
+    font-size: var(--font-size-5);
+  }
+
   .service-img {
     max-width: 100%;
     max-height: 100%;
@@ -73,7 +82,7 @@ const p = "Great Plains Painting offers exceptional painting services in Kansas 
   }
 
   .service-copy {
-    margin-inline: var(--size-10);
+    margin-inline: var(--size-11);
     padding-block: var(--size-4);
   }
 

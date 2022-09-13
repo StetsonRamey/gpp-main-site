@@ -94,6 +94,7 @@
 
 .width-sm {
   max-width: 80ch;
+  padding-inline: var(--size-6);
 }
 
 /* SPACING */
