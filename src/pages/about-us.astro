@@ -51,7 +51,16 @@ const desc =
 
 <BaseLayout title={title} desc={desc}>
   <Hero crumbList={crumbList} heroUrl={cut} h1={"About Great Plains Painting"} />
-  <PhotoStack {superTitle} {h2} {subTitle} {p} buttonText="schedule youre free estimate" under={under} over={over} />
+  <PhotoStack
+    {superTitle}
+    {h2}
+    {subTitle}
+    {p}
+    buttonText="schedule youre free estimate"
+    buttonLink="/contact-us/"
+    under={under}
+    over={over}
+  />
   <LocalBanner {button} {localh2} {localp} localBackground={theTeam} />
   <People />
   <PhotoStackReverse {reverseTitle} {reversep} reverseUnder={roller} reverseOver={cut} />
