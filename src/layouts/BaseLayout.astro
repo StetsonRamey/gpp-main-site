@@ -77,6 +77,18 @@ const { title, desc } = Astro.props;
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+  <!-- Google tag (gtag.js) -->
+  <script type="text/partytown" src="https://www.googletagmanager.com/gtag/js?id=G-6Y2BCR3ZSK"></script>
+  <script type="text/partytown">
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      window.dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
+
+    gtag("config", "G-6Y2BCR3ZSK");
+  </script>
+
   <link rel="icon" type="image/x-icon" href="/favicon.ico" />
 
   <title>{title}</title>

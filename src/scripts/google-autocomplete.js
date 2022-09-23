@@ -1,10 +1,11 @@
-let autocomplete: google.maps.places.Autocomplete;
+let autocomplete;
 let address1Field = document.getElementById("ship-address");
 let postalField = document.querySelector("#postcode");
 let firstRadio = document.querySelector("#exterior-radio");
+// console.log('do we get this?')
 
-function initAutocomplete() {
-  console.log("loaded");
+export default function initAutocomplete() {
+  // console.log("loaded");
   autocomplete = new google.maps.places.Autocomplete(address1Field, {
     componentRestrictions: { country: ["us"] },
     fields: ["address_components", "geometry"],
@@ -55,7 +56,3 @@ function fillInAddress() {
 
   firstRadio.focus();
 }
-
-window.initAutocomplete = initAutocomplete;
-
-

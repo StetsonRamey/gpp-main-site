@@ -17,6 +17,7 @@
   },
   "devDependencies": {
     "@astrojs/image": "^0.7.0",
+    "@astrojs/partytown": "^1.0.0",
     "@types/google.maps": "^3.50.0",
     "astro": "^1.0.6",
     "autoprefixer": "^10.4.7",
