@@ -11,7 +11,7 @@ export default defineConfig({
     }),
     partytown({
       config: {
-        forward: ["datalayer.push"],
+        forward: ["dataLayer.push"],
       },
     }),
   ],
