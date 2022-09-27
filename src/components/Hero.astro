@@ -28,7 +28,7 @@ const {
     {heroButton && <Button text="Request A Free Service Estimate" link="/contact-us/" style="primary" />}
   </div>
   <!-- <img src="/cedar-shake.jpg" alt="" srcset=""> -->
-  <Image src={heroUrl} width={1200} />
+  <Image loading="eager" fetchpriority="high" src={heroUrl} width={1200} />
 </header>
 
 <style lang="scss">
