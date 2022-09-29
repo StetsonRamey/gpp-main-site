@@ -75,6 +75,18 @@ const areaLinks = [
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script type="text/partytown">
+    (function (w, d, s, l, i) {
+      w[l] = w[l] || [];
+      w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+      var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s),
+        dl = l != "dataLayer" ? "&l=" + l : "";
+      j.async = true;
+      j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+      f.parentNode.insertBefore(j, f);
+    })(window, document, "script", "dataLayer", "GTM-MK9H3X2");
+  </script>
 
   <link rel="icon" type="image/x-icon" href="/favicon.ico" />
 
@@ -91,6 +103,15 @@ const areaLinks = [
   </script>
 
   <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript
+      ><iframe
+        src="https://www.googletagmanager.com/ns.html?id=GTM-MK9H3X2"
+        height="0"
+        width="0"
+        style="display:none;visibility:hidden"></iframe>
+    </noscript>
+    <!-- End Google Tag Manager (noscript) -->
     <header class="site-head" role="banner">
       <a href="#main-content" class="skip-link">Skip to Content</a>
       <!-- <Navbar /> -->
@@ -359,5 +380,6 @@ const areaLinks = [
         margin-right: var(--size-3);
       }
     </style>
+    <script type="text/partytown" src="//cdn.callrail.com/companies/961532022/59b01f52e76a8af46449/12/swap.js"></script>
   </body>
 </html>
