@@ -1,7 +1,7 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
 import Button from "../components/Button.astro";
-import { Image } from '@astrojs/image/components';
+import { Image } from "@astrojs/image/components";
 import Hero from "../components/Hero.astro";
 import heroImg from "../assets/recents/exterior.jpg";
 import services from "../data/ServicePage/services.json";
@@ -9,35 +9,40 @@ import services from "../data/ServicePage/services.json";
 const crumbList = [
   {
     name: "Home",
-    link: "/"
+    link: "/",
   },
   {
     name: "Our Services",
-    link: "/services/"
-  }
-]
+    link: "/services/",
+  },
+];
 
-const p = "Great Plains Painting offers exceptional painting services in Kansas City and surrounding areas. We take great pride in quality painting services and excellent customer reviews. Click one of the links below to learn more about the painting services we offer."
+const p =
+  "Great Plains Painting offers exceptional painting services in Kansas City and surrounding areas. We take great pride in quality painting services and excellent customer reviews. Click one of the links below to learn more about the painting services we offer.";
+
+const title = "Our Services | Great Plains Painting";
+const desc =
+  "28+ Years Serving Kansas City & Surrounding Areas.  Friendly Team Commited to Quality Results.  Excellent Communication & Service from Start to Finish.";
 ---
 
-<BaseLayout>
+<BaseLayout title={title} desc={desc}>
   <Hero crumbList={crumbList} heroUrl={heroImg} h1={"Our Services"} p={p} />
 
   <section class="services center">
     <div class="service-grid">
       {
-      services.map((service) => (
-      <div class="grid-item">
-        <div class="img-wrap">
-          <Image class="service-img round" src={import(`../assets/services/${service.src}.png`)} width={800} />
-        </div>
-        <h3 class="h3 service-title">{service.service}</h3>
-        <p class="service-copy">{service.copy}</p>
-        <div class="button-wrap">
-          <Button text="learn more" link={service.link} style="primary" />
-        </div>
-      </div>
-      ))
+        services.map((service) => (
+          <div class="grid-item">
+            <div class="img-wrap">
+              <Image class="service-img round" src={import(`../assets/services/${service.src}.png`)} width={800} />
+            </div>
+            <h3 class="h3 service-title">{service.service}</h3>
+            <p class="service-copy">{service.copy}</p>
+            <div class="button-wrap">
+              <Button text="learn more" link={service.link} style="primary" />
+            </div>
+          </div>
+        ))
       }
     </div>
   </section>
