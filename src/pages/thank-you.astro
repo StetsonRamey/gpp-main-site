@@ -1,0 +1,55 @@
+---
+import "../styles/global.css";
+import Button from "../components/Button.astro";
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="inner-wrap">
+        <h1>Thank you!</h1>
+        <p>We've received our submission and will get back to you as soon as possible.</p>
+        <Button link="/" text="return to site" style="primary" />
+      </div>
+    </div>
+  </body>
+</html>
+
+<style lang="scss">
+  html,
+  body {
+    height: 100%;
+    background-color: hsl(var(--dark-blue));
+    color: hsl(var(--white));
+    margin-inline: var(--size-2);
+  }
+
+  .wrapper {
+    display: grid;
+    place-items: center;
+    min-height: 100%;
+  }
+
+  .inner-wrap {
+    display: grid;
+    place-items: center;
+
+    h1 {
+      font-size: var(--font-size-8);
+    }
+
+    p {
+      text-align: center;
+      max-width: 35ch;
+      font-size: var(--font-size-4);
+      margin-block: var(--size-8);
+    }
+  }
+</style>

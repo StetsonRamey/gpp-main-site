@@ -8,6 +8,7 @@ export default defineConfig({
   integrations: [
     image({
       logLevel: "debug",
+      serviceEntryPoint: "@astrojs/image/sharp",
     }),
     partytown({
       config: {
