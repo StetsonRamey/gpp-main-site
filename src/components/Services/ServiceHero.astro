@@ -23,7 +23,13 @@ const position = heroPosition;
     {heroButton && <Button text="Request A Free Service Estimate" link="/contact-us/" style="primary" />}
   </div>
   <!-- <img src="/cedar-shake.jpg" alt="" srcset=""> -->
-  <Image src={import(`../../assets/services/${heroUrl}.png`)} width={1800} aspectRatio={978 / 800} />
+  <Image
+    src={import(`../../assets/services/${heroUrl}.png`)}
+    width={1800}
+    format="avif"
+    aspectRatio={978 / 800}
+    alt=""
+  />
 </header>
 
 <style lang="scss" define:vars={{ position }}>

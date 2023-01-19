@@ -7,7 +7,7 @@ import people from "../data/people.json";
   <div class="flex-grid">
     {people.map((person) => (
     <div class="card">
-      <Image class="person-photo radius-2 shadow-3" src={import(`../assets/people/${person.src}.jpg`)} width={250} />
+      <Image class="person-photo radius-2 shadow-3" src={import(`../assets/people/${person.src}.jpg`)} format="avif" alt={`${person.name} headshot`} width={250} />
       <div class="wrap center">
         <p class="name">{person.name}</p>
         <p class="title muted">{person.role}</p>

@@ -8,7 +8,7 @@ import areas from "../data/mapsUrls.json";
     areas.map((area) => (
       <a href={area.areaPage} class="page-link">
         <div class="area">
-          <Image class="round" src={area.signed_url} width={200} aspectRatio={1 / 1} />
+          <Image class="round" src={area.signed_url} format="avif" width={200} aspectRatio={1 / 1} alt={area.alt} />
           <h3>{area.city}</h3>
         </div>
       </a>
@@ -19,7 +19,7 @@ import areas from "../data/mapsUrls.json";
 <style lang="scss">
   .page-link {
     text-decoration: none;
-    padding: var(--size-6)
+    padding: var(--size-6);
   }
   .service-areas {
     display: grid;

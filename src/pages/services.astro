@@ -26,7 +26,7 @@ const desc =
 ---
 
 <BaseLayout title={title} desc={desc}>
-  <Hero crumbList={crumbList} heroUrl={heroImg} h1={"Our Services"} p={p} />
+  <Hero crumbList={crumbList} heroUrl={heroImg} h1={"Our Services"} p={p} alt="Freshly painted home exterior in a blue color" />
 
   <section class="services center">
     <div class="service-grid">
@@ -34,7 +34,7 @@ const desc =
         services.map((service) => (
           <div class="grid-item">
             <div class="img-wrap">
-              <Image class="service-img round" src={import(`../assets/services/${service.src}.png`)} width={800} />
+              <Image class="service-img round" src={import(`../assets/services/${service.src}.png`)} format="avif" alt={service.alt} width={800} />
             </div>
             <h3 class="h3 service-title">{service.service}</h3>
             <p class="service-copy">{service.copy}</p>

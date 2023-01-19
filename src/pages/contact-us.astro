@@ -30,12 +30,12 @@ const desc =
 ---
 
 <BaseLayout title={title} desc={desc}>
-  <Hero {heroButton} {crumbList} h1={"Contact Us"} {p} heroUrl={heroImg} />
+  <Hero heroButton={heroButton} {crumbList} h1={"Contact Us"} p={p} heroUrl={heroImg} alt="Painting exterior trim with a roller" />
   <section class="form-wrap">
     <Form />
   </section>
   <section class="map">
-    <Image src={mainMap} width={1200} aspectRatio={1 / 1} />
+    <Image src={mainMap} width={1200} aspectRatio={1 / 1} alt="Map of Kansas City service area" />
   </section>
 </BaseLayout>
 

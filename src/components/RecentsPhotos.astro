@@ -1,18 +1,23 @@
 ---
-import photos from '../data/recents.json';
-import interior from '../assets/recents/interior.jpg';
-import exterior from '../assets/recents/exterior.jpg';
-import scdProbiotics from '../assets/recents/scdProbiotics.jpg';
-import { Image } from '@astrojs/image/components';
+import photos from "../data/recents.json";
+import { Image } from "@astrojs/image/components";
 ---
 
-{photos.recentsHome.map(photo => (
-<div class="photoContain">
-  <Image class="photo" src={import(`../assets/recents/${photo.src}.jpg`)} width={700} />
-  <span class="pill">{photo.tag}</span>
-  <h3 class="text-white">{photo.title}</h3>
-</div>
-))}
+{
+  photos.recentsHome.map((photo) => (
+    <div class="photoContain">
+      <Image
+        class="photo"
+        src={import(`../assets/recents/${photo.src}.jpg`)}
+        format="avif"
+        alt={photo.alt}
+        width={700}
+      />
+      <span class="pill">{photo.tag}</span>
+      <h3 class="text-white">{photo.title}</h3>
+    </div>
+  ))
+}
 
 <style lang="scss">
   .photoContain {
@@ -20,8 +25,7 @@ import { Image } from '@astrojs/image/components';
     grid-template-columns: 1fr;
     grid-template-rows: repeat(6, 75px);
     color: hsl(var(--white));
-    background: hsl(0deg 0% 0% / .35) 0%;
-
+    background: hsl(0deg 0% 0% / 0.35) 0%;
 
     .photo {
       z-index: -1;
@@ -46,7 +50,7 @@ import { Image } from '@astrojs/image/components';
 
     h3 {
       font-size: var(--font-size-fluid-1);
-      grid-row: 6/ span 1;
+      grid-row: 6 / span 1;
       color: hsl(var(--white));
       max-width: 17ch;
       margin-left: var(--size-8);

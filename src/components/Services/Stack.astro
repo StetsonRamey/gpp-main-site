@@ -1,7 +1,11 @@
 ---
-import { Image } from "@astrojs/image/components";
+import { Picture } from "@astrojs/image/components";
 
 const { superTitle, h2, subTitle, list, under, over } = Astro.props;
+
+const widths = [600, 800]
+const sizes = '(max-width: 640px) 20vw, (max-width: 1024px) 50vw, 100vw'
+const formats = ['avif', 'webp']
 ---
 
 <section class="benefits">
@@ -15,19 +19,25 @@ const { superTitle, h2, subTitle, list, under, over } = Astro.props;
   </div>
   <div class="photo-stack">
     <div class="img-wrap back">
-      <Image
+      <Picture
         class="img radius-2 shadow-5"
-        src={import("../../assets/service-pages/blue-ext2.jpg")}
-        width={1200}
-        aspectRatio={16 / 9}
+        src={under}
+        widths={widths}
+        sizes={sizes}
+        format={formats}
+        aspectRatio="16:9"
+        alt=""
       />
     </div>
     <div class="img-wrap front">
-      <Image
+      <Picture
         class="img radius-2 shadow-5"
-        src={import("../../assets/service-pages/intTrim.jpg")}
-        width={1200}
-        aspectRatio={16 / 9}
+        src={over}
+        widths={widths}
+        sizes={sizes}
+        format={formats}
+        aspectRatio="16:9"
+        alt=""
       />
     </div>
   </div>

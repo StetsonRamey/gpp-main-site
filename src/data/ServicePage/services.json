@@ -3,36 +3,42 @@
     "service": "Exterior Painting Services",
     "copy": "Great Plains Painting offers professional exterior painting services at an affordable price. We can help with all different kinds of exterior surfaces.",
     "src": "extService",
+    "alt": "Exterior painting service image",
     "link": "/exterior-painting-kansas-city/"
   },
   {
     "service": "Interior Painting Services",
     "copy": "Great Plains Painting specializes in creating a new fresh look for the interior of your home. Our customers love our approach to interior painting.",
     "src": "intService",
+    "alt": "Interior painting service image",
     "link": "/interior-painting-kansas-city/"
   },
   {
     "service": "Carpentry & Wood Rot Repair",
     "copy": "Great Plains Painting offers professional wood rot repair services. We are fully capable of replacing or repairing almost anything if it is possible to do so.",
     "src": "rotService",
+    "alt": "Wood rot repair service image",
     "link": "/wood-rot-repair-kansas-city/"
   },
   {
     "service": "Residential Cabinet Painting",
     "copy": "If you’re thinking about switching your cabinets from the old wood finish look to a more modern white or colored enamel cabinet you’ll be amazed what it will do to your kitchen.",
     "src": "cabService",
+    "alt": "Cabinet painting service image",
     "link": "/cabinet-painting-kansas-city/"
   },
   {
     "service": "James Hardie Siding",
     "copy": "Need James Hardie Siding experts? We install Lap Siding, Shingle Siding, Panel Siding and Batten Board Siding. Give us a call to get a free estimate.",
     "src": "hardieService",
+    "alt": "James Hardie siding service image",
     "link": "/james-hardie-siding-kansas-city/"
   },
   {
     "service": "Commercial Painting Services",
     "copy": "If you’re a general contractor taking bids on a new project or an owner with a commercial property in the Kansas City Metro and need estimates on your project, we’d love to hear from you.",
     "src": "commService",
+    "alt": "Commercial painting service image",
     "link": "/commercial-painting-contractors-kansas-city/"
   }
 ]

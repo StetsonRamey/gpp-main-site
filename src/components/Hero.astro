@@ -6,6 +6,7 @@ import { Image } from "@astrojs/image/components";
 const {
   crumbList,
   heroUrl,
+  alt,
   bbb,
   h1 = "#1 Painters Kansas City",
   p = "Your Professional Painters In Kansas City With The Quality You Deserve At A Price You Can Afford.",
@@ -28,7 +29,7 @@ const {
     {heroButton && <Button text="Request A Free Service Estimate" link="/contact-us/" style="primary" />}
   </div>
   <!-- <img src="/cedar-shake.jpg" alt="" srcset=""> -->
-  <Image loading="eager" fetchpriority="high" src={heroUrl} width={1200} />
+  <Image loading="eager" fetchpriority="high" format="avif" src={heroUrl} width={1200} alt={alt} />
 </header>
 
 <style lang="scss">

@@ -2,16 +2,19 @@
   "recentsHome": [
     {
       "src": "scdProbiotics",
+      "alt": "Commercial exterior painting project",
       "tag": "Commercial Exterior",
       "title": "Crossroads"
     },
     {
       "src": "interior",
+      "alt": "Residential interior painting project",
       "tag": "Residential Interior",
       "title": "Leawood, KS"
     },
     {
       "src": "exterior",
+      "alt": "Residential exterior painting project",
       "tag": "Residential Exterior",
       "title": "Overland Park, KS"
     }

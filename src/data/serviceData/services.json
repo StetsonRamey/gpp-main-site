@@ -32,8 +32,8 @@
         "New paint is one of the most cost-effective ways of giving your home an updated look and feel",
         "New paint can change the way you feel about your home"
       ],
-      "underPhoto": "/src/assets/service-pages/intPrep.jpg",
-      "topPhoto": "../assets/service-pages/intTrim.jpg"
+      "underPhoto": "/images/service-pages/intPrep.jpg",
+      "topPhoto": "/images/service-pages/intTrim.jpg"
     },
     "aboutBanner": {
       "title": "Interior Painting - Affordable Prices",
@@ -45,8 +45,8 @@
       "upperTitle": "Interior Painting Experts",
       "Title": "KC Interior House Painting Services",
       "copy": "<p>Our Kansas City interior painting projects consistently receive great reviews. Great Plains Painting paints all kinds of homes from small apartments to large luxury homes. Walls, ceilings, trim, doors, cabinets…whatever you want to be painted we can paint. Our focus is to treat every job with the same attention to detail, quality, and professionalism.</p> <p>If you want a quality job, you should consider hiring a professional interior house painter. There are many variables to painting inside someone's home. How will the trim be painted, brushed or sprayed? How much furniture is there and how will it be moved for access? Are repairs needed on some of the drywall before painting? Is flooring going to stay or is it being replaced after painting?  Hiring in-experienced painters can produce undesirable outcomes in any of these areas.</p>",
-      "underPhoto": "../assets/service-pages/intCeiling.jpg",
-      "topPhoto": "../assets/service-pages/intGreat.jpg"
+      "underPhoto": "/images/service-pages/intCeiling.jpg",
+      "topPhoto": "/images/service-pages/intGreat.jpg"
     },
     "committed": {
       "copy": "<p>If you hire Great Plains Painting, you can trust that we are committed to getting the job done right. With our knowledge and experience in painting the interior of homes all across the Kansas City area, we’re confident that we can do great work for you and get you what you need and want.</p> . <p>Whether it is 3 or 4 rooms or the entire interior of your home, our goal is to provide our clients with a great painting experience.</p>"
@@ -124,8 +124,8 @@
         "Residential homes and guest houses",
         "Sealing and protecting"
       ],
-      "underPhoto": "/src/assets/service-pages/blue-ext2.jpg",
-      "topPhoto": "../assets/service-pages/multi-ext2.jpg"
+      "underPhoto": "/images/service-pages/blue-ext2.jpg",
+      "topPhoto": "/images/service-pages/multi-ext2.jpg"
     },
     "aboutBanner": {
       "title": "Exterior Painting - Get a Free Estimate",
@@ -137,8 +137,8 @@
       "upperTitle": "Exterior Painting Experts",
       "Title": "KC Exterior House Painting Services",
       "copy": "<p>A quality exterior paint job seals and protects your home from moisture and mildew, dry rot, and other damaging effects from the rain, wind, sun, and snow. Between the harsh winters and the hot summers, your home or building’s exterior is bombarded with temperature differentials, lots of UV rays, and moisture.</p><p>The most common issue we see from lack of routine painting maintenance is wood rot. In some cases, wood rot repair is extensive and can cost thousands of dollars. Quality, routine painting with quality materials can prevent wood rot and save you money.</p>",
-      "underPhoto": "../assets/about/team.jpg",
-      "topPhoto": "../assets/about/brushing.jpg"
+      "underPhoto": "/images/service-pages/team.jpg",
+      "topPhoto": "/images/service-pages/brushing.jpg"
     },
     "committed": {
       "copy": "The most important part of painting your home is the preparation work. Good “prep work” can be (and usually is) the difference between painting your home every four years or every eight or nine years (or more in some cases). Ask any painter that gives you an estimate how they prep a house before painting and have some follow up questions to get into what they’re doing deeply (don’t settle for a “we scrape and prime” answer, everyone will say that). It is an easy thing to cut corners on prep and you want to be able to trust that what is underneath your paint is going to hold up well for years to come."
@@ -212,8 +212,8 @@
         "We use software to take and markup pictures and we’ll show these to you. They also get printed and given to our crew so they know exactly what’s included and what needs done.  We can also email you the report if you want it",
         "We separate the wood rot repair price from the painting price so it’s clear what it costs on it's own. This way you can compare it to others or if you have a handyman or carpenter show it to him and get an estimate for the exact same items"
       ],
-      "underPhoto": "../assets/about/team.jpg",
-      "topPhoto": "../assets/about/ryan.jpg"
+      "underPhoto": "/images/service-pages/team.jpg",
+      "topPhoto": "/images/service-pages/ryan.jpg"
     },
     "aboutBanner": {
       "title": "Wood Rot Repair - Get a Free Estimate Today",
@@ -225,8 +225,8 @@
       "upperTitle": "Wood Rot Repair Experts",
       "Title": "KC Wood Rot Repair Services",
       "copy": "<p>We are fully capable of replacing or repairing almost anything if it is possible to do so. If you have questions about wood rot repair, ask your estimator for his recommendations and options. In the event that what you are dealing with is unique and your estimator hasn’t seen it before, he’ll reach out to our production manager Ryan or one of our carpenters to find out what options we can offer and get those to you at your estimate.</p><p>As always, our #1 priority is finding out exactly what you need and delivering it to you. You can rest easy knowing you have the professionals at Great Plains Painting on your side. We make the entire process from start to finish simple and hassle-free.</p>",
-      "underPhoto": "../assets/service-pages/wood-rot-6.jpg",
-      "topPhoto": "../assets/service-pages/repairing-wood-rot-2.jpg"
+      "underPhoto": "/images/service-pages/wood-rot-6.jpg",
+      "topPhoto": "/images/service-pages/repairing-wood-rot-2.jpg"
     },
     "committed": {
       "copy": "<p>If you hire Great Plains Painting, you can trust that we are committed to getting the job done right. With our experience and knowledge in painting and wood rot repair across Kansas City and surrounding areas, we're confident we can do great work and deliver exactly what you need and what.</p><p>Whether it's a small or big wood rot repair project, our goal is to provide our clients with a great professional experience and exceptional customer service.</p>"
@@ -296,8 +296,8 @@
         "Less hassle than replacing your kitchen cabinets",
         "Minimal disruption, most jobs are completed within 2-4 weeks"
       ],
-      "underPhoto": "../assets/service-pages/cabService.jpg",
-      "topPhoto": "../assets/service-pages/cabinets-trim.jpg"
+      "underPhoto": "/images/service-pages/cabService.jpg",
+      "topPhoto": "/images/service-pages/cabinets-trim.jpg"
     },
     "aboutBanner": {
       "title": "Cabinet Painting In Kansas City - Affordable Prices",
@@ -309,8 +309,8 @@
       "upperTitle": "Cabinet Painting Experts",
       "Title": "KC Kitchen Cabinet Painting Services",
       "copy": "At Great Plains Painting, we are experts in cabinet painting, cabinet refacing, and cabinet resurfacing. We understand the nuances of these types of painting jobs and have a well defined process to make sure the job is done correctly the first time. If you've been considering having your cabinet repainted, don't wait - you will love the look of your kitchen once you see the final results.",
-      "underPhoto": "../assets/service-pages/cabPrep.jpg",
-      "topPhoto": "../assets/service-pages/cabPrep2.jpg"
+      "underPhoto": "/images/service-pages/cabPrep2.jpg",
+      "topPhoto": "/images/service-pages/cabPrep.jpg"
     },
     "committed": {
       "copy": "Our goal is to make sure you are 100% happy with your project. From the initial estimate to the final clean up, our whole team makes the whole process easy from start to finish. We pride ourselves on our exceptional customer service. In fact, we guarantee will not be disappointed that you choose Great Plains Painting for your cabinet painting project."
@@ -379,8 +379,8 @@
         "Comfortable Working with Lifts",
         "Flexible Scheduling to Minimize Disturbance"
       ],
-      "underPhoto": "../assets/service-pages/scd-commercial.jpg",
-      "topPhoto": "../assets/service-pages/scd-commercial2.jpg"
+      "underPhoto": "/images/service-pages/scd-commercial.jpg",
+      "topPhoto": "/images/service-pages/scd-commercial2.jpg"
     },
     "aboutBanner": {
       "title": "About Us",
@@ -392,8 +392,8 @@
       "upperTitle": "",
       "Title": "Kansas City MO Commercial Painting Services",
       "copy": "<p>Our commercial painting team is made of the best painting contractors in Kansas City. We stay on top of the current industry trends and always keep up with the latest painting best practices. Our mission is to make the whole process as simple and hassle-free as we can.</p><p>We use nothing but the best products, making sure your commercial painting job is done right and lasts for years to come. From the initial phone call to the final product, we are here with you every step of the way. Call us today or fill in our online form to get started on your commercial painting project.</p>",
-      "underPhoto": "../assets/service-pages/scd-commercial4.jpg",
-      "topPhoto": "../assets/service-pages/scd-commercial3.jpg"
+      "underPhoto": "/images/service-pages/scd-commercial3.jpg",
+      "topPhoto": "/images/service-pages/scd-commercial4.jpg"
     },
     "committed": {
       "copy": "The Great Plains Painting team has handed all different kinds of commercial painting projects. We have the skills that set us apart from other companies in Kansas city including the experience needed to get the job done right the first time. We understand how working in a space that is being renovated can be frustrating. That is why we complete our commercial painting services in a reasonable about of time, disrupting your daily life as minimally as possible."
@@ -459,8 +459,8 @@
         "Fiber cement siding provides an excellent bond with all modern paints if field painted",
         "Low maintenance, long-lasting peace of mind, and eye catching curb appeal"
       ],
-      "underPhoto": "../assets/service-pages/hardieStart.jpg",
-      "topPhoto": "../assets/service-pages/hardieMid.jpg"
+      "underPhoto": "/images/service-pages/hardieStart.jpg",
+      "topPhoto": "/images/service-pages/hardieMid.jpg"
     },
     "aboutBanner": {
       "super": "",
@@ -472,8 +472,8 @@
     "section3": {
       "Title": "Why Choose Us As Your James Hardie Siding Contractor?",
       "copy": "<p>Great Plains Painting, a trusted James Hardie contractor, has an excellent reputation and delivers the best installation services hands down. We have years of experience installing James Hardie siding in the Kansas City area and surrounding areas. Our unmatched customer service coupled with diligent teamwork makes us the top James Hardie siding contractor in the Kansas City area.</p><p>We also work closely with our James Hardie siding rep to make sure we stay on top of the latest best practices and are up to speed with the latest developments in James Hardie products.</p>",
-      "underPhoto": "../assets/service-pages/boshart-final-2.jpg",
-      "topPhoto": "../assets/service-pages/boshart-final-3.jpg"
+      "underPhoto": "/images/service-pages/boshart-final-3.jpg",
+      "topPhoto": "/images/service-pages/boshart-final-2.jpg"
     },
     "committed": {
       "copy": "At Great Plains Painting, we are 100% committed to getting the siding job right. From our initial estimate to the final finished product, we are with you every step of the way. You won't ever have to chase us down or worry about the quality of our work. Our main goal is to make sure you are more than satisfied with your James Hardie siding project."

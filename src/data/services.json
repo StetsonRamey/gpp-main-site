@@ -3,36 +3,42 @@
     "service": "Interior Painting Services",
     "copy": "Our commitment to providing you with the best interior painting services makes us the best choice for all your painting needs. Give us a call or send us a message to get a free estimate.",
     "src": "intService",
+    "alt": "Interior painting service image",
     "link": "/interior-painting-kansas-city/"
   },
   {
     "service": "Exterior Painting Services",
     "copy": "Your exterior painting experts - your house deserves the best painters for the job, so why settle for anything else. We have extensive experience and commitment to make sure the job gets done right.",
     "src": "extService",
+    "alt": "Exterior painting service image",
     "link": "/exterior-painting-kansas-city/"
   },
   {
     "service": "Carpentry & Wood Rot Repair",
     "copy": "Meet your new carpentry & wood rot repair experts. If you have any wood rot or carpentry needs at your house - we got you covered.",
     "src": "rotService",
+    "alt": "Wood rot repair service image",
     "link": "/wood-rot-repair-kansas-city/"
   },
   {
     "service": "Residential Cabinet Painting",
     "copy": "Turn to the experts for cabinet painting services, we guaranteed you will be 100% satisfied with the job.",
     "src": "cabService",
+    "alt": "Cabinet painting service image",
     "link": "/cabinet-painting-kansas-city/"
   },
   {
     "service": "James Hardie Siding",
     "copy": "Need James Hardie Siding experts? It's what we do, give us a call to get a free estimate.",
     "src": "hardieService",
+    "alt": "James Hardie siding service image",
     "link": "/james-hardie-siding-kansas-city/"
   },
   {
     "service": "Commercial Painting Services",
     "copy": "Your expert commercial painting partners in Kansas City are ready for your project. Get in touch for a free estimate today!",
     "src": "commService",
+    "alt": "Commercial painting service image",
     "link": "/commercial-painting-contractors-kansas-city/"
   }
 ]
