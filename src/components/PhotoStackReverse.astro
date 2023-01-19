@@ -15,15 +15,15 @@ const {
 <section class="mobile-section meet-team">
   <div class="photo-stack">
     <div class="img-wrap back">
-      <Image class="img radius-2 shadow-5" src={reverseUnder} width={1200} />
+      <Image class="img radius-2 shadow-5" src={reverseUnder} format="avif" alt="" width={1200} />
     </div>
     <div class="img-wrap front">
-      <Image class="img radius-2 shadow-5" src={reverseOver} width={1200} />
+      <Image class="img radius-2 shadow-5" src={reverseOver} format="avif" alt="" width={1200} />
     </div>
   </div>
   <div class="copy flow" style="--flow-space: 1.5rem">
     <h2 class="h2">{reverseTitle}</h2>
-    <p class="copy muted flow" set:html={reversep}></p>
+    <p class="copy muted flow" set:html={reversep} />
   </div>
 </section>
 

@@ -15,7 +15,7 @@ import services from "../data/services.json";
           <a href={service.link}>
             <div class="grid-item">
               <div class="img-wrap">
-                <Image class="service-img round" src={import(`../assets/services/${service.src}.png`)} width={800} />
+                <Image class="service-img round" src={import(`../assets/services/${service.src}.png`)} alt={service.alt} format="avif" width={800} />
               </div>
               <div class="number round">{i + 1}</div>
               <div class="right">

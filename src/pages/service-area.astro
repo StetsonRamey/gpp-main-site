@@ -28,9 +28,9 @@ const desc =
 ---
 
 <BaseLayout title={title} desc={desc}>
-  <Hero {crumbList} h1={"Our Service Areas"} {p} heroUrl={heroImg} />
+  <Hero {crumbList} h1={"Our Service Areas"} p={p} heroUrl={heroImg} alt="Painting exterior trim with a roller" />
   <section class="map">
-    <Image src={mainMap} width={1200} aspectRatio={1 / 1} />
+    <Image src={mainMap} format="avif" width={1200} aspectRatio={1 / 1} alt="Zoomed out map of Kansas City" />
   </section>
   <section class="hoods">
     <h2 class="h2">Not Sure If We Cover Your Neighborhood?</h2>

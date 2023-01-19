@@ -1,22 +1,42 @@
 ---
-import { Image } from "@astrojs/image/components";
+import { Picture } from "@astrojs/image/components";
 
 const { superTitle, h2, under, over, copy } = Astro.props;
+
+const widths = [600, 800];
+const sizes = "(max-width: 640px) 20vw, (max-width: 1024px) 50vw, 100vw";
+const formats = ["avif", "webp"];
 ---
 
 <section class="benefits">
   <div class="photo-stack">
     <div class="img-wrap back">
-      <Image class="img radius-2 shadow-5" src={import('../../assets/service-pages/hardieMid.jpg')} width={1200} aspectRatio={16 / 9} />
+      <Picture
+        class="img radius-2 shadow-5"
+        src={under}
+        widths={widths}
+        sizes={sizes}
+        format={formats}
+        aspectRatio="16:9"
+        alt=""
+      />
     </div>
     <div class="img-wrap front">
-      <Image class="img radius-2 shadow-5" src={import('../../assets/service-pages/scd-commercial.jpg')} width={1200} aspectRatio={16 / 9} />
+      <Picture
+        class="img radius-2 shadow-5"
+        src={over}
+        widths={widths}
+        sizes={sizes}
+        format={formats}
+        aspectRatio="16:9"
+        alt=""
+      />
     </div>
   </div>
   <div class="copy flow right-stack" style="--flow-space: 1.5rem">
     <p class="small upper semi-bold muted">{superTitle}</p>
     <h2 class="h2">{h2}</h2>
-    <p class="copy muted flow" set:html={copy}></p>
+    <p class="copy muted flow" set:html={copy} />
   </div>
 </section>
 
@@ -54,7 +74,6 @@ const { superTitle, h2, under, over, copy } = Astro.props;
     max-height: 100%;
     width: auto;
   }
-
 
   @media (min-width: 1000px) {
     .benefits {

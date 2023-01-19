@@ -50,18 +50,23 @@ const desc =
 ---
 
 <BaseLayout title={title} desc={desc}>
-  <Hero crumbList={crumbList} heroUrl={cut} h1={"About Great Plains Painting"} />
+  <Hero
+    crumbList={crumbList}
+    heroUrl={cut}
+    h1={"About Great Plains Painting"}
+    alt="Painting exterior trim with a brush"
+  />
   <PhotoStack
-    {superTitle}
-    {h2}
-    {subTitle}
-    {p}
+    superTitle={superTitle}
+    h2={h2}
+    subTitle={subTitle}
+    p={p}
     buttonText="schedule youre free estimate"
     buttonLink="/contact-us/"
     under={under}
     over={over}
   />
-  <LocalBanner {button} {localh2} {localp} localBackground={theTeam} />
+  <LocalBanner button={button} localh2={localh2} localp={localp} localBackground={theTeam} />
   <People />
-  <PhotoStackReverse {reverseTitle} {reversep} reverseUnder={roller} reverseOver={cut} />
+  <PhotoStackReverse reverseTitle={reverseTitle} reversep={reversep} reverseUnder={roller} reverseOver={cut} />
 </BaseLayout>

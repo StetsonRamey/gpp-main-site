@@ -14,10 +14,10 @@ const { superTitle, h3, copy, under = coolBrush, over = coolRoll } = Astro.props
   </div>
   <div class="photo-stack">
     <div class="img-wrap back">
-      <Image class="img radius-2 shadow-5" src={coolBrush} width={1200} aspectRatio={16 / 9} />
+      <Image class="img radius-2 shadow-5" src={coolBrush} format="avif" alt="Painter in sunglass painting trim board with a brush" width={1200} aspectRatio={16 / 9} />
     </div>
     <div class="img-wrap front">
-      <Image class="img radius-2 shadow-5" src={coolRoll} width={1200} aspectRatio={16 / 9} />
+      <Image class="img radius-2 shadow-5" src={coolRoll} format="avif" alt="Painter with a mini roller painting exterior trim" width={1200} aspectRatio={16 / 9} />
     </div>
   </div>
 </section>
