@@ -1,6 +1,6 @@
 ---
+import services from "../data/serviceData/services.json";
 export function getStaticPaths() {
-  import services from "../data/serviceData/services.json";
   return services.map((stuff) => {
     return {
       params: { service: stuff.slug },

@@ -1,21 +1,23 @@
 ---
 import BlogWrap from "../layouts/BlogWrap.astro";
+import "../styles/prose.css";
 
 export async function getStaticPaths() {
-  const posts = await Astro.glob("../content/*.md");
+  const posts = await Astro.glob("../content/blog/*.mdx");
 
-  return posts.map(({ Content, file, frontmatter: { title, coverImage } }) => {
+  return posts.map(({ Content, file, frontmatter: { title, desc, coverImage, date } }) => {
     const slug = file.split("/").at(-1).slice(0, -3);
 
     return {
       params: { slug },
-      props: { Content, title, coverImage },
+      props: { Content, title, desc, coverImage, date },
     };
   });
 }
 
-const { Content, title, coverImage } = Astro.props;
+const { Content, title, desc, coverImage, date } = Astro.props;
 const { slug } = Astro.params;
+const prettyDate = new Date(date).toDateString();
 
 const crumbList = [
   {
@@ -33,18 +35,33 @@ const crumbList = [
 ];
 ---
 
-<BlogWrap>
-  <h1 class="title">{title}</h1>
-  <div class="container">
-    <Content class="content" />
-  </div>
+<BlogWrap title={title} desc={desc}>
+  <article class="flow">
+    <h1 class="title">{title}</h1>
+    <div class="center">
+      <p>
+        <time datetime={date}>{prettyDate}</time>
+      </p>
+    </div>
+    <hr />
+    <div class="container prose">
+      <Content class="content" />
+    </div>
+  </article>
 </BlogWrap>
 
 <style lang="scss">
   .title {
-    padding-top: var(--size-12);
+    margin-block: var(--size-5);
   }
   .container {
     margin-top: var(--size-8);
+  }
+
+  h1 {
+    font-weight: bold;
+    font-size: var(--font-size-5);
+    line-height: var(--font-lineheight-1);
+    text-align: center;
   }
 </style>

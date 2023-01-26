@@ -1,6 +1,6 @@
 ---
+import areas from "../../data/areas.json";
 export function getStaticPaths() {
-  import areas from "../../data/areas.json";
   return areas.map((stuff) => {
     return {
       params: { area: stuff.slug },
