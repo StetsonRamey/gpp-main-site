@@ -16,7 +16,7 @@
     "preview": "astro preview"
   },
   "devDependencies": {
-    "@astrojs/image": "^0.12.1",
+    "@astrojs/image": "^0.13.0",
     "@astrojs/mdx": "^0.15.0",
     "@astrojs/partytown": "^1.0.0",
     "@types/google.maps": "^3.50.0",
