@@ -11,7 +11,7 @@ const posts = await Astro.glob("../content/blog/*.mdx").then((posts) =>
       title: frontmatter.title,
       cover: frontmatter.coverImage,
       publishDate: parse(frontmatter.date, "yyyy-MM-dd", new Date()),
-      href: file.split("/").at(-1).slice(0, -3),
+      href: file.split("/").at(-1).slice(0, -4),
     }))
     .sort((a, b) => {
       if (isBefore(a.publishDate, b.publishDate)) return 1;
