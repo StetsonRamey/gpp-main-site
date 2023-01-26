@@ -5,8 +5,8 @@ import Button from "../components/Button.astro";
 
 const {
   localSuper = "About us",
-  localh2 = "100% Local Kansas City Painting Services",
-  localp = "Our team only works on projects in the Kansas city metro area and have been doing so for over a decade. With that kind of experience, there’s very few things we can’t handle. When Great Plains Painting started we decided to operate differently. We believe in easy, clear communication, no surprises pricing, and quality execution of our work.",
+  localh2 = "100% Local Kansas City House Painting Services",
+  localp = "Our team only works on projects in the Kansas city area and have been doing so for over a decade. With that kind of experience, there's very few things we can't handle. When Great Plains Painting started we decided to operate differently. We believe in easy, clear communication, no surprises pricing, and quality execution of our work.",
   localButton = "Our story",
   localBackground = ryanAndMario,
   button = true,
@@ -18,7 +18,7 @@ const {
   <div class="content-wrap center flow">
     {localSuper && <p class="upper">{localSuper}</p>}
     <h2 class="">{localh2}</h2>
-    <p class="" style="--flow-space: 2rem" set:html={localp}></p>
+    <p class="" style="--flow-space: 2rem" set:html={localp} />
     <div class="btn-wrap" style="--flow-space: 3rem">
       {button && <Button text={localButton} link={buttonLink} style="primary" />}
     </div>

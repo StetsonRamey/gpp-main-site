@@ -34,6 +34,18 @@ h3 {
   color: var(--gray-9);
 }
 
+h5 {
+  font-size: var(--font-size-2);
+}
+
+a:visited {
+  color: inherit;
+}
+
+a:hover {
+  color: hsl(var(--brand-green));
+}
+
 @media (min-width: 1000px) {
   li[role="none"],
   .nav-link {

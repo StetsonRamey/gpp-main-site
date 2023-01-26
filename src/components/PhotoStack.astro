@@ -8,7 +8,7 @@ const {
   superTitle = "Our Experienced Team",
   h2 = "Meet the Most Trusted Kansas City Painters",
   subTitle = "Award-Winning Interior and Exterior Painting Servce Creates Lots of Happy Customers",
-  p = "From the initial conversation to the final stroke of the paint, we are with you every set of the way and we strive to make the process as simple and hassle-free as we can. Our team is built of the best painters and painting contractors in Kansas City who have mastered the art of creating beautiful spaces. We are always keeping on top of the current trends in the industry so we can give you exactly what you are looking for. We use nothing but the best products, making sure your home painting improvements last for years to come. Call or use the form below to get in touch with our team today.",
+  p = "From the initial conversation to the final stroke of the paint, we are with you every set of the way and we strive to make the process as simple and hassle-free as we can. Our team is built of the best professional painters and painting contractors in the Kansas City metro area. We are always keeping on top of the current trends in the industry so we can give you exactly what you are looking for. We use nothing but the best products, making sure your home painting improvements last for years to come. Call or use the form below to get in touch with our team today.",
   buttonText = "Meet the Team",
   buttonLink = "/about-us/",
   under = meetHouse,
@@ -21,17 +21,29 @@ const {
     <p class="small upper semi-bold muted">{superTitle}</p>
     <h2 class="h2">{h2}</h2>
     <p class="sub-h2 black">{subTitle}</p>
-    <p class="copy muted flow" set:html={p}></p>
+    <p class="copy muted flow" set:html={p} />
     <div class="button-wrap">
       <Button text={buttonText} link={buttonLink} style="primary" />
     </div>
   </div>
   <div class="photo-stack">
     <div class="img-wrap back">
-      <Image class="img radius-2 shadow-5" src={under} format="avif" width={1200} alt="Exterior painting project preppeed and ready for paint" />
+      <Image
+        class="img radius-2 shadow-5"
+        src={under}
+        format="avif"
+        width={1200}
+        alt="Exterior painting project prepped and ready for paint"
+      />
     </div>
     <div class="img-wrap front">
-      <Image class="img radius-2 shadow-5" src={over} format="avif" width={1200} alt="A painter on a ldder painting trim on a house" />
+      <Image
+        class="img radius-2 shadow-5"
+        src={over}
+        format="avif"
+        width={1200}
+        alt="A painter on a ldder painting exterior trim on a house"
+      />
     </div>
   </div>
 </section>

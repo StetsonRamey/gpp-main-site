@@ -152,3 +152,16 @@
 .copy {
   font-size: var(--font-size-1);
 }
+
+/* spacers */
+.my-10 {
+  margin-block: var(--size-10);
+}
+
+.mt-2 {
+ margin-top: var(--size-3);
+}
+
+.nudge-left {
+  padding-left: var(--size-8);
+}
