@@ -17,16 +17,19 @@
   },
   "devDependencies": {
     "@astrojs/image": "^0.12.1",
+    "@astrojs/mdx": "^0.15.0",
     "@astrojs/partytown": "^1.0.0",
     "@types/google.maps": "^3.50.0",
-    "astro": "^1.6.15",
+    "astro": "^2.0.1",
     "autoprefixer": "^10.4.7",
     "date-fns": "^2.29.2",
     "open-props": "^1.3.16",
     "postcss": "^8.4.14",
     "postcss-jit-props": "^1.0.7",
+    "remark-gfm": "^3.0.1",
     "sass": "^1.53.0",
-    "sharp": "^0.31.2"
+    "sharp": "^0.31.2",
+    "smartypants": "^0.1.6"
   },
   "dependencies": {
     "astro-icon": "^0.7.1"

@@ -5,7 +5,7 @@ import Hero from "../components/Hero.astro";
 import heroImg from "../assets/cedarShake.jpg";
 import PostPreview from "../components/Blog/PostPreview.astro";
 
-const posts = await Astro.glob("../content/*.md").then((posts) =>
+const posts = await Astro.glob("../content/blog/*.mdx").then((posts) =>
   posts
     .map(({ frontmatter, file }) => ({
       title: frontmatter.title,
