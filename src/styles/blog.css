@@ -22,6 +22,9 @@
   /* max width of column */
   --max-w: 140ch;
   --max-l: 110ch;
+  /* Blog specific colors (based on tailwindcss */
+  --bg-neutral-50: rgb(250 250 250);
+  --font-color: rgb(23 23 23);
 }
 
 input,
@@ -45,20 +48,18 @@ ol[role="list"] {
 
 body {
   margin: 0;
+  background-color: var(--bg-neutral-50);
 }
 
 main {
-  font-family: Verdana, sans-serif;
-  margin: auto;
   padding: 20px;
-  max-width: 70ch;
   text-align: left;
-  background-color: #fff;
   word-wrap: break-word;
   overflow-wrap: break-word;
   line-height: 1.5;
-  color: #444;
+  color: var(--font-color);
 }
+
 h1,
 h2,
 h3,
@@ -67,10 +68,20 @@ h5,
 h6,
 strong,
 b {
-  color: #222;
+  color: var(--font-color);
 }
 a {
   color: #3273dc;
+}
+h1 {
+  font-size: var(--font-size-5);
+  line-height: var(--font-lineheight-1);
+  text-align: center;
+}
+
+article {
+  margin: auto;
+  max-width: 70ch;
 }
 textarea {
   width: 100%;
