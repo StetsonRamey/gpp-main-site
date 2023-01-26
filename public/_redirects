@@ -1,10 +1,13 @@
 # Redirects from what the browser requests to what we serve
 
-/contact/                         /contact-us
+/contact/ /contact-us
 /commercial-painting-kansas-city/ /commercial-painting-contractors-kansas-city
-/blog/                            /blog
-/about-us/                        /about-us
-/exterior-painting-kansas-city/   /exterior-painting-kansas-city
-/interior-painting-kansas-city/   /interior-painting-kansas-city
-/wood-ror-repair-kansas-city/     /wood-rot-repair-kansas-city
-/cabinet-painting-kansas-city/    /cabinet-painting-kansas-city
+/blog/ /blog
+/about-us/ /about-us
+/exterior-painting-kansas-city/ /exterior-painting-kansas-city
+/interior-painting-kansas-city/ /interior-painting-kansas-city
+/wood-ror-repair-kansas-city/ /wood-rot-repair-kansas-city
+/cabinet-painting-kansas-city/ /cabinet-painting-kansas-city
+/painting-my-house-white/ /painting-my-house-white-overland-park
+/prep-a-house-for-exterior-painting/ /house-painting-in-overland-park
+/how-much-will-it-cost-to-paint-the-exterior-of-house/ /how-much-will-it-cost-to-paint-my-house-exterior-overland-park-lees-sumit-kansas-city-painting
