@@ -5,17 +5,17 @@ import "../styles/prose.css";
 export async function getStaticPaths() {
   const posts = await Astro.glob("../content/blog/*.mdx");
 
-  return posts.map(({ Content, file, frontmatter: { title, desc, coverImage, date } }) => {
+  return posts.map(({ Content, file, frontmatter: { titleTag, title, desc, coverImage, date } }) => {
     const slug = file.split("/").at(-1).slice(0, -4);
 
     return {
       params: { slug },
-      props: { Content, title, desc, coverImage, date },
+      props: { Content, titleTag, title, desc, coverImage, date },
     };
   });
 }
 
-const { Content, title, desc, coverImage, date } = Astro.props;
+const { Content, titleTag, title, desc, coverImage, date } = Astro.props;
 const { slug } = Astro.params;
 const prettyDate = new Date(date).toDateString();
 
@@ -33,9 +33,13 @@ const crumbList = [
     link: slug,
   },
 ];
+
+console.log('titleTag', titleTag)
+
+const theTitle = titleTag ? titleTag : title;
 ---
 
-<BlogWrap title={title} desc={desc}>
+<BlogWrap title={theTitle} desc={desc}>
   <article class="flow">
     <h1 class="title">{title}</h1>
     <div class="center">
