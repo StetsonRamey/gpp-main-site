@@ -100,6 +100,8 @@ const areaLinks = [
           <Icon name="fa-solid:map" width={25} />
           <a href="#">Kansas City, MO</a>
         </div>
+        <h3 class="mt-2">Our Blog</h3>
+          <a class="blog-link" href="/blog/">Read our blog!</a>
       </section>
       <section class="footer-block footer-services">
         <h3>Services</h3>
@@ -146,45 +148,9 @@ const areaLinks = [
   .footer-social {
     display: flex;
   }
-  /* MEDIA QUERIES */
-  @media (min-width: 1000px) {
-    /* FOOTER */
-    footer a {
-      font-weight: var(--font-weight-5);
-    }
-
-    .footer-services a,
-    .footer-areas a {
-      text-transform: capitalize;
-    }
-
-    .footer-services ul,
-    .footer-areas ul {
-      columns: 2;
-      max-width: 17rem;
-    }
-
-    .footer-contact {
-      width: fit-content;
-      margin-inline: auto;
-    }
-
-    .footer-contact a {
-      font-size: 0.75em;
-      padding-right: var(--size-fluid-4);
-    }
-
-    .footerNav-wrapper {
-      padding-inline: var(--size-fluid-6);
-      padding-top: var(--size-fluid-6);
-      padding-bottom: var(--size-fluid-3);
-    }
-
-    .links {
-      display: grid;
-      grid-template-columns: 1fr 1fr 1fr 1fr;
-      gap: var(--size-fluid-3);
-    }
+  .blog-link {
+    display: block;
+    text-align: center;
   }
   /* FOOTER */
   footer {
@@ -202,8 +168,6 @@ const areaLinks = [
     padding-block: var(--size-fluid-5);
     padding-inline: var(--size-fluid-4);
     flex-grow: 1;
-    /* max-width: 1500px; */
-    /* margin: 0 auto; */
   }
   .links {
     --flow-space: 2em;
@@ -225,7 +189,6 @@ const areaLinks = [
     justify-items: start;
     a {
       display: block;
-      // text-align: st;
     }
   }
   .service-areas {
@@ -235,7 +198,7 @@ const areaLinks = [
     justify-items: start;
     a {
       display: block;
-      // text-align: center;
+      text-align: center;
     }
   }
   .footer-banner {
@@ -275,5 +238,53 @@ const areaLinks = [
 
   .footer-contact svg {
     margin-right: var(--size-3);
+  }
+
+  /* MEDIA QUERIES */
+  @media (min-width: 1200px) {
+    /* FOOTER */
+    footer a {
+      font-weight: var(--font-weight-5);
+    }
+
+    .footer-services a,
+    .footer-areas a {
+      text-transform: capitalize;
+    }
+
+    .footer-services ul,
+    .footer-areas ul {
+      columns: 2;
+      max-width: 17rem;
+    }
+
+    .footer-contact {
+      width: fit-content;
+      margin-inline: auto;
+    }
+
+    .footer-contact a {
+      font-size: 0.75em;
+      padding-right: var(--size-fluid-4);
+    }
+
+    .footerNav-wrapper {
+      padding-inline: var(--size-fluid-6);
+      padding-top: var(--size-fluid-6);
+      padding-bottom: var(--size-fluid-3);
+    }
+
+    .links {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      gap: var(--size-fluid-3);
+    }
+
+    .footer-block h3 {
+      text-align: start;
+    }
+    .blog-link {
+      text-align: start;
+    }
   }
 </style>
