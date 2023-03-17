@@ -54,5 +54,11 @@
     "alt": "Shawnee map",
     "areaPage": "/service-area/painters-shawnee-ks/",
     "signed_url": "https://maps.googleapis.com/maps/api/staticmap?center=shawnee,+ks&zoom=11&size=200x200&scale=2&map_id=3dcfc3a6d2fa31c&key=AIzaSyDkKxiVAXt_mBwB_vY7s4bbpLhJmYQjwkw&signature=7wxz_w3K3pDOd7dEIxf8GtetvzY="
+  },
+  {
+    "city": "Parkville",
+    "alt": "Parkville map",
+    "areaPage": "/service-area/painters-parkville-mo/",
+    "signed_url": "https://maps.googleapis.com/maps/api/staticmap?center=parkville,+mo&zoom=11&size=200x200&scale=2&map_id=3dcfc3a6d2fa31c&key=AIzaSyDkKxiVAXt_mBwB_vY7s4bbpLhJmYQjwkw&&signature=eYF-VbWhi8d7wEoxAemSgDV-gOc="
   }
 ]
