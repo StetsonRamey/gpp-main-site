@@ -71,6 +71,8 @@ const areaLinks = [
   },
 ];
 
+const canonicalURL = new URL(Astro.url.pathname, Astro.site)
+
 const { title, desc } = Astro.props;
 ---
 
@@ -112,6 +114,13 @@ const { title, desc } = Astro.props;
 
     <title>{title}</title>
     <meta name="description" content={desc} />
+    <link rel="canonical" href={canonicalURL}>
+    <meta property="og:locale" content="en_US">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content={title}>
+    <meta property="og:description" content={desc}>
+    <meta property="og:url" content={canonicalURL}>
+    <meta property="og:site_name" content="Kansas City Commercial & Residential Painting Company">
   </head>
 
   <body>
