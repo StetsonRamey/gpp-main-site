@@ -1,17 +1,18 @@
 ---
 import photos from "../data/recents.json";
-import { Image } from "@astrojs/image/components";
+import { Image, Picture } from "@astrojs/image/components";
 ---
 
 {
   photos.recentsHome.map((photo) => (
     <div class="photoContain">
-      <Image
+      <Picture
         class="photo"
         src={import(`../assets/recents/${photo.src}.jpg`)}
-        format="avif"
+        formats={["avif", "webp", "jpg"]}
+        widths={[600, 800]}
         alt={photo.alt}
-        width={700}
+        sizes="(max-width: 1000px) 100vw, 33vw"
       />
       <span class="pill">{photo.tag}</span>
       <h3 class="text-white">{photo.title}</h3>
@@ -26,13 +27,6 @@ import { Image } from "@astrojs/image/components";
     grid-template-rows: repeat(6, 75px);
     color: hsl(var(--white));
     background: hsl(0deg 0% 0% / 0.35) 0%;
-
-    .photo {
-      z-index: -1;
-      width: 100%;
-      object-fit: cover;
-      height: 450px;
-    }
 
     span {
       grid-row: 5 / span 1;
@@ -55,5 +49,12 @@ import { Image } from "@astrojs/image/components";
       max-width: 17ch;
       margin-left: var(--size-8);
     }
+  }
+  .photo {
+    position: relative;
+    z-index: -1;
+    width: 100%;
+    object-fit: cover;
+    height: 450px;
   }
 </style>

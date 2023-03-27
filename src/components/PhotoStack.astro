@@ -1,14 +1,14 @@
 ---
 import Button from "./Button.astro";
-import { Image } from "@astrojs/image/components";
+import { Image, Picture } from "@astrojs/image/components";
 import meetHouse from "../assets/meetHouse.jpg";
 import meetBrett from "../assets/meetBrett.jpg";
 
 const {
   superTitle = "Our Experienced Team",
-  h2 = "Meet the Most Trusted Kansas City Painters",
-  subTitle = "Award-Winning Interior and Exterior Painting Servce Creates Lots of Happy Customers",
-  p = "From the initial conversation to the final stroke of the paint, we are with you every set of the way and we strive to make the process as simple and hassle-free as we can. Our team is built of the best professional painters and painting contractors in the Kansas City metro area. We are always keeping on top of the current trends in the industry so we can give you exactly what you are looking for. We use nothing but the best products, making sure your home painting improvements last for years to come. Call or use the form below to get in touch with our team today.",
+  h2 = "What Working With Us Looks Like",
+  subTitle = "We'll make interior or exterior painting a breeze",
+  p = "<div class='width-sm'><ul class='flow'><li><strong>Low Stress: </strong>We'll do our best to make sure the estimate, project set-up, painting, and final walkthrough are a breeze</li><li><strong>Communication: </strong>We are <em>EASY</em> to get ahold of.  Call anyone on the team, send a text or an email and we will be there for you.</li><li><strong>Up-front pricing: </strong>We provide the most accurate, up-front estimate possible.  Our work is itemized and clearly priced.</li><li><strong>Quality Products / Quality Craftmanship: </strong>We use proven materials and techniques, and strive to deliver them with precision and care.</li><li><strong>Every project is custom: </strong>Your home and your needs are unique.  Our system is setup to capture that uniqueness at the estimate and translate those details to the crew.  The details that matter to you, matter to us.</li><li><strong>Customer Satisfaction: </strong>We strive to deliver a product you'll be satisfied with!</li></ul></div><p>We've painted hundreds of Kansas City homes, and our companies continued success is due to our focus on up-front accurate pricing and providing detailed, quality painting.</p>",
   buttonText = "Meet the Team",
   buttonLink = "/about-us/",
   under = meetHouse,
@@ -28,22 +28,24 @@ const {
   </div>
   <div class="photo-stack">
     <div class="img-wrap back">
-      <Image
+      <Picture class="img radius-2 shadow-5" formats={['avif','webp','jpeg']} src={under} alt="Exterior painting project prepped and ready for paint" sizes="(max-width: 1140px) calc(75vw - 2rem), 33vw" widths={[300,600,800]} />
+      <!-- <Image
         class="img radius-2 shadow-5"
         src={under}
         format="avif"
         width={1200}
         alt="Exterior painting project prepped and ready for paint"
-      />
+      /> -->
     </div>
     <div class="img-wrap front">
-      <Image
+      <Picture class="img radius-2 shadow-5" formats={['avif','webp','jpeg']} src={over} alt="Exterior painting project prepped and ready for paint" sizes="(max-width: 1140px) calc(75vw - 2rem), 33vw" widths={[300,600,800]} />
+      <!-- <Image
         class="img radius-2 shadow-5"
         src={over}
         format="avif"
         width={1200}
         alt="A painter on a ldder painting exterior trim on a house"
-      />
+      /> -->
     </div>
   </div>
 </section>
@@ -66,7 +68,6 @@ const {
     max-height: 40rem;
     grid-template-columns: repeat(4, minmax(50px, 1fr));
     grid-template-rows: repeat(4, minmax(50px, 1fr));
-    padding-bottom: var(--size-8);
   }
 
   .img-wrap {
@@ -83,8 +84,9 @@ const {
 
   .img {
     object-fit: cover;
+    object-position: top;
     max-height: 100%;
-    width: auto;
+    width: 100%;
   }
 
   @media (min-width: 1000px) {
@@ -92,7 +94,7 @@ const {
       max-width: var(--max-w);
       padding-inline: var(--size-fluid-3);
       grid-template-columns: repeat(auto-fill, minmax(min(500px, 100%), 1fr));
-      column-gap: var(--size-3);
+      column-gap: var(--size-9);
     }
   }
 </style>

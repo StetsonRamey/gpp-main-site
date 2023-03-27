@@ -158,6 +158,10 @@
   margin-block: var(--size-10);
 }
 
+.p-block-5 {
+ padding-block: var(--size-fluid-5);
+}
+
 .mt-2 {
  margin-top: var(--size-3);
 }

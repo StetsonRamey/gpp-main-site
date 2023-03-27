@@ -7,7 +7,7 @@ import services from "../data/services.json";
 <section class="services">
   <div class="copy flow center" style="--flow-space: 1.5rem">
     <p class="upper small semi-bold muted">great plains painting</p>
-    <h3 class="h2">Kansas City House Painting Services & More</h3>
+    <h3 class="h2">Kansas City House Painting Services</h3>
     <p class="sub-h2 black">Great Plains Painting is Your One-Stop Shop Painters in Kansas City</p>
     <div class="service-grid">
       {
@@ -15,10 +15,10 @@ import services from "../data/services.json";
           <a href={service.link}>
             <div class="grid-item">
               <div class="img-wrap">
-                <Image class="service-img round" src={import(`../assets/services/${service.src}.png`)} alt={service.alt} format="avif" width={800} />
+                <Image class="service-img round" src={import(`../assets/services/${service.src}.png`)} alt={service.alt} format="avif" width={400} />
               </div>
               <div class="number round">{i + 1}</div>
-              <div class="right">
+              <div class="right flow">
                 <h3 class="h3 service-title left">{service.service}</h3>
                 <p class="service-copy left" style="--size: 1.75rem">
                   {service.copy}

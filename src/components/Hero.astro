@@ -1,15 +1,15 @@
 ---
 import Button from "./Button.astro";
 import BreadCrumb from "./BreadCrumb.astro";
-import { Image } from "@astrojs/image/components";
+import { Image, Picture } from "@astrojs/image/components";
 
 const {
   crumbList,
   heroUrl,
   alt,
   bbb,
-  h1 = "#1 House Painters Kansas City",
-  p = "Your Professional House Painters In Kansas City. Quality You Deserve At A Price You Can Afford.",
+  h1 = "Quality House Painters in Kansas City",
+  p = "Offering Kansas City homeowners a low stress, top quality home painting service.",
   heroButton = true,
 } = Astro.props;
 ---
@@ -29,12 +29,16 @@ const {
     {heroButton && <Button text="Request A Free Service Estimate" link="/contact-us/" style="primary" />}
   </div>
   <!-- <img src="/cedar-shake.jpg" alt="" srcset=""> -->
-  <Image loading="eager" fetchpriority="high" format="avif" src={heroUrl} width={1200} alt={alt} />
+  <!-- <Image loading="eager" fetchpriority="high" format="avif" src={heroUrl} width={1200} alt={alt} /> -->
+  <div class="pic-container">
+    <Picture loading="eager" fetchpriority="high" formats={['avif','jpeg','webp']} src={heroUrl} widths={[400,800,1200,2400]} sizes="100vw" alt={alt} fit='cover' />
+  </div>
 </header>
 
 <style lang="scss">
   $height: 85vh;
   $max-height: 800px;
+  // $max-height: 95vh;
 
   header {
     display: grid;
@@ -67,16 +71,39 @@ const {
       hsl(0deg 0% 0% / 0.4) 100%
     );
 
-    img {
+    .pic-container {
       z-index: -1;
+      height: min($height, $max-height);
+      // height: $max-height;
+      overflow: hidden;
+    }
+
+    img {
+      width: 100%;
+      height: 100%;
       object-fit: cover;
       object-position: top;
-      height: min($height, $max-height);
-      width: 100%;
     }
+
 
     div > p:nth-child(3) {
       font-weight: var(--font-weight-3);
     }
+
+    @media (min-width: 1200px) {
+      img {
+        height: auto;
+      }
+    }
+  }
+  @media (min-width: 1650px) {
+    header {
+      max-height: 95vh;
+
+      .pic-container {
+        height: min($height, 95vh);
+      }
+    }
+
   }
 </style>

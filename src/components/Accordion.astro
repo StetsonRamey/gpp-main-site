@@ -4,9 +4,9 @@ import { Icon } from "astro-icon";
 const { title, p, accordionContent } = Astro.props;
 ---
 
-<div class="width-sm flow accordionContain center">
-  <h2>{title}</h2>
-  {p && <p class="caps">{p}</p>}
+<div class="width-sm flow accordionContain">
+  <h2 class="center">{title}</h2>
+  {p && <p class="center caps">{p}</p>}
   <div class="accordion flow" id="homeAccordion">
     {accordionContent.map((content) => (
     <button class="accordion-btn shadow-2 radius-2">
@@ -37,7 +37,7 @@ const { title, p, accordionContent } = Astro.props;
   }
 
   .accordion-panel {
-    padding: var(--size-6);
+    padding: var(--size-8);
     background-color: var(--gray-0);
     line-height: var(--font-lineheight-4);
   }
