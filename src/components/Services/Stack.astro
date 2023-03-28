@@ -3,9 +3,9 @@ import { Picture } from "@astrojs/image/components";
 
 const { superTitle, h2, subTitle, list, under, over } = Astro.props;
 
-const widths = [600, 800]
-const sizes = '(max-width: 640px) 20vw, (max-width: 1024px) 50vw, 100vw'
-const formats = ['avif', 'webp']
+const widths = [300, 600, 800, 1200];
+const sizes = "(max-width: 1140px) calc(75vw - 2rem), 33vw";
+const formats = ["avif", "webp", "jpeg"];
 ---
 
 <section class="benefits">
@@ -24,7 +24,7 @@ const formats = ['avif', 'webp']
         src={under}
         widths={widths}
         sizes={sizes}
-        format={formats}
+        formats={formats}
         aspectRatio="16:9"
         alt=""
       />
@@ -35,7 +35,7 @@ const formats = ['avif', 'webp']
         src={over}
         widths={widths}
         sizes={sizes}
-        format={formats}
+        formats={formats}
         aspectRatio="16:9"
         alt=""
       />
@@ -46,36 +46,36 @@ const formats = ['avif', 'webp']
 <style lang="scss">
   .benefits {
     display: grid;
+    place-items: center;
     padding-inline: var(--size-6);
     max-width: 80ch;
     margin-inline: auto;
+    padding-bottom: var(--size-12);
   }
 
   .photo-stack {
     display: grid;
     max-height: 40rem;
-    grid-template-columns: repeat(4, minmax(50px, 1fr));
-    grid-template-rows: repeat(4, 150px);
-    margin-bottom: var(--size-12);
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(20, 1fr);
   }
 
   .img-wrap {
     &.back {
-      grid-row: 1 / span 3;
-      grid-column: 1 / span 3;
+      grid-row: 1 / 13;
+      grid-column: 1 / span 7;
     }
 
     &.front {
-      grid-row: 2 / span 4;
-      grid-column: 2 / span 4;
+      grid-row: 10 / span 15;
+      grid-column: 2 / span 9;
     }
   }
 
   .img {
     object-fit: cover;
-    height: 450px;
     max-height: 100%;
-    width: auto;
+    width: 100%;
   }
 
   .benefits {
@@ -97,12 +97,27 @@ const formats = ['avif', 'webp']
     .benefits {
       max-width: var(--max-l);
       padding-inline: var(--size-fluid-3);
-      grid-template-columns: repeat(auto-fill, minmax(min(500px, 100%), 1fr));
+      grid-template-columns: repeat(2, 1fr);
       column-gap: var(--size-3);
     }
 
     .left-stack {
       max-width: 45ch;
+    }
+
+    .photo-stack {
+    }
+
+    .img-wrap {
+      &.back {
+        grid-row: 1 / 14;
+        grid-column: 1 / span 7;
+      }
+
+      &.front {
+        grid-row: 10 / span 15;
+        grid-column: 2 / span 9;
+      }
     }
   }
 </style>

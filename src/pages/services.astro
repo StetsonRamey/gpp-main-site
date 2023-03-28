@@ -18,7 +18,7 @@ const crumbList = [
 ];
 
 const p =
-  "Great Plains Painting offers exceptional painting services in Kansas City and surrounding areas. We take great pride in quality painting services and excellent customer reviews. Click one of the links below to learn more about the painting services we offer.";
+  "Great Plains Painting offers premier painting services in Kansas City and surrounding areas. We take great pride in quality painting services and excellent customer reviews. Click one of the links below to learn more about the painting services we offer.";
 
 const title = "Our Services | Great Plains Painting";
 const desc =
@@ -63,6 +63,7 @@ const desc =
 
   .grid-item {
     display: flex;
+    justify-content: space-between;
     flex-direction: column;
     gap: var(--size-3);
     position: relative;
@@ -87,8 +88,9 @@ const desc =
   }
 
   .service-copy {
-    margin-inline: var(--size-11);
+    margin-inline: var(--size-fluid-3);
     padding-block: var(--size-4);
+    font-size: var(--font-size-fluid-0);
   }
 
   .button-wrap {

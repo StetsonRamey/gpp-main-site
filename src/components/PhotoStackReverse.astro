@@ -1,6 +1,6 @@
 ---
 import Button from "./Button.astro";
-import { Image } from "@astrojs/image/components";
+import { Picture, Image } from "@astrojs/image/components";
 import meetHouse from "../assets/meetHouse.jpg";
 import meetBrett from "../assets/meetBrett.jpg";
 
@@ -15,13 +15,27 @@ const {
 <section class="mobile-section meet-team">
   <div class="photo-stack">
     <div class="img-wrap back">
-      <Image class="img radius-2 shadow-5" src={reverseUnder} format="avif" alt="" width={1200} />
+      <Picture
+        class="img radius-2 shadow-5"
+        src={reverseUnder}
+        formats={["avif", "webp", "jpeg"]}
+        widths={[300, 600, 800]}
+        sizes="(max-width: 1140px) calc(75vw - 2rem), 33vw"
+        alt=""
+      />
     </div>
     <div class="img-wrap front">
-      <Image class="img radius-2 shadow-5" src={reverseOver} format="avif" alt="" width={1200} />
+      <Picture
+        class="img radius-2 shadow-5"
+        src={reverseOver}
+        formats={["avif", "webp", "jpeg"]}
+        widths={[300, 600, 800]}
+        sizes="(max-width: 1140px) calc(75vw - 2rem), 33vw"
+        alt=""
+      />
     </div>
   </div>
-  <div class="copy flow" style="--flow-space: 1.5rem">
+  <div class="copy flow padding" style="--flow-space: 1.5rem">
     <h2 class="h2">{reverseTitle}</h2>
     <p class="copy muted flow" set:html={reversep} />
   </div>
@@ -55,15 +69,18 @@ const {
   .img {
     object-fit: cover;
     max-height: 100%;
-    width: auto;
+    width: 100%;
   }
 
+  .padding {
+    padding-inline: var(--size-fluid-3);
+  }
   @media (min-width: 1000px) {
     .meet-team {
       max-width: var(--max-w);
       padding-inline: var(--size-fluid-3);
       grid-template-columns: repeat(auto-fill, minmax(min(500px, 100%), 1fr));
-      column-gap: var(--size-3);
+      column-gap: var(--size-9);
     }
   }
 </style>

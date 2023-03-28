@@ -27,13 +27,13 @@ const { stuff } = Astro.props;
     p={stuff.area.hero.p}
     heroPosition={stuff.area.hero.position}
   />
-  <section class="flow container center top-section">
+  <section class="copy flow container center top-section">
     <Fragment set:html={stuff.area.firstp} />
   </section>
   <section class="section-2 center">
     <p class="small upper semi-bold mute">Great Plains Painting</p>
     <h2 class="h2">{stuff.area.section1.h2}</h2>
-    <div class="section2-copy container flow">
+    <div class="section2-copy copy container flow">
       <Fragment set:html={stuff.area.section1.copy} />
     </div>
   </section>
@@ -65,7 +65,10 @@ const { stuff } = Astro.props;
   }
   .section2-copy,
   .section4-copy {
+    max-width: 85ch;
+    font-size: var(--font-size-3);
     margin-top: var(--size-8);
+    margin-inline: auto;
     padding-inline: var(--size-fluid-3);
   }
   .accordion {

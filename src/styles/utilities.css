@@ -93,8 +93,12 @@
 }
 
 .width-sm {
-  max-width: 80ch;
+  max-width: 65ch;
   padding-inline: var(--size-6);
+}
+.copy {
+  max-width: 85ch;
+  font-size: var(--font-size-2);
 }
 
 /* SPACING */
@@ -146,10 +150,6 @@
 }
 
 .small {
-  font-size: var(--font-size-1);
-}
-
-.copy {
   font-size: var(--font-size-1);
 }
 
