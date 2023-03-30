@@ -26,13 +26,13 @@
 .container-sm {
   width: 100%;
   max-width: 1200px;
-  margin: auto;
+  margin-inline: auto;
 }
 
 .container-xs {
   width: 100%;
   max-width: 900px;
-  margin: auto;
+  margin-inline: auto;
 }
 
 .mobile-section {
@@ -97,7 +97,7 @@
   padding-inline: var(--size-6);
 }
 .copy {
-  max-width: 85ch;
+  /* max-width: 85ch; */
   font-size: var(--font-size-2);
 }
 

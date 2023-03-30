@@ -8,7 +8,7 @@ const {
   superTitle = "Our Experienced Team",
   h2 = "What Working With Us Looks Like",
   subTitle = "We'll make interior or exterior painting a breeze",
-  p = "<div class='width-sm'><ul class='flow'><li><strong>Low Stress: </strong>We'll do our best to make sure the estimate, project set-up, painting, and final walkthrough are a breeze</li><li><strong>Communication: </strong>We are <em>EASY</em> to get ahold of.  Call anyone on the team, send a text or an email and we will be there for you.</li><li><strong>Up-front pricing: </strong>We provide the most accurate, up-front estimate possible.  Our work is itemized and clearly priced.</li><li><strong>Quality Products / Quality Craftmanship: </strong>We use proven materials and techniques, and strive to deliver them with precision and care.</li><li><strong>Every project is custom: </strong>Your home and your needs are unique.  Our system is setup to capture that uniqueness at the estimate and translate those details to the crew.  The details that matter to you, matter to us.</li><li><strong>Customer Satisfaction: </strong>We strive to deliver a product you'll be satisfied with!</li></ul></div><p>We've painted hundreds of Kansas City homes, and our companies continued success is due to our focus on up-front accurate pricing and providing detailed, quality painting.</p>",
+  p = "<div class='width-sm'><ul class='flow' style='padding-left: 5px;'><li><strong>Low Stress: </strong>We'll do our best to make sure the estimate, project set-up, painting, and final walkthrough are a breeze</li><li><strong>Communication: </strong>We are <em>EASY</em> to get ahold of.  Call anyone on the team, send a text or an email and we will be there for you.</li><li><strong>Up-front pricing: </strong>We provide the most accurate, up-front estimate possible.  Our work is itemized and clearly priced.</li><li><strong>Quality Products / Quality Craftmanship: </strong>We use proven materials and techniques, and strive to deliver them with precision and care.</li><li><strong>Every project is custom: </strong>Your home and your needs are unique.  Our system is setup to capture that uniqueness at the estimate and translate those details to the crew.  The details that matter to you, matter to us.</li><li><strong>Customer Satisfaction: </strong>We strive to deliver a product you'll be satisfied with!</li></ul></div><p>We've painted hundreds of Kansas City homes, and our companies continued success is due to our focus on up-front accurate pricing and providing detailed, quality painting.</p>",
   buttonText = "Meet the Team",
   buttonLink = "/about-us/",
   under = meetHouse,
@@ -23,34 +23,23 @@ const {
     <p class="sub-h2 black">{subTitle}</p>
     <p class="copy muted flow" set:html={p} />
     <div class="button-wrap">
-      <Button text={buttonText} link={buttonLink} style="primary" />
+      <Button text={buttonText} link={buttonLink} style="variant" />
     </div>
   </div>
   <div class="photo-stack">
     <div class="img-wrap back">
       <Picture class="img radius-2 shadow-5" formats={['avif','webp','jpeg']} src={under} alt="Exterior painting project prepped and ready for paint" sizes="(max-width: 1140px) calc(75vw - 2rem), 33vw" widths={[300,600,800]} />
-      <!-- <Image
-        class="img radius-2 shadow-5"
-        src={under}
-        format="avif"
-        width={1200}
-        alt="Exterior painting project prepped and ready for paint"
-      /> -->
     </div>
     <div class="img-wrap front">
       <Picture class="img radius-2 shadow-5" formats={['avif','webp','jpeg']} src={over} alt="Exterior painting project prepped and ready for paint" sizes="(max-width: 1140px) calc(75vw - 2rem), 33vw" widths={[300,600,800]} />
-      <!-- <Image
-        class="img radius-2 shadow-5"
-        src={over}
-        format="avif"
-        width={1200}
-        alt="A painter on a ldder painting exterior trim on a house"
-      /> -->
     </div>
   </div>
 </section>
 
 <style lang="scss">
+  ul {
+    padding-left: 10px;
+  }
   .meet-team {
     display: grid;
     place-items: center;

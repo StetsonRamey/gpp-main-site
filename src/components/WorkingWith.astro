@@ -1,97 +1,95 @@
 ---
 import Button from "./Button.astro";
-import { Image, Picture } from "@astrojs/image/components";
-import theTeam from "../assets/theTeam.jpg";
 ---
 
 <section class="easy">
-  <div class="content-wrap center flow">
-    <div class="copy flow">
-      <p class="upper tagline">residential and commercial painting</p>
-      <h3 class="title">Working With Great Plains Painting is SO Easy!</h3>
-      <p>It's so easy to get a quote and schedule our services!</p>
-      <div class="steps-grid">
-        <div class="step">
-          <p class="step-pill upper">step 1</p>
-          <p class="step-title">Get a Free Estimate Now</p>
-          <p class="step-copy">
-            Call now or <a href="#">complete our contact form</a> and we will call you ASAP to learn more about your project
-            and schedule an in person estimate.
-          </p>
-        </div>
-        <div class="step">
-          <p class="step-pill upper">step 2</p>
-          <p class="step-title">In-Person Consultation and Written Estimate</p>
-          <p class="step-copy">
-            We ask a lot of questions and walk the house with you so that we know exactly how to customize your project
-            for your needs. We write up and deliver you a bid package on the spot. No "we'll email you a bid" from us.
-          </p>
-        </div>
-        <div class="step">
-          <p class="step-pill upper">step 3</p>
-          <p class="step-title">Save Us Time, We'll Save You Money</p>
-          <p class="step-copy">
-            We can save you money 2 ways (both are optional):
-            <ol class="flow" style="text-align: left">
-              <li>Take our next available schedule spot and save 5%</li>
-              <li>Schedule with your estimator the day we provide you the estimate and save 5%</li>
-            </ol>
-          </p>
-        </div>
-        <div class="step">
-          <p class="step-pill upper">step 4</p>
-          <p class="step-title">Schedule the Project and Complete the Work</p>
-          <p class="step-copy">
-            After you've decided to work with us, we'll be in close communication about start date. If you need us for
-            anything, we're a text away
-          </p>
-        </div>
-        <div class="step">
-          <p class="step-pill upper">step 5</p>
-          <p class="step-title">Get Peace of Mind</p>
-          <p class="step-copy">
-            When we finish your project, we'll do a 360 walkthrough with you to make sure you're happy and everything is
-            100% complete. All work we completed is backed by a 2-year warranty.
-          </p>
+  <div class="content-wrap flow">
+    <div class="copy flow fancy-bg">
+      <div class="title__wrapper">
+        <p class="upper tagline">residential and commercial painting</p>
+        <h3 class="title">Working With Great Plains Painting is SO Easy!</h3>
+        <p class="sub">Get a no hassle quote in no time</p>
+      </div>
+      <div class="grid-wrapper">
+        <div class="steps-grid">
+          <div class="step">
+            <p class="step-num upper">1</p>
+            <p class="step-title">Get a Free Estimate Now</p>
+            <p class="step-copy">
+              Call now or <a href="#">complete our contact form</a> and we will call you ASAP to learn more about your project
+              and schedule an in person estimate.
+            </p>
+          </div>
+          <div class="step">
+            <p class="step-num upper">2</p>
+            <p class="step-title">In-Person Consultation and Written Estimate</p>
+            <p class="step-copy">
+              We ask a lot of questions and walk the house with you so that we know exactly how to customize your project
+              for your needs. We write up and deliver you a bid package on the spot. No "we'll email you a bid" from us.
+            </p>
+          </div>
+          <div class="step">
+            <p class="step-num upper">3</p>
+            <p class="step-title">Save Us Time, We'll Save You Money</p>
+            <p class="step-copy">
+              We can save you money 2 ways (both are optional):
+              <ol class="flow" style="text-align: left">
+                <li>Take our next available schedule spot and save 5%</li>
+                <li>Schedule with your estimator the day we provide you the estimate and save 5%</li>
+              </ol>
+            </p>
+          </div>
+          <div class="step">
+            <p class="step-num upper">4</p>
+            <p class="step-title">Schedule the Project and Complete the Work</p>
+            <p class="step-copy">
+              After you've decided to work with us, we'll be in close communication about start date. If you need us for
+              anything, we're a text away
+            </p>
+          </div>
+          <div class="step">
+            <p class="step-num upper">5</p>
+            <p class="step-title">Get Peace of Mind</p>
+            <p class="step-copy">
+              When we finish your project, we'll do a 360 walkthrough with you to make sure you're happy and everything is
+              100% complete. All work we completed is backed by a 2-year warranty.
+            </p>
+          </div>
         </div>
       </div>
       <div class="btn-wrap" style="--flow-space: 3rem">
-        <Button text="schedule your free estimate" link="/contact-us/" style="primary" />
+        <Button text="free estimate" link="/contact-us/" style="primary" />
       </div>
-    </div>
-    <div class="easyBg">
-      <Picture src={theTeam} formats={["avif", "webp", "jpeg"]} alt="" widths={[400, 800, 1200]} sizes="100vw" />
     </div>
   </div>
 </section>
 
 <style lang="scss">
   .content-wrap {
-    display: grid;
-    // grid-template-rows: repeat(9, 1fr);
-    grid-template-columns: repeat(2, 1fr);
-    // grid-template-areas: "easy";
-    color: hsl(var(--white));
-    place-items: center;
-    background: hsl(0deg 0% 0% / 0.55) 0%;
+    color: white;
+    padding-inline: var(--size-7);
 
-    .easyBg {
-      z-index: -1;
-      display: block;
-      position: relative;
-      object-fit: cover;
-      grid-row: 1 / 3;
-      grid-column: 1 / 3;
-      margin-top: 0;
-      height: 100%;
+    .title__wrapper {
+      width: 100%;
+      padding-inline: var(--size-6);
+    }
 
-      img {
-        display: block;
-        object-position: 40% 50%;
-        height: 100%;
-        width: 100%;
-        object-fit: cover;
-      }
+    .tagline,
+    .title,
+    .sub {
+      margin-block: 0;
+      color: var(--white);
+      text-align: start;
+    }
+
+    .title {
+      padding-block: var(--size-2) var(--size-1);
+      border-top: 5px solid;
+    }
+
+    .sub {
+      border-bottom: 1.5px solid var(--gray-6);
+      padding-bottom: var(--size-4);
     }
 
     .copy {
@@ -104,28 +102,44 @@ import theTeam from "../assets/theTeam.jpg";
     }
   }
 
+
+  .fancy-bg {
+    padding-block: var(--size-9);
+    background-color: hsl(var(--brand-dark));
+    border-radius: var(--radius-3);
+    box-shadow: var(--shadow-4);
+  }
+
   .tagline {
     letter-spacing: var(--font-letterspacing-4);
   }
 
-  .title {
-    color: hsl(var(--white));
-    max-width: 20ch;
-    margin-inline: auto;
+  .grid-wrapper {
+    max-width: 85rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding-inline: var(--size-6);
+  }
+
+  .steps-grid {
+    --grid-min-size: 12rem;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(var(--grid-min-size), 1fr));
+    column-gap: var(--size-6);
   }
 
   .step {
-    margin-top: var(--size-9);
+    ol {
+      padding-inline-start: 2ch;
+    }
   }
 
-  .step-pill {
-    background-color: hsl(var(--brand-green));
-    width: fit-content;
-    margin: 0 auto;
-    padding-inline: var(--size-4);
+  .step-num {
+    color: hsl(var(--brand-green));
     padding-block: var(--size-1);
     border-radius: var(--size-4);
-    font-size: var(--font-size-0);
+    font-size: var(--font-size-8);
     font-weight: var(--font-weight-7);
   }
 
@@ -138,11 +152,10 @@ import theTeam from "../assets/theTeam.jpg";
   .step-copy {
     font-size: var(--font-size-2);
     line-height: var(--font-lineheight-4);
-    max-width: 40ch;
     margin-inline: auto;
 
     a {
-      color: hsl(var(--white));
+      color: inherit;
     }
 
     a:hover {
@@ -156,22 +169,6 @@ import theTeam from "../assets/theTeam.jpg";
 
   @media (min-width: 1000px) {
     .title {
-      max-width: 80ch;
-    }
-
-    .steps-grid {
-      width: 100%;
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      gap: var(--size-9);
-
-      div:last-child {
-        grid-column: 1 / 3;
-
-        .step-copy {
-          max-width: 80ch;
-        }
-      }
     }
   }
 </style>

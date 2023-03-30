@@ -8,7 +8,7 @@ const {
   heroUrl,
   alt,
   bbb,
-  h1 = "Quality House Painters in Kansas City",
+  h1 = "Quality House Painters | Kansas City",
   p = "Offering Kansas City homeowners a low stress, top quality home painting service.",
   heroButton = true,
 } = Astro.props;
@@ -26,7 +26,7 @@ const {
     {bbb && <p class="txt-primary txt-bold">BBB A+ Rated with a 2-year Warranty</p>}
     <h1 class="h1 center leading-2">{h1}</h1>
     {p && <p class="width-sm center mb-8">{p}</p>}
-    {heroButton && <Button text="Request A Free Service Estimate" link="/contact-us/" style="primary" />}
+    {heroButton && <Button text="Request A Free Service Estimate" link="/contact-us/" style="primary" bounce="true" />}
   </div>
   <!-- <img src="/cedar-shake.jpg" alt="" srcset=""> -->
   <!-- <Image loading="eager" fetchpriority="high" format="avif" src={heroUrl} width={1200} alt={alt} /> -->
@@ -41,6 +41,9 @@ const {
   // $max-height: 95vh;
 
   header {
+    p {
+      font-size: var(--font-size-3);
+    }
     display: grid;
     grid-template-areas: "hero";
     color: hsl(var(--white));

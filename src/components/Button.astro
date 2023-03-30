@@ -1,32 +1,82 @@
 ---
-const { text, link, style } = Astro.props;
+const { text, link, style, bounce } = Astro.props;
 ---
 
-<a href={link} class={`btn btn--${style}`}>{text}</a>
+<a href={link} class={`btn btn--${style}`} data-bounce={bounce}>{text}</a>
 
+<style lang="scss">
+  a {
+    display: block;
+    padding-block: var(--size-3);
 
-<style>
+    &:visited {
+      color: white;
+    }
+  }
+  @keyframes bounce {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(6px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
   .btn {
     display: block;
     white-space: nowrap;
     color: white;
     max-width: fit-content;
-    font-size: var(--font-size-0);
-    font-weight: var(--font-weight-5);
+    font-size: var(--font-size-2);
+    font-weight: var(--font-weight-6);
     padding-block: var(--size-3);
     padding-inline: var(--size-8);
     border: var(--border-size-2) solid transparent;
     border-radius: var(--radius-6);
+    &[data-bounce="true"] {
+      animation: bounce 1s var(--ease-2);
+      animation-fill-mode: forwards;
+      animation-iteration-count: 3;
+    }
   }
 
-  .btn--primary {
+  .btn--small {
+    border: var(--border-size-2) solid hsl(var(--brand-green));
+    color: hsl(var(--brand-green));
+    border-radius: var(--radius-1);
+    padding: var(--size-3) var(--size-6);
+
+    &:visited {
+      color: hsl(var(--brand-green));
+    }
+
+    &:hover {
+      background-color: hsl(var(--brand-green));
+      color: white;
+      transition: all 0.5s ease-in-out;
+    }
+  }
+
+  .btn--primary,
+  .btn--variant {
     background-color: hsl(var(--brand-green));
   }
 
-
-  .btn:hover {
-    background-color: hsl(92.4, 40.6%, 42.9%);
-    backdrop-filter: saturate(180%) blur(20px);
+  .btn--variant:hover {
+    color: hsl(var(--brand-green));
+    background-color: transparent;
     border: var(--border-size-2) solid hsl(var(--brand-green));
+    box-shadow: var(--shadow-4);
+    transition: all 0.2s ease-in-out;
+  }
+
+  .btn--primary:hover {
+    background-color: transparent;
+    color: white;
+    // backdrop-filter: saturate(180%) blur(20px);
+    border: var(--border-size-2) solid hsl(var(--brand-yellow));
+    transition: all 0.2s ease-in-out;
   }
 </style>
