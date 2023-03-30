@@ -70,7 +70,7 @@ const areaLinks = [
   },
 ];
 
-const canonicalURL = new URL(Astro.url.pathname, Astro.site)
+const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 
 const { title, desc } = Astro.props;
 ---
@@ -79,15 +79,14 @@ const { title, desc } = Astro.props;
 <html lang="en">
   <head>
     <!-- Google tag (gtag.js) -->
-    <!-- prettier-ignore-attribute -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-6Y2BCR3ZSK"></script>
-    <!-- prettier-ignore -->
-    <script>
+    <script is:inline async src="https://www.googletagmanager.com/gtag/js?id=G-6Y2BCR3ZSK"></script>
+    <script is:inline>
       window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'G-6Y2BCR3ZSK');
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+      gtag("config", "G-6Y2BCR3ZSK");
     </script>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -98,13 +97,13 @@ const { title, desc } = Astro.props;
 
     <title>{title}</title>
     <meta name="description" content={desc} />
-    <link rel="canonical" href={canonicalURL}>
-    <meta property="og:locale" content="en_US">
-    <meta property="og:type" content="website">
-    <meta property="og:title" content={title}>
-    <meta property="og:description" content={desc}>
-    <meta property="og:url" content={canonicalURL}>
-    <meta property="og:site_name" content="Kansas City Commercial & Residential Painting Company">
+    <link rel="canonical" href={canonicalURL} />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={desc} />
+    <meta property="og:url" content={canonicalURL} />
+    <meta property="og:site_name" content="Kansas City Commercial & Residential Painting Company" />
   </head>
 
   <body>

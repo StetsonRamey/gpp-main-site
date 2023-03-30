@@ -1,6 +1,5 @@
 import { defineConfig } from "astro/config";
 import image from "@astrojs/image";
-import partytown from "@astrojs/partytown";
 import remarkGfm from "remark-gfm";
 
 // https://astro.build/config
@@ -13,11 +12,6 @@ export default defineConfig({
     image({
       logLevel: "debug",
       serviceEntryPoint: "@astrojs/image/sharp",
-    }),
-    partytown({
-      config: {
-        forward: ["dataLayer.push"],
-      },
     }),
     mdx({
       remarkPlugins: [remarkGfm],
