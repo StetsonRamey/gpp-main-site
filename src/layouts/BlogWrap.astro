@@ -8,52 +8,30 @@ const { title = "Great Plains Painting", desc } = Astro.props;
 
 <!DOCTYPE html>
 <html lang="en">
-  <meta charset="UTF-8" />
-  <meta name="generator" content={Astro.generator} />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <script>
-    (function (w, d, s, l, i) {
-      w[l] = w[l] || [];
-      w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
-      var f = d.getElementsByTagName(s)[0],
-        j = d.createElement(s),
-        dl = l != "dataLayer" ? "&l=" + l : "";
-      j.async = true;
-      j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
-      f.parentNode.insertBefore(j, f);
-    })(window, document, "script", "dataLayer", "GTM-MK9H3X2");
-  </script>
+  <head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-6Y2BCR3ZSK"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-  <link rel="icon" type="image/x-icon" href="/favicon.ico" />
-  <link rel="sitemap" href="/sitemap.xml" />
+      gtag("config", "G-6Y2BCR3ZSK");
+    </script>
+    <meta charset="UTF-8" />
+    <meta name="generator" content={Astro.generator} />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <title>{title}</title>
-  <meta name="description" content={desc} />
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="sitemap" href="/sitemap.xml" />
 
-  <!-- Google tag (gtag.js) -->
-  <script type="text/partytown" src="https://www.googletagmanager.com/gtag/js?id=G-6Y2BCR3ZSK"></script>
-  <script type="text/partytown">
-    window.dataLayer = window.dataLayer || [];
-    function gtag() {
-      window.dataLayer.push(arguments);
-    }
-    gtag("js", new Date());
-
-    gtag("config", "G-6Y2BCR3ZSK");
-  </script>
+    <title>{title}</title>
+    <meta name="description" content={desc} />
+  </head>
 
   <body>
-    <!-- Google Tag Manager (noscript) -->
-    <noscript>
-      <iframe
-        src="https://www.googletagmanager.com/ns.html?id=GTM-MK9H3X2"
-        height="0"
-        width="0"
-        style="display:none;visibility:hidden"
-      >
-      </iframe>
-    </noscript>
-    <!-- End Google Tag Manager (noscript) -->
     <header class="site-head" role="banner">
       <a href="#main-content" class="skip-link">Skip to Content</a>
       <!-- <Navbar /> -->
