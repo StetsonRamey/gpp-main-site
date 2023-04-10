@@ -2,4 +2,7 @@
 
 # Allow crawling of all content
 User-agent: *
+Allow: /
 Disallow:
+
+Sitemap: https://greatplainspaintingkc.com/sitemap-index.xml

@@ -2,8 +2,10 @@ import { defineConfig } from "astro/config";
 import image from "@astrojs/image";
 import remarkGfm from "remark-gfm";
 
-// https://astro.build/config
 import mdx from "@astrojs/mdx";
+
+// https://astro.build/config
+import sitemap from "@astrojs/sitemap";
 
 // https://astro.build/config
 export default defineConfig({
@@ -16,6 +18,7 @@ export default defineConfig({
     mdx({
       remarkPlugins: [remarkGfm],
     }),
+    sitemap(),
   ],
   vite: {
     ssr: {
