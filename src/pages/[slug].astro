@@ -1,6 +1,7 @@
 ---
 import BlogWrap from "../layouts/BlogWrap.astro";
 import "../styles/prose.css";
+import { format, add } from "date-fns";
 
 export async function getStaticPaths() {
   const posts = await Astro.glob("../content/blog/*.mdx");
@@ -17,7 +18,7 @@ export async function getStaticPaths() {
 
 const { Content, titleTag, title, desc, coverImage, date } = Astro.props;
 const { slug } = Astro.params;
-const prettyDate = new Date(date).toDateString();
+const prettyDate = format(add(new Date(date), {days: 1}), 'MMMM do yyyy');
 
 const crumbList = [
   {
@@ -33,8 +34,6 @@ const crumbList = [
     link: slug,
   },
 ];
-
-console.log('titleTag', titleTag)
 
 const theTitle = titleTag ? titleTag : title;
 ---

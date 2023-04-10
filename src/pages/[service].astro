@@ -32,7 +32,9 @@ const { stuff } = Astro.props;
   <section class="heading">
     <p class="up muted">Great Plains Painting</p>
     <h2>{stuff.topSectionTitle}</h2>
-    <p>{stuff.topSectionCopy}</p>
+    <article class="flow">
+      <Fragment set:html={stuff.topSectionCopy} />
+    </article>
   </section>
   <section class="benefits">
     <Stack
@@ -84,6 +86,12 @@ const { stuff } = Astro.props;
     }
   }
 
+  article {
+    max-width: 80ch;
+    margin-inline: auto;
+    text-align: left;
+  }
+
   .accordion {
     padding-inline: var(--size-6);
   }
@@ -93,6 +101,7 @@ const { stuff } = Astro.props;
     max-width: 80ch;
     padding-inline: var(--size-6);
     margin-inline: auto;
+
   }
 
   @media (min-width: 1000px) {

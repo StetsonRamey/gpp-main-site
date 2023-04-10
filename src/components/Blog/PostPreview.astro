@@ -23,7 +23,6 @@ const { post, url } = Astro.props;
 <style lang="scss">
   .post-preview {
     display: flex;
-    padding: var(--size-2);
   }
 
   .post-preview:hover {
@@ -48,6 +47,7 @@ const { post, url } = Astro.props;
   .post-preview__month_n_year {
     font-size: var(--font-size-1);
     color: var(--gray-6);
+    white-space: nowrap;
   }
 
   a {
@@ -58,8 +58,9 @@ const { post, url } = Astro.props;
   }
 
   .content-wrap {
+    display: grid;
+    place-content: center;
     h4 {
-      padding-top: var(--size-3);
       font-size: var(--font-size-1);
       color: hsl(var(--brand-green));
     }
