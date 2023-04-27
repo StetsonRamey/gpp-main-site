@@ -7,8 +7,8 @@ import services from "../data/services.json";
 <section class="services">
   <div class="copy flow center" style="--flow-space: 1.5rem">
     <p class="upper small semi-bold muted">great plains painting</p>
-    <h3 class="h2">Kansas City House Painting Services</h3>
-    <p class="sub-h2 black">Great Plains Painting is Your One-Stop Shop Painters in Kansas City</p>
+    <h2 class="h2">We Can Take Care of All Your Painting Needs</h2>
+    <p class="sub-h2 black">Great Plains Painting is Your One-Stop Shop House Painters in Kansas City</p>
     <div class="service-grid">
       {
         services.map((service, i) => (
@@ -24,7 +24,7 @@ import services from "../data/services.json";
             </div>
             <div class="number round">{i + 1}</div>
             <div class="right flow">
-              <h3 class="h3 service-title left">{service.service}</h3>
+              <h2 class="h3 service-title left">{service.service}</h2>
               <p class="service-copy left">{service.copy}</p>
               <div>
                 <Button text="more info" link={service.link} style="small" />

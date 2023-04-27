@@ -60,5 +60,11 @@
     "alt": "Parkville map",
     "areaPage": "/service-area/painters-parkville-mo/",
     "signed_url": "https://maps.googleapis.com/maps/api/staticmap?center=parkville,+mo&zoom=11&size=200x200&scale=2&map_id=3dcfc3a6d2fa31c&key=AIzaSyDkKxiVAXt_mBwB_vY7s4bbpLhJmYQjwkw&&signature=eYF-VbWhi8d7wEoxAemSgDV-gOc="
+  },
+  {
+    "city": "Gladstone",
+    "alt": "Gladstone map",
+    "areaPage": "/service-area/painters-gladstone-mo/",
+    "signed_url": "https://maps.googleapis.com/maps/api/staticmap?center=gladstone,+mo&zoom=11&size=200x200&scale=2&map_id=a7a74f59798b5ddf&key=AIzaSyDkKxiVAXt_mBwB_vY7s4bbpLhJmYQjwkw&signature=x1R_uxVJCOI3eCf_xqQ-Sh2tLew="
   }
 ]

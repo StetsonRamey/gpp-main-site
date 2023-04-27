@@ -579,5 +579,70 @@
         }
       ]
     }
+  },
+  {
+    "slug": "painters-gladstone-mo",
+    "area": {
+      "crumbList": [
+        {
+          "name": "Home",
+          "link": "/"
+        },
+        {
+          "name": "Services Areas",
+          "link": "/service-area/"
+        },
+        {
+          "name": "Gladstone, MO",
+          "link": "/service-area/painters-gladstone-mo/"
+        }
+      ],
+      "titleTag": "Top House Painters in Gladstone, MO",
+      "meta": "With over 10 years of experience, turn to the local Gladstone painting experts at Great Plains Painting for all of your painting needs. Schedule a free estimate today!.",
+      "hero": {
+        "src": "area-hero",
+        "h1": "Top House Painters in Gladstone, MO",
+        "p": "Are you looking for a stress-free and reliable locally-owned painting company in Gladstone MO? Look no further than Great Plains Painting, with our 10 years of experience in the local area, we are the #1 choice for homeowners looking to paint the interior or exteriors of their homes. Give us a call or click on the button below to get a free estimate.",
+        "position": "center"
+      },
+      "firstp": "<p>Most people in Gladstone, MO, associate are freshening up their homes or businesses with the arrival of spring. Often, that entails freshening interior and <a href='/'>exterior</a> paint while replacing wood rot, peeling paint, discoloration, stains, or other repairs and blemishes accumulated over the year.</p><p>If you are thinking of a new paint project, Great Plains Painting can take care of all your painting needs, like exterior and interior painting, wood rot repair, cabinet painting, and even commercial painting projects.</p><p>If you are debating on whether to hire a professional company, get a free estimate from Great Plains Painting. With a reputation for completing quality residential and <a href='/commercial-painting-contractors-kansas-city/'>commercial</a> painting projects, you'll enjoy the stress-free experience that sets us apart from our competition.</p>",
+      "section1": {
+        "h2": "Your Gladstone, MO Painters",
+        "copy": "<p>Whether you are looking for interior painting services or exploring a new exterior coat of paint, residential or commercial, we have you covered. We specialize in exterior and interior paint projects and with our 10 years of experience, we make the entire process from start to finish as seamless and easy as possible for you.</p><p>It's important to remember that you should work with an experienced and skilled painting company is from the local area and has a reputation for quality stress-free work. We keep you updated on the project so you know what's going on every step of the way from start to finish. We're also fully insured and have a 2-year warranty on all our painting projects.</p><p>Turn to the local painting experts at Great Plains Painting for all your painting needs at an affordable price, schedule a free estimate today!</p>"
+      },
+      "section2": {
+        "super": "Gladstone Painting Experts",
+        "h3": "Why Choose Us As Your Professional Painting Service",
+        "copy": "<p>Painting is our livelihood, and we are committed to providing quality interior and exterior <a href='/services/'>painting services</a> that meet your needs and exceed your expectations. Trust us to get the job done right the first time!</p><p>As a non-professional, taking on a painting project yourself may seem tempting. However, can you confidently choose the right paint colors without professional guidance to achieve your desired look? Can you complete an exterior painting project without mistakes that will be seen by neighbors or customers every day? Are you ready to give attention to detail and concentration to create a flawless finish?</p><p>Most importantly, are you willing to commit the time needed to complete a high-quality paint job? For most people, the answer to these questions is a resounding “no”.x Professional painting contractors like us have the expertise, experience, and tools to tackle any painting job, big or small.</p>",
+        "underPhoto": "../assets/coolBrush.jpg",
+        "topPhoto": "../assets/coolRoll.jpg"
+      },
+      "about": {
+        "h3": "Professional Painters in Gladstone, MO",
+        "copy": "<p>By choosing the best painters in Gladstone, MO, you can rest assured that you'll receive excellent service and be completely satisfied with the interior or exterior painting projects.</p><p>As an experienced painting contractor with 10 years of experience in the local area, we have the best pricing for materials, and our painting team comes equipped with the proper tools and equipment. Our painters follow all of the latest industry color trends and we only use the highest quality paint brands, such as Sherwin Williams.</p>"
+      },
+      "section4": {
+        "h3": "Interior & Exterior House Painters Near Me",
+        "copy": "<p>As a homeowner, your property is your pride and joy. At Great Plains Painting, we understand that you want your exterior and interior painting to reflect the quality of your property. Our team is dedicated to providing high-quality work that requires focus, coordination, and a commitment to excellence.</p><p>By choosing Great Plains Painting, you can rest assured that our team of professional house painters will coordinate the entire project without disrupting your day-to-day life beyond choosing paint colors and agreeing on a schedule. You can trust us to take care of the materials and equipment and ensure the finished project is of the highest quality.</p><p>At Great Plains Painting, we understand how daunting it can be to take on a painting project. Not only do you have to worry about choosing the right colors and materials, but you also have to consider who to hire for the painting job.</p><p>That's why when you hire a professional painting company like Great Plains Painting, you won't have to worry about any of that. Our skilled interior and exterior painting services provide expert advice, coordinate the entire project, and take care of everything for you.</p><p>Let Great Plains Painting take care of the work so you can sit back and enjoy your beautifully painted home.</p>"
+      },
+      "faq": [
+        {
+          "title": "Do you provide painting services just in the Gladstone MO area?",
+          "expand": "We serve Gladstone, Kansas City, Overland Park, Lee's Summit, Olathe, Leawood, Prairie, Village, Roeland Park, Lenexa, Shawnee and other cities in the greater Kansas City area. If you are wondering if we serve your area, give us a call or fill in our contact form and we'll get back to you asap."
+        },
+        {
+          "title": "What If I have a smaller painting job?",
+          "expand": "We have a minimum project size of $1,000, so if you have a small project reach out and we can help you determine if your project will meet our minimum."
+        },
+        {
+          "title": "How much prep work is typically involved in an exterior painting project?",
+          "expand": "Our exterior house painters do high-quality prep work and use paint that seals out moisture and protects your home from temperature fluctuations and weather elements. Best of all, our work is backed up by a 2-year hassle-free warranty."
+        },
+        {
+          "title": "How does it work if I'm interested in your services?",
+          "expand": "It's simple, all you need to do is give us a call or fill in our contact form. We'll get back to you as soon as possible and provide a free estimate for your painting project. "
+        }
+      ]
+    }
   }
 ]
