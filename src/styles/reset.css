@@ -5,6 +5,7 @@
   font-size: 1rem;
   --user-font-scale: 1rem - 16px;
   font-size: clamp(0.875rem, 0.4626rem + 1.0309vw + var(--user-font-scale), 1.125rem);
+  --size-step-0: clamp(1rem, calc(0.96rem + 0.22vw), 1.13rem);
 
   /* our brand colors */
   --white: 255 100% 100%;
@@ -60,7 +61,7 @@ body {
   min-height: 100vh;
   margin: auto;
   text-rendering: optimizeSpeed;
-  line-height: 1.5;
+  line-height: 1.7;
   color: hsl(var(--text));
 }
 

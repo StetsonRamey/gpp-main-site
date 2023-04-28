@@ -2,10 +2,10 @@
 const { copy } = Astro.props;
 ---
 
-<div class="copy flow" style="--flow-space: 1.5rem">
+<article class="flow">
   <h2 class="h2">Committed to Getting the Job Done Right</h2>
-  <Fragment class="copy muted flow" set:html={copy} />
-</div>
+  <Fragment class="flow" set:html={copy} />
+</article>
 
 <style lang="scss">
   h2, h3 {

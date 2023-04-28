@@ -29,13 +29,19 @@ const { stuff } = Astro.props;
     h1={stuff.heroTitle}
     p={stuff.p}
   />
-  <section class="heading">
+  <article class="heading">
     <p class="up muted">Great Plains Painting</p>
     <h2>{stuff.topSectionTitle}</h2>
-    <article class="flow">
+    <div class="flow">
       <Fragment set:html={stuff.topSectionCopy} />
-    </article>
-  </section>
+    </div>
+    {
+      (service === 'wood-rot-repair-kansas-city') &&
+      <p class="wood-rot-note">
+        <i>Note: we only estimate and complete wood rot repair when full exterior painting is also included.  At this time we can't take on wood rot only projects unless they are significant in size (i.e., 1 whole side of your houses siding needs replaced).</i>
+      </p>
+    }
+  </article>
   <section class="benefits">
     <Stack
       superTitle={stuff.section2.upperTitle}
@@ -101,7 +107,12 @@ const { stuff } = Astro.props;
     max-width: 80ch;
     padding-inline: var(--size-6);
     margin-inline: auto;
+  }
 
+  .wood-rot-note {
+    margin-block-start: var(--size-10);
+    color: hsl(var(--brand-green));
+    text-align: left;
   }
 
   @media (min-width: 1000px) {

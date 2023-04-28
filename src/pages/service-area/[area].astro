@@ -27,16 +27,14 @@ const { stuff } = Astro.props;
     p={stuff.area.hero.p}
     heroPosition={stuff.area.hero.position}
   />
-  <section class="copy flow container center top-section">
+  <article class="flow top-section">
     <Fragment set:html={stuff.area.firstp} />
-  </section>
-  <section class="section-2 center">
-    <p class="small upper semi-bold mute">Great Plains Painting</p>
-    <h2 class="h2">{stuff.area.section1.h2}</h2>
-    <div class="section2-copy copy container flow">
-      <Fragment set:html={stuff.area.section1.copy} />
-    </div>
-  </section>
+  </article>
+  <article class="flow">
+    <p class="small upper semi-bold mute center">Great Plains Painting</p>
+    <h2 class="h2 center">{stuff.area.section1.h2}</h2>
+    <Fragment set:html={stuff.area.section1.copy} />
+  </article>
   <AreaStack
     superTitle={stuff.area.section2.super}
     h3={stuff.area.section2.h3}
@@ -45,12 +43,12 @@ const { stuff } = Astro.props;
     over={stuff.area.section2.topPhoto}
   />
   <AreaAbout h3={stuff.area.about.h3} copy={stuff.area.about.copy} />
-  <section class="center section-4 container">
-    <h3>{stuff.area.section4.h3}</h3>
+  <article class="section-4">
+    <h3 class="center">{stuff.area.section4.h3}</h3>
     <div class="section4-copy flow">
       <Fragment set:html={stuff.area.section4.copy} />
     </div>
-  </section>
+  </article>
   <section class="accordion">
     <Accordion title="Frequently Asked Questions" accordionContent={stuff.area.faq} />
   </section>
@@ -61,15 +59,11 @@ const { stuff } = Astro.props;
   .top-section,
   .section-4 {
     margin-block: var(--size-10);
-    padding-inline: var(--size-fluid-3);
   }
   .section2-copy,
   .section4-copy {
-    max-width: 85ch;
-    font-size: var(--font-size-3);
     margin-top: var(--size-8);
     margin-inline: auto;
-    padding-inline: var(--size-fluid-3);
   }
   .accordion {
     padding-inline: var(--size-6);

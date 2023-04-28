@@ -7,12 +7,12 @@ const { superTitle, h3, copy, under = coolBrush, over = coolRoll } = Astro.props
 ---
 
 <section class="why-us">
-  <div class="copy flow left-stack" style="--flow-space: 1.5rem">
+  <article class="flow left-stack" style="--flow-space: 1.5rem">
     {superTitle && <p class="small upper semi-bold muted">{superTitle}</p>}
     <h3 class="h3">{h3}</h3>
     <Fragment class="sub-h2 black" set:html={copy} />
-  </div>
-  <div class="photo-stack">
+  </article>
+  <article class="photo-stack">
     <div class="img-wrap back">
       <Picture
         class="img radius-2 shadow-5"
@@ -35,7 +35,7 @@ const { superTitle, h3, copy, under = coolBrush, over = coolRoll } = Astro.props
         aspectRatio={16 / 9}
       />
     </div>
-  </div>
+  </article>
 </section>
 
 <style lang="scss">
