@@ -24,23 +24,23 @@ import FormDescription from "./FormDescription.astro";
 
 <form name="contact" id="address-form" action="/thank-you" method="POST" autocomplete="off" data-netlify="true">
   <fieldset>
-    <legend>Your Name</legend>
+    <legend class="sr-only">Your Name</legend>
     <div class="form-row">
       <div class="form-group">
         <label for="first-name">First Name</label>
-        <input autocomplete="given-name" class="form-field" type="text" id="first-name" name="first-name" aria-describedby="first-name-example" />
-        <FormDescription id={"first-name-example"} copy={"e.g. -  Paul"} />
+        <input autocomplete="given-name" class="form-field" type="text" id="first-name" name="first-name" aria-describedby="first-name-example" autocomplete="given-name" />
+        <!-- <FormDescription id={"first-name-example"} copy={"e.g. -  Paul"} /> -->
       </div>
       <div class="form-group">
         <label for="last-name">Last Name</label>
-        <input autocomplete="family-name" class="form-field" type="text" id="last-name" name="last-name" aria-describedby="last-name-example" />
-        <FormDescription id={"last-name-example"} copy={"e.g. - Rudd"} />
+        <input autocomplete="family-name" class="form-field" type="text" id="last-name" name="last-name" aria-describedby="last-name-example" autocomplete="family-name" />
+        <!-- <FormDescription id={"last-name-example"} copy={"e.g. - Rudd"} /> -->
       </div>
     </div>
   </fieldset>
 
   <fieldset>
-    <legend>Contact Information</legend>
+    <legend class="sr-only">Contact Information</legend>
     <div class="form-row">
       <div class="form-group">
         <label for="phone-number">Phone Number</label>
@@ -53,21 +53,21 @@ import FormDescription from "./FormDescription.astro";
           name="phone-number"
           aria-describedby="phone-number-description"
         />
-        <FormDescription
+        <!-- <FormDescription
           id={"phone-number-description"}
           copy={"10 digits - this will format automatically, type numbers only"}
-        />
+        /> -->
       </div>
       <div class="form-group">
         <label for="email">Email</label>
         <input autocomplete="email" class="form-field" type="email" id="email" name="email" aria-describedby="email-address" />
-        <FormDescription id={"email-address"} copy={"e.g. - prudd@email.com"} />
+        <!-- <FormDescription id={"email-address"} copy={"e.g. - prudd@email.com"} /> -->
       </div>
     </div>
   </fieldset>
 
   <fieldset>
-    <legend>Address</legend>
+    <legend class="sr-only">Address</legend>
     <div class="form-row">
       <div class="form-group">
         <label for="address">Street Address</label>
@@ -79,10 +79,10 @@ import FormDescription from "./FormDescription.astro";
           name="address"
           aria-describedby="address-description"
         />
-        <FormDescription
+        <!-- <FormDescription
           id={"address-description"}
           copy={"e.g. - 5000 Ward Parkway.  Google Autocomplete will fill this in, but you can also edit this field if needed."}
-        />
+        /> -->
       </div>
     </div>
     <div class="form-row form-row--mixed">
@@ -104,7 +104,7 @@ import FormDescription from "./FormDescription.astro";
       <div class="form-group form-group--width-auto" style="--field-width: 20ch;">
         <label for="zip">Zip</label>
         <input class="form-field" id="postcode" name="zip" type="text" aria-describedby="zip-description" />
-        <FormDescription id={"zip-description"} copy={"5 digits - numbers only"} />
+        <!-- <FormDescription id={"zip-description"} copy={"5 digits - numbers only"} /> -->
       </div>
     </div>
   </fieldset>

@@ -14,7 +14,7 @@ fieldset + fieldset {
 
   display: grid;
   gap: var(--size-7);
-  grid-template-columns: repeat(auto-fit, minmax(var(--field-col-width), 1fr));
+  // grid-template-columns: repeat(auto-fit, minmax(var(--field-col-width), 1fr));
 
   .form-group {
     margin: 0;
@@ -28,26 +28,26 @@ fieldset + fieldset {
     margin-top: var(--size-7);
   }
 
-  &--mixed {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 2rem;
+  // &--mixed {
+  //   display: flex;
+  //   flex-wrap: wrap;
+  //   gap: 2rem;
 
-    .form-group {
-      flex: 1 1 var(--field-col-width);
+  //   .form-group {
+  //     flex: 1 1 var(--field-col-width);
 
-      &--width-auto {
-        flex: 0 1 auto;
+  //     &--width-auto {
+  //       flex: 0 1 auto;
 
-        .form-field, .form-control {
-          max-width: var(--field-width, 0);
-        }
+  //       .form-field, .form-control {
+  //         max-width: var(--field-width, 0);
+  //       }
 
-        & .select {
-          width: var(--field-width);
-        }
-      }
-    }
-  }
+  //       & .select {
+  //         width: var(--field-width);
+  //       }
+  //     }
+  //   }
+  // }
 
 }

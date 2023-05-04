@@ -30,8 +30,11 @@ const desc =
 ---
 
 <BaseLayout title={title} desc={desc}>
-  <Hero heroButton={heroButton} {crumbList} h1={"Contact Us"} p={p} heroUrl={heroImg} alt="Painting exterior trim with a roller" />
+  <!-- <Hero heroButton={heroButton} {crumbList} h1={"Contact Us"} p={p} heroUrl={heroImg} alt="Painting exterior trim with a roller" /> -->
   <section class="form-wrap">
+  <article>
+    To request a free estimate, call us at <a href="tel:8169459792">(816) 945-9792</a> and we'll have you scheduled in 5 minutes or fill out this form and we'll call you within 24 hours.
+  </article>
     <Form />
   </section>
   <section class="map">
@@ -44,8 +47,15 @@ const desc =
   $max-height: 700px;
   .form-wrap {
     padding: var(--size-9);
-    max-width: 100ch;
+    max-width: 65ch;
     margin: 0 auto;
+
+    article {
+      background-color: hsl(var(--brand-green) / .4);
+      padding: 3rem;
+      margin-block-end: 4rem;
+      box-shadow: var(--shadow-3);
+    }
   }
 
   .map {
