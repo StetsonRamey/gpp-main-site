@@ -1,0 +1,70 @@
+---
+import { Icon } from "astro-icon";
+---
+
+<div class="banner-wrapper">
+  <div class="max-width">
+    <div class="call-now">
+      <Icon name="fa-solid:phone-square" width={25} />
+      <p class="upper">Call:</p>
+      <a href="tel:+8169459792">(816) 945-9792</a>
+    </div>
+    <div class="button-wrapper">
+      <a href="/contact-us" class="button">Get an Estimate</a>
+    </div>
+  </div>
+</div>
+
+<style lang="scss">
+  .banner-wrapper {
+    color: white;
+    font-size: var(--font-size-4);
+    background-color: hsl(var(--dark-blue) / 0.95);
+    gap: var(--size-4);
+
+    .max-width {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      padding-block: var(--size-6);
+    }
+  }
+
+  .call-now {
+    display: flex;
+    align-items: center;
+    gap: var(--size-2);
+  }
+
+  .button-wrapper {
+    display: none;
+  }
+
+  .button {
+    color: hsl(var(--brand-green));
+    text-decoration: none;
+    border: 2px solid hsl(var(--brand-green));
+    padding: var(--size-3);
+    border-radius: var(--radius-2);
+  }
+
+  .button:hover {
+    background-color: hsl(var(--brand-green));
+    color: white;
+  }
+
+  @media (min-width: 700px) {
+    .banner-wrapper {
+      .max-width {
+        max-width: 65rem;
+        margin-inline: auto;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-inline: 1.25rem;
+      }
+    }
+    .button-wrapper {
+      display: unset;
+    }
+  }
+</style>

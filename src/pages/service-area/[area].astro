@@ -56,6 +56,10 @@ const { stuff } = Astro.props;
 </BaseLayout>
 
 <style lang="scss">
+  article {
+    padding-inline: var(--size-3);
+    font-size: var(--font-size-3);
+  }
   .top-section,
   .section-4 {
     margin-block: var(--size-10);
@@ -66,7 +70,7 @@ const { stuff } = Astro.props;
     margin-inline: auto;
   }
   .accordion {
-    padding-inline: var(--size-6);
+    padding-inline: var(--size-3);
   }
   .button {
     display: grid;

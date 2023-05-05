@@ -13,7 +13,7 @@ fieldset + fieldset {
   --field-col-width: 30ch;
 
   display: grid;
-  gap: var(--size-7);
+  gap: var(--size-3);
   // grid-template-columns: repeat(auto-fit, minmax(var(--field-col-width), 1fr));
 
   .form-group {
