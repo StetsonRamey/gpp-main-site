@@ -22,18 +22,48 @@ import FormDescription from "./FormDescription.astro";
   }
 </script>
 
-<form name="contact" id="address-form" action="/thank-you" method="POST" autocomplete="off" data-netlify="true">
+<form
+  name="contact"
+  id="address-form"
+  action="/thank-you"
+  method="POST"
+  autocomplete="off"
+  data-netlify="true"
+  netlify-honeypot="bot-field"
+>
+  <!-- Honeypot -->
+  <div class="honeypot">
+    <label for="bot-field">Don't fill this out if you're not human:</label>
+    <input type="text" id="bot-field" name="bot-field" tabindex="-1" value="" autocomplete="off" />
+  </div>
+
   <fieldset>
     <legend class="sr-only">Your Name</legend>
     <div class="form-row">
       <div class="form-group">
         <label for="first-name">First Name</label>
-        <input autocomplete="given-name" class="form-field" type="text" id="first-name" name="first-name" aria-describedby="first-name-example" autocomplete="given-name" />
+        <input
+          autocomplete="given-name"
+          class="form-field"
+          type="text"
+          id="first-name"
+          name="first-name"
+          aria-describedby="first-name-example"
+          autocomplete="given-name"
+        />
         <!-- <FormDescription id={"first-name-example"} copy={"e.g. -  Paul"} /> -->
       </div>
       <div class="form-group">
         <label for="last-name">Last Name</label>
-        <input autocomplete="family-name" class="form-field" type="text" id="last-name" name="last-name" aria-describedby="last-name-example" autocomplete="family-name" />
+        <input
+          autocomplete="family-name"
+          class="form-field"
+          type="text"
+          id="last-name"
+          name="last-name"
+          aria-describedby="last-name-example"
+          autocomplete="family-name"
+        />
         <!-- <FormDescription id={"last-name-example"} copy={"e.g. - Rudd"} /> -->
       </div>
     </div>
@@ -60,7 +90,14 @@ import FormDescription from "./FormDescription.astro";
       </div>
       <div class="form-group">
         <label for="email">Email</label>
-        <input autocomplete="email" class="form-field" type="email" id="email" name="email" aria-describedby="email-address" />
+        <input
+          autocomplete="email"
+          class="form-field"
+          type="email"
+          id="email"
+          name="email"
+          aria-describedby="email-address"
+        />
         <!-- <FormDescription id={"email-address"} copy={"e.g. - prudd@email.com"} /> -->
       </div>
     </div>
@@ -185,5 +222,13 @@ import FormDescription from "./FormDescription.astro";
 <style lang="scss">
   .form-button {
     margin-top: var(--size-9);
+  }
+
+  .honeypot {
+    position: absolute;
+    left: -5000px;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
   }
 </style>
