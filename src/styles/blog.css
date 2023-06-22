@@ -109,7 +109,7 @@ td > img {
 }
 
 p:has(> img) {
-  max-height: 400px;
+  max-height: 800px;
   object-fit: fill;
   overflow: hidden;
 }
@@ -161,4 +161,9 @@ blockquote {
 .btn--menu {
   background-color: transparent;
   border: none;
+}
+
+iframe {
+  width: 100%;
+  min-height: 400px;
 }
