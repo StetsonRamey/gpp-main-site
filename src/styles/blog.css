@@ -70,8 +70,13 @@ strong,
 b {
   color: var(--font-color);
 }
+
 a {
   color: #3273dc;
+}
+
+a:hover {
+  color: hsl(var(--brand-green));
 }
 h1 {
   font-size: var(--font-size-5);
