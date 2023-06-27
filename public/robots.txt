@@ -5,4 +5,4 @@ User-agent: *
 Allow: /
 Disallow:
 
-Sitemap: https://greatplainspaintingkc.com/sitemap-index.xml
+Sitemap: https://www.greatplainspaintingkc.com/sitemap-index.xml
