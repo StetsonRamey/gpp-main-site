@@ -9,40 +9,46 @@ import Recents from "../components/Recents.astro";
 import WorkingWith from "../components/WorkingWith.astro";
 import heroImg from "../assets/cedarShake.jpg";
 import accordion from "../data/homeAccordion.json";
+import Map from "../components/Map.astro";
 
 const bbb = true;
 
 const title = "Quality House Painters in Kansas City";
 const desc =
-  "Turn to Great Plains Painting for the most profressional & top rated Kansas City painting services. Get a free estimate today!";
+	"Turn to Great Plains Painting for the most profressional & top rated Kansas City painting services. Get a free estimate today!";
 ---
 
 <BaseLayout title={title} desc={desc}>
-  <Hero heroUrl={heroImg} bbb={bbb} alt="A cedar shake shingle exterior painting project" />
-  <PhotoStack />
-  <ServiceGrid />
-  <LocalBanner />
-  <Accordion
-    title={"Why Trust Us to Paint Your Home?"}
-    p={"we'll do it right or we'll make it right"}
-    accordionContent={accordion}
-  />
-  <Recents />
-  <section class="surrounding">
-    <div class="container flow p-block-5" style="padding-inline: var(--size-6);">
-      <h2 class="center" style="margin-inline: auto;">Not Sure if We Serve Your Neighborhood?</h2>
-      <p class="container-xs center semi-muted copy" style="--flow-space: 3rem;">
-        We serve the metro Kansas City area and the surrounding areas including <a
-          href="/service-area/painters-overland-park-ks/">Overland Park</a
-        >, <a href="/service-area/painters-lenexa-ks/">Lenexa</a>, <a href="/service-area/painters-lees-summit-mo/"
-          >Lee's Summit</a
-        >, <a href="/service-area/painters-olathe-ks/">Olathe</a>, <a href="/service-area/painters-leawood-ks/"
-          >Leawood</a
-        >, <a href="/service-area/painters-prairie-village-ks/">Prairie Village</a>, <a
-          href="/service-area/painters-roeland-park-ks/">Roeland Park</a
-        >, and <a href="/service-area/painters-shawnee-ks/">Shawnee</a>.
-      </p>
-    </div>
-  </section>
-  <WorkingWith />
+	<Hero heroUrl={heroImg} bbb={bbb} alt="A cedar shake shingle exterior painting project" />
+	<PhotoStack />
+	<ServiceGrid />
+	<LocalBanner />
+	<Accordion
+		title={"Why Trust Us to Paint Your Home?"}
+		p={"we'll do it right or we'll make it right"}
+		accordionContent={accordion}
+	/>
+	<Recents />
+	<section class="surrounding">
+		<div class="container flow p-block-5" style="padding-inline: var(--size-6);">
+			<h2 class="center" style="margin-inline: auto;">
+				Not Sure if We Serve Your Neighborhood?
+			</h2>
+			<p class="container-xs center semi-muted copy" style="--flow-space: 3rem;">
+				We serve the metro Kansas City area and the surrounding areas including <a
+					href="/service-area/painters-overland-park-ks/">Overland Park</a
+				>, <a href="/service-area/painters-lenexa-ks/">Lenexa</a>, <a
+					href="/service-area/painters-lees-summit-mo/">Lee's Summit</a
+				>, <a href="/service-area/painters-olathe-ks/">Olathe</a>, <a
+					href="/service-area/painters-leawood-ks/">Leawood</a
+				>, <a href="/service-area/painters-prairie-village-ks/">Prairie Village</a>, <a
+					href="/service-area/painters-roeland-park-ks/">Roeland Park</a
+				>, and <a href="/service-area/painters-shawnee-ks/">Shawnee</a>.
+			</p>
+		</div>
+	</section>
+	<WorkingWith />
+	<Map
+		mapSrc="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d396620.0625567894!2d-94.5806599!3d39.04737!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87c05889990c6af7%3A0x2f4abc5db5a21e2b!2sGreat%20Plains%20Painting!5e0!3m2!1sen!2sin!4v1720010571436!5m2!1sen!2sin"
+	/>
 </BaseLayout>

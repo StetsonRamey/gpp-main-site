@@ -1,70 +1,86 @@
 [
-  {
-    "city": "Kansas City",
-    "alt": "Kansas City map",
-    "areaPage": "/",
-    "scale": "10",
-    "size": "1200x1200",
-    "signed_url": "https://maps.googleapis.com/maps/api/staticmap?center=kansas+city,+mo&zoom=13&size=200x200&scale=2&map_id=3dcfc3a6d2fa31c&key=AIzaSyDkKxiVAXt_mBwB_vY7s4bbpLhJmYQjwkw&signature=L9JoOR5mDgF_MCZAHK1RwBM3AYU="
-  },
-  {
-    "city": "Overland Park",
-    "alt": "Overland Park map",
-    "areaPage": "/service-area/painters-overland-park-ks/",
-    "signed_url": "https://maps.googleapis.com/maps/api/staticmap?center=overland+park,+ks&zoom=11&size=200x200&scale=2&map_id=3dcfc3a6d2fa31c&key=AIzaSyDkKxiVAXt_mBwB_vY7s4bbpLhJmYQjwkw&signature=uUdMdTj1t0INCgbmWB6tB8rOsuM="
-  },
-  {
-    "city": "Lee's Summit",
-    "alt": "Lee's Summit map",
-    "areaPage": "/service-area/painters-lees-summit-mo/",
-    "signed_url": "https://maps.googleapis.com/maps/api/staticmap?center=lees+summit,+ks&zoom=11&size=200x200&scale=2&map_id=3dcfc3a6d2fa31c&key=AIzaSyDkKxiVAXt_mBwB_vY7s4bbpLhJmYQjwkw&signature=jhgYXGv2TFn08ygACIKn16kNuCI="
-  },
-  {
-    "city": "Olathe",
-    "alt": "Olathe map",
-    "areaPage": "/service-area/painters-olathe-ks/",
-    "signed_url": "https://maps.googleapis.com/maps/api/staticmap?center=olathe,+ks&zoom=11&size=200x200&scale=2&map_id=3dcfc3a6d2fa31c&key=AIzaSyDkKxiVAXt_mBwB_vY7s4bbpLhJmYQjwkw&signature=JLPZquNHykLu9RTs4dS1vERlK-o="
-  },
-  {
-    "city": "Leawood",
-    "alt": "Leawood map",
-    "areaPage": "/service-area/painters-leawood-ks/",
-    "signed_url": "https://maps.googleapis.com/maps/api/staticmap?center=leawood,+ks&zoom=11&size=200x200&scale=2&map_id=3dcfc3a6d2fa31c&key=AIzaSyDkKxiVAXt_mBwB_vY7s4bbpLhJmYQjwkw&signature=VmQb8E8jLfWAdiMU9ByNGZGdgvA="
-  },
-  {
-    "city": "Prairie Village",
-    "alt": "Prairie Village map",
-    "areaPage": "/service-area/painters-prairie-village-ks/",
-    "signed_url": "https://maps.googleapis.com/maps/api/staticmap?center=prairie+village,+ks&zoom=11&size=200x200&scale=2&map_id=3dcfc3a6d2fa31c&key=AIzaSyDkKxiVAXt_mBwB_vY7s4bbpLhJmYQjwkw&signature=HoZdjThz0DPqwWEvddxasHVHAK4="
-  },
-  {
-    "city": "Roeland Park",
-    "alt": "Roeland Park map",
-    "areaPage": "/service-area/painters-roeland-park-ks/",
-    "signed_url": "https://maps.googleapis.com/maps/api/staticmap?center=roeland+park,+ks&zoom=11&size=200x200&scale=2&map_id=3dcfc3a6d2fa31c&key=AIzaSyDkKxiVAXt_mBwB_vY7s4bbpLhJmYQjwkw&signature=JKItgvbxaKhHAXvzYmOxrfBiAaI="
-  },
-  {
-    "city": "Lenexa",
-    "alt": "Lenexa map",
-    "areaPage": "/service-area/painters-lenexa-ks/",
-    "signed_url": "https://maps.googleapis.com/maps/api/staticmap?center=lenexa,+ks&zoom=11&size=200x200&scale=2&map_id=3dcfc3a6d2fa31c&key=AIzaSyDkKxiVAXt_mBwB_vY7s4bbpLhJmYQjwkw&signature=xheBrrN5K34I7QFcxulhVlnUok8="
-  },
-  {
-    "city": "Shawnee",
-    "alt": "Shawnee map",
-    "areaPage": "/service-area/painters-shawnee-ks/",
-    "signed_url": "https://maps.googleapis.com/maps/api/staticmap?center=shawnee,+ks&zoom=11&size=200x200&scale=2&map_id=3dcfc3a6d2fa31c&key=AIzaSyDkKxiVAXt_mBwB_vY7s4bbpLhJmYQjwkw&signature=7wxz_w3K3pDOd7dEIxf8GtetvzY="
-  },
-  {
-    "city": "Parkville",
-    "alt": "Parkville map",
-    "areaPage": "/service-area/painters-parkville-mo/",
-    "signed_url": "https://maps.googleapis.com/maps/api/staticmap?center=parkville,+mo&zoom=11&size=200x200&scale=2&map_id=3dcfc3a6d2fa31c&key=AIzaSyDkKxiVAXt_mBwB_vY7s4bbpLhJmYQjwkw&&signature=eYF-VbWhi8d7wEoxAemSgDV-gOc="
-  },
-  {
-    "city": "Gladstone",
-    "alt": "Gladstone map",
-    "areaPage": "/service-area/painters-gladstone-mo/",
-    "signed_url": "https://maps.googleapis.com/maps/api/staticmap?center=gladstone,+mo&zoom=11&size=200x200&scale=2&map_id=a7a74f59798b5ddf&key=AIzaSyDkKxiVAXt_mBwB_vY7s4bbpLhJmYQjwkw&signature=x1R_uxVJCOI3eCf_xqQ-Sh2tLew="
-  }
+	{
+		"city": "Missouri",
+		"alt": "Missouri map",
+		"areaPage": "/service-area/siding-contractor-missouri",
+		"scale": "2",
+		"size": "200x200",
+		"signed_url": "https://maps.googleapis.com/maps/api/staticmap?center=missouri,usa&zoom=6&size=200x200&scale=2&key=AIzaSyDkKxiVAXt_mBwB_vY7s4bbpLhJmYQjwkw"
+	},
+	{
+		"city": "Kansas",
+		"alt": "Kansas map",
+		"areaPage": "/service-area/siding-contractor-kansas",
+		"scale": "2",
+		"size": "200x200",
+		"signed_url": "https://maps.googleapis.com/maps/api/staticmap?center=kansas,usa&zoom=6&size=200x200&scale=2&key=AIzaSyDkKxiVAXt_mBwB_vY7s4bbpLhJmYQjwkw"
+	},
+	{
+		"city": "Kansas City",
+		"alt": "Kansas City map",
+		"areaPage": "/",
+		"scale": "10",
+		"size": "1200x1200",
+		"signed_url": "https://maps.googleapis.com/maps/api/staticmap?center=kansas+city,+mo&zoom=13&size=200x200&scale=2&map_id=3dcfc3a6d2fa31c&key=AIzaSyDkKxiVAXt_mBwB_vY7s4bbpLhJmYQjwkw&signature=L9JoOR5mDgF_MCZAHK1RwBM3AYU="
+	},
+	{
+		"city": "Overland Park",
+		"alt": "Overland Park map",
+		"areaPage": "/service-area/painters-overland-park-ks/",
+		"signed_url": "https://maps.googleapis.com/maps/api/staticmap?center=overland+park,+ks&zoom=11&size=200x200&scale=2&map_id=3dcfc3a6d2fa31c&key=AIzaSyDkKxiVAXt_mBwB_vY7s4bbpLhJmYQjwkw&signature=uUdMdTj1t0INCgbmWB6tB8rOsuM="
+	},
+	{
+		"city": "Lee's Summit",
+		"alt": "Lee's Summit map",
+		"areaPage": "/service-area/painters-lees-summit-mo/",
+		"signed_url": "https://maps.googleapis.com/maps/api/staticmap?center=lees+summit,+ks&zoom=11&size=200x200&scale=2&map_id=3dcfc3a6d2fa31c&key=AIzaSyDkKxiVAXt_mBwB_vY7s4bbpLhJmYQjwkw&signature=jhgYXGv2TFn08ygACIKn16kNuCI="
+	},
+	{
+		"city": "Olathe",
+		"alt": "Olathe map",
+		"areaPage": "/service-area/painters-olathe-ks/",
+		"signed_url": "https://maps.googleapis.com/maps/api/staticmap?center=olathe,+ks&zoom=11&size=200x200&scale=2&map_id=3dcfc3a6d2fa31c&key=AIzaSyDkKxiVAXt_mBwB_vY7s4bbpLhJmYQjwkw&signature=JLPZquNHykLu9RTs4dS1vERlK-o="
+	},
+	{
+		"city": "Leawood",
+		"alt": "Leawood map",
+		"areaPage": "/service-area/painters-leawood-ks/",
+		"signed_url": "https://maps.googleapis.com/maps/api/staticmap?center=leawood,+ks&zoom=11&size=200x200&scale=2&map_id=3dcfc3a6d2fa31c&key=AIzaSyDkKxiVAXt_mBwB_vY7s4bbpLhJmYQjwkw&signature=VmQb8E8jLfWAdiMU9ByNGZGdgvA="
+	},
+	{
+		"city": "Prairie Village",
+		"alt": "Prairie Village map",
+		"areaPage": "/service-area/painters-prairie-village-ks/",
+		"signed_url": "https://maps.googleapis.com/maps/api/staticmap?center=prairie+village,+ks&zoom=11&size=200x200&scale=2&map_id=3dcfc3a6d2fa31c&key=AIzaSyDkKxiVAXt_mBwB_vY7s4bbpLhJmYQjwkw&signature=HoZdjThz0DPqwWEvddxasHVHAK4="
+	},
+	{
+		"city": "Roeland Park",
+		"alt": "Roeland Park map",
+		"areaPage": "/service-area/painters-roeland-park-ks/",
+		"signed_url": "https://maps.googleapis.com/maps/api/staticmap?center=roeland+park,+ks&zoom=11&size=200x200&scale=2&map_id=3dcfc3a6d2fa31c&key=AIzaSyDkKxiVAXt_mBwB_vY7s4bbpLhJmYQjwkw&signature=JKItgvbxaKhHAXvzYmOxrfBiAaI="
+	},
+	{
+		"city": "Lenexa",
+		"alt": "Lenexa map",
+		"areaPage": "/service-area/painters-lenexa-ks/",
+		"signed_url": "https://maps.googleapis.com/maps/api/staticmap?center=lenexa,+ks&zoom=11&size=200x200&scale=2&map_id=3dcfc3a6d2fa31c&key=AIzaSyDkKxiVAXt_mBwB_vY7s4bbpLhJmYQjwkw&signature=xheBrrN5K34I7QFcxulhVlnUok8="
+	},
+	{
+		"city": "Shawnee",
+		"alt": "Shawnee map",
+		"areaPage": "/service-area/painters-shawnee-ks/",
+		"signed_url": "https://maps.googleapis.com/maps/api/staticmap?center=shawnee,+ks&zoom=11&size=200x200&scale=2&map_id=3dcfc3a6d2fa31c&key=AIzaSyDkKxiVAXt_mBwB_vY7s4bbpLhJmYQjwkw&signature=7wxz_w3K3pDOd7dEIxf8GtetvzY="
+	},
+	{
+		"city": "Parkville",
+		"alt": "Parkville map",
+		"areaPage": "/service-area/painters-parkville-mo/",
+		"signed_url": "https://maps.googleapis.com/maps/api/staticmap?center=parkville,+mo&zoom=11&size=200x200&scale=2&map_id=3dcfc3a6d2fa31c&key=AIzaSyDkKxiVAXt_mBwB_vY7s4bbpLhJmYQjwkw&&signature=eYF-VbWhi8d7wEoxAemSgDV-gOc="
+	},
+	{
+		"city": "Gladstone",
+		"alt": "Gladstone map",
+		"areaPage": "/service-area/painters-gladstone-mo/",
+		"signed_url": "https://maps.googleapis.com/maps/api/staticmap?center=gladstone,+mo&zoom=11&size=200x200&scale=2&map_id=a7a74f59798b5ddf&key=AIzaSyDkKxiVAXt_mBwB_vY7s4bbpLhJmYQjwkw&signature=x1R_uxVJCOI3eCf_xqQ-Sh2tLew="
+	}
 ]

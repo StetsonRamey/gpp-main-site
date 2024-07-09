@@ -1,80 +1,167 @@
 ---
 import areas from "../../data/areas.json";
 export function getStaticPaths() {
-  return areas.map((stuff) => {
-    return {
-      params: { area: stuff.slug },
-      props: { stuff },
-    };
-  });
+	return areas.map((stuff) => {
+		return {
+			params: { area: stuff.slug },
+			props: { stuff },
+		};
+	});
 }
 
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import ServiceHero from "../../components/Services/ServiceHero.astro";
 import AreaStack from "../../components/AreaStack.astro";
+import AreaBenefits from "../../components/AreaBenefits.astro";
 import AreaAbout from "../../components/AreaAbout.astro";
 import Accordion from "../../components/Accordion.astro";
 import Button from "../../components/Button.astro";
+import Map from "../../components/Map.astro";
+import DynamicAreaGrid from "../../components/DynamicAreaGrid.astro";
 
 const { stuff } = Astro.props;
 ---
 
 <BaseLayout title={stuff.area.titleTag} desc={stuff.area.meta}>
-  <ServiceHero
-    crumbList={stuff.area.crumbList}
-    heroUrl={stuff.area.hero.src}
-    h1={stuff.area.hero.h1}
-    p={stuff.area.hero.p}
-    heroPosition={stuff.area.hero.position}
-  />
-  <article class="flow top-section">
-    <Fragment set:html={stuff.area.firstp} />
-  </article>
-  <article class="flow">
-    <p class="small upper semi-bold mute center">Great Plains Painting</p>
-    <h2 class="h2 center">{stuff.area.section1.h2}</h2>
-    <Fragment set:html={stuff.area.section1.copy} />
-  </article>
-  <AreaStack
-    superTitle={stuff.area.section2.super}
-    h3={stuff.area.section2.h3}
-    copy={stuff.area.section2.copy}
-    under={stuff.area.section2.underPhoto}
-    over={stuff.area.section2.topPhoto}
-  />
-  <AreaAbout h3={stuff.area.about.h3} copy={stuff.area.about.copy} />
-  <article class="section-4">
-    <h3 class="center">{stuff.area.section4.h3}</h3>
-    <div class="section4-copy flow">
-      <Fragment set:html={stuff.area.section4.copy} />
-    </div>
-  </article>
-  <section class="accordion">
-    <Accordion title="Frequently Asked Questions" accordionContent={stuff.area.faq} />
-  </section>
-  <div class="button"><Button text="Schedule Your Free Estimate" link="/contact-us/" style="variant" /></div>
+	<!-- Conditionally render the ServiceHero section -->
+	{
+		stuff.area.hero && (
+			<ServiceHero
+				crumbList={stuff.area.crumbList}
+				heroUrl={stuff.area.hero.src}
+				h1={stuff.area.hero.h1}
+				p={stuff.area.hero.p}
+				heroPosition={stuff.area.hero.position}
+			/>
+		)
+	}
+
+	<!-- Conditionally render the first paragraph -->
+	{
+		stuff.area.firstp && (
+			<article class="flow top-section">
+				<Fragment set:html={stuff.area.firstp} />
+			</article>
+		)
+	}
+
+	<!-- Conditionally render the section1 -->
+	{
+		stuff.area.section1 && (
+			<article class="flow">
+				<p class="small upper semi-bold mute center">Great Plains Painting</p>
+				<h2 class="h2 center">{stuff.area.section1.h2}</h2>
+				<Fragment set:html={stuff.area.section1.copy} />
+			</article>
+		)
+	}
+
+	<!-- Conditionally render the AreaBenefits section -->
+	{
+		stuff.area.sectionBenefits && (
+			<AreaBenefits
+				superTitle={stuff.area.sectionBenefits.super}
+				link={stuff.area.sectionBenefits.link}
+				h3={stuff.area.sectionBenefits.h3}
+				copy={stuff.area.sectionBenefits.copy}
+				under={stuff.area.sectionBenefits.underPhoto}
+				over={stuff.area.sectionBenefits.topPhoto}
+			/>
+		)
+	}
+
+	<!-- Conditionally render the AreaStack section -->
+	{
+		stuff.area.section2 && (
+			<AreaStack
+				superTitle={stuff.area.section2.super}
+				h3={stuff.area.section2.h3}
+				copy={stuff.area.section2.copy}
+				under={stuff.area.section2.underPhoto}
+				over={stuff.area.section2.topPhoto}
+			/>
+		)
+	}
+
+	<!-- Conditionally render the AreaAbout section -->
+	{stuff.area.about && <AreaAbout h3={stuff.area.about.h3} copy={stuff.area.about.copy} />}
+
+	<!-- Conditionally render the section4 -->
+	{
+		stuff.area.section4 && (
+			<article class="section-4">
+				<h3 class="center">{stuff.area.section4.h3}</h3>
+				<div class="section4-copy flow">
+					<Fragment set:html={stuff.area.section4.copy} />
+				</div>
+			</article>
+		)
+	}
+
+	<!-- Conditionally render the DynamicAreaGrid section -->
+	{
+		stuff.area.serviceArea && (
+			<section class="hoods">
+				<h2 class="h2">{stuff.area.serviceArea.h2}</h2>
+				<p class="sub-h2 black">{stuff.area.serviceArea.p}</p>
+				<DynamicAreaGrid areas={stuff.area.serviceArea.areas} />
+			</section>
+		)
+	}
+
+	<!-- Conditionally render the Accordion section -->
+	{
+		stuff.area.faq && (
+			<section class="accordion">
+				<Accordion title="Frequently Asked Questions" accordionContent={stuff.area.faq} />
+			</section>
+		)
+	}
+
+	<!-- Conditionally render the Button section -->
+	<div class="button">
+		<Button text="Schedule Your Free Estimate" link="/contact-us/" style="variant" />
+	</div>
+
+	<!-- Conditionally render the Map section -->
+	{
+		stuff.area.map && (
+			<section class="map-section">
+				<Map mapSrc={stuff.area.map.src} mapDescription={stuff.area.map.description} />
+			</section>
+		)
+	}
 </BaseLayout>
 
 <style lang="scss">
-  article {
-    padding-inline: var(--size-3);
-    font-size: var(--font-size-3);
-  }
-  .top-section,
-  .section-4 {
-    margin-block: var(--size-10);
-  }
-  .section2-copy,
-  .section4-copy {
-    margin-top: var(--size-8);
-    margin-inline: auto;
-  }
-  .accordion {
-    padding-inline: var(--size-3);
-  }
-  .button {
-    display: grid;
-    place-items: center;
-    margin-block: var(--size-10);
-  }
+	article {
+		padding-inline: var(--size-3);
+		font-size: var(--font-size-3);
+	}
+	.top-section,
+	.section-4 {
+		margin-block: var(--size-10);
+	}
+	.section2-copy,
+	.section4-copy {
+		margin-top: var(--size-8);
+		margin-inline: auto;
+	}
+	.accordion {
+		padding-inline: var(--size-3);
+	}
+	.button {
+		display: grid;
+		place-items: center;
+		margin-block: var(--size-10);
+	}
+	.hoods {
+		text-align: center;
+		margin-block: var(--size-8);
+
+		h2,
+		p {
+			margin-inline: auto;
+		}
+	}
 </style>

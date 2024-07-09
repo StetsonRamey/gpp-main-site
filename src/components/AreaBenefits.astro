@@ -1,0 +1,101 @@
+---
+import { Picture } from "@astrojs/image/components";
+import coolBrush from "../assets/coolBrush.jpg";
+import coolRoll from "../assets/coolRoll.jpg";
+
+const { superTitle, link = "#", h3, copy, under = coolBrush, over = coolRoll } = Astro.props;
+---
+
+<section class="why-us">
+	<article class="photo-stack">
+		<div class="img-wrap back">
+			<Picture
+				class="img radius-2 shadow-5"
+				src={coolBrush}
+				formats={["avif", "webp", "jpeg"]}
+				widths={[300, 600, 800, 1200]}
+				alt="Painter in sunglass painting trim board with a brush"
+				sizes="(max-width: 1140px) calc(75vw - 2rem), 33vw"
+				aspectRatio={16 / 9}
+			/>
+		</div>
+		<div class="img-wrap front">
+			<Picture
+				class="img radius-2 shadow-5"
+				src={coolRoll}
+				formats={["avif", "webp", "jpeg"]}
+				widths={[300, 600, 800, 1200]}
+				alt="Painter with a mini roller painting exterior trim"
+				sizes="(max-width: 1140px) calc(75vw - 2rem), 33vw"
+				aspectRatio={16 / 9}
+			/>
+		</div>
+	</article>
+	<article class="flow left-stack" style="--flow-space: 1.5rem">
+		{superTitle && <p class="small upper semi-bold muted">{superTitle}</p>}
+		<h3 class="h3"><a href={link}>{h3}</a></h3>
+		<Fragment class="sub-h2 black" set:html={copy} />
+	</article>
+</section>
+
+<style lang="scss">
+	.why-us {
+		display: grid;
+		place-items: center;
+		padding-inline: var(--size-6);
+		max-width: 80ch;
+		margin-block: var(--size-10);
+		margin-inline: auto;
+		gap: var(--size-10);
+	}
+
+	.photo-stack {
+		display: grid;
+		max-height: 40rem;
+		grid-template-columns: repeat(8, 1fr);
+		grid-template-rows: repeat(20, 1fr);
+	}
+
+	.img-wrap {
+		&.back {
+			grid-row: 1 / span 13;
+			grid-column: 1 / span 7;
+		}
+
+		&.front {
+			grid-row: 10 / span 15;
+			grid-column: 2 / span 9;
+		}
+	}
+
+	.img {
+		object-fit: cover;
+		max-height: 100%;
+		width: 100%;
+	}
+
+	@media (min-width: 1000px) {
+		.why-us {
+			margin-block: var(--size-12);
+			max-width: var(--max-l);
+			padding-inline: var(--size-fluid-3);
+			grid-template-columns: repeat(2, 1fr);
+			column-gap: var(--size-3);
+		}
+
+		.img-wrap {
+			&.back {
+				grid-row: 1 / 14;
+				grid-column: 1 / span 7;
+			}
+
+			&.front {
+				grid-row: 10 / span 15;
+				grid-column: 2 / span 9;
+			}
+		}
+		.left-stack {
+			max-width: 45ch;
+		}
+	}
+</style>

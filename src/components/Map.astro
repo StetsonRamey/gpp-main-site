@@ -1,0 +1,41 @@
+---
+import { Image } from "@astrojs/image/components";
+
+const { localSuper = "Find us", mapSrc, mapDescription } = Astro.props;
+---
+
+<section class="section-3">
+	<div class="content-wrap center">
+		{localSuper && <p class="upper">{localSuper}</p>}
+		<h3 class="">Service Area</h3>
+		<Fragment class="copy" set:html={mapDescription} />
+	</div>
+	<div>
+		<iframe
+			src={mapSrc}
+			width="1000"
+			height="450"
+			style="border:0;"
+			allowfullscreen=""
+			loading="lazy"
+			referrerpolicy="no-referrer-when-downgrade"></iframe>
+	</div>
+</section>
+
+<style lang="scss">
+	$height: 75vh;
+	$max-height: 1000px;
+
+	.content-wrap {
+		max-width: 70ch;
+		padding-inline: var(--size-2);
+		padding-block: var(--size-5);
+	}
+
+	.section-3 {
+		display: flex;
+		flex-direction: column;
+		padding: 40px 0;
+		place-items: center;
+	}
+</style>
