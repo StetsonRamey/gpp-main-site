@@ -132,7 +132,7 @@
 					{
 						"city": "Clay County",
 						"alt": "Clay County map",
-						"areaPage": "#",
+						"areaPage": "/service-area/siding-contractor-clay-county-mo/",
 						"scale": "2",
 						"size": "200x200",
 						"signed_url": "https://maps.googleapis.com/maps/api/staticmap?center=clay+county,+mo&zoom=9&size=200x200&scale=2&markers=color:red%7Clabel:C%7Cclay+county,+mo&key=AIzaSyDkKxiVAXt_mBwB_vY7s4bbpLhJmYQjwkw"
@@ -140,7 +140,7 @@
 					{
 						"city": "Platte County",
 						"alt": "Platte County map",
-						"areaPage": "#",
+						"areaPage": "/service-area/siding-contractor-platte-county-mo/",
 						"scale": "2",
 						"size": "200x200",
 						"signed_url": "https://maps.googleapis.com/maps/api/staticmap?center=platte+county,+mo&zoom=9&size=200x200&scale=2&markers=color:red%7Clabel:P%7Cplatte+county,+mo&key=AIzaSyDkKxiVAXt_mBwB_vY7s4bbpLhJmYQjwkw"
@@ -223,7 +223,7 @@
 					{
 						"city": "Johnson County",
 						"alt": "Johnson County map",
-						"areaPage": "#",
+						"areaPage": "/service-area/siding-contractor-johnson-county-ks",
 						"scale": "2",
 						"size": "200x200",
 						"signed_url": "https://maps.googleapis.com/maps/api/staticmap?center=johnson+county,+ks&zoom=9&size=200x200&scale=2&markers=color:red%7Clabel:J%7Cjohnson+county,+ks&key=AIzaSyDkKxiVAXt_mBwB_vY7s4bbpLhJmYQjwkw"
@@ -246,6 +246,130 @@
 			]
 		}
 	},
+	{
+		"slug": "siding-contractor-johnson-county-ks",
+		"area": {
+			"crumbList": [
+				{
+					"name": "Home",
+					"link": "/"
+				},
+				{
+					"name": "Service Areas",
+					"link": "/service-area/"
+				},
+				{
+					"name": "Johnson County, KS",
+					"link": "/service-area/siding-contractor-johnson-county-ks/"
+				}
+			],
+			"titleTag": "Top Siding Contractor in Johnson County, KS | Great Plains Painting",
+			"meta": "Need siding services in Johnson County, KS? Great Plains Painting offers expert James Hardie siding installation, repair, and maintenance. Get a free estimate today!",
+			"hero": {
+				"src": "hardieService",
+				"h1": "Siding Contractor in Johnson County, KS",
+				"p": "Are you in search of a reliable siding contractor in Johnson County, KS? Great Plains Painting provides top-quality James Hardie siding services to enhance your home's durability and aesthetic appeal. Contact us today for a free estimate!",
+				"position": "center"
+			},
+			"section1": {
+				"h2": "Your Johnson County Siding Specialists",
+				"copy": "<p>Great Plains Painting is proud to serve the Johnson County, KS community with premium James Hardie siding services. Our team is committed to delivering exceptional results that enhance the appearance and longevity of your home.</p><p>Our siding services include:</p><ul><li>James Hardie Siding Installation</li><li>Siding Repair</li><li>Siding Maintenance</li><li>Custom Siding Solutions</li></ul><p>Reach out to us today to schedule a consultation and discover how our expert siding services can protect and beautify your home.</p>"
+			},
+			"sectionBenefits": {
+				"super": "Johnson County Siding Experts",
+				"link": "https://en.wikipedia.org/wiki/Johnson_County,_Kansas",
+				"h3": "Why Choose Our Siding Services in Johnson County, KS?",
+				"copy": "<ul><li><b>Expertise in James Hardie Siding:</b> Our team specializes in James Hardie siding, providing you with a durable, high-quality solution that stands up to the Kansas climate.</li><li><b>Local Knowledge:</b> As a local business, we understand the unique needs of Johnson County homes and offer tailored siding solutions to meet those needs.</li><li><b>Comprehensive Services:</b> From installation to repair and maintenance, we offer a full suite of siding services to keep your home looking its best.</li></ul>",
+				"underPhoto": "/images/service-pages/hardieStart.jpg",
+				"topPhoto": "/images/service-pages/hardieMid.jpg"
+			},
+			"section2": {
+				"super": "Siding Services You Can Trust",
+				"h3": "Why We Are the Right Choice for Your Siding Project",
+				"copy": "<ul><li><b>Quality Materials:</b> We use only James Hardie siding, known for its durability, weather resistance, and low maintenance.</li><li><b>Experienced Team:</b> Our team of experts ensures every project is completed to the highest standards, with a focus on customer satisfaction.</li><li><b>Dedicated Support:</b> We provide dedicated support throughout your project, ensuring that your needs are met and your expectations are exceeded.</li></ul>",
+				"underPhoto": "/images/service-pages/boshart-final-3.jpg",
+				"topPhoto": "/images/service-pages/boshart-final-2.jpg"
+			},
+			"about": {
+				"h3": "Trusted Siding Contractors in Johnson County, KS",
+				"copy": "<p>At Great Plains Painting, we are dedicated to providing Johnson County homeowners with the highest quality siding services. Our commitment to excellence and customer satisfaction ensures that your home will not only look beautiful but will also be well-protected against the elements. Contact us today for a free estimate and see why we are the preferred siding contractors in the area!</p>"
+			},
+			"map": {
+				"src": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d376719.8721127353!2d-95.07376246534888!3d38.9227455042774!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87c0f08553a2a3d9%3A0xa55ac125c5c0fd1d!2sJohnson%20County%2C%20KS%2C%20USA!5e0!3m2!1sen!2sin!4v1720299684001!5m2!1sen!2sin",
+				"title": "Our Location",
+				"description": "Our Johnson County, KS location is centrally situated, providing easy access to our expert siding services for the entire region. Find us on the map and reach out to schedule your consultation today."
+			},
+			"serviceArea": {
+				"h2": "Not Sure If We Cover Your Neighborhood?",
+				"p": "Here are the city's we work in",
+				"areas": [
+					{
+						"city": "Overland Park",
+						"alt": "Overland Park map",
+						"areaPage": "/service-area/painters-overland-park-ks/",
+						"scale": "2",
+						"size": "200x200",
+						"signed_url": "https://maps.googleapis.com/maps/api/staticmap?center=overland+park,+ks&zoom=11&size=200x200&scale=2&map_id=3dcfc3a6d2fa31c&key=AIzaSyDkKxiVAXt_mBwB_vY7s4bbpLhJmYQjwkw"
+					},
+					{
+						"city": "Lenexa",
+						"alt": "Lenexa map",
+						"areaPage": "#",
+						"scale": "2",
+						"size": "200x200",
+						"signed_url": "https://maps.googleapis.com/maps/api/staticmap?center=lenexa,+ks&zoom=11&size=200x200&scale=2&map_id=3dcfc3a6d2fa31c&key=AIzaSyDkKxiVAXt_mBwB_vY7s4bbpLhJmYQjwkw"
+					},
+					{
+						"city": "Shawnee",
+						"alt": "Shawnee map",
+						"areaPage": "#",
+						"scale": "2",
+						"size": "200x200",
+						"signed_url": "https://maps.googleapis.com/maps/api/staticmap?center=shawnee,+ks&zoom=11&size=200x200&scale=2&map_id=3dcfc3a6d2fa31c&key=AIzaSyDkKxiVAXt_mBwB_vY7s4bbpLhJmYQjwkw"
+					},
+					{
+						"city": "Olathe",
+						"alt": "Olathe map",
+						"areaPage": "#",
+						"scale": "2",
+						"size": "200x200",
+						"signed_url": "https://maps.googleapis.com/maps/api/staticmap?center=olathe,+ks&zoom=11&size=200x200&scale=2&map_id=3dcfc3a6d2fa31c&key=AIzaSyDkKxiVAXt_mBwB_vY7s4bbpLhJmYQjwkw"
+					},
+					{
+						"city": "Prairie Village",
+						"alt": "Prairie Village map",
+						"areaPage": "#",
+						"scale": "2",
+						"size": "200x200",
+						"signed_url": "https://maps.googleapis.com/maps/api/staticmap?center=prairie+village,+ks&zoom=11&size=200x200&scale=2&map_id=3dcfc3a6d2fa31c&key=AIzaSyDkKxiVAXt_mBwB_vY7s4bbpLhJmYQjwkw"
+					},
+					{
+						"city": "Leawood",
+						"alt": "Leawood map",
+						"areaPage": "#",
+						"scale": "2",
+						"size": "200x200",
+						"signed_url": "https://maps.googleapis.com/maps/api/staticmap?center=leawood,+ks&zoom=11&size=200x200&scale=2&map_id=3dcfc3a6d2fa31c&key=AIzaSyDkKxiVAXt_mBwB_vY7s4bbpLhJmYQjwkw"
+					}
+				]
+			},
+			"faq": [
+				{
+					"title": "What siding materials do you offer?",
+					"expand": "At Great Plains Painting, we specialize in James Hardie siding, known for its durability, aesthetic appeal, and low maintenance. It's an excellent choice for homeowners in Johnson County."
+				},
+				{
+					"title": "How long does it take to install siding?",
+					"expand": "The installation time for siding depends on the size of your home and the complexity of the project. Typically, it takes between one to two weeks from start to finish."
+				},
+				{
+					"title": "Can you assist with siding maintenance?",
+					"expand": "Yes, we offer comprehensive siding maintenance services to keep your James Hardie siding in top condition, ensuring it lasts for years to come."
+				}
+			]
+		}
+	},
+
 	{
 		"slug": "siding-contractor-jackson-county-mo",
 		"area": {
@@ -339,6 +463,180 @@
 				{
 					"title": "What is the cost of siding installation?",
 					"expand": "The cost of siding installation varies based on the size of your home, the type of siding material, and the complexity of the project. Contact us for a free estimate tailored to your specific needs."
+				}
+			]
+		}
+	},
+	{
+		"slug": "siding-contractor-clay-county-mo",
+		"area": {
+			"crumbList": [
+				{
+					"name": "Home",
+					"link": "/"
+				},
+				{
+					"name": "Service Areas",
+					"link": "/service-area/"
+				},
+				{
+					"name": "Clay County, MO",
+					"link": "/service-area/siding-contractor-clay-county-mo/"
+				}
+			],
+			"titleTag": "Professional Siding Contractor in Clay County, MO | Great Plains Painting",
+			"meta": "Looking for reliable James Hardie siding services in Clay County, MO? Great Plains Painting offers expert installation, repair, and maintenance. Call now for a free estimate!",
+			"hero": {
+				"src": "hardieService",
+				"h1": "Siding Contractor in Clay County, MO",
+				"p": "Searching for a professional siding contractor in Clay County, MO? Look no further! Great Plains Painting offers top-notch James Hardie siding services to enhance your home. Contact us today for a free estimate!",
+				"position": "center"
+			},
+			"section1": {
+				"h2": "Your Clay County Siding Experts",
+				"copy": "<p>At Great Plains Painting, we specialize in providing high-quality James Hardie siding services to homeowners in Clay County, MO. Our experienced team is committed to delivering exceptional results, ensuring your home is protected and looks its best.</p><p>Our siding services include:</p><ul><li>New James Hardie Siding Installation</li><li>James Hardie Siding Repair</li><li>James Hardie Siding Maintenance</li><li>Custom Siding Solutions</li></ul><p>Contact us today to schedule a consultation and learn more about how our expert siding services can enhance your home’s exterior.</p>"
+			},
+			"sectionBenefits": {
+				"super": "Clay County Siding Experts",
+				"link": "https://en.wikipedia.org/wiki/Clay_County,_Missouri",
+				"h3": "The Benefits of Choosing Our James Hardie Siding Services in Clay County, MO",
+				"copy": "<ul><li><b>Unmatched Expertise:</b> Our team has extensive experience in James Hardie siding installation and repair, ensuring precise and professional workmanship.</li><li><b>Top-Grade Materials:</b> We use only James Hardie products to guarantee durability and visual appeal, perfectly suited for the climate in Clay County, MO.</li><li><b>Complete Solutions:</b> From initial consultation to final installation, we provide comprehensive siding services tailored to your needs.</li></ul>",
+				"underPhoto": "/images/service-pages/hardieStart.jpg",
+				"topPhoto": "/images/service-pages/hardieMid.jpg"
+			},
+			"section2": {
+				"super": "Clay County Siding Specialists",
+				"h3": "Why Choose Us for Siding Services in Clay County, MO?",
+				"copy": "<ul><li><b>Local Knowledge:</b> Our team understands the unique requirements of homes in Clay County, MO, providing customized James Hardie solutions that meet your specific needs.</li><li><b>Exceptional Service:</b> We are committed to delivering top-notch customer service, ensuring clear communication and client satisfaction throughout the project.</li><li><b>Proven Quality:</b> Our attention to detail and dedication to quality have established us as a trusted name in James Hardie siding services across Clay County, MO.</li></ul>",
+				"underPhoto": "/images/service-pages/boshart-final-3.jpg",
+				"topPhoto": "/images/service-pages/boshart-final-2.jpg"
+			},
+			"about": {
+				"h3": "Best House Siders in Clay County, MO",
+				"copy": "<p>Our James Hardie siding services are designed to protect your home from the elements while enhancing its curb appeal. We take care to ensure that every installation is done with precision, and we use the highest quality materials available. Contact us today for a free estimate!</p>"
+			},
+			"map": {
+				"src": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d197646.93220366823!2d-94.4095805!3d39.282959!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87c04b7a50425c75%3A0x988d9af678ddd848!2sClay%20County%2C%20MO%2C%20USA!5e0!3m2!1sen!2sin!4v1723117956424!5m2!1sen!2sin",
+				"title": "Our Location",
+				"description": "Our Clay County, MO location is centrally situated, providing easy access to our expert James Hardie siding services for the entire region."
+			},
+			"serviceArea": {
+				"h2": "Not Sure If We Cover Your Neighborhood?",
+				"p": "Here are the city's we work in",
+				"areas": [
+					{
+						"city": "North Kansas City",
+						"alt": "North Kansas City map",
+						"areaPage": "#",
+						"scale": "2",
+						"size": "200x200",
+						"signed_url": "https://maps.googleapis.com/maps/api/staticmap?center=North+Kansas+City,+MO&zoom=13&size=200x200&scale=2&map_id=3dcfc3a6d2fa31c&key=AIzaSyDkKxiVAXt_mBwB_vY7s4bbpLhJmYQjwkw"
+					},
+					{
+						"city": "Gladstone",
+						"alt": "Gladstone map",
+						"areaPage": "#",
+						"scale": "2",
+						"size": "200x200",
+						"signed_url": "https://maps.googleapis.com/maps/api/staticmap?center=gladstone,+mo&zoom=11&size=200x200&scale=2&map_id=3dcfc3a6d2fa31c&key=AIzaSyDkKxiVAXt_mBwB_vY7s4bbpLhJmYQjwkw"
+					}
+				]
+			},
+			"faq": [
+				{
+					"title": "How can I maintain my new James Hardie siding?",
+					"expand": "To maintain your new siding, we recommend regular cleaning with a mild detergent and water. Inspect for any damage periodically and address issues promptly to ensure longevity."
+				},
+				{
+					"title": "Can you help with choosing the right James Hardie siding material?",
+					"expand": "Absolutely! Our experts can guide you in selecting the best James Hardie siding material based on your home’s architecture, your budget, and your personal preferences."
+				},
+				{
+					"title": "What is the cost of James Hardie siding installation?",
+					"expand": "The cost of James Hardie siding installation varies based on the size of your home, the type of siding material, and the complexity of the project. Contact us for a free estimate tailored to your specific needs."
+				}
+			]
+		}
+	},
+	{
+		"slug": "siding-contractor-platte-county-mo",
+		"area": {
+			"crumbList": [
+				{
+					"name": "Home",
+					"link": "/"
+				},
+				{
+					"name": "Service Areas",
+					"link": "/service-area/"
+				},
+				{
+					"name": "Platte County, MO",
+					"link": "/service-area/siding-contractor-platte-county-mo/"
+				}
+			],
+			"titleTag": "Professional Siding Contractor in Platte County, MO | Great Plains Painting",
+			"meta": "Looking for reliable siding services in Platte County, MO? Great Plains Painting offers expert James Hardie siding installation, repair, and maintenance. Call now for a free estimate!",
+			"hero": {
+				"src": "hardieService",
+				"h1": "Siding Contractor in Platte County, MO",
+				"p": "Are you searching for a professional siding contractor in Platte County, MO? Look no further! Great Plains Painting offers top-notch siding services to enhance the beauty and durability of your home. Contact us today for a free estimate!",
+				"position": "center"
+			},
+			"section1": {
+				"h2": "Your Platte County Siding Experts",
+				"copy": "<p>Great Plains Painting proudly serves the Platte County, MO community with top-quality James Hardie siding services. Our team is dedicated to providing exceptional craftsmanship and personalized solutions that meet your home's unique needs.</p><p>Our siding services include:</p><ul><li>James Hardie Siding Installation</li><li>Siding Repair</li><li>Siding Maintenance</li><li>Custom Siding Solutions</li></ul><p>Get in touch with us today to schedule a consultation and discover how our expert siding services can enhance your home's exterior.</p>"
+			},
+			"sectionBenefits": {
+				"super": "Platte County Siding Experts",
+				"link": "https://en.wikipedia.org/wiki/Platte_County,_Missouri",
+				"h3": "Why Choose Our Siding Services in Platte County, MO?",
+				"copy": "<ul><li><b>Specialized in James Hardie Siding:</b> We specialize in James Hardie siding, ensuring that your home receives the best protection and aesthetic appeal with this industry-leading material.</li><li><b>Local Expertise:</b> As local experts, we understand the specific needs of Platte County homeowners and provide tailored solutions that stand the test of time.</li><li><b>Customer Satisfaction:</b> We prioritize customer satisfaction and deliver our services with a commitment to quality and professionalism.</li></ul>",
+				"underPhoto": "/images/service-pages/hardieStart.jpg",
+				"topPhoto": "/images/service-pages/hardieMid.jpg"
+			},
+			"section2": {
+				"super": "Platte County Siding Specialists",
+				"h3": "The Advantages of Choosing Us for Your Siding Needs",
+				"copy": "<ul><li><b>Top-Notch Materials:</b> We use only the highest quality James Hardie materials, known for their durability, aesthetics, and low maintenance.</li><li><b>Experienced Team:</b> Our experienced siding professionals handle each project with care and precision, ensuring your satisfaction.</li><li><b>Comprehensive Services:</b> From the initial consultation to the final inspection, we offer a full range of siding services to meet your needs.</li></ul>",
+				"underPhoto": "/images/service-pages/boshart-final-3.jpg",
+				"topPhoto": "/images/service-pages/boshart-final-2.jpg"
+			},
+			"about": {
+				"h3": "Trusted Siding Contractors in Platte County, MO",
+				"copy": "<p>At Great Plains Painting, we pride ourselves on being the go-to siding experts in Platte County, MO. Our commitment to quality and customer satisfaction ensures that your home not only looks great but is also well-protected. Let us handle your siding project with the care and professionalism it deserves. Contact us today for a free estimate!</p>"
+			},
+			"map": {
+				"src": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d394951.454688781!2d-95.18127108509134!3d39.343593218341645!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87c0660abdbe6ee9%3A0x354d8bc0944d2305!2sPlatte%20County%2C%20MO%2C%20USA!5e0!3m2!1sen!2sin!4v1723118016017!5m2!1sen!2sin",
+				"title": "Our Location",
+				"description": "Our Platte County, MO location is centrally situated, providing easy access to our expert siding services for the entire region. Find us on the map and reach out to schedule your consultation today."
+			},
+			"serviceArea": {
+				"h2": "Not Sure If We Cover Your Neighborhood?",
+				"p": "Here are the city's we work in",
+				"areas": [
+					{
+						"city": "Riverside",
+						"alt": "Riverside map",
+						"areaPage": "#",
+						"scale": "2",
+						"size": "200x200",
+						"signed_url": "https://maps.googleapis.com/maps/api/staticmap?center=riverside,+mo&zoom=13&size=200x200&scale=2&map_id=3dcfc3a6d2fa31c&key=AIzaSyDkKxiVAXt_mBwB_vY7s4bbpLhJmYQjwkw"
+					}
+				]
+			},
+			"faq": [
+				{
+					"title": "How do I choose the right siding for my home?",
+					"expand": "Choosing the right siding depends on various factors including your home’s style, budget, and climate. We specialize in James Hardie siding, which is renowned for its durability and aesthetic appeal. Our experts can help you make the best choice for your home."
+				},
+				{
+					"title": "What maintenance is required for James Hardie siding?",
+					"expand": "James Hardie siding is low-maintenance and requires minimal upkeep. Regular cleaning and occasional inspections for any damage are recommended to keep it in top condition."
+				},
+				{
+					"title": "Can I get a customized siding solution?",
+					"expand": "Yes, we offer custom siding solutions tailored to your specific needs and preferences. Contact us to discuss your requirements, and we’ll help create the perfect look for your home."
 				}
 			]
 		}
