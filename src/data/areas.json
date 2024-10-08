@@ -306,7 +306,7 @@
           {
             "city": "Overland Park",
             "alt": "Overland Park map",
-            "areaPage": "/service-area/painters-overland-park-ks/",
+            "areaPage": "/service-area/siding-contractor-overland-park-ks/",
             "scale": "2",
             "size": "200x200",
             "signed_url": "https://maps.googleapis.com/maps/api/staticmap?center=overland+park,+ks&zoom=11&size=200x200&scale=2&map_id=3dcfc3a6d2fa31c&key=AIzaSyDkKxiVAXt_mBwB_vY7s4bbpLhJmYQjwkw"
@@ -314,7 +314,7 @@
           {
             "city": "Lenexa",
             "alt": "Lenexa map",
-            "areaPage": "#",
+            "areaPage": "/service-area/siding-contractor-lenexa-ks/",
             "scale": "2",
             "size": "200x200",
             "signed_url": "https://maps.googleapis.com/maps/api/staticmap?center=lenexa,+ks&zoom=11&size=200x200&scale=2&map_id=3dcfc3a6d2fa31c&key=AIzaSyDkKxiVAXt_mBwB_vY7s4bbpLhJmYQjwkw"
@@ -322,7 +322,7 @@
           {
             "city": "Shawnee",
             "alt": "Shawnee map",
-            "areaPage": "#",
+            "areaPage": "/service-area/siding-contractor-shawnee-ks/",
             "scale": "2",
             "size": "200x200",
             "signed_url": "https://maps.googleapis.com/maps/api/staticmap?center=shawnee,+ks&zoom=11&size=200x200&scale=2&map_id=3dcfc3a6d2fa31c&key=AIzaSyDkKxiVAXt_mBwB_vY7s4bbpLhJmYQjwkw"
@@ -847,6 +847,198 @@
         {
           "title": "How long does it take to install new siding?",
           "expand": "The time required for installation varies depending on the scope of the project, but on average, it takes a few days to complete. We’ll provide a more accurate timeline after an initial consultation."
+        }
+      ]
+    }
+  },
+
+  {
+    "slug": "siding-contractor-overland-park-ks",
+    "area": {
+      "crumbList": [
+        { "name": "Home", "link": "/" },
+        { "name": "Service Areas", "link": "/service-area/" },
+        {
+          "name": "Overland Park, KS",
+          "link": "/service-area/siding-contractor-overland-park-ks/"
+        }
+      ],
+      "titleTag": "Professional Siding Contractor in Overland Park, KS | Great Plains Painting",
+      "meta": "Searching for expert siding services in Overland Park, KS? Great Plains Painting offers reliable siding installation and maintenance. Contact us today!",
+      "hero": {
+        "src": "hardieService",
+        "h1": "Siding Contractor in Overland Park, KS",
+        "p": "Need a trusted siding contractor in Overland Park? Great Plains Painting provides high-quality James Hardie siding installation and repairs to protect and beautify your home. Reach out for a free consultation!",
+        "position": "center"
+      },
+      "section1": {
+        "h2": "Your Overland Park Siding Experts",
+        "copy": "<p>At Great Plains Painting, we understand the unique needs of Overland Park homeowners. Our skilled team delivers professional siding services using the best materials, ensuring your home stays protected and looks its best.</p><p>Our siding services include:</p><ul><li>James Hardie Siding Installation</li><li>Siding Repair</li><li>Siding Maintenance</li><li>Custom Siding Solutions</li></ul><p>Get in touch today to see how we can enhance your home’s exterior.</p>"
+      },
+      "sectionBenefits": {
+        "super": "Overland Park Siding Experts",
+        "link": "https://en.wikipedia.org/wiki/Overland_Park,_Kansas",
+        "h3": "The Benefits of Choosing Our Siding Services in Overland Park, KS",
+        "copy": "<ul><li><b>Experienced Team:</b> Our team has extensive experience with siding in Overland Park and understands local needs.</li><li><b>Quality Materials:</b> We use durable materials to withstand Overland Park’s weather conditions.</li><li><b>Comprehensive Services:</b> We provide a range of siding solutions from installation to repair and maintenance.</li></ul>",
+        "underPhoto": "/images/service-pages/hardieStart.jpg",
+        "topPhoto": "/images/service-pages/hardieMid.jpg"
+      },
+      "section2": {
+        "super": "Overland Park Siding Specialists",
+        "h3": "Why Choose Us for Siding Services in Overland Park?",
+        "copy": "<ul><li><b>Local Knowledge:</b> As locals, we’re familiar with Overland Park's climate and community needs.</li><li><b>High Standards:</b> We are committed to quality workmanship, ensuring your siding project meets the highest standards.</li><li><b>Exceptional Customer Service:</b> We work with you every step of the way to guarantee your satisfaction.</li></ul>",
+        "underPhoto": "/images/service-pages/boshart-final-3.jpg",
+        "topPhoto": "/images/service-pages/boshart-final-2.jpg"
+      },
+      "about": {
+        "h3": "Trusted Siding Contractors in Overland Park",
+        "copy": "<p>With years of experience, Great Plains Painting has become a trusted name in Overland Park. We are dedicated to delivering top-notch siding services that protect and beautify your home. Contact us today for a free estimate!</p>"
+      },
+      "map": {
+        "src": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d99372.9385218135!2d-94.6724218528106!3d38.891868268818094!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87c09551a72638d3%3A0x24ce4feb3844f9c8!2sOverland%20Park%2C%20KS%2C%20USA!5e0!3m2!1sen!2sin!4v1728385465603!5m2!1sen!2sin",
+        "title": "Our Location",
+        "description": "Our Overland Park, KS location provides easy access to our quality siding services throughout the area."
+      },
+      "faq": [
+        {
+          "title": "What types of siding do you install?",
+          "expand": "We specialize in installing James Hardie siding, known for its durability, beauty, and low maintenance."
+        },
+        {
+          "title": "How long does a siding project usually take?",
+          "expand": "The timeline varies based on the scope of work, but most projects are completed within one to two weeks."
+        },
+        {
+          "title": "Do you offer warranties on your siding services?",
+          "expand": "Yes, we provide warranties on both materials and labor to ensure your investment is protected."
+        }
+      ]
+    }
+  },
+
+  {
+    "slug": "siding-contractor-lenexa-ks",
+    "area": {
+      "crumbList": [
+        { "name": "Home", "link": "/" },
+        { "name": "Service Areas", "link": "/service-area/" },
+        {
+          "name": "Lenexa, KS",
+          "link": "/service-area/siding-contractor-lenexa-ks/"
+        }
+      ],
+      "titleTag": "Expert Siding Contractor in Lenexa, KS | Great Plains Painting",
+      "meta": "Looking for quality siding services in Lenexa, KS? Great Plains Painting offers top siding installation and maintenance. Get a free estimate today!",
+      "hero": {
+        "src": "hardieService",
+        "h1": "Siding Contractor in Lenexa, KS",
+        "p": "Searching for a reputable siding contractor in Lenexa? Great Plains Painting specializes in James Hardie siding to protect and beautify your home. Contact us today for a free consultation!",
+        "position": "center"
+      },
+      "section1": {
+        "h2": "Lenexa, KS Siding Contractor Services",
+        "copy": "<p>At Great Plains Painting, we provide expert siding services in Lenexa, KS. We offer durable, high-quality siding solutions that enhance your home’s curb appeal and protect it against the elements.</p><p>Our siding services include:</p><ul><li><b>James Hardie Siding Installation:</b> Our professional team installs James Hardie siding, ensuring a perfect fit and finish that enhances your home’s exterior while providing long-lasting durability.</li><li><b>Comprehensive Siding Repair:</b> We provide precise repairs for all siding issues, restoring the appearance and functionality of your home’s exterior for enhanced curb appeal and protection.</li><li><b>Regular Siding Maintenance:</b> Keep your siding looking and performing at its best with our maintenance services, designed to extend its life and maintain its aesthetic value.</li><li><b>Customized Siding Solutions:</b> We offer siding options tailored to your preferences, ensuring your home reflects your unique style while benefiting from added protection and energy efficiency.</li></ul><p>Contact us today to improve your home’s exterior with our siding expertise.</p>"
+      },
+      "sectionBenefits": {
+        "super": "Why Lenexa Residents Choose Us",
+        "link": "https://en.wikipedia.org/wiki/Lenexa,_Kansas",
+        "h3": "Benefits of Our Siding Services in Lenexa, KS",
+        "copy": "<ul><li><b>Superior Durability:</b> Our James Hardie siding is designed to endure Lenexa’s varied weather conditions, offering you long-lasting protection that keeps your home safe and looking great for years.</li><li><b>Energy-Efficient Solutions:</b> Our siding options help to improve insulation, reducing your heating and cooling costs and making your Lenexa home more energy-efficient and comfortable year-round.</li><li><b>Professional Installation Process:</b> We handle each project with meticulous attention to detail, ensuring that your siding is installed perfectly, enhancing both the beauty and protection of your home.</li></ul>",
+        "underPhoto": "/images/service-pages/hardieStart.jpg",
+        "topPhoto": "/images/service-pages/hardieMid.jpg"
+      },
+      "section2": {
+        "super": "Lenexa Siding Experts You Can Trust",
+        "h3": "Why Choose Great Plains Painting as Your Lenexa, KS Siding Contractor?",
+        "copy": "<ul><li><b>Local Knowledge and Experience:</b> With years of experience serving Lenexa homeowners, we understand the local climate and deliver siding solutions that perfectly suit Lenexa’s unique needs.</li><li><b>Comprehensive Siding Services:</b> From consultation to final inspection, our full-service siding approach ensures a seamless experience, with professional guidance every step of the way.</li><li><b>Unwavering Commitment to Quality:</b> We are dedicated to excellence in every project, ensuring your siding installation or repair meets the highest standards of workmanship and durability.</li></ul>",
+        "underPhoto": "/images/service-pages/boshart-final-3.jpg",
+        "topPhoto": "/images/service-pages/boshart-final-2.jpg"
+      },
+      "about": {
+        "h3": "Lenexa, KS Siding Contractor",
+        "copy": "<p>At Great Plains Painting, our priority is to protect and beautify Lenexa homes with top-quality siding services. Trust our team for reliable, professional service and outstanding results. Get a free estimate today!</p>"
+      },
+      "map": {
+        "src": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d49642.9256899664!2d-94.84818183182756!3d38.954073055246354!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87c0941f1e2799ad%3A0x3262f5887c5f490b!2sLenexa%2C%20KS%2C%20USA!5e0!3m2!1sen!2sin!4v1728386469361!5m2!1sen!2sin",
+        "title": "Our Location",
+        "description": "Our Lenexa, KS location offers easy access to our professional siding services. Check out our map and schedule a consultation today."
+      },
+      "faq": [
+        {
+          "title": "What makes James Hardie siding a good choice?",
+          "expand": "James Hardie siding is known for its durability, weather resistance, and low maintenance. It provides superior protection against elements while enhancing the curb appeal of your home."
+        },
+        {
+          "title": "How often does siding need maintenance?",
+          "expand": "Siding maintenance depends on the material and environmental factors. We recommend routine inspections and light cleaning annually to ensure your siding stays in optimal condition."
+        },
+        {
+          "title": "Do you offer a warranty on siding installations?",
+          "expand": "Yes, we offer a comprehensive warranty on all siding installations. Our warranties cover both materials and workmanship, giving you peace of mind for years to come."
+        }
+      ]
+    }
+  },
+
+  {
+    "slug": "siding-contractor-shawnee-ks",
+    "area": {
+      "crumbList": [
+        { "name": "Home", "link": "/" },
+        { "name": "Service Areas", "link": "/service-area/" },
+        {
+          "name": "Shawnee, KS",
+          "link": "/service-area/siding-contractor-shawnee-ks/"
+        }
+      ],
+      "titleTag": "Experienced Siding Contractor in Shawnee, KS | Great Plains Painting",
+      "meta": "For quality siding services in Shawnee, KS, choose Great Plains Painting. Our team specializes in installation and repair. Get a free estimate today!",
+      "hero": {
+        "src": "hardieService",
+        "h1": "Siding Contractor in Shawnee, KS",
+        "p": "If you need a reliable siding contractor in Shawnee, KS, Great Plains Painting is here to provide exceptional James Hardie siding services. Contact us today to get started!",
+        "position": "center"
+      },
+      "section1": {
+        "h2": "Shawnee, KS Siding Contractor Services",
+        "copy": "<p>Great Plains Painting provides top-notch siding services in Shawnee, KS. Our professional team specializes in James Hardie siding installations that protect and enhance your home’s exterior.</p><p>Our siding services include:</p><ul><li><b>James Hardie Siding Installation:</b> Trust our skilled team to install James Hardie siding that adds beauty and protection to your home, ensuring a long-lasting and weather-resistant finish.</li><li><b>Reliable Siding Repair:</b> Our repair services address any siding damage efficiently, restoring your home’s exterior and maintaining its protective capabilities and visual appeal.</li><li><b>Siding Maintenance:</b> We offer regular maintenance to keep your siding in excellent shape, extending its lifespan and preserving its attractive appearance.</li><li><b>Custom Siding Options:</b> Customize your home’s exterior with our wide range of siding options, tailored to fit your style while offering enhanced energy efficiency and protection.</li></ul><p>Reach out today to discuss your siding needs and schedule a consultation with our experts.</p>"
+      },
+      "sectionBenefits": {
+        "super": "Shawnee’s Preferred Siding Contractors",
+        "link": "https://en.wikipedia.org/wiki/Shawnee,_Kansas",
+        "h3": "The Benefits of Choosing Great Plains Painting in Shawnee, KS",
+        "copy": "<ul><li><b>Enhanced Durability:</b> Our James Hardie siding is built to handle Shawnee’s climate, providing long-lasting protection and helping your home look its best year after year.</li><li><b>Energy Efficiency:</b> Improve your home’s energy efficiency with our insulated siding options, reducing your energy costs and increasing comfort in all seasons.</li><li><b>Seamless Installation:</b> We execute each installation with precision, ensuring a flawless finish that enhances the visual appeal and longevity of your home’s exterior.</li></ul>",
+        "underPhoto": "/images/service-pages/hardieStart.jpg",
+        "topPhoto": "/images/service-pages/hardieMid.jpg"
+      },
+      "section2": {
+        "super": "Shawnee Siding Experts",
+        "h3": "Why Choose Great Plains Painting as Your Shawnee, KS Siding Contractor?",
+        "copy": "<ul><li><b>Local Knowledge and Experience:</b> Our team has years of experience with Shawnee homes, offering personalized siding solutions that are tailored to the local climate and your specific needs.</li><li><b>Full-Service Approach:</b> We provide comprehensive siding services from start to finish, including consultation, installation, and final inspection, so you can enjoy a hassle-free experience.</li><li><b>Commitment to Excellence:</b> We are dedicated to delivering high-quality siding installations and repairs that enhance the beauty and protection of your Shawnee home.</li></ul>",
+        "underPhoto": "/images/service-pages/boshart-final-3.jpg",
+        "topPhoto": "/images/service-pages/boshart-final-2.jpg"
+      },
+      "about": {
+        "h3": "Top Siding Contractor in Shawnee, KS",
+        "copy": "<p>At Great Plains Painting, we take pride in our commitment to quality siding services in Shawnee, KS. We focus on James Hardie siding solutions to ensure your home is both beautiful and protected. Contact us today for a free estimate!</p>"
+      },
+      "map": {
+        "src": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d49599.37719187635!2d-94.84844918141806!3d39.01620144334534!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87c0922b0bbb5afd%3A0x69f07b93b7a758e3!2sShawnee%2C%20KS%2C%20USA!5e0!3m2!1sen!2sin!4v1728386423077!5m2!1sen!2sin",
+        "title": "Our Shawnee, KS Location",
+        "description": "Our Shawnee, KS location is easy to access, providing local residents with reliable, high-quality siding services. Schedule your consultation today!"
+      },
+      "faq": [
+        {
+          "title": "What makes James Hardie siding a great option for Shawnee homes?",
+          "expand": "James Hardie siding is durable, low-maintenance, and built to withstand extreme weather conditions, making it a perfect choice for homes in Shawnee, KS."
+        },
+        {
+          "title": "How often should I maintain my siding?",
+          "expand": "Siding maintenance depends on the material and climate. We recommend a yearly inspection and light cleaning to keep your siding in optimal condition and looking its best."
+        },
+        {
+          "title": "Do you offer warranties on your siding installations?",
+          "expand": "Yes, we offer comprehensive warranties that cover both materials and workmanship for our siding installations, ensuring your investment is protected for years to come."
         }
       ]
     }
