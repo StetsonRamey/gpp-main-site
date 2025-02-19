@@ -23,15 +23,39 @@ const {
         </div>
       )
     }
-    {bbb && <p class="txt-primary txt-bold">BBB A+ Rated with a 2-year Warranty</p>}
+    {
+      bbb && (
+        <p class="txt-primary txt-bold">
+          Take the hassle out of painting your home.
+        </p>
+      )
+    }
     <h1 class="h1 center leading-2">{h1}</h1>
     {p && <p class="width-sm center mb-8">{p}</p>}
-    {heroButton && <Button text="Request A Free Service Estimate" link="/contact-us/" style="primary" bounce="true" />}
+    {
+      heroButton && (
+        <Button
+          text="Request A Free Service Estimate"
+          link="/contact-us/"
+          style="primary"
+          bounce="true"
+        />
+      )
+    }
   </div>
   <!-- <img src="/cedar-shake.jpg" alt="" srcset=""> -->
   <!-- <Image loading="eager" fetchpriority="high" format="avif" src={heroUrl} width={1200} alt={alt} /> -->
   <div class="pic-container">
-    <Picture loading="eager" fetchpriority="high" formats={['avif','jpeg','webp']} src={heroUrl} widths={[400,800,1200,2400]} sizes="100vw" alt={alt} fit='cover' />
+    <Picture
+      loading="eager"
+      fetchpriority="high"
+      formats={["avif", "jpeg", "webp"]}
+      src={heroUrl}
+      widths={[400, 800, 1200, 2400]}
+      sizes="100vw"
+      alt={alt}
+      fit="cover"
+    />
   </div>
 </header>
 
@@ -89,7 +113,6 @@ const {
       object-position: top;
     }
 
-
     div > p:nth-child(3) {
       font-weight: var(--font-weight-3);
     }
@@ -102,6 +125,5 @@ const {
         height: min($height, 95vh);
       }
     }
-
   }
 </style>
