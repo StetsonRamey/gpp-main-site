@@ -65,6 +65,986 @@
     }
   },
   {
+    "slug": "siding-contractor-missouri",
+    "area": {
+      "crumbList": [
+        {
+          "name": "Home",
+          "link": "/"
+        },
+        {
+          "name": "Services Areas",
+          "link": "/service-area/"
+        },
+        {
+          "name": "Missouri",
+          "link": "/service-area/siding-contractor-missouri/"
+        }
+      ],
+      "titleTag": "Professional Siding Contractor in Missouri | Great Plains Painting",
+      "meta": "Looking for reliable siding services in Missouri? Great Plains Painting offers expert siding installation, repair, and maintenance. Call now for a free estimate!",
+      "hero": {
+        "src": "hardieService",
+        "h1": "Siding Contractor in Missouri",
+        "p": "Are you searching for a professional siding contractor in Missouri? Look no further! Great Plains Painting offers top-notch siding services to enhance the beauty and durability of your home. Contact us today for a free estimate!",
+        "position": "center"
+      },
+      "section1": {
+        "h2": "Your Missouri Siding Experts",
+        "copy": "<p>At Great Plains Painting, we take pride in offering comprehensive siding services that meet the unique needs of Missouri homeowners. Our team of professionals is dedicated to delivering exceptional results, ensuring your home is protected and looks its best.</p><p>Our siding services include:</p><ul><li>New Siding Installation</li><li>Siding Repair</li><li>Siding Maintenance</li><li>Custom Siding Solutions</li></ul><p>Contact us today to schedule a free consultation and learn more about how we can enhance your home's exterior with our expert siding services.</p>"
+      },
+      "sectionBenefits": {
+        "super": "Missouri Siding Experts",
+        "link": "https://en.wikipedia.org/wiki/Missouri",
+        "h3": "The Benefits of Choosing Our Siding Services in Missouri",
+        "copy": "<ul><li><b>Professional Expertise:</b> Our team consists of highly skilled professionals with extensive experience in siding services, ensuring top-quality workmanship.</li><li><b>High-Quality Materials:</b> We use only premium materials to ensure your siding is durable, long-lasting, and able to withstand harsh weather conditions.</li><li><b>Comprehensive Services:</b> From installation to repair and maintenance, we offer a full range of siding services tailored to meet your specific needs.</li></ul>",
+        "underPhoto": "/images/service-pages/hardieStart.jpg",
+        "topPhoto": "/images/service-pages/hardieMid.jpg"
+      },
+      "section2": {
+        "super": "Missouri Siding Specialists",
+        "h3": "Why Choose Us for Siding Services in Missouri?",
+        "copy": "<ul><li><b>Local Expertise:</b> Our team is familiar with the unique needs of homes in Missouri, ensuring tailored solutions that fit your specific requirements.</li><li><b>Customer Satisfaction:</b> We are dedicated to providing excellent customer service, with a focus on clear communication and client satisfaction.</li><li><b>Trusted Quality:</b> Our commitment to quality and attention to detail has earned us a reputation as one of the leading siding contractors in Missouri.</li></ul>",
+        "underPhoto": "/images/service-pages/boshart-final-3.jpg",
+        "topPhoto": "/images/service-pages/boshart-final-2.jpg"
+      },
+      "about": {
+        "h3": "Best House Siders in Missouri",
+        "copy": "<p>You never have to worry about our siding services interfering with any other remodeling that is going on in your home or messing up any other furniture or interiors of your home. We use extensive protection to cover your floors, remove things that can come into contact with paint such as light switches and blinds, and we use tape to prevent any cross-over of paint into other walls or trim. You can rest assured that we’ll do the job right and use the highest quality of siding products. It is this commitment to taking care of our customer’s siding needs that separates us from the other siding companies in the area. Contact us today for a free estimate!</p>"
+      },
+      "map": {
+        "src": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3206055.8390633976!2d-92.436836!3d38.30466245!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87c0e6d54822e37d%3A0xb55bc4590466bd72!2sMissouri%2C%20USA!5e0!3m2!1sen!2sin!4v1720209960019!5m2!1sen!2sin",
+        "title": "Our Location",
+        "description": "Our Missouri location is centrally situated, providing easy access to our expert siding services for the entire region. Find us on the map and reach out to schedule your consultation today."
+      },
+      "serviceArea": {
+        "h2": "Not Sure If We Cover Your Neighborhood?",
+        "p": "Here are the city's we work in",
+        "areas": [
+          {
+            "city": "Jackson County",
+            "alt": "Jackson County map",
+            "areaPage": "/service-area/siding-contractor-jackson-county-mo/",
+            "scale": "2",
+            "size": "200x200",
+            "signed_url": "https://maps.googleapis.com/maps/api/staticmap?center=jackson+county,+mo&zoom=9&size=200x200&scale=2&markers=color:red%7Clabel:J%7Cjackson+county,+mo&key=AIzaSyDkKxiVAXt_mBwB_vY7s4bbpLhJmYQjwkw"
+          },
+          {
+            "city": "Clay County",
+            "alt": "Clay County map",
+            "areaPage": "/service-area/siding-contractor-clay-county-mo/",
+            "scale": "2",
+            "size": "200x200",
+            "signed_url": "https://maps.googleapis.com/maps/api/staticmap?center=clay+county,+mo&zoom=9&size=200x200&scale=2&markers=color:red%7Clabel:C%7Cclay+county,+mo&key=AIzaSyDkKxiVAXt_mBwB_vY7s4bbpLhJmYQjwkw"
+          },
+          {
+            "city": "Platte County",
+            "alt": "Platte County map",
+            "areaPage": "/service-area/siding-contractor-platte-county-mo/",
+            "scale": "2",
+            "size": "200x200",
+            "signed_url": "https://maps.googleapis.com/maps/api/staticmap?center=platte+county,+mo&zoom=9&size=200x200&scale=2&markers=color:red%7Clabel:P%7Cplatte+county,+mo&key=AIzaSyDkKxiVAXt_mBwB_vY7s4bbpLhJmYQjwkw"
+          }
+        ]
+      },
+      "faq": [
+        {
+          "title": "What types of siding do you install?",
+          "expand": "We specialize in installing James Hardie siding, which is known for its durability, weather resistance, and aesthetic appeal. Unlike other materials such as vinyl, wood, or metal, James Hardie siding offers superior performance and long-lasting protection for your home."
+        },
+        {
+          "title": "How long does a siding installation project typically take?",
+          "expand": "The duration of a siding installation project depends on the size and complexity of the job. On average, it can take anywhere from a few days to a couple of weeks. We provide a detailed timeline during the consultation process."
+        },
+        {
+          "title": "Do you offer any warranties on your siding services?",
+          "expand": "Yes, we offer a comprehensive warranty on our siding services. Our warranties cover both materials and labor, ensuring your investment is protected."
+        }
+      ]
+    }
+  },
+  {
+    "slug": "siding-contractor-kansas",
+    "area": {
+      "crumbList": [
+        {
+          "name": "Home",
+          "link": "/"
+        },
+        {
+          "name": "Services Areas",
+          "link": "/service-area/"
+        },
+        {
+          "name": "Kansas",
+          "link": "/service-area/siding-contractor-kansas/"
+        }
+      ],
+      "titleTag": "Expert Siding Contractor in Kansas | Great Plains Painting",
+      "meta": "In need of expert siding services in Kansas? Great Plains Painting offers top-quality siding installation, repair, and maintenance. Get your free estimate now!",
+      "hero": {
+        "src": "hardieService",
+        "h1": "Siding Contractor in Kansas",
+        "p": "Searching for reliable siding contractors in Kansas? Great Plains Painting provides superior siding services to improve your home's look and durability. Get in touch for a free estimate today!",
+        "position": "center"
+      },
+      "section1": {
+        "h2": "Top Siding Experts in Kansas",
+        "copy": "<p>Great Plains Painting is your go-to source for comprehensive siding services in Kansas. Our experienced team is committed to delivering outstanding results that protect and beautify your home.</p><p>We offer a variety of siding services, including:</p><ul><li>New Siding Installation</li><li>Siding Repair</li><li>Siding Maintenance</li><li>Custom Siding Solutions</li></ul><p>Reach out today to schedule a consultation and discover how our expert siding services can enhance your home’s exterior.</p>"
+      },
+      "sectionBenefits": {
+        "super": "Kansas Siding Experts",
+        "link": "https://en.wikipedia.org/wiki/Kansas",
+        "h3": "The Benefits of Choosing Our Siding Services in Kansas",
+        "copy": "<ul><li><b>Unmatched Expertise:</b> Our team has extensive experience in siding installation and repair, ensuring precise and professional workmanship.</li><li><b>Top-Grade Materials:</b> We use only the finest materials to guarantee that your siding is both durable and visually appealing, withstanding the Kansas climate.</li><li><b>Complete Solutions:</b> From initial consultation to final installation, we provide comprehensive siding services tailored to your needs.</li></ul>",
+        "underPhoto": "/images/service-pages/hardieStart.jpg",
+        "topPhoto": "/images/service-pages/hardieMid.jpg"
+      },
+      "section2": {
+        "super": "Kansas Siding Specialists",
+        "h3": "Why Choose Us for Siding Services in Kansas?",
+        "copy": "<ul><li><b>Local Knowledge:</b> Our team understands the unique requirements of Kansas homes, providing customized solutions that meet your specific needs.</li><li><b>Exceptional Service:</b> We are committed to delivering top-notch customer service, ensuring clear communication and client satisfaction throughout the project.</li><li><b>Proven Quality:</b> Our attention to detail and dedication to quality has established us as a trusted name in siding services across Kansas.</li></ul>",
+        "underPhoto": "/images/service-pages/boshart-final-3.jpg",
+        "topPhoto": "/images/service-pages/boshart-final-2.jpg"
+      },
+      "about": {
+        "h3": "Best House Siders in Kansas",
+        "copy": "<p>You never have to worry about our siding services interfering with any other remodeling that is going on in your home or messing up any other furniture or interiors of your home. We use extensive protection to cover your floors, remove things that can come into contact with paint such as light switches and blinds, and we use tape to prevent any cross-over of paint into other walls or trim. You can rest assured that we’ll do the job right and use the highest quality of siding products. It is this commitment to taking care of our customer’s siding needs that separates us from the other siding companies in the area. Contact us today for a free estimate!</p>"
+      },
+      "map": {
+        "src": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31553747.94123437!2d-98.3632095!3d39.0119021!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87c0760b2f383df9%3A0x62c4b2a6b2096e3c!2sKansas%2C%20USA!5e0!3m2!1sen!2sin!4v1720210021019!5m2!1sen!2sin",
+        "title": "Our Location",
+        "description": "Our Kansas location is centrally situated, providing easy access to our expert siding services for the entire region. Find us on the map and reach out to schedule your consultation today."
+      },
+      "serviceArea": {
+        "h2": "Not Sure If We Cover Your Neighborhood?",
+        "p": "Here are the city's we work in",
+        "areas": [
+          {
+            "city": "Johnson County",
+            "alt": "Johnson County map",
+            "areaPage": "/service-area/siding-contractor-johnson-county-ks",
+            "scale": "2",
+            "size": "200x200",
+            "signed_url": "https://maps.googleapis.com/maps/api/staticmap?center=johnson+county,+ks&zoom=9&size=200x200&scale=2&markers=color:red%7Clabel:J%7Cjohnson+county,+ks&key=AIzaSyDkKxiVAXt_mBwB_vY7s4bbpLhJmYQjwkw"
+          }
+        ]
+      },
+      "faq": [
+        {
+          "title": "What types of siding do you install?",
+          "expand": "We specialize in installing James Hardie siding, which is known for its durability, weather resistance, and aesthetic appeal. Unlike other materials such as vinyl, wood, or metal, James Hardie siding offers superior performance and long-lasting protection for your home."
+        },
+        {
+          "title": "How long does a siding installation project typically take?",
+          "expand": "The duration of a siding installation project depends on the size and complexity of the job. On average, it can take anywhere from a few days to a couple of weeks. We provide a detailed timeline during the consultation process."
+        },
+        {
+          "title": "Do you offer any warranties on your siding services?",
+          "expand": "Yes, we offer a comprehensive warranty on our siding services. Our warranties cover both materials and labor, ensuring your investment is protected."
+        }
+      ]
+    }
+  },
+  {
+    "slug": "siding-contractor-johnson-county-ks",
+    "area": {
+      "crumbList": [
+        {
+          "name": "Home",
+          "link": "/"
+        },
+        {
+          "name": "Service Areas",
+          "link": "/service-area/"
+        },
+        {
+          "name": "Johnson County, KS",
+          "link": "/service-area/siding-contractor-johnson-county-ks/"
+        }
+      ],
+      "titleTag": "Top Siding Contractor in Johnson County, KS | Great Plains Painting",
+      "meta": "Need siding services in Johnson County, KS? Great Plains Painting offers expert James Hardie siding installation, repair, and maintenance. Get a free estimate today!",
+      "hero": {
+        "src": "hardieService",
+        "h1": "Siding Contractor in Johnson County, KS",
+        "p": "Are you in search of a reliable siding contractor in Johnson County, KS? Great Plains Painting provides top-quality James Hardie siding services to enhance your home's durability and aesthetic appeal. Contact us today for a free estimate!",
+        "position": "center"
+      },
+      "section1": {
+        "h2": "Your Johnson County Siding Specialists",
+        "copy": "<p>Great Plains Painting is proud to serve the Johnson County, KS community with premium James Hardie siding services. Our team is committed to delivering exceptional results that enhance the appearance and longevity of your home.</p><p>Our siding services include:</p><ul><li>James Hardie Siding Installation</li><li>Siding Repair</li><li>Siding Maintenance</li><li>Custom Siding Solutions</li></ul><p>Reach out to us today to schedule a consultation and discover how our expert siding services can protect and beautify your home.</p>"
+      },
+      "sectionBenefits": {
+        "super": "Johnson County Siding Experts",
+        "link": "https://en.wikipedia.org/wiki/Johnson_County,_Kansas",
+        "h3": "Why Choose Our Siding Services in Johnson County, KS?",
+        "copy": "<ul><li><b>Expertise in James Hardie Siding:</b> Our team specializes in James Hardie siding, providing you with a durable, high-quality solution that stands up to the Kansas climate.</li><li><b>Local Knowledge:</b> As a local business, we understand the unique needs of Johnson County homes and offer tailored siding solutions to meet those needs.</li><li><b>Comprehensive Services:</b> From installation to repair and maintenance, we offer a full suite of siding services to keep your home looking its best.</li></ul>",
+        "underPhoto": "/images/service-pages/hardieStart.jpg",
+        "topPhoto": "/images/service-pages/hardieMid.jpg"
+      },
+      "section2": {
+        "super": "Siding Services You Can Trust",
+        "h3": "Why We Are the Right Choice for Your Siding Project",
+        "copy": "<ul><li><b>Quality Materials:</b> We use only James Hardie siding, known for its durability, weather resistance, and low maintenance.</li><li><b>Experienced Team:</b> Our team of experts ensures every project is completed to the highest standards, with a focus on customer satisfaction.</li><li><b>Dedicated Support:</b> We provide dedicated support throughout your project, ensuring that your needs are met and your expectations are exceeded.</li></ul>",
+        "underPhoto": "/images/service-pages/boshart-final-3.jpg",
+        "topPhoto": "/images/service-pages/boshart-final-2.jpg"
+      },
+      "about": {
+        "h3": "Trusted Siding Contractors in Johnson County, KS",
+        "copy": "<p>At Great Plains Painting, we are dedicated to providing Johnson County homeowners with the highest quality siding services. Our commitment to excellence and customer satisfaction ensures that your home will not only look beautiful but will also be well-protected against the elements. Contact us today for a free estimate and see why we are the preferred siding contractors in the area!</p>"
+      },
+      "map": {
+        "src": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d376719.8721127353!2d-95.07376246534888!3d38.9227455042774!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87c0f08553a2a3d9%3A0xa55ac125c5c0fd1d!2sJohnson%20County%2C%20KS%2C%20USA!5e0!3m2!1sen!2sin!4v1720299684001!5m2!1sen!2sin",
+        "title": "Our Location",
+        "description": "Our Johnson County, KS location is centrally situated, providing easy access to our expert siding services for the entire region. Find us on the map and reach out to schedule your consultation today."
+      },
+      "serviceArea": {
+        "h2": "Not Sure If We Cover Your Neighborhood?",
+        "p": "Here are the city's we work in",
+        "areas": [
+          {
+            "city": "Overland Park",
+            "alt": "Overland Park map",
+            "areaPage": "/service-area/siding-contractor-overland-park-ks/",
+            "scale": "2",
+            "size": "200x200",
+            "signed_url": "https://maps.googleapis.com/maps/api/staticmap?center=overland+park,+ks&zoom=11&size=200x200&scale=2&map_id=3dcfc3a6d2fa31c&key=AIzaSyDkKxiVAXt_mBwB_vY7s4bbpLhJmYQjwkw"
+          },
+          {
+            "city": "Lenexa",
+            "alt": "Lenexa map",
+            "areaPage": "/service-area/siding-contractor-lenexa-ks/",
+            "scale": "2",
+            "size": "200x200",
+            "signed_url": "https://maps.googleapis.com/maps/api/staticmap?center=lenexa,+ks&zoom=11&size=200x200&scale=2&map_id=3dcfc3a6d2fa31c&key=AIzaSyDkKxiVAXt_mBwB_vY7s4bbpLhJmYQjwkw"
+          },
+          {
+            "city": "Shawnee",
+            "alt": "Shawnee map",
+            "areaPage": "/service-area/siding-contractor-shawnee-ks/",
+            "scale": "2",
+            "size": "200x200",
+            "signed_url": "https://maps.googleapis.com/maps/api/staticmap?center=shawnee,+ks&zoom=11&size=200x200&scale=2&map_id=3dcfc3a6d2fa31c&key=AIzaSyDkKxiVAXt_mBwB_vY7s4bbpLhJmYQjwkw"
+          },
+          {
+            "city": "Olathe",
+            "alt": "Olathe map",
+            "areaPage": "#",
+            "scale": "2",
+            "size": "200x200",
+            "signed_url": "https://maps.googleapis.com/maps/api/staticmap?center=olathe,+ks&zoom=11&size=200x200&scale=2&map_id=3dcfc3a6d2fa31c&key=AIzaSyDkKxiVAXt_mBwB_vY7s4bbpLhJmYQjwkw"
+          },
+          {
+            "city": "Prairie Village",
+            "alt": "Prairie Village map",
+            "areaPage": "#",
+            "scale": "2",
+            "size": "200x200",
+            "signed_url": "https://maps.googleapis.com/maps/api/staticmap?center=prairie+village,+ks&zoom=11&size=200x200&scale=2&map_id=3dcfc3a6d2fa31c&key=AIzaSyDkKxiVAXt_mBwB_vY7s4bbpLhJmYQjwkw"
+          },
+          {
+            "city": "Leawood",
+            "alt": "Leawood map",
+            "areaPage": "#",
+            "scale": "2",
+            "size": "200x200",
+            "signed_url": "https://maps.googleapis.com/maps/api/staticmap?center=leawood,+ks&zoom=11&size=200x200&scale=2&map_id=3dcfc3a6d2fa31c&key=AIzaSyDkKxiVAXt_mBwB_vY7s4bbpLhJmYQjwkw"
+          }
+        ]
+      },
+      "faq": [
+        {
+          "title": "What siding materials do you offer?",
+          "expand": "At Great Plains Painting, we specialize in James Hardie siding, known for its durability, aesthetic appeal, and low maintenance. It's an excellent choice for homeowners in Johnson County."
+        },
+        {
+          "title": "How long does it take to install siding?",
+          "expand": "The installation time for siding depends on the size of your home and the complexity of the project. Typically, it takes between one to two weeks from start to finish."
+        },
+        {
+          "title": "Can you assist with siding maintenance?",
+          "expand": "Yes, we offer comprehensive siding maintenance services to keep your James Hardie siding in top condition, ensuring it lasts for years to come."
+        }
+      ]
+    }
+  },
+
+  {
+    "slug": "siding-contractor-jackson-county-mo",
+    "area": {
+      "crumbList": [
+        {
+          "name": "Home",
+          "link": "/"
+        },
+        {
+          "name": "Service Areas",
+          "link": "/service-area/"
+        },
+        {
+          "name": "Jackson County, MO",
+          "link": "/service-area/siding-contractor-jackson-county-mo/"
+        }
+      ],
+      "titleTag": "Professional Siding Contractor in Jackson County, MO | Great Plains Painting",
+      "meta": "Looking for reliable siding services in Jackson County, MO? Great Plains Painting offers expert siding installation, repair, and maintenance. Call now for a free estimate!",
+      "hero": {
+        "src": "hardieService",
+        "h1": "Siding Contractor in Jackson County, MO",
+        "p": "Are you searching for a professional siding contractor in Jackson County, MO? Look no further! Great Plains Painting offers top-notch siding services to enhance the beauty and durability of your home. Contact us today for a free estimate!",
+        "position": "center"
+      },
+      "section1": {
+        "h2": "Your Jackson County Siding Experts",
+        "copy": "<p>Great Plains Painting is proud to offer a range of siding services to homeowners in Jackson County, MO. Our experienced team ensures each project is completed with precision and care, enhancing both the look and functionality of your home.</p><p>Our siding services include:</p><ul><li>New Siding Installation</li><li>Siding Repair</li><li>Siding Maintenance</li><li>Custom Siding Solutions</li></ul><p>Reach out today to schedule a consultation and see how our expert siding services can improve your home's exterior.</p>"
+      },
+      "sectionBenefits": {
+        "super": "Jackson County Siding Experts",
+        "link": "https://en.wikipedia.org/wiki/Jackson_County,_Missouri",
+        "h3": "The Benefits of Choosing Our Siding Services in Jackson County, MO",
+        "copy": "<ul><li><b>Custom Solutions:</b> We provide personalized siding solutions that cater to the unique needs of your home, ensuring an optimal fit and finish.</li><li><b>Durable Materials:</b> Our siding materials are selected for their durability and resistance to the harsh weather conditions in Jackson County, ensuring long-lasting protection for your home.</li><li><b>Energy Efficiency:</b> Our siding options include energy-efficient materials that help to insulate your home, reducing energy costs and improving comfort.</li></ul>",
+        "underPhoto": "/images/service-pages/hardieStart.jpg",
+        "topPhoto": "/images/service-pages/hardieMid.jpg"
+      },
+      "section2": {
+        "super": "Jackson County Siding Specialists",
+        "h3": "Why Choose Us for Siding Services in Jackson County, MO?",
+        "copy": "<ul><li><b>Trusted Local Contractors:</b> As a trusted local company, we understand the specific needs and preferences of Jackson County residents, providing tailored siding solutions that meet your expectations.</li><li><b>Comprehensive Services:</b> From initial consultation to final inspection, we offer comprehensive siding services that cover every aspect of your project.</li><li><b>Commitment to Quality:</b> Our commitment to quality workmanship and customer satisfaction ensures that your siding project is completed to the highest standards.</li></ul>",
+        "underPhoto": "/images/service-pages/boshart-final-3.jpg",
+        "topPhoto": "/images/service-pages/boshart-final-2.jpg"
+      },
+      "about": {
+        "h3": "Best House Siders in Jackson County, MO",
+        "copy": "<p>At Great Plains Painting, we understand the importance of protecting your home while maintaining its beauty. Our siding services are designed to do just that, with meticulous attention to detail and the highest quality materials. Trust us to handle your siding needs with professionalism and care. Contact us today for a free estimate!</p>"
+      },
+      "map": {
+        "src": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d396688.80425036245!2d-94.68629396894478!3d39.03512603287396!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87c16c0d4fac13d5%3A0xfdd77a5a384cbe0a!2sJackson%20County%2C%20MO%2C%20USA!5e0!3m2!1sen!2sin!4v1720265824202!5m2!1sen!2sin",
+        "title": "Our Location",
+        "description": "Our Jackson County, MO location is centrally situated, providing easy access to our expert siding services for the entire region. Find us on the map and reach out to schedule your consultation today."
+      },
+      "serviceArea": {
+        "h2": "Not Sure If We Cover Your Neighborhood?",
+        "p": "Here are the city's we work in",
+        "areas": [
+          {
+            "city": "Kansas City",
+            "alt": "Kansas City map",
+            "areaPage": "/service-area/siding-contractor-kansas-city-mo/",
+            "scale": "10",
+            "size": "1200x1200",
+            "signed_url": "https://maps.googleapis.com/maps/api/staticmap?center=kansas+city,+mo&zoom=13&size=200x200&scale=2&map_id=3dcfc3a6d2fa31c&key=AIzaSyDkKxiVAXt_mBwB_vY7s4bbpLhJmYQjwkw&signature=L9JoOR5mDgF_MCZAHK1RwBM3AYU="
+          },
+          {
+            "city": "Lee's Summit",
+            "alt": "Lee's Summit map",
+            "areaPage": "/service-area/siding-contractor-lees-summit-mo/",
+            "signed_url": "https://maps.googleapis.com/maps/api/staticmap?center=lees+summit,+ks&zoom=11&size=200x200&scale=2&map_id=3dcfc3a6d2fa31c&key=AIzaSyDkKxiVAXt_mBwB_vY7s4bbpLhJmYQjwkw&signature=jhgYXGv2TFn08ygACIKn16kNuCI="
+          },
+          {
+            "city": "Raymore",
+            "alt": "Raymore map",
+            "areaPage": "/service-area/siding-contractor-raymore-mo/",
+            "scale": "2",
+            "size": "200x200",
+            "signed_url": "https://maps.googleapis.com/maps/api/staticmap?center=raymore,mo&zoom=13&size=200x200&scale=2&map_id=3dcfc3a6d2fa31c&key=AIzaSyDkKxiVAXt_mBwB_vY7s4bbpLhJmYQjwkw"
+          }
+        ]
+      },
+      "faq": [
+        {
+          "title": "How can I maintain my new siding?",
+          "expand": "To maintain your new siding, we recommend regular cleaning with a mild detergent and water. Inspect for any damage periodically and address issues promptly to ensure longevity."
+        },
+        {
+          "title": "Can you help with choosing the right siding material?",
+          "expand": "Absolutely! Our experts can guide you in selecting the best siding material based on your home’s architecture, your budget, and your personal preferences."
+        },
+        {
+          "title": "What is the cost of siding installation?",
+          "expand": "The cost of siding installation varies based on the size of your home, the type of siding material, and the complexity of the project. Contact us for a free estimate tailored to your specific needs."
+        }
+      ]
+    }
+  },
+  {
+    "slug": "siding-contractor-clay-county-mo",
+    "area": {
+      "crumbList": [
+        {
+          "name": "Home",
+          "link": "/"
+        },
+        {
+          "name": "Service Areas",
+          "link": "/service-area/"
+        },
+        {
+          "name": "Clay County, MO",
+          "link": "/service-area/siding-contractor-clay-county-mo/"
+        }
+      ],
+      "titleTag": "Professional Siding Contractor in Clay County, MO | Great Plains Painting",
+      "meta": "Looking for reliable James Hardie siding services in Clay County, MO? Great Plains Painting offers expert installation, repair, and maintenance. Call now for a free estimate!",
+      "hero": {
+        "src": "hardieService",
+        "h1": "Siding Contractor in Clay County, MO",
+        "p": "Searching for a professional siding contractor in Clay County, MO? Look no further! Great Plains Painting offers top-notch James Hardie siding services to enhance your home. Contact us today for a free estimate!",
+        "position": "center"
+      },
+      "section1": {
+        "h2": "Your Clay County Siding Experts",
+        "copy": "<p>At Great Plains Painting, we specialize in providing high-quality James Hardie siding services to homeowners in Clay County, MO. Our experienced team is committed to delivering exceptional results, ensuring your home is protected and looks its best.</p><p>Our siding services include:</p><ul><li>New James Hardie Siding Installation</li><li>James Hardie Siding Repair</li><li>James Hardie Siding Maintenance</li><li>Custom Siding Solutions</li></ul><p>Contact us today to schedule a consultation and learn more about how our expert siding services can enhance your home’s exterior.</p>"
+      },
+      "sectionBenefits": {
+        "super": "Clay County Siding Experts",
+        "link": "https://en.wikipedia.org/wiki/Clay_County,_Missouri",
+        "h3": "The Benefits of Choosing Our James Hardie Siding Services in Clay County, MO",
+        "copy": "<ul><li><b>Unmatched Expertise:</b> Our team has extensive experience in James Hardie siding installation and repair, ensuring precise and professional workmanship.</li><li><b>Top-Grade Materials:</b> We use only James Hardie products to guarantee durability and visual appeal, perfectly suited for the climate in Clay County, MO.</li><li><b>Complete Solutions:</b> From initial consultation to final installation, we provide comprehensive siding services tailored to your needs.</li></ul>",
+        "underPhoto": "/images/service-pages/hardieStart.jpg",
+        "topPhoto": "/images/service-pages/hardieMid.jpg"
+      },
+      "section2": {
+        "super": "Clay County Siding Specialists",
+        "h3": "Why Choose Us for Siding Services in Clay County, MO?",
+        "copy": "<ul><li><b>Local Knowledge:</b> Our team understands the unique requirements of homes in Clay County, MO, providing customized James Hardie solutions that meet your specific needs.</li><li><b>Exceptional Service:</b> We are committed to delivering top-notch customer service, ensuring clear communication and client satisfaction throughout the project.</li><li><b>Proven Quality:</b> Our attention to detail and dedication to quality have established us as a trusted name in James Hardie siding services across Clay County, MO.</li></ul>",
+        "underPhoto": "/images/service-pages/boshart-final-3.jpg",
+        "topPhoto": "/images/service-pages/boshart-final-2.jpg"
+      },
+      "about": {
+        "h3": "Best House Siders in Clay County, MO",
+        "copy": "<p>Our James Hardie siding services are designed to protect your home from the elements while enhancing its curb appeal. We take care to ensure that every installation is done with precision, and we use the highest quality materials available. Contact us today for a free estimate!</p>"
+      },
+      "map": {
+        "src": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d197646.93220366823!2d-94.4095805!3d39.282959!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87c04b7a50425c75%3A0x988d9af678ddd848!2sClay%20County%2C%20MO%2C%20USA!5e0!3m2!1sen!2sin!4v1723117956424!5m2!1sen!2sin",
+        "title": "Our Location",
+        "description": "Our Clay County, MO location is centrally situated, providing easy access to our expert James Hardie siding services for the entire region."
+      },
+      "serviceArea": {
+        "h2": "Not Sure If We Cover Your Neighborhood?",
+        "p": "Here are the city's we work in",
+        "areas": [
+          {
+            "city": "North Kansas City",
+            "alt": "North Kansas City map",
+            "areaPage": "#",
+            "scale": "2",
+            "size": "200x200",
+            "signed_url": "https://maps.googleapis.com/maps/api/staticmap?center=North+Kansas+City,+MO&zoom=13&size=200x200&scale=2&map_id=3dcfc3a6d2fa31c&key=AIzaSyDkKxiVAXt_mBwB_vY7s4bbpLhJmYQjwkw"
+          },
+          {
+            "city": "Gladstone",
+            "alt": "Gladstone map",
+            "areaPage": "#",
+            "scale": "2",
+            "size": "200x200",
+            "signed_url": "https://maps.googleapis.com/maps/api/staticmap?center=gladstone,+mo&zoom=11&size=200x200&scale=2&map_id=3dcfc3a6d2fa31c&key=AIzaSyDkKxiVAXt_mBwB_vY7s4bbpLhJmYQjwkw"
+          }
+        ]
+      },
+      "faq": [
+        {
+          "title": "How can I maintain my new James Hardie siding?",
+          "expand": "To maintain your new siding, we recommend regular cleaning with a mild detergent and water. Inspect for any damage periodically and address issues promptly to ensure longevity."
+        },
+        {
+          "title": "Can you help with choosing the right James Hardie siding material?",
+          "expand": "Absolutely! Our experts can guide you in selecting the best James Hardie siding material based on your home’s architecture, your budget, and your personal preferences."
+        },
+        {
+          "title": "What is the cost of James Hardie siding installation?",
+          "expand": "The cost of James Hardie siding installation varies based on the size of your home, the type of siding material, and the complexity of the project. Contact us for a free estimate tailored to your specific needs."
+        }
+      ]
+    }
+  },
+  {
+    "slug": "siding-contractor-platte-county-mo",
+    "area": {
+      "crumbList": [
+        {
+          "name": "Home",
+          "link": "/"
+        },
+        {
+          "name": "Service Areas",
+          "link": "/service-area/"
+        },
+        {
+          "name": "Platte County, MO",
+          "link": "/service-area/siding-contractor-platte-county-mo/"
+        }
+      ],
+      "titleTag": "Professional Siding Contractor in Platte County, MO | Great Plains Painting",
+      "meta": "Looking for reliable siding services in Platte County, MO? Great Plains Painting offers expert James Hardie siding installation, repair, and maintenance. Call now for a free estimate!",
+      "hero": {
+        "src": "hardieService",
+        "h1": "Siding Contractor in Platte County, MO",
+        "p": "Are you searching for a professional siding contractor in Platte County, MO? Look no further! Great Plains Painting offers top-notch siding services to enhance the beauty and durability of your home. Contact us today for a free estimate!",
+        "position": "center"
+      },
+      "section1": {
+        "h2": "Your Platte County Siding Experts",
+        "copy": "<p>Great Plains Painting proudly serves the Platte County, MO community with top-quality James Hardie siding services. Our team is dedicated to providing exceptional craftsmanship and personalized solutions that meet your home's unique needs.</p><p>Our siding services include:</p><ul><li>James Hardie Siding Installation</li><li>Siding Repair</li><li>Siding Maintenance</li><li>Custom Siding Solutions</li></ul><p>Get in touch with us today to schedule a consultation and discover how our expert siding services can enhance your home's exterior.</p>"
+      },
+      "sectionBenefits": {
+        "super": "Platte County Siding Experts",
+        "link": "https://en.wikipedia.org/wiki/Platte_County,_Missouri",
+        "h3": "Why Choose Our Siding Services in Platte County, MO?",
+        "copy": "<ul><li><b>Specialized in James Hardie Siding:</b> We specialize in James Hardie siding, ensuring that your home receives the best protection and aesthetic appeal with this industry-leading material.</li><li><b>Local Expertise:</b> As local experts, we understand the specific needs of Platte County homeowners and provide tailored solutions that stand the test of time.</li><li><b>Customer Satisfaction:</b> We prioritize customer satisfaction and deliver our services with a commitment to quality and professionalism.</li></ul>",
+        "underPhoto": "/images/service-pages/hardieStart.jpg",
+        "topPhoto": "/images/service-pages/hardieMid.jpg"
+      },
+      "section2": {
+        "super": "Platte County Siding Specialists",
+        "h3": "The Advantages of Choosing Us for Your Siding Needs",
+        "copy": "<ul><li><b>Top-Notch Materials:</b> We use only the highest quality James Hardie materials, known for their durability, aesthetics, and low maintenance.</li><li><b>Experienced Team:</b> Our experienced siding professionals handle each project with care and precision, ensuring your satisfaction.</li><li><b>Comprehensive Services:</b> From the initial consultation to the final inspection, we offer a full range of siding services to meet your needs.</li></ul>",
+        "underPhoto": "/images/service-pages/boshart-final-3.jpg",
+        "topPhoto": "/images/service-pages/boshart-final-2.jpg"
+      },
+      "about": {
+        "h3": "Trusted Siding Contractors in Platte County, MO",
+        "copy": "<p>At Great Plains Painting, we pride ourselves on being the go-to siding experts in Platte County, MO. Our commitment to quality and customer satisfaction ensures that your home not only looks great but is also well-protected. Let us handle your siding project with the care and professionalism it deserves. Contact us today for a free estimate!</p>"
+      },
+      "map": {
+        "src": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d394951.454688781!2d-95.18127108509134!3d39.343593218341645!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87c0660abdbe6ee9%3A0x354d8bc0944d2305!2sPlatte%20County%2C%20MO%2C%20USA!5e0!3m2!1sen!2sin!4v1723118016017!5m2!1sen!2sin",
+        "title": "Our Location",
+        "description": "Our Platte County, MO location is centrally situated, providing easy access to our expert siding services for the entire region. Find us on the map and reach out to schedule your consultation today."
+      },
+      "serviceArea": {
+        "h2": "Not Sure If We Cover Your Neighborhood?",
+        "p": "Here are the city's we work in",
+        "areas": [
+          {
+            "city": "Riverside",
+            "alt": "Riverside map",
+            "areaPage": "#",
+            "scale": "2",
+            "size": "200x200",
+            "signed_url": "https://maps.googleapis.com/maps/api/staticmap?center=riverside,+mo&zoom=13&size=200x200&scale=2&map_id=3dcfc3a6d2fa31c&key=AIzaSyDkKxiVAXt_mBwB_vY7s4bbpLhJmYQjwkw"
+          }
+        ]
+      },
+      "faq": [
+        {
+          "title": "How do I choose the right siding for my home?",
+          "expand": "Choosing the right siding depends on various factors including your home’s style, budget, and climate. We specialize in James Hardie siding, which is renowned for its durability and aesthetic appeal. Our experts can help you make the best choice for your home."
+        },
+        {
+          "title": "What maintenance is required for James Hardie siding?",
+          "expand": "James Hardie siding is low-maintenance and requires minimal upkeep. Regular cleaning and occasional inspections for any damage are recommended to keep it in top condition."
+        },
+        {
+          "title": "Can I get a customized siding solution?",
+          "expand": "Yes, we offer custom siding solutions tailored to your specific needs and preferences. Contact us to discuss your requirements, and we’ll help create the perfect look for your home."
+        }
+      ]
+    }
+  },
+
+  {
+    "slug": "siding-contractor-kansas-city-mo",
+    "area": {
+      "crumbList": [
+        {
+          "name": "Home",
+          "link": "/"
+        },
+        {
+          "name": "Service Areas",
+          "link": "/service-area/"
+        },
+        {
+          "name": "Kansas City, MO",
+          "link": "/service-area/siding-contractor-kansas-city-mo/"
+        }
+      ],
+      "titleTag": "Professional Siding Contractor in Kansas City, MO | Great Plains Painting",
+      "meta": "Looking for reliable siding services in Kansas City, MO? Great Plains Painting offers expert James Hardie siding installation, repair, and maintenance. Contact us for a free estimate!",
+      "hero": {
+        "src": "hardieService",
+        "h1": "Siding Contractor in Kansas City, MO",
+        "p": "Searching for a professional siding contractor in Kansas City? Great Plains Painting provides expert James Hardie siding solutions for your home. Get a free estimate today!",
+        "position": "center"
+      },
+      "section1": {
+        "h2": "Your Kansas City Siding Experts",
+        "copy": "<p>Great Plains Painting provides premier siding services for Kansas City, MO homeowners. Our experienced team ensures high-quality installation, repair, and maintenance using the trusted James Hardie siding products.</p><p>Our siding services include:</p><ul><li>New Siding Installation</li><li>Siding Repair</li><li>Siding Maintenance</li><li>Custom James Hardie Siding Solutions</li></ul><p>Contact us today to see how we can help improve your home's exterior with our expert siding solutions.</p>"
+      },
+      "sectionBenefits": {
+        "super": "Kansas City Siding Experts",
+        "link": "https://en.wikipedia.org/wiki/Kansas_City,_Missouri",
+        "h3": "Why Choose Our Siding Services in Kansas City, MO?",
+        "copy": "<ul><li><b>James Hardie Certified:</b> We specialize in using James Hardie siding products, known for their durability and design flexibility.</li><li><b>Local Expertise:</b> We understand the specific needs of homes in Kansas City, ensuring solutions tailored to your property.</li><li><b>Commitment to Quality:</b> Our team provides excellent craftsmanship and attention to detail, ensuring a perfect finish.</li></ul>",
+        "underPhoto": "/images/service-pages/hardieStart.jpg",
+        "topPhoto": "/images/service-pages/hardieMid.jpg"
+      },
+      "section2": {
+        "super": "Why James Hardie Siding?",
+        "h3": "Top Benefits of James Hardie Siding for Your Kansas City Home",
+        "copy": "<ul><li><b>Weather Resistance:</b> James Hardie siding is designed to withstand the harsh weather conditions in Kansas City, providing long-term protection.</li><li><b>Low Maintenance:</b> With minimal upkeep required, James Hardie siding stays beautiful for years.</li><li><b>Design Options:</b> Choose from a variety of colors and styles to match your home’s aesthetic perfectly.</li></ul>",
+        "underPhoto": "/images/service-pages/boshart-final-3.jpg",
+        "topPhoto": "/images/service-pages/boshart-final-2.jpg"
+      },
+      "about": {
+        "h3": "Top Siders in Kansas City, MO",
+        "copy": "<p>At Great Plains Painting, we are committed to delivering superior siding services using high-quality materials. Whether you need new installation or repairs, we are here to provide professional solutions for your home. Contact us for a free estimate today!</p>"
+      },
+      "map": {
+        "src": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387190.279907026!2d-94.78917839684057!3d39.10077583167644!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87c0f1b9f3274fb3%3A0xd6dd5b008d6c09b!2sKansas%20City%2C%20MO%2C%20USA!5e0!3m2!1sen!2sin!4v1720318270000!5m2!1sen!2sin",
+        "title": "Our Location",
+        "description": "Located in Kansas City, MO, we provide expert James Hardie siding services for the region. View our location on the map and get in touch for your free estimate today."
+      },
+      "faq": [
+        {
+          "title": "How long does siding installation take in Kansas City, MO?",
+          "expand": "The duration of siding installation varies based on the size of your home and the complexity of the project. On average, installation takes between a few days to a week. Contact us for a detailed timeline."
+        },
+        {
+          "title": "What types of siding do you install?",
+          "expand": "We specialize in James Hardie siding, known for its durability, aesthetic flexibility, and ability to withstand harsh weather conditions. We do not offer vinyl, wood, or metal siding."
+        },
+        {
+          "title": "Do you offer warranties on your siding installation?",
+          "expand": "Yes, we offer comprehensive warranties on both materials and workmanship. James Hardie siding also comes with its own manufacturer's warranty for added peace of mind."
+        }
+      ]
+    }
+  },
+
+  {
+    "slug": "siding-contractor-lees-summit-mo",
+    "area": {
+      "crumbList": [
+        {
+          "name": "Home",
+          "link": "/"
+        },
+        {
+          "name": "Service Areas",
+          "link": "/service-area/"
+        },
+        {
+          "name": "Lee's Summit, MO",
+          "link": "/service-area/siding-contractor-lees-summit-mo/"
+        }
+      ],
+      "titleTag": "Professional Siding Contractor in Lee's Summit, MO | Great Plains Painting",
+      "meta": "Looking for expert James Hardie siding installation in Lee's Summit, MO? Great Plains Painting offers premium siding solutions. Contact us for a free estimate!",
+      "hero": {
+        "src": "hardieService",
+        "h1": "Siding Contractor in Lee's Summit, MO",
+        "p": "Searching for siding contractors in Lee's Summit, MO? Great Plains Painting offers top-quality James Hardie siding services. Get in touch for a free estimate today!",
+        "position": "center"
+      },
+      "section1": {
+        "h2": "Your Lee's Summit Siding Experts",
+        "copy": "<p>Great Plains Painting provides comprehensive siding services for Lee's Summit, MO homeowners. With a focus on James Hardie siding, we ensure the best quality and long-lasting results for your home.</p><p>Our siding services include:</p><ul><li>New Siding Installation</li><li>Siding Repair</li><li>Siding Maintenance</li><li>Custom James Hardie Siding Solutions</li></ul><p>Reach out today for a free consultation and see how we can improve your home’s exterior with expert siding services.</p>"
+      },
+      "sectionBenefits": {
+        "super": "Lee's Summit Siding Experts",
+        "link": "https://en.wikipedia.org/wiki/Lee%27s_Summit,_Missouri",
+        "h3": "Why Choose James Hardie Siding in Lee's Summit?",
+        "copy": "<ul><li><b>Durability:</b> James Hardie siding is known for its exceptional durability and weather resistance.</li><li><b>Energy Efficiency:</b> Enjoy improved energy efficiency with James Hardie siding, which helps insulate your home.</li><li><b>Design Flexibility:</b> Choose from a range of styles and colors to suit your personal taste and home design.</li></ul>",
+        "underPhoto": "/images/service-pages/hardieStart.jpg",
+        "topPhoto": "/images/service-pages/hardieMid.jpg"
+      },
+      "section2": {
+        "super": "Why Choose Us?",
+        "h3": "Benefits of Working with Our Siding Contractors in Lee's Summit, MO",
+        "copy": "<ul><li><b>Trusted Expertise:</b> Our experienced contractors have years of experience installing James Hardie siding.</li><li><b>Customer-Focused:</b> We put your satisfaction first, providing tailored solutions and excellent customer service.</li><li><b>Attention to Detail:</b> Our team ensures that every project is completed with precision and care.</li></ul>",
+        "underPhoto": "/images/service-pages/boshart-final-3.jpg",
+        "topPhoto": "/images/service-pages/boshart-final-2.jpg"
+      },
+      "about": {
+        "h3": "Best Siding Contractors in Lee's Summit, MO",
+        "copy": "<p>At Great Plains Painting, we pride ourselves on offering the highest quality James Hardie siding solutions in Lee's Summit. Whether you need installation or repairs, we’re here to help. Contact us for a free estimate today!</p>"
+      },
+      "map": {
+        "src": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d99325.64433053165!2d-94.47014340766275!3d38.92566003816738!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87c0dff6a8b596fd%3A0x8d2c2e9a007b187!2sLees%20Summit%2C%20MO%2C%20USA!5e0!3m2!1sen!2sin!4v1726415132984!5m2!1sen!2sin",
+        "title": "Our Location",
+        "description": "Our Lee's Summit, MO location is centrally situated, providing easy access to our expert siding services for the entire region. Find us on the map and reach out to schedule your consultation today."
+      },
+      "faq": [
+        {
+          "title": "What are the benefits of James Hardie siding in Lee's Summit?",
+          "expand": "James Hardie siding is known for its durability, low maintenance, and resistance to harsh weather. It’s a great option for protecting your home from the elements in Lee's Summit."
+        },
+        {
+          "title": "How do I maintain my James Hardie siding?",
+          "expand": "Maintaining James Hardie siding is easy—just clean it annually with a garden hose or low-pressure washer to remove dirt and debris. Routine inspections can help identify and address any issues."
+        },
+        {
+          "title": "Can I customize the look of my siding?",
+          "expand": "Yes! James Hardie siding comes in a wide range of colors and styles, so you can choose an option that perfectly complements your home’s design."
+        }
+      ]
+    }
+  },
+
+  {
+    "slug": "siding-contractor-raymore-mo",
+    "area": {
+      "crumbList": [
+        {
+          "name": "Home",
+          "link": "/"
+        },
+        {
+          "name": "Service Areas",
+          "link": "/service-area/"
+        },
+        {
+          "name": "Raymore, MO",
+          "link": "/service-area/siding-contractor-raymore-mo/"
+        }
+      ],
+      "titleTag": "Expert Siding Contractor in Raymore, MO | Great Plains Painting",
+      "meta": "Looking for expert siding contractors in Raymore, MO? Great Plains Painting offers premium James Hardie siding installation. Contact us for a free estimate!",
+      "hero": {
+        "src": "hardieService",
+        "h1": "Siding Contractor in Raymore, MO",
+        "p": "Great Plains Painting offers premium James Hardie siding installation and repairs for homeowners in Raymore, MO. Contact us today for a free estimate!",
+        "position": "center"
+      },
+      "section1": {
+        "h2": "Your Raymore Siding Experts",
+        "copy": "<p>At Great Plains Painting, we provide top-quality siding services in Raymore, MO. Our team specializes in James Hardie siding installation and repair, ensuring your home looks great and stays protected.</p><p>Our siding services include:</p><ul><li>New Siding Installation</li><li>Siding Repair</li><li>Siding Maintenance</li><li>Custom James Hardie Siding Solutions</li></ul><p>Contact us today for a free consultation on how we can enhance your home with our expert siding services.</p>"
+      },
+      "sectionBenefits": {
+        "super": "Raymore Siding Experts",
+        "link": "https://en.wikipedia.org/wiki/Raymore,_Missouri",
+        "h3": "Why James Hardie Siding for Your Raymore Home?",
+        "copy": "<ul><li><b>Superior Durability:</b> James Hardie siding is engineered to withstand the elements and provide long-lasting protection.</li><li><b>Low Maintenance:</b> James Hardie siding requires little maintenance, keeping your home looking great for years.</li><li><b>Customizable Design:</b> With a variety of colors and styles, you can easily achieve the look you want for your home.</li></ul>",
+        "underPhoto": "/images/service-pages/hardieStart.jpg",
+        "topPhoto": "/images/service-pages/hardieMid.jpg"
+      },
+      "section2": {
+        "super": "Raymore Siding Specialists",
+        "h3": "Why Choose Great Plains Painting for Siding Services in Raymore, MO?",
+        "copy": "<ul><li><b>Professional Expertise:</b> Our team is highly experienced in James Hardie siding installation, ensuring your home receives the best care.</li><li><b>Customer Satisfaction:</b> We are dedicated to providing excellent service and delivering results that exceed your expectations.</li><li><b>Quality Materials:</b> We use only the best materials to ensure your home is protected and looks great for years to come.</li></ul>",
+        "underPhoto": "/images/service-pages/boshart-final-3.jpg",
+        "topPhoto": "/images/service-pages/boshart-final-2.jpg"
+      },
+      "about": {
+        "h3": "Top Siding Contractors in Raymore, MO",
+        "copy": "<p>Great Plains Painting is proud to offer the best James Hardie siding services in Raymore, MO. Whether you need new installation, repairs, or maintenance, we have you covered. Contact us today for a free estimate!</p>"
+      },
+      "map": {
+        "src": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d49754.40741272758!2d-94.49079994402653!3d38.79464666415461!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87c0d917ed128fd7%3A0xcaca5c9d68e5a49e!2sRaymore%2C%20MO%2064083%2C%20USA!5e0!3m2!1sen!2sin!4v1726415027481!5m2!1sen!2sin",
+        "title": "Our Location",
+        "description": "Based in Raymore, MO, we offer expert James Hardie siding services for the region. View our location and contact us today for a free estimate."
+      },
+      "faq": [
+        {
+          "title": "Is James Hardie siding a good option for homes in Raymore?",
+          "expand": "Yes! James Hardie siding is known for its exceptional durability and weather resistance, making it ideal for homes in Raymore, MO. It’s also fire-resistant and pest-resistant, offering additional protection for your home."
+        },
+        {
+          "title": "What is the cost of James Hardie siding installation?",
+          "expand": "The cost of installation depends on the size of your home and the complexity of the project. Contact us for a free estimate, and we’ll provide a detailed breakdown of the costs."
+        },
+        {
+          "title": "How long does it take to install new siding?",
+          "expand": "The time required for installation varies depending on the scope of the project, but on average, it takes a few days to complete. We’ll provide a more accurate timeline after an initial consultation."
+        }
+      ]
+    }
+  },
+
+  {
+    "slug": "siding-contractor-overland-park-ks",
+    "area": {
+      "crumbList": [
+        { "name": "Home", "link": "/" },
+        { "name": "Service Areas", "link": "/service-area/" },
+        {
+          "name": "Overland Park, KS",
+          "link": "/service-area/siding-contractor-overland-park-ks/"
+        }
+      ],
+      "titleTag": "Professional Siding Contractor in Overland Park, KS | Great Plains Painting",
+      "meta": "Searching for expert siding services in Overland Park, KS? Great Plains Painting offers reliable siding installation and maintenance. Contact us today!",
+      "hero": {
+        "src": "hardieService",
+        "h1": "Siding Contractor in Overland Park, KS",
+        "p": "Need a trusted siding contractor in Overland Park? Great Plains Painting provides high-quality James Hardie siding installation and repairs to protect and beautify your home. Reach out for a free consultation!",
+        "position": "center"
+      },
+      "section1": {
+        "h2": "Your Overland Park Siding Experts",
+        "copy": "<p>At Great Plains Painting, we understand the unique needs of Overland Park homeowners. Our skilled team delivers professional siding services using the best materials, ensuring your home stays protected and looks its best.</p><p>Our siding services include:</p><ul><li>James Hardie Siding Installation</li><li>Siding Repair</li><li>Siding Maintenance</li><li>Custom Siding Solutions</li></ul><p>Get in touch today to see how we can enhance your home’s exterior.</p>"
+      },
+      "sectionBenefits": {
+        "super": "Overland Park Siding Experts",
+        "link": "https://en.wikipedia.org/wiki/Overland_Park,_Kansas",
+        "h3": "The Benefits of Choosing Our Siding Services in Overland Park, KS",
+        "copy": "<ul><li><b>Experienced Team:</b> Our team has extensive experience with siding in Overland Park and understands local needs.</li><li><b>Quality Materials:</b> We use durable materials to withstand Overland Park’s weather conditions.</li><li><b>Comprehensive Services:</b> We provide a range of siding solutions from installation to repair and maintenance.</li></ul>",
+        "underPhoto": "/images/service-pages/hardieStart.jpg",
+        "topPhoto": "/images/service-pages/hardieMid.jpg"
+      },
+      "section2": {
+        "super": "Overland Park Siding Specialists",
+        "h3": "Why Choose Us for Siding Services in Overland Park?",
+        "copy": "<ul><li><b>Local Knowledge:</b> As locals, we’re familiar with Overland Park's climate and community needs.</li><li><b>High Standards:</b> We are committed to quality workmanship, ensuring your siding project meets the highest standards.</li><li><b>Exceptional Customer Service:</b> We work with you every step of the way to guarantee your satisfaction.</li></ul>",
+        "underPhoto": "/images/service-pages/boshart-final-3.jpg",
+        "topPhoto": "/images/service-pages/boshart-final-2.jpg"
+      },
+      "about": {
+        "h3": "Trusted Siding Contractors in Overland Park",
+        "copy": "<p>With years of experience, Great Plains Painting has become a trusted name in Overland Park. We are dedicated to delivering top-notch siding services that protect and beautify your home. Contact us today for a free estimate!</p>"
+      },
+      "map": {
+        "src": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d99372.9385218135!2d-94.6724218528106!3d38.891868268818094!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87c09551a72638d3%3A0x24ce4feb3844f9c8!2sOverland%20Park%2C%20KS%2C%20USA!5e0!3m2!1sen!2sin!4v1728385465603!5m2!1sen!2sin",
+        "title": "Our Location",
+        "description": "Our Overland Park, KS location provides easy access to our quality siding services throughout the area."
+      },
+      "faq": [
+        {
+          "title": "What types of siding do you install?",
+          "expand": "We specialize in installing James Hardie siding, known for its durability, beauty, and low maintenance."
+        },
+        {
+          "title": "How long does a siding project usually take?",
+          "expand": "The timeline varies based on the scope of work, but most projects are completed within one to two weeks."
+        },
+        {
+          "title": "Do you offer warranties on your siding services?",
+          "expand": "Yes, we provide warranties on both materials and labor to ensure your investment is protected."
+        }
+      ]
+    }
+  },
+
+  {
+    "slug": "siding-contractor-lenexa-ks",
+    "area": {
+      "crumbList": [
+        { "name": "Home", "link": "/" },
+        { "name": "Service Areas", "link": "/service-area/" },
+        {
+          "name": "Lenexa, KS",
+          "link": "/service-area/siding-contractor-lenexa-ks/"
+        }
+      ],
+      "titleTag": "Expert Siding Contractor in Lenexa, KS | Great Plains Painting",
+      "meta": "Looking for quality siding services in Lenexa, KS? Great Plains Painting offers top siding installation and maintenance. Get a free estimate today!",
+      "hero": {
+        "src": "hardieService",
+        "h1": "Siding Contractor in Lenexa, KS",
+        "p": "Searching for a reputable siding contractor in Lenexa? Great Plains Painting specializes in James Hardie siding to protect and beautify your home. Contact us today for a free consultation!",
+        "position": "center"
+      },
+      "section1": {
+        "h2": "Lenexa, KS Siding Contractor Services",
+        "copy": "<p>At Great Plains Painting, we provide expert siding services in Lenexa, KS. We offer durable, high-quality siding solutions that enhance your home’s curb appeal and protect it against the elements.</p><p>Our siding services include:</p><ul><li><b>James Hardie Siding Installation:</b> Our professional team installs James Hardie siding, ensuring a perfect fit and finish that enhances your home’s exterior while providing long-lasting durability.</li><li><b>Comprehensive Siding Repair:</b> We provide precise repairs for all siding issues, restoring the appearance and functionality of your home’s exterior for enhanced curb appeal and protection.</li><li><b>Regular Siding Maintenance:</b> Keep your siding looking and performing at its best with our maintenance services, designed to extend its life and maintain its aesthetic value.</li><li><b>Customized Siding Solutions:</b> We offer siding options tailored to your preferences, ensuring your home reflects your unique style while benefiting from added protection and energy efficiency.</li></ul><p>Contact us today to improve your home’s exterior with our siding expertise.</p>"
+      },
+      "sectionBenefits": {
+        "super": "Why Lenexa Residents Choose Us",
+        "link": "https://en.wikipedia.org/wiki/Lenexa,_Kansas",
+        "h3": "Benefits of Our Siding Services in Lenexa, KS",
+        "copy": "<ul><li><b>Superior Durability:</b> Our James Hardie siding is designed to endure Lenexa’s varied weather conditions, offering you long-lasting protection that keeps your home safe and looking great for years.</li><li><b>Energy-Efficient Solutions:</b> Our siding options help to improve insulation, reducing your heating and cooling costs and making your Lenexa home more energy-efficient and comfortable year-round.</li><li><b>Professional Installation Process:</b> We handle each project with meticulous attention to detail, ensuring that your siding is installed perfectly, enhancing both the beauty and protection of your home.</li></ul>",
+        "underPhoto": "/images/service-pages/hardieStart.jpg",
+        "topPhoto": "/images/service-pages/hardieMid.jpg"
+      },
+      "section2": {
+        "super": "Lenexa Siding Experts You Can Trust",
+        "h3": "Why Choose Great Plains Painting as Your Lenexa, KS Siding Contractor?",
+        "copy": "<ul><li><b>Local Knowledge and Experience:</b> With years of experience serving Lenexa homeowners, we understand the local climate and deliver siding solutions that perfectly suit Lenexa’s unique needs.</li><li><b>Comprehensive Siding Services:</b> From consultation to final inspection, our full-service siding approach ensures a seamless experience, with professional guidance every step of the way.</li><li><b>Unwavering Commitment to Quality:</b> We are dedicated to excellence in every project, ensuring your siding installation or repair meets the highest standards of workmanship and durability.</li></ul>",
+        "underPhoto": "/images/service-pages/boshart-final-3.jpg",
+        "topPhoto": "/images/service-pages/boshart-final-2.jpg"
+      },
+      "about": {
+        "h3": "Lenexa, KS Siding Contractor",
+        "copy": "<p>At Great Plains Painting, our priority is to protect and beautify Lenexa homes with top-quality siding services. Trust our team for reliable, professional service and outstanding results. Get a free estimate today!</p>"
+      },
+      "map": {
+        "src": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d49642.9256899664!2d-94.84818183182756!3d38.954073055246354!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87c0941f1e2799ad%3A0x3262f5887c5f490b!2sLenexa%2C%20KS%2C%20USA!5e0!3m2!1sen!2sin!4v1728386469361!5m2!1sen!2sin",
+        "title": "Our Location",
+        "description": "Our Lenexa, KS location offers easy access to our professional siding services. Check out our map and schedule a consultation today."
+      },
+      "faq": [
+        {
+          "title": "What makes James Hardie siding a good choice?",
+          "expand": "James Hardie siding is known for its durability, weather resistance, and low maintenance. It provides superior protection against elements while enhancing the curb appeal of your home."
+        },
+        {
+          "title": "How often does siding need maintenance?",
+          "expand": "Siding maintenance depends on the material and environmental factors. We recommend routine inspections and light cleaning annually to ensure your siding stays in optimal condition."
+        },
+        {
+          "title": "Do you offer a warranty on siding installations?",
+          "expand": "Yes, we offer a comprehensive warranty on all siding installations. Our warranties cover both materials and workmanship, giving you peace of mind for years to come."
+        }
+      ]
+    }
+  },
+
+  {
+    "slug": "siding-contractor-shawnee-ks",
+    "area": {
+      "crumbList": [
+        { "name": "Home", "link": "/" },
+        { "name": "Service Areas", "link": "/service-area/" },
+        {
+          "name": "Shawnee, KS",
+          "link": "/service-area/siding-contractor-shawnee-ks/"
+        }
+      ],
+      "titleTag": "Experienced Siding Contractor in Shawnee, KS | Great Plains Painting",
+      "meta": "For quality siding services in Shawnee, KS, choose Great Plains Painting. Our team specializes in installation and repair. Get a free estimate today!",
+      "hero": {
+        "src": "hardieService",
+        "h1": "Siding Contractor in Shawnee, KS",
+        "p": "If you need a reliable siding contractor in Shawnee, KS, Great Plains Painting is here to provide exceptional James Hardie siding services. Contact us today to get started!",
+        "position": "center"
+      },
+      "section1": {
+        "h2": "Shawnee, KS Siding Contractor Services",
+        "copy": "<p>Great Plains Painting provides top-notch siding services in Shawnee, KS. Our professional team specializes in James Hardie siding installations that protect and enhance your home’s exterior.</p><p>Our siding services include:</p><ul><li><b>James Hardie Siding Installation:</b> Trust our skilled team to install James Hardie siding that adds beauty and protection to your home, ensuring a long-lasting and weather-resistant finish.</li><li><b>Reliable Siding Repair:</b> Our repair services address any siding damage efficiently, restoring your home’s exterior and maintaining its protective capabilities and visual appeal.</li><li><b>Siding Maintenance:</b> We offer regular maintenance to keep your siding in excellent shape, extending its lifespan and preserving its attractive appearance.</li><li><b>Custom Siding Options:</b> Customize your home’s exterior with our wide range of siding options, tailored to fit your style while offering enhanced energy efficiency and protection.</li></ul><p>Reach out today to discuss your siding needs and schedule a consultation with our experts.</p>"
+      },
+      "sectionBenefits": {
+        "super": "Shawnee’s Preferred Siding Contractors",
+        "link": "https://en.wikipedia.org/wiki/Shawnee,_Kansas",
+        "h3": "The Benefits of Choosing Great Plains Painting in Shawnee, KS",
+        "copy": "<ul><li><b>Enhanced Durability:</b> Our James Hardie siding is built to handle Shawnee’s climate, providing long-lasting protection and helping your home look its best year after year.</li><li><b>Energy Efficiency:</b> Improve your home’s energy efficiency with our insulated siding options, reducing your energy costs and increasing comfort in all seasons.</li><li><b>Seamless Installation:</b> We execute each installation with precision, ensuring a flawless finish that enhances the visual appeal and longevity of your home’s exterior.</li></ul>",
+        "underPhoto": "/images/service-pages/hardieStart.jpg",
+        "topPhoto": "/images/service-pages/hardieMid.jpg"
+      },
+      "section2": {
+        "super": "Shawnee Siding Experts",
+        "h3": "Why Choose Great Plains Painting as Your Shawnee, KS Siding Contractor?",
+        "copy": "<ul><li><b>Local Knowledge and Experience:</b> Our team has years of experience with Shawnee homes, offering personalized siding solutions that are tailored to the local climate and your specific needs.</li><li><b>Full-Service Approach:</b> We provide comprehensive siding services from start to finish, including consultation, installation, and final inspection, so you can enjoy a hassle-free experience.</li><li><b>Commitment to Excellence:</b> We are dedicated to delivering high-quality siding installations and repairs that enhance the beauty and protection of your Shawnee home.</li></ul>",
+        "underPhoto": "/images/service-pages/boshart-final-3.jpg",
+        "topPhoto": "/images/service-pages/boshart-final-2.jpg"
+      },
+      "about": {
+        "h3": "Top Siding Contractor in Shawnee, KS",
+        "copy": "<p>At Great Plains Painting, we take pride in our commitment to quality siding services in Shawnee, KS. We focus on James Hardie siding solutions to ensure your home is both beautiful and protected. Contact us today for a free estimate!</p>"
+      },
+      "map": {
+        "src": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d49599.37719187635!2d-94.84844918141806!3d39.01620144334534!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87c0922b0bbb5afd%3A0x69f07b93b7a758e3!2sShawnee%2C%20KS%2C%20USA!5e0!3m2!1sen!2sin!4v1728386423077!5m2!1sen!2sin",
+        "title": "Our Shawnee, KS Location",
+        "description": "Our Shawnee, KS location is easy to access, providing local residents with reliable, high-quality siding services. Schedule your consultation today!"
+      },
+      "faq": [
+        {
+          "title": "What makes James Hardie siding a great option for Shawnee homes?",
+          "expand": "James Hardie siding is durable, low-maintenance, and built to withstand extreme weather conditions, making it a perfect choice for homes in Shawnee, KS."
+        },
+        {
+          "title": "How often should I maintain my siding?",
+          "expand": "Siding maintenance depends on the material and climate. We recommend a yearly inspection and light cleaning to keep your siding in optimal condition and looking its best."
+        },
+        {
+          "title": "Do you offer warranties on your siding installations?",
+          "expand": "Yes, we offer comprehensive warranties that cover both materials and workmanship for our siding installations, ensuring your investment is protected for years to come."
+        }
+      ]
+    }
+  },
+
+  {
     "slug": "painters-lees-summit-mo",
     "area": {
       "crumbList": [

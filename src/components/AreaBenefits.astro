@@ -3,15 +3,10 @@ import { Picture } from "@astrojs/image/components";
 import coolBrush from "../assets/coolBrush.jpg";
 import coolRoll from "../assets/coolRoll.jpg";
 
-const { superTitle, h3, copy, under = coolBrush, over = coolRoll } = Astro.props;
+const { superTitle, link = "#", h3, copy, under = coolBrush, over = coolRoll } = Astro.props;
 ---
 
 <section class="why-us">
-	<article class="flow left-stack" style="--flow-space: 1.5rem">
-		{superTitle && <p class="small upper semi-bold muted">{superTitle}</p>}
-		<h3 class="h3">{h3}</h3>
-		<Fragment class="sub-h2 black" set:html={copy} />
-	</article>
 	<article class="photo-stack">
 		<div class="img-wrap back">
 			<Picture
@@ -35,6 +30,11 @@ const { superTitle, h3, copy, under = coolBrush, over = coolRoll } = Astro.props
 				aspectRatio={16 / 9}
 			/>
 		</div>
+	</article>
+	<article class="flow left-stack" style="--flow-space: 1.5rem">
+		{superTitle && <p class="small upper semi-bold muted">{superTitle}</p>}
+		<h3 class="h3"><a href={link}>{h3}</a></h3>
+		<Fragment class="sub-h2 black" set:html={copy} />
 	</article>
 </section>
 

@@ -1,0 +1,65 @@
+---
+import { Image } from "@astrojs/image/components";
+const { areas } = Astro.props;
+---
+
+<section class="service-areas">
+	{
+		areas.map((area) => (
+			<a href={area.areaPage} class="page-link">
+				<div class="area">
+					<Image
+						class="round"
+						src={area.signed_url}
+						format="avif"
+						width={200}
+						aspectRatio={1 / 1}
+						alt={area.alt}
+					/>
+					<h3>{area.city}</h3>
+				</div>
+			</a>
+		))
+	}
+</section>
+
+<style lang="scss">
+	.page-link {
+		text-decoration: none;
+		padding: var(--size-6);
+	}
+	.service-areas {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+		gap: var(--size-fluid-3);
+		margin-top: var(--size-10);
+		max-width: 100ch;
+		margin-inline: auto;
+		margin-bottom: var(--size-11);
+	}
+
+	h3 {
+		margin-top: var(--size-4);
+		text-align: center;
+		font-size: var(--font-size-fluid-1);
+	}
+
+	.area {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.page-link:hover h3 {
+		text-decoration: none;
+		color: hsl(var(--brand-green));
+	}
+
+	.page-link:hover {
+		background-color: var(--gray-0);
+		border-radius: var(--radius-3);
+		box-shadow: var(--shadow-1);
+	}
+</style>
